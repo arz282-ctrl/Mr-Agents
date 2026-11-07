@@ -1,69 +1,123 @@
-# Mr-Agents Skills
+# 🤖 Mr-Agents: 276 Production Manus AI Skills
 
-Shared Manus skill definitions for Rareware Studio agents.
+> **Rareware Studio Agent Library** — Battle-tested skills for **Manus AI**, normalized and optimized for 1-click import.
 
-This repository provides **276 normalized, portable skills** compatible with the **Manus AI** agent platform, covering engineering, research, marketing, data, media, and DevOps.
-
----
-
-## ⚡ How to Import into Manus
-
-### Option 1: Direct GitHub Import (Full Master Skill)
-You can now import this repository directly into Manus via GitHub:
-1. In Manus, navigate to **Skills** → **Import** → **GitHub** tab.
-2. Enter the repository URL: `https://github.com/arz282-ctrl/Mr-Agents`
-3. Click **Import**.
-4. The root `SKILL.md` registers `mr-agents` as a master routing agent with access to all skills in `skills/`.
-
-### Option 2: Individual Skill ZIP Upload (Recommended for Focused Agents)
-To give an agent only the specific skills it needs (lower context usage, faster performance):
-1. Navigate to [`manus-ready/zips/`](manus-ready/zips/).
-2. Download any pre-packaged `.zip` (e.g., `deep-research.zip`, `webdev.zip`, `copywriting.zip`).
-3. In Manus, go to **Skills** → **Import** → **Upload** tab (file icon).
-4. Upload the ZIP. Each archive has `SKILL.md` directly at the root for instant adoption.
+[![Manus Compatible](https://img.shields.io/badge/Manus-100%25%20Compatible-blue.svg)](https://manus.im)
+[![Skills Count](https://img.shields.io/badge/Portable%20Skills-276-green.svg)](skills-manifest.json)
+[![Verified Status](https://img.shields.io/badge/Verification-0%20Failures-brightgreen.svg)](docs/COMPATIBILITY_AUDIT.md)
 
 ---
 
-## 📁 Repository Structure
+## ⚡ Quick 1-Click Import (Choose Your Skill)
 
-- `SKILL.md` — Master router skill recognized by Manus's root importer
-- `skills/` — 276 standalone skill directories with individual `SKILL.md`, references, and scripts
-- `manus-ready/`
-  - `zips/` — 276 pre-packaged individual ZIP archives ready for direct Manus upload
-  - `manifest.json` — Verified inventory with file counts and root-level validation
-  - `IMPORT_GUIDE.md` — Step-by-step instructions and recommended starter packs
-- `repackage_for_manus.py` — Automated utility to repackage all skills into Manus-compliant ZIPs
-- `skills-manifest.json` — Complete inventory with SHA-256 checksums
-- `docs/MANUS_SKILLS_GUIDE.md` — Team rollout, configuration, and best practices
-- `docs/COMPATIBILITY_AUDIT.md` — Frontmatter normalization audit results (0 failures across 276 skills)
+Manus limits each imported skill to **100 files max**. To make importing effortless without triggering limits, the top skills have **dedicated single-skill branches** right here in this repository:
 
----
+| Capability | Skill | Direct Manus GitHub Import URL | Files |
+|---|---|---|:---:|
+| 🌐 **Full-Stack WebDev** | `webdev` | `https://github.com/arz282-ctrl/Mr-Agents/tree/skill-webdev` | 71 |
+| ✍️ **Conversion Copywriting** | `copywriting` | `https://github.com/arz282-ctrl/Mr-Agents/tree/skill-copywriting` | 5 |
+| 🎬 **AI Video Production** | `video-generation` | `https://github.com/arz282-ctrl/Mr-Agents/tree/skill-video-generation` | 20 |
+| 🖼️ **AI Image Generation** | `imagegen` | `https://github.com/arz282-ctrl/Mr-Agents/tree/skill-imagegen` | 5 |
+| 📈 **SEO & AEO Audit** | `seo-audit` | `https://github.com/arz282-ctrl/Mr-Agents/tree/skill-seo-audit` | 4 |
+| 🔍 **Deep Research & Synthesis** | `deep-research` | `https://github.com/arz282-ctrl/Mr-Agents/tree/skill-deep-research` | 1 |
 
-## 🚀 Recommended Starter Skills
-
-| Skill | ZIP File | Primary Focus |
-|---|---|---|
-| Deep Research | `deep-research.zip` | Comprehensive multi-source research & synthesis |
-| Web Development | `webdev.zip` | Full-stack web, mobile, and game engineering |
-| Copywriting | `copywriting.zip` | Conversion copy for ads, emails, and landing pages |
-| Data Analysis | `data-analysis.zip` | Statistical analysis, EDA, and business metrics |
-| SEO Audit | `seo-audit.zip` | Search engine & answer engine optimization |
-| AI Video Generation | `video-generation.zip` | Video synthesis and visual generation |
-| Git Workflow | `git-workflow-and-versioning.zip` | Standardized Git branching and PR practices |
-| QA Verification | `verification-before-completion.zip` | Pre-flight quality assurance checks |
+### 🛠️ How to Import into Manus in 10 Seconds:
+1. Open your Manus workspace: **[manus.im](https://manus.im)**
+2. Go to **Settings** ➔ **Skills** ➔ click **Import**.
+3. Select the **GitHub** tab.
+4. Copy & paste any branch URL from the table above (e.g. `https://github.com/arz282-ctrl/Mr-Agents/tree/skill-webdev`).
+5. Click **Import** — your agent now has that skill active!
 
 ---
 
-## 🛠️ Rebuilding Skill Packages
+## 📦 Method 2: Offline / Drag-and-Drop ZIP Upload
 
-To rebuild or refresh the individual `.zip` packages at any time:
+If you prefer uploading files without connecting GitHub:
 
+1. Look in the [`manus-ready/zips/`](manus-ready/zips/) folder in this repo.
+2. Every one of the **276 skills** has its own `.zip` file with `SKILL.md` directly at the root.
+3. In Manus, go to **Skills ➔ Import ➔ Upload tab**.
+4. Drag and drop any individual ZIP file (e.g. `deep-research.zip`, `copywriting.zip`).
+
+---
+
+## 🎯 Recommended Skill Bundles by Role
+
+Give your Manus agents targeted superpowers without context bloat:
+
+### 🚀 1. The Full-Stack Engineer Agent
+* **`skill-webdev`** — Planning, architecture, components, interactive preview, and production deployment.
+* **`web-design-engineer.zip`** — Modern UI/UX patterns (Bento grids, typography, animations, dark mode).
+* **`git-workflow-and-versioning.zip`** — Branching strategies, atomic commits, PR templates.
+* **`debugging-and-error-recovery.zip`** — Root-cause bug tracing and automated verification.
+* **`tailwind-design-system.zip`** — Scalable Tailwind tokens, palettes, and components.
+
+### ✍️ 2. The Content & Copywriting Agent
+* **`skill-copywriting`** — High-converting landing page copy, sales frameworks, and CTA optimization.
+* **`blog-write.zip`** & **`blog-rewrite.zip`** — Comprehensive articles with citations and narrative flow.
+* **`no-ai-slop.zip`** & **`stop-slop.zip`** — Strips out repetitive AI clichés, buzzwords, and fluff.
+* **`cold-email.zip`** — High-response B2B outreach sequences and subject lines.
+* **`copy-editing.zip`** — Grammar, tone-matching, and sentence cadence.
+
+### 📈 3. The SEO & Growth Hacker Agent
+* **`skill-seo-audit`** — Technical SEO checklist, schema markup, and crawlability diagnostics.
+* **`seo-aeo-best-practices.zip`** — Answer Engine Optimization (optimizing for Perplexity, ChatGPT, and AI Overviews).
+* **`keyword-research.zip`** — Search intent clustering, volume estimation, and difficulty scoring.
+* **`backlink-analysis.zip`** — Referring domain authority and link gap profiling.
+* **`content-gap-analysis.zip`** — Identifies competitor ranking topics your domain is missing.
+
+### 🎬 4. The AI Creative & Media Producer
+* **`skill-video-generation`** — Directing AI video tools (Kling, Runway, Luma, Pika).
+* **`skill-imagegen`** — Photorealistic and illustrative diffusion prompting.
+* **`captions-overlay.zip`** — Viral short-form subtitle styles and kinetic typography.
+* **`tts-prompter.zip`** & **`music-prompter.zip`** — Voiceover inflection and soundtrack generation.
+* **`youtube-clipper.zip`** — High-engagement viral hooks from long-form video.
+
+### 🔬 5. The Executive Research & Strategy Agent
+* **`skill-deep-research`** — Autonomous multi-source web and document investigation.
+* **`market-research-reports.zip`** — TAM/SAM/SOM market sizing and competitor matrices.
+* **`customer-research.zip`** — Pain point extraction, user sentiment, and persona profiles.
+* **`verification-before-completion.zip`** — Cross-verification of facts, units, and sources before delivery.
+
+---
+
+## ❓ Frequently Asked Questions
+
+### Why does importing `https://github.com/arz282-ctrl/Mr-Agents` directly fail?
+Manus has a strict **100-file limit** per skill to prevent overloading agent memory. This entire repository is a master monorepo containing **276 skills and over 2,550 files**! When you import the entire repo, Manus sees 2,550 files and rejects it.
+
+**The Solution:** Use the branch URLs in the table above (e.g. `tree/skill-webdev`), which isolate just that skill's 1–25 files.
+
+### How do I turn any of the other 270 skills into a branch?
+Run this one-liner locally:
 ```bash
 python3 repackage_for_manus.py
+```
+This regenerates and verifies all 276 ZIP archives with zero external dependencies.
+
+---
+
+## 📂 Repository Structure
+
+```text
+Mr-Agents/
+├── SKILL.md                 # Master catalog router for full-repo context
+├── README.md                # 1-Click import guide and documentation
+├── skills/                  # Raw definitions for all 276 skills
+│   ├── webdev/
+│   ├── copywriting/
+│   ├── deep-research/
+│   └── ... (273 more)
+├── manus-ready/
+│   ├── zips/                # 276 pre-built standalone ZIP packages
+│   ├── IMPORT_GUIDE.md      # Detailed category listings and verification
+│   └── manifest.json        # Checksum and verification report
+├── repackage_for_manus.py   # Packaging automation utility
+└── docs/                    # Architecture and validation audits
 ```
 
 ---
 
-## 📄 License & Attribution
+## ⚖️ License & Attribution
 
-Shared Manus agent definitions curated for Rareware Studio. See individual skills for specific upstream licenses and tool requirements.
+Curated and normalized for **Rareware Studio** agents. Upstream skill definitions retain their respective licenses and attributions as noted in each individual `SKILL.md`.
