@@ -1,13 +1,22 @@
 ---
 name: networkx
-description: Creates, analyzes, and visualizes complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.
+description: Creates, analyzes, and visualizes complex networks and graphs in Python
+  with NetworkX. Use when working with network/graph data structures, computing graph
+  algorithms (shortest paths, centrality, clustering), detecting communities, generating
+  synthetic networks (random, scale-free, small-world), reading/writing graph file
+  formats, or drawing network topologies. Common applications include social, biological,
+  transportation, and citation networks.
 license: 3-clause BSD license
-compatibility: Requires Python >=3.12 (excluding 3.14.1) and NetworkX 3.7. NumPy, SciPy, pandas and Matplotlib support numerical, tabular and drawing examples; optional integrations need their own packages. No credentials; network needed only for installation or remote data.
 metadata:
-  version: "1.4"
-  last-reviewed: "2026-10-01"
-  upstream-version: "3.7"
+  version: '1.4'
+  last-reviewed: '2026-10-01'
+  upstream-version: '3.7'
   skill-author: K-Dense Inc.
+  legacy-frontmatter:
+    compatibility: Requires Python >=3.12 (excluding 3.14.1) and NetworkX 3.7. NumPy,
+      SciPy, pandas and Matplotlib support numerical, tabular and drawing examples;
+      optional integrations need their own packages. No credentials; network needed
+      only for installation or remote data.
 ---
 
 # NetworkX

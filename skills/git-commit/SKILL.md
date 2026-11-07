@@ -1,9 +1,17 @@
 ---
 name: git-commit
-description: 'Use this skill when the user wants to make a Git commit or split changes into more than one commit. Also use it when the user types "/commit" or asks for a conventional commit. The skill examines the diff, stages the related files, writes a Conventional Commits message, and runs git commit. Do not use it when the user wants only a commit message and no commit. Do not use it to push, open a pull request, rebase, or change the commit history.'
+description: Use this skill when the user wants to make a Git commit or split changes
+  into more than one commit. Also use it when the user types "/commit" or asks for
+  a conventional commit. The skill examines the diff, stages the related files, writes
+  a Conventional Commits message, and runs git commit. Do not use it when the user
+  wants only a commit message and no commit. Do not use it to push, open a pull request,
+  rebase, or change the commit history.
 license: MIT
-compatibility: 'Requires Git. The `--resolved` option of `git add` requires Git 2.56 or later.'
 allowed-tools: shell(git:*)
+metadata:
+  legacy-frontmatter:
+    compatibility: Requires Git. The `--resolved` option of `git add` requires Git
+      2.56 or later.
 ---
 
 # Git Commit with Conventional Commits

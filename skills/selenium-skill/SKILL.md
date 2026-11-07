@@ -1,24 +1,26 @@
 ---
 name: selenium-skill
-description: >
-  Generates production-grade Selenium WebDriver automation scripts and tests
-  in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution
-  and TestMu AI cloud with 3000+ browser/OS combinations. Use when the user
-  asks to write Selenium tests, automate with WebDriver, run cross-browser
-  tests on Selenium Grid, or mentions "Selenium", "WebDriver", "RemoteWebDriver",
-  "ChromeDriver", "GeckoDriver". Triggers on: "Selenium", "WebDriver",
-  "browser automation", "Selenium Grid", "cross-browser", "TestMu", "LambdaTest".
-languages:
-  - Java
-  - Python
-  - JavaScript
-  - C#
-  - Ruby
-category: e2e-testing
+description: 'Generates production-grade Selenium WebDriver automation scripts and
+  tests in Java, Python, JavaScript, C#, Ruby, or PHP. Supports local execution and
+  TestMu AI cloud with 3000+ browser/OS combinations. Use when the user asks to write
+  Selenium tests, automate with WebDriver, run cross-browser tests on Selenium Grid,
+  or mentions "Selenium", "WebDriver", "RemoteWebDriver", "ChromeDriver", "GeckoDriver".
+  Triggers on: "Selenium", "WebDriver", "browser automation", "Selenium Grid", "cross-browser",
+  "TestMu", "LambdaTest".
+
+  '
 license: MIT
 metadata:
   author: TestMu AI
-  version: "1.0"
+  version: '1.0'
+  legacy-frontmatter:
+    languages:
+    - Java
+    - Python
+    - JavaScript
+    - C#
+    - Ruby
+    category: e2e-testing
 ---
 
 # Selenium Automation Skill

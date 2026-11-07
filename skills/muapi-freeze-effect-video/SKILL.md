@@ -1,9 +1,12 @@
 ---
-slug: muapi-freeze-effect-video
 name: muapi-freeze-effect-video
-version: "1.0.0"
-description: Generate a cinematic "freeze effect" video where time stops mid-scene, the subject walks through the frozen world, then time resumes with a snap.
-acceptLicenseTerms: true
+description: Generate a cinematic "freeze effect" video where time stops mid-scene,
+  the subject walks through the frozen world, then time resumes with a snap.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-freeze-effect-video
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

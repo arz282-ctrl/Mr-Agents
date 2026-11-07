@@ -1,9 +1,12 @@
 ---
-slug: muapi-product-showcase-video
 name: muapi-product-showcase-video
-version: "1.0.0"
-description: Create a dynamic product showcase with explosive ingredient arrangements, followed by a realistic motion animation.
-acceptLicenseTerms: true
+description: Create a dynamic product showcase with explosive ingredient arrangements,
+  followed by a realistic motion animation.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-product-showcase-video
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

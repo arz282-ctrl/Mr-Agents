@@ -1,9 +1,12 @@
 ---
-slug: muapi-character-story-video
 name: muapi-character-story-video
-version: "1.0.0"
-description: Create a multi-part animated story video by first establishing a consistent character and then generating sequential scenes and animating them.
-acceptLicenseTerms: true
+description: Create a multi-part animated story video by first establishing a consistent
+  character and then generating sequential scenes and animating them.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-character-story-video
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

@@ -1,9 +1,12 @@
 ---
-slug: muapi-ugc-ads-workflow
 name: muapi-ugc-ads-workflow
-version: "1.0.0"
-description: Create a User-Generated Content (UGC) video ad by combining a human selfie and a product image, then generating a video script and an animated ad.
-acceptLicenseTerms: true
+description: Create a User-Generated Content (UGC) video ad by combining a human selfie
+  and a product image, then generating a video script and an animated ad.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-ugc-ads-workflow
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

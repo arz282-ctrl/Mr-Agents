@@ -1,13 +1,19 @@
 ---
 name: usfiscaldata
-description: Queries the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities auctions, interest rates, foreign exchange rates, savings bonds, or U.S. government revenue and spending statistics.
+description: Queries the U.S. Treasury Fiscal Data REST API for federal financial
+  data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury
+  Statements, Monthly Treasury Statements, Treasury securities auctions, interest
+  rates, foreign exchange rates, savings bonds, or U.S. government revenue and spending
+  statistics.
 license: MIT
-compatibility: Requires Python 3.10+ with requests and pandas for Python examples; R with httr and jsonlite for R examples. Requires network access; no credentials.
 allowed-tools: Read Write Edit Bash
 metadata:
-  version: "1.5"
-  last-reviewed: "2026-09-30"
+  version: '1.5'
+  last-reviewed: '2026-09-30'
   skill-author: K-Dense Inc.
+  legacy-frontmatter:
+    compatibility: Requires Python 3.10+ with requests and pandas for Python examples;
+      R with httr and jsonlite for R examples. Requires network access; no credentials.
 ---
 
 # U.S. Treasury Fiscal Data API

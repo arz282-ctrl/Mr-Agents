@@ -1,9 +1,13 @@
 ---
-slug: muapi-giant-product-showcase
 name: muapi-giant-product-showcase
-version: "1.0.0"
-description: Create a dramatic "Giant Product" visual where a regular item is showcased as a massive, building-sized object next to a person, then optionally animate the scene.
-acceptLicenseTerms: true
+description: Create a dramatic "Giant Product" visual where a regular item is showcased
+  as a massive, building-sized object next to a person, then optionally animate the
+  scene.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-giant-product-showcase
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

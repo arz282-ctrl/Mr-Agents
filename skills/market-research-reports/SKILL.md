@@ -1,12 +1,19 @@
 ---
 name: market-research-reports
-description: Builds evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios. Use for market definition, industry and customer evidence, competitive landscapes, TAM/SAM/SOM reconciliation, forecast sensitivity, and auditable report scaffolds.
+description: Builds evidence-traceable market research reports and assumption-driven
+  market sizing or forecast scenarios. Use for market definition, industry and customer
+  evidence, competitive landscapes, TAM/SAM/SOM reconciliation, forecast sensitivity,
+  and auditable report scaffolds.
 license: MIT
-compatibility: Python 3.11+ standard library for optional offline CLIs. The optional LaTeX template uses XeLaTeX or LuaLaTeX. Online research requires user-approved network access and source-specific terms; bundled scripts make no network, LLM, or image calls.
 metadata:
-  version: "1.5"
-  skill-author: "K-Dense Inc."
-  last-reviewed: "2026-10-01"
+  version: '1.5'
+  skill-author: K-Dense Inc.
+  last-reviewed: '2026-10-01'
+  legacy-frontmatter:
+    compatibility: Python 3.11+ standard library for optional offline CLIs. The optional
+      LaTeX template uses XeLaTeX or LuaLaTeX. Online research requires user-approved
+      network access and source-specific terms; bundled scripts make no network, LLM,
+      or image calls.
 ---
 
 # Market Research Reports

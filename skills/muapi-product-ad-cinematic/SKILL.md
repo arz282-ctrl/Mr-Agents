@@ -1,9 +1,11 @@
 ---
-slug: muapi-product-ad-cinematic
 name: muapi-product-ad-cinematic
-version: "1.0.0"
 description: Cinematic 5–10s product ad from a product photo + brand brief.
-acceptLicenseTerms: true
+metadata:
+  legacy-frontmatter:
+    slug: muapi-product-ad-cinematic
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

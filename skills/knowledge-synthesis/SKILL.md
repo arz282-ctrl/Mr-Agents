@@ -1,7 +1,11 @@
 ---
 name: knowledge-synthesis
-description: Combines search results from multiple sources into coherent, deduplicated answers with source attribution. Handles confidence scoring based on freshness and authority, and summarizes large result sets effectively.
-user-invocable: false
+description: Combines search results from multiple sources into coherent, deduplicated
+  answers with source attribution. Handles confidence scoring based on freshness and
+  authority, and summarizes large result sets effectively.
+metadata:
+  legacy-frontmatter:
+    user-invocable: false
 ---
 
 # Knowledge Synthesis

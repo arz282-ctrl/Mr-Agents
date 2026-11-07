@@ -1,7 +1,12 @@
 ---
 name: video-to-subtitle-summary
-description: Use when user provides a short video platform URL or local video/audio file and wants subtitles/AI summary, or when user asks to list their own AI Douyin historical tasks. Triggers on v.douyin.com, xhslink.com, bilibili.com, b23.tv, YouTube URLs, local .mp4/.mp3/.wav files, or task history requests.
-args: <video_url_or_file_path> - 视频链接（抖音/小红书/B站等）或本地视频/音频文件路径（必需）
+description: Use when user provides a short video platform URL or local video/audio
+  file and wants subtitles/AI summary, or when user asks to list their own AI Douyin
+  historical tasks. Triggers on v.douyin.com, xhslink.com, bilibili.com, b23.tv, YouTube
+  URLs, local .mp4/.mp3/.wav files, or task history requests.
+metadata:
+  legacy-frontmatter:
+    args: <video_url_or_file_path> - 视频链接（抖音/小红书/B站等）或本地视频/音频文件路径（必需）
 ---
 
 # 视频转字幕与 AI 总结技能

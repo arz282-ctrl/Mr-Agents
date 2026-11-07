@@ -1,9 +1,14 @@
 ---
-slug: muapi-ai-fight-scene
 name: muapi-ai-fight-scene
-version: "1.0.0"
-description: Generate a high-cut-density action / fight scene by first composing a 16-cell storyboard image, then driving Seedance 2.0 image-to-video off that storyboard. Stacks GPT-Image-2 (character sheet + storyboard), Nano-Banana-2 (environment concept), and Seedance 2.0 i2v.
-acceptLicenseTerms: true
+description: Generate a high-cut-density action / fight scene by first composing a
+  16-cell storyboard image, then driving Seedance 2.0 image-to-video off that storyboard.
+  Stacks GPT-Image-2 (character sheet + storyboard), Nano-Banana-2 (environment concept),
+  and Seedance 2.0 i2v.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-ai-fight-scene
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

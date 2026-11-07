@@ -1,2067 +1,3103 @@
 {
-  "count": 344,
+  "repository": "arz282-ctrl/Mr-Agents",
+  "branch": "fix/normalize-skill-frontmatter",
+  "total_skill_md": 344,
+  "portable_top_level": 276,
+  "embedded_nested": 68,
   "skills": [
     {
       "path": "accessibility",
       "skill_md": "accessibility/SKILL.md",
+      "scope": "portable",
+      "name": "accessibility",
+      "description": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\".",
       "sha256": "267fb2a0707d6142f2871f22688203a42ba21291a2aa200fb740936e41362b5d",
       "bytes": 14358
     },
     {
       "path": "accessibility-review",
       "skill_md": "accessibility-review/SKILL.md",
-      "sha256": "ef42982af0d51238dda2ab16d08626712891bdd41864876c32d1e7b13fb3124f",
-      "bytes": 4278
+      "scope": "portable",
+      "name": "accessibility-review",
+      "description": "Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with",
+      "sha256": "69cec0fe5ba097f801a4e26fd02e22e1233b5bf6a0d948478f98374fd20ae9b5",
+      "bytes": 4318
     },
     {
       "path": "account-research",
       "skill_md": "account-research/SKILL.md",
+      "scope": "portable",
+      "name": "account-research",
+      "description": "Research a target company and optionally a specific contact - company overview, recent news, likely priorities, and fit against your ICP. Cross-references existing CRM records. Use when the user asks to \"research [company]\", \"look into [company]\", \"prospect research on [company]\", \"look up [person]\", \"intel on [prospect]\", \"who is [person] at [company]\", or \"tell me about [company]\" when the company is a prospect rather than an existing account.",
       "sha256": "1f5e40ac7cea793dff344f331be95bf2bd6fd8e03c6734aedae2d514707ec59b",
       "bytes": 9587
     },
     {
       "path": "acestep",
       "skill_md": "acestep/SKILL.md",
+      "scope": "portable",
+      "name": "acestep",
+      "description": "AI music generation with ACE-Step 1.5 — background music, vocal tracks, covers, stem extraction, audio repainting, and continuation for video production. Use when generating music, soundtracks, jingles, or working with audio stems. Triggers include background music, soundtrack, jingle, music generation, stem extraction, cover, style transfer, repaint, continuation, or musical composition tasks.",
       "sha256": "c33f2c182005d17e5d372da3d5880bbf2d9dbde19001920f1f9855cb513e324c",
       "bytes": 13804
     },
     {
       "path": "after-effects-playbooks",
       "skill_md": "after-effects-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "after-effects-playbooks",
+      "description": "Use when the user asks what Manus can do with After Effects or needs an existing After Effects project or template customized, localized, versioned, rendered, collected, or prepared for handoff. Routes each workflow by retained state among Manus file and data preparation, reproduced After Effects automation or rendering routes, and After Effects through Computer Use for visual or project-state work.",
       "sha256": "16b0656011fdae90d1930a69037d13dc9e1f5c443bd6d072ef256d35b9dc4a75",
       "bytes": 4209
     },
     {
       "path": "agentic-eval",
       "skill_md": "agentic-eval/SKILL.md",
+      "scope": "portable",
+      "name": "agentic-eval",
+      "description": "|",
       "sha256": "fb198a5c9b12e746d01a43c9ff3368598fdc1134bb458766f580186f31001573",
       "bytes": 5940
     },
     {
       "path": "album-art-director",
       "skill_md": "album-art-director/SKILL.md",
-      "sha256": "31d45d3e39ea2bfd3e2d32edb7a397af08dc7792d049b2ff3a8f145b2ca6f13b",
-      "bytes": 11779
+      "scope": "portable",
+      "name": "album-art-director",
+      "description": "Creates visual concepts for album artwork and generates AI art prompts.",
+      "sha256": "4d179504441ad6e7cc7a003fa9193e16b13841bac3423602281f5bfaa3bbae7a",
+      "bytes": 11815
     },
     {
       "path": "api-designer",
       "skill_md": "api-designer/SKILL.md",
+      "scope": "portable",
+      "name": "api-designer",
+      "description": "Use when designing REST or GraphQL APIs, creating OpenAPI specifications, or planning API architecture. Invoke for resource modeling, versioning strategies, pagination patterns, error handling standards.",
       "sha256": "02f7480c64238595ad94b340c6fcefa1d4050dc3c562ea96de3a7be29a7b0f7a",
       "bytes": 8008
     },
     {
       "path": "appinsights-instrumentation",
       "skill_md": "appinsights-instrumentation/SKILL.md",
+      "scope": "portable",
+      "name": "appinsights-instrumentation",
+      "description": "Instrument a webapp to send useful telemetry data to Azure App Insights",
       "sha256": "15d281900b1fa0d7d29b086257c54b5852e0ba652b62fe877c6342fa1a8554af",
       "bytes": 2462
     },
     {
       "path": "applying-brand-guidelines",
       "skill_md": "applying-brand-guidelines/SKILL.md",
+      "scope": "portable",
+      "name": "applying-brand-guidelines",
+      "description": "This skill applies consistent corporate branding and styling to all generated documents including colors, fonts, layouts, and messaging",
       "sha256": "6db648c228eefa92d73a47676de68c6b1925e15ba6e6d8144aa079495771e59b",
       "bytes": 4855
     },
     {
       "path": "audacity-playbooks",
       "skill_md": "audacity-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "audacity-playbooks",
+      "description": "Use when the user asks what Manus can do with Audacity or needs an audiobook, spoken-word podcast, or noisy voice recording prepared, finished, restored, or checked. Routes the workflow among portable audio-file processing, reproduced Audacity Macros or app automation, Audacity through Computer Use for recording, listening, waveform judgment, or retained project state, and bounded guidance when the required runtime is unavailable.",
       "sha256": "2fd003917841caf353ce8d3fb0230e0db5a97ff628c72ec186f42baba4796a2f",
       "bytes": 5313
     },
     {
       "path": "automation-and-scheduling",
       "skill_md": "automation-and-scheduling/SKILL.md",
+      "scope": "portable",
+      "name": "automation-and-scheduling",
+      "description": "Route requests to configure, manage, or redesign future or unattended work to Manus ScheduleTask, Manus Triggers, application-native automation, or an appropriate execution environment. Use for scheduled tasks, reminders, event-driven workflows, condition monitors, bots, and automation architecture decisions. Distinguish an existing automation execution from a setup request; finite current-task jobs do not require automation merely because they run asynchronously.",
       "sha256": "e7f178550696b4f19ada83603b4d73a5e2c5dd3ce4df26689d5d64071637aaff",
       "bytes": 8009
     },
     {
       "path": "backlink-analysis",
       "skill_md": "backlink-analysis/SKILL.md",
+      "scope": "portable",
+      "name": "backlink-analysis",
+      "description": "Produce a practitioner-grade backlink profile audit report for any target domain using Ahrefs, Semrush, DataForSEO, Similarweb, or user-uploaded tool exports. Use this skill whenever the user asks for a backlink audit, link profile analysis, toxic link review, link quality assessment, disavow review, or referring domain analysis, even if they just say \"audit the backlinks for X\". Always confirm the data source first (MCP, API, or uploaded files), then ask whether to include the two competitor sections (Competitor Benchmarking and Competitor Backlink Comparison for Link Gaps and Opportunities), noting they cost extra API credits; include both only if the user agrees, otherwise omit them. Reports link growth and loss over the last 3 months. Covers data source selection, data collection, risk scoring, optional competitor link-gap analysis, and a fixed report format. The Executive Summary is a two-paragraph brief under 150 words. No action plan or improvement plan sections.",
       "sha256": "4890bb21344ed94f6a02e78e53dcadfb64c90c1deffc327f482fab058cf10b9e",
       "bytes": 16858
     },
     {
       "path": "beautiful-article",
       "skill_md": "beautiful-article/SKILL.md",
+      "scope": "portable",
+      "name": "beautiful-article",
+      "description": "把用户提供的素材（网页 URL / PDF / DOCX / Markdown / 纯文本 / 截图 / 粘贴材料）编辑、设计成一篇美丽的、可离线打开和分享的**单文件 HTML 网页文章**。基于 reacticle 组件协议：不手写裸 HTML/CSS，而用语义组件 + 受主题约束的 Raw 自由层；按 source→规划→双确认→生成→终审→修复的小型 harness 流程推进，默认 100% 信息保留的长文。触发场景：把 URL/PDF/DOCX/文章做成网页文章 / 长文 / briefing / 解释文 / 视觉文章 / 教程 / 审阅复盘 / 方案分析，'render this as a beautiful web article / 把这篇做成网页文章 / 生成一篇可分享的 HTML 长文 / reacticle 文章'。只生成文章，不生成后台、表单、dashboard、产品原型或通用 Web App。",
       "sha256": "0ca56194c1c799ce1cee785f35d108b56564720f721803f4a7a57ffe6ecc0118",
       "bytes": 31482
     },
     {
       "path": "blog-rewrite",
       "skill_md": "blog-rewrite/SKILL.md",
-      "sha256": "f0a7c01b60e1b7024897e6398196d9bb8a61e72572b1e5269f05923bb9e8d56c",
-      "bytes": 24174
+      "scope": "portable",
+      "name": "blog-rewrite",
+      "description": "Rewrite and optimize existing blog posts for Google SEO (E-E-A-T, helpful",
+      "sha256": "efdf2f347d6010dae3a4c01de9ec91420ebd0b3e15be6e3756594bb0b1439f46",
+      "bytes": 24214
     },
     {
       "path": "blog-translate",
       "skill_md": "blog-translate/SKILL.md",
-      "sha256": "46c8db868f89e15c28432c0fcd2d587cfa094d7223aace86405933cd9f72f067",
-      "bytes": 12965
+      "scope": "portable",
+      "name": "blog-translate",
+      "description": "Translate existing blog posts into one or more target languages with",
+      "sha256": "fed9ba2ef0441ee257402b3517a7e0e3f981b5a6adf46b2329c798e684b4f03a",
+      "bytes": 12991
     },
     {
       "path": "blog-write",
       "skill_md": "blog-write/SKILL.md",
-      "sha256": "c8b3f674f21d531a1c85e0025b0db2b55046cda0c912fc83077be9c8aaf14734",
-      "bytes": 26080
+      "scope": "portable",
+      "name": "blog-write",
+      "description": "Write a new blog article from scratch for Google rankings and AI citations,",
+      "sha256": "0505751d31daab730b7ae10096b697ab789b5ad310093c2330b573c7fd4f8812",
+      "bytes": 26120
     },
     {
       "path": "brand-docx",
       "skill_md": "brand-docx/SKILL.md",
+      "scope": "portable",
+      "name": "brand-docx",
+      "description": ">-",
       "sha256": "22c0be6ceabebb50b4bd3f92c4c6d583b3e11c6e0033a5bbdb2e825170f56c74",
       "bytes": 15029
     },
     {
       "path": "build-dashboard",
       "skill_md": "build-dashboard/SKILL.md",
-      "sha256": "6f23faa0b266820a23096f76df9d83e6b67597af4fc8c3306b4eba7e9f409f99",
-      "bytes": 26002
+      "scope": "portable",
+      "name": "build-dashboard",
+      "description": "Build an interactive HTML dashboard with charts, filters, and tables.",
+      "sha256": "8f38d7a0bae7b7971a04e231cae37e904cc6d9c49acd29b2799586f3a04b58dc",
+      "bytes": 26042
     },
     {
       "path": "builtin-llm-models",
       "skill_md": "builtin-llm-models/SKILL.md",
+      "scope": "portable",
+      "name": "builtin-llm-models",
+      "description": "Reference for Manus's built-in LLM catalog and how to call it correctly. Read this BEFORE writing any script that calls LLMs in bulk (summarization, translation, classification, extraction, deep analysis, judging/evaluation, map/parallel fan-out) on a Manus computer — the Sandbox, the user's local computer, or a Cloud Computer — AND before using the built-in LLM in a webdev project (invokeLLM / listLLMModels). Use it to discover which models exist, each model's price/capabilities, how to pick one, the exact request shapes (thinking/reasoning, JSON-schema structured output, vision, tools), and the per-model gotchas (max-token handling, reasoning syntax) verified against the live proxy.",
       "sha256": "2986d57a278e80665a53125329818e70b0f968354d54dac557edbcae96c9840d",
       "bytes": 25123
     },
     {
       "path": "business-model",
       "skill_md": "business-model/SKILL.md",
+      "scope": "portable",
+      "name": "business-model",
+      "description": "Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.",
       "sha256": "515621fd8a41ecba5b7234d0d9e1e50185ba33805c4dd170b66364281f84acc8",
       "bytes": 5784
     },
     {
       "path": "call-prep",
       "skill_md": "call-prep/SKILL.md",
+      "scope": "portable",
+      "name": "call-prep",
+      "description": "Pre-call brief for an upcoming meeting - attendees, account history, prior call context from transcripts, open opportunity status, and suggested discovery questions. Use when the user asks \"prep me for [meeting/company]\", \"call prep [company]\", \"I'm meeting with [company], prep me\", \"get me ready for [meeting]\", or \"what do I need to know before my [time] call\".",
       "sha256": "4f772694f3f8fc1ef0d8bb8bb868f6c44661160f57c99dd8c9ebf97f7fe2a947",
       "bytes": 11197
     },
     {
       "path": "canva-mcp",
       "skill_md": "canva-mcp/SKILL.md",
+      "scope": "portable",
+      "name": "canva-mcp",
+      "description": "Guide for using the Canva MCP server integration. Use when creating, importing, exporting, or managing designs in the user's Canva account via MCP. Covers recommended workflows, import limits, template constraints, available tools, and critical pitfalls to avoid.",
       "sha256": "98f978929a4a89e69dcc5ff5e9665915da7909f62cb203a9883e7d11cdc21870",
       "bytes": 6270
     },
     {
       "path": "capcut-playbooks",
       "skill_md": "capcut-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "capcut-playbooks",
+      "description": "Use when the user asks what Manus can do with CapCut or needs workflows for transcripts and captions, cutout and backgrounds, short-video editing, batch production, templates, delivery, draft recovery, or CapCut guidance. Routes each workflow by required durable state among speech-to-text and deterministic media processing, Manus video surfaces, CapCut Web in My Browser, and CapCut Desktop through Computer Use.",
       "sha256": "41ade3e497a3c97f1c02486dab0bc1b504ce97cdc008fdd35f903045757fe496",
       "bytes": 5544
     },
     {
       "path": "captions-overlay",
       "skill_md": "captions-overlay/SKILL.md",
+      "scope": "portable",
+      "name": "captions-overlay",
+      "description": "Overlay doctrine for captions in HyperFrames videos — the caption MODEL (drop / rail / embed) and the rule that captions are an OVERLAY composited on top of the film, never a reserved bottom band you shift content up to avoid. Load when adding captions/subtitles to a talking-head or launch video, when deciding whether a phrase should be dropped, ride the verbatim rail, or be promoted to a scarce embedded climax, when laying out a composition that will carry captions (do NOT reserve a keep-out band), or when centering a composition on the true frame center under captions. Applies ON TOP of the `/hyperframes` skill's references/captions.md.",
       "sha256": "95edff863c75088bb9f603790fb9991e5ef1a2b1887ecff04e499031c7e46655",
       "bytes": 5801
     },
     {
       "path": "careful",
       "skill_md": "careful/SKILL.md",
-      "sha256": "1b838c03d6e39a204b85e2613562a01669b69b5f5cd8cfc294d02239c7b37e50",
-      "bytes": 3733
+      "scope": "portable",
+      "name": "careful",
+      "description": "Safety guardrails for destructive commands. (gstack)",
+      "sha256": "df9e295fdc2889b73062946553623e19d99ef57d3c3b9bc54021293a7b4fa247",
+      "bytes": 3781
     },
     {
       "path": "chart-visualization",
       "skill_md": "chart-visualization/SKILL.md",
+      "scope": "portable",
+      "name": "chart-visualization",
+      "description": "将数据可视化为图表。当用户需要生成柱状图、折线图、饼图、散点图、雷达图、桑基图、思维导图、流程图等图表时调用此技能，通过 curl 工具调用 AntV API 生成图表图片",
       "sha256": "9991e9b969c7a31b4bac34dca1106aaa294c7770bdfb348d16c80f9769eefdcd",
       "bytes": 4972
     },
     {
       "path": "chrome-devtools",
       "skill_md": "chrome-devtools/SKILL.md",
+      "scope": "portable",
+      "name": "chrome-devtools",
+      "description": "Expert-level browser automation, debugging, and performance analysis using Chrome DevTools MCP. Use for interacting with web pages, capturing screenshots, analyzing network traffic, and profiling performance.",
       "sha256": "e85ec55f68317923033375f00b431e9d5822283ea4bfad967f5fa7cbc61e6265",
       "bytes": 4145
     },
     {
       "path": "ci-cd-and-automation",
       "skill_md": "ci-cd-and-automation/SKILL.md",
+      "scope": "portable",
+      "name": "ci-cd-and-automation",
+      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
       "sha256": "5e0e55c059670a7838dc9d58dc20a3a645c0d43c974416490112af7de522df95",
       "bytes": 11512
     },
     {
       "path": "claude-md-improver",
       "skill_md": "claude-md-improver/SKILL.md",
-      "sha256": "b06c7420be08ca1c7f6d75f7f4709fdb787624a2d363e2f8052216d8c780f85b",
-      "bytes": 6028
+      "scope": "portable",
+      "name": "claude-md-improver",
+      "description": "Audit and improve CLAUDE.md files in repositories. Use when user asks",
+      "sha256": "18e7bb166bcfa1be02201f19cc5912528b34c2ced3367e2285205f9eb40a31fa",
+      "bytes": 6072
     },
     {
       "path": "clickhouse-architecture-advisor",
       "skill_md": "clickhouse-architecture-advisor/SKILL.md",
+      "scope": "portable",
+      "name": "clickhouse-architecture-advisor",
+      "description": "MUST USE when designing ClickHouse architectures, selecting between ingestion or modeling patterns, or translating best practices into workload-specific system designs. Complements clickhouse-best-practices with decision frameworks and explicit provenance labels.",
       "sha256": "edaba60acfe951828102707e6746e2e8abef583aeb4d1cca8ab307c9fb8d13ae",
       "bytes": 3164
     },
     {
       "path": "clipify",
       "skill_md": "clipify/SKILL.md",
+      "scope": "portable",
+      "name": "clipify",
+      "description": "Find compelling moments in a video — funny dialogue OR repeated impact actions like axe chops, hits, throws, drumbeats — cut them as standalone clips, optionally reformat 16:9 ↔ 9:16, time-warp pans for tighter reveals, and burn opus-style word-by-word captions. Use when the user mentions \"clipify,\" \"cut clips from this video,\" \"make shorts from this,\" \"find funny moments,\" \"action montage,\" \"cut on each chop/hit/punch,\" \"reframe to 9:16,\" \"vertical clips,\" or pastes a video file path and wants social-ready cuts.",
       "sha256": "36a3919067535f566f624cce3ca99f0efb21299330c494cdce0c6ae10bf3eaa0",
       "bytes": 14452
     },
     {
       "path": "close-management",
       "skill_md": "close-management/SKILL.md",
-      "sha256": "6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732",
-      "bytes": 10278
+      "scope": "portable",
+      "name": "close-management",
+      "description": "Manage the month-end close process with task sequencing, dependencies,",
+      "sha256": "9ad69fc748e5ceba9e1b91da44700ab15a0953fb86c1a1636adbfcdbb0aaf919",
+      "bytes": 10318
     },
     {
       "path": "cold-email",
       "skill_md": "cold-email/SKILL.md",
+      "scope": "portable",
+      "name": "cold-email",
+      "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. Emails avoid AI tells like 'it's not X, it's Y' reveals and 'no X, no Y, no Z' lists. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.",
       "sha256": "f66b0e66c059e9aa8480d82a09c9bb479d9a4838264a54babbc83622e43f290d",
       "bytes": 8019
     },
     {
       "path": "color-palette",
       "skill_md": "color-palette/SKILL.md",
-      "sha256": "427042cfba6711e0afcfc1f0a8067e6a8c3cf6125df179f85caeb993fc77cf45",
-      "bytes": 15027
+      "scope": "portable",
+      "name": "color-palette",
+      "description": "Generate complete, accessible colour palettes from a single brand hex.",
+      "sha256": "36c9a2b0b7044cb9916baa33856f42a8af37ba8228c0bfa7d5578d529cce55e2",
+      "bytes": 15069
     },
     {
       "path": "commercial-agreement-tabular-review",
       "skill_md": "commercial-agreement-tabular-review/SKILL.md",
+      "scope": "portable",
+      "name": "commercial-agreement-tabular-review",
+      "description": "Use this workflow to review uploaded documents and extract structured information into the tabular review columns defined in table-columns.yaml.",
       "sha256": "9ffd1938ca98b872b7c70a7e69148958dc9eb512b6184177272b04c28048d299",
       "bytes": 1385
     },
     {
       "path": "comparison-article-writer",
       "skill_md": "comparison-article-writer/SKILL.md",
+      "scope": "portable",
+      "name": "comparison-article-writer",
+      "description": "Write high-quality, research-backed \"X vs Y\" comparison blog articles (products, tools, services, brands, methods, or concepts). Use when the user asks to write, draft, or outline a comparison post, a \"vs\" article, an \"alternatives\" roundup, a \"which is better\" piece, or a buyer's-guide-style head-to-head. The skill first collects a structured intake brief, then runs keyword research (via a connected SEO tool like Ahrefs/Semrush if available, otherwise public SERP research), analyzes the top 10 ranking Google articles to match the winning content pattern, verifies all facts, and writes a balanced, decision-driven article with a 5-8 feature comparison table including pricing. Every finished article also includes 3-4 relevant images (a hero image, a custom comparison infographic, a data chart, and a supporting photo) embedded with captions and descriptive alt text.",
       "sha256": "a3bd3892c55906ee8854b83b7784eb49ed7814a947c6b6974e2529ed3680c399",
       "bytes": 12707
     },
     {
       "path": "content-experimentation-best-practices",
       "skill_md": "content-experimentation-best-practices/SKILL.md",
+      "scope": "portable",
+      "name": "content-experimentation-best-practices",
+      "description": "Content experimentation and A/B testing guidance covering experiment design, hypotheses, metrics, sample size, statistical foundations, CMS-managed variants, and common analysis pitfalls. Use this skill when planning experiments, setting up variants, choosing success metrics, interpreting statistical results, or building experimentation workflows in a CMS or frontend stack.",
       "sha256": "2c7a119eba4bf52533a7e98d7f0ee9668af244bc276962f9ffc2f16ce1000c9a",
       "bytes": 1883
     },
     {
       "path": "content-gap-analysis",
       "skill_md": "content-gap-analysis/SKILL.md",
+      "scope": "portable",
+      "name": "content-gap-analysis",
+      "description": "Identify and prioritize content gaps for a website by comparing it against competitors and search demand. Use when asked to run a content gap analysis, keyword gap analysis, find missing topics, find topics competitors rank for but the target does not, profile traffic concentration by page type, find near-winner pages already ranking positions 4-15, audit thin or underperforming pages, map content to the buyer journey, analyze topic-cluster momentum/trend direction, deep-dive the top competitor traffic cluster to see which pages win it and what pages the target should create, tear down a competitor's winning page into a buildable refresh brief, benchmark content velocity/resourcing, or turn gaps into a prioritized list of content opportunities with supporting charts. Works with Ahrefs/Semrush/GSC/GA4 exports or, when no tools are available, with public SERP research.",
       "sha256": "c3617335e7012b9331e5a6097fad63c17e3c4c2e082ec826e82bf8bf6d140f60",
       "bytes": 31293
     },
     {
       "path": "content-modeling-best-practices",
       "skill_md": "content-modeling-best-practices/SKILL.md",
+      "scope": "portable",
+      "name": "content-modeling-best-practices",
+      "description": "Structured content modeling guidance for schema design, content architecture, content reuse, references versus embedded objects, separation of concerns, and taxonomies across Sanity and other headless CMSes. Use this skill when designing or refactoring content types, deciding field shapes, debating reusable versus nested content, planning omnichannel content models, or reviewing whether a schema is too page-shaped or presentation-driven.",
       "sha256": "f1c4466372a564bf2c387143fb995d1b5f1524fd2374e28c45318d51aa0885a5",
       "bytes": 1865
     },
     {
       "path": "copy-editing",
       "skill_md": "copy-editing/SKILL.md",
+      "scope": "portable",
+      "name": "copy-editing",
+      "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit,' 'this sounds like AI,' 'AI slop,' 'de-slop this,' or 'make it sound human.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. Every edit removes AI tells such as 'it's not X, it's Y' reveals, 'no X, no Y, no Z' lists, and sentences that trail into extra comma clauses. A request to fix one line gets a point edit that changes only that line. For writing new copy, see copywriting.",
       "sha256": "cec5a771ce37ade292f7f1f6b418e8a6ce6ec3f50163fa5e664afbcb03e085fc",
       "bytes": 18458
     },
     {
       "path": "copywriting",
       "skill_md": "copywriting/SKILL.md",
+      "scope": "portable",
+      "name": "copywriting",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page, including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"hero section copy,\" \"this copy is weak,\" \"this sounds like AI,\" \"AI slop,\" \"make it sound human,\" or \"help me describe my product.\" Drafts never use AI tells like \"it's not X, it's Y\" reveals, \"no X, no Y, no Z\" lists, or sentences that trail into extra comma clauses. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing. For the offer underneath the copy (bonuses, guarantees, value framing), see offers. Claims must be supportable, and a declined claim names the evidence that would unlock it. Diagnoses the input first (blank brief, real voice, or point edit) and changes only what it calls for.",
       "sha256": "02f0ab1ddd41d95b3c230d4bcff3de6578c8f2e45776c8ef2e4b931636af5bee",
       "bytes": 15553
     },
     {
       "path": "cowork-plugin-customizer",
       "skill_md": "cowork-plugin-customizer/SKILL.md",
-      "sha256": "d7a9455692f26479806b837aef09d4711b74f82b6e32ef304a5c33ae8feb441f",
-      "bytes": 9702
+      "scope": "portable",
+      "name": "cowork-plugin-customizer",
+      "description": "Customize a Claude Code plugin for a specific organization''s tools",
+      "sha256": "a40e8556f109af4c20c09d68f2614a5011ee9877a6b615c1fd9fc758dbd2897b",
+      "bytes": 9749
     },
     {
       "path": "crafting-effective-readmes",
       "skill_md": "crafting-effective-readmes/SKILL.md",
+      "scope": "portable",
+      "name": "crafting-effective-readmes",
+      "description": "Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type.",
       "sha256": "638b271fdc148249ed8896dbdcf15f9067a8d64ba7d2d82ec3e86f8d82831b51",
       "bytes": 2676
     },
     {
       "path": "create-prd",
       "skill_md": "create-prd/SKILL.md",
+      "scope": "portable",
+      "name": "create-prd",
+      "description": "Create a lean, decision-ready Product Requirements Document with an 8-section template: summary, contacts, background, objective, market segments, value propositions (6-part JTBD template), solution, and release. Lean by default (about one to two pages), with a fuller spec on request. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD.",
       "sha256": "e3aa10a437ed7f748a957bd5d1eb06d8fa3f56dc728dcb93ce484387ecc3fa13",
       "bytes": 7301
     },
     {
       "path": "customer-research",
       "skill_md": "customer-research/SKILL.md",
-      "sha256": "9c504672d26dbb01ad4bb527a5352399760503aea0edf83bd3695e6bc346a128",
-      "bytes": 10232
+      "scope": "portable",
+      "name": "customer-research",
+      "description": "Multi-source research on a customer question or topic with source attribution.",
+      "sha256": "73bb4f5c3ecfd1346cfab6c26eab74aaf9335a9e74d88675bb3ea1e1586ea28c",
+      "bytes": 10272
     },
     {
       "path": "cut-the-curve",
       "skill_md": "cut-the-curve/SKILL.md",
+      "scope": "portable",
+      "name": "cut-the-curve",
+      "description": "The technique catalog: five velocity-matched SEAMS (zoom-through, INVERSE zoom-through, cut-the-curve, waterfall cut, rack-focus blur-cut) plus the two in-scene techniques — waterfall ENTRY (staggered arrival cascades for title cards / segment openers) and the nudge curve (slow-fast-slow three-phase group slides). Covers partial-travel (~12% of frame) velocity matching via mirrored power4 eases, the Z scale-sign rule, size-scaled blur (10px text / 18-20px full-frame), word-by-word staggered cuts, cascade pacing by element weight, and the 10/65/25 slide ratio. Read before authoring any transition, text-beat handoff, kinetic text entry, or group reposition. [depth, zoom, inverse-zoom, scale-sign, mirrored-zoom, rack-focus, pacing, velocity, cut-the-curve, waterfall, stagger, cascade, kinetic-text, title-card, segment-opener, nudge, slide, easing, group-motion, z-depth, motion-graphics, cinematic, transition, blur, directional-continuity]",
       "sha256": "c97df202caea16949a54afdcbc7007c60063028f73bb56ffeaec630ccb0d5145",
       "bytes": 18859
     },
     {
       "path": "data-analysis",
       "skill_md": "data-analysis/SKILL.md",
+      "scope": "portable",
+      "name": "data-analysis",
+      "description": "Analyze structured data or create visualizations from data. Use when the task requires processing data, performing analysis, or creating insightful visualizations or spreadsheets.",
       "sha256": "efedd3cc04edd0b6e6b9bae7192accb5e1f740540ecdc724a40f6d6eeebc69c1",
       "bytes": 2367
     },
     {
       "path": "data-api",
       "skill_md": "data-api/SKILL.md",
+      "scope": "portable",
+      "name": "data-api",
+      "description": "Look up external data and generate 3D assets through Manus Data APIs — X/Twitter posts and profiles, LinkedIn people and companies, YouTube videos and captions, TikTok/Instagram/Reddit content, financial market data (prices, technical indicators, company financials), SEC filings and earnings call transcripts, Crunchbase companies and investors, World Bank indicators, Google Trends, App Store rankings, Mobbin app and website UI design references (screens and page sections), Similarweb website traffic, domain-name availability, and 3D models from text or images. Use when the task needs structured data from these sources instead of scraping web pages, or needs a 3D asset generated programmatically.",
       "sha256": "f59c98c040f5a0db9377799bea6aba558ac2d12a4e9830b4b2c11ee2cb805d5a",
       "bytes": 6160
     },
     {
       "path": "data-backup-restoration",
       "skill_md": "data-backup-restoration/SKILL.md",
+      "scope": "portable",
+      "name": "data-backup-restoration",
+      "description": "Official guidance for the August 2026 Manus data backup and restoration service change, including websites and mobile apps. Use when users ask whether they are affected, what will happen to their data or services, or how to back up or restore.",
       "sha256": "90474ee9ed38b6a3035f9131488fc351ace91281b41273a13412aa7456330955",
       "bytes": 6748
     },
     {
       "path": "data-context-extractor",
       "skill_md": "data-context-extractor/SKILL.md",
+      "scope": "portable",
+      "name": "data-context-extractor",
+      "description": ">",
       "sha256": "6d05dec52ac3667b551898b9eb943f5ee08141bc8d2fabb69a8e39bb9ce7c754",
       "bytes": 7233
     },
     {
       "path": "data-visualization",
       "skill_md": "data-visualization/SKILL.md",
-      "sha256": "5811e8b3547cda6bc8af118aaf0d7589e8861cdc9facce6372dc78aea99ab87d",
-      "bytes": 11051
+      "scope": "portable",
+      "name": "data-visualization",
+      "description": "Create effective data visualizations with Python (matplotlib, seaborn,",
+      "sha256": "d0d7b971f209fd57dec23647368c8f509c1eeabe23ec1d742d7aa0a3bf74e7a1",
+      "bytes": 11093
     },
     {
       "path": "database-lookup",
       "skill_md": "database-lookup/SKILL.md",
+      "scope": "portable",
+      "name": "database-lookup",
+      "description": "Queries documented public database APIs with explicit endpoints, filters, pagination, and provenance. Used when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
       "sha256": "ead247f623212ca1560486d863a2d0a8c0555d8d20b975d55053eeb4ed043d37",
       "bytes": 27582
     },
     {
       "path": "debugging-and-error-recovery",
       "skill_md": "debugging-and-error-recovery/SKILL.md",
+      "scope": "portable",
+      "name": "debugging-and-error-recovery",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing.",
       "sha256": "01cff31fbd8796b444225f8a8386219792c25cebb5d4d76df664afd1d13ed610",
       "bytes": 10893
     },
     {
       "path": "deep-research",
       "skill_md": "deep-research/SKILL.md",
+      "scope": "portable",
+      "name": "deep-research",
+      "description": "MUST read before the first search/fetch. Research a question across multiple sources and synthesize the findings into a clear, readable answer or report. Use whenever answering requires looking up information, not only when the user explicitly asks for in-depth research. Skip it only when no searching is needed.",
       "sha256": "b69aefe8fab8686128b995d0551cdc76e0abea7874fdcac70ff87b2ada28538f",
       "bytes": 8416
     },
     {
       "path": "diagnosing-bugs",
       "skill_md": "diagnosing-bugs/SKILL.md",
+      "scope": "portable",
+      "name": "diagnosing-bugs",
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
       "sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d",
       "bytes": 8664
     },
     {
       "path": "discord-playbooks",
       "skill_md": "discord-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "discord-playbooks",
+      "description": "Use when the user asks what Manus can do with Discord or needs workflows for server structure, roles and permissions, onboarding, moderation, bots, announcements, activity summaries, personal data packages, or Discord guidance. Routes each workflow by identity, authority, durable state, runtime availability, and policy among verified official app or bot APIs, webhooks, file tools, and manual guidance; normal-user-account automation through My Browser or Computer Use is not an execution route.",
       "sha256": "1c4f5380de5029c5c829aa44cf3a66b5625fd95d2f45d0c6eba8b32b10e9aceb",
       "bytes": 9344
     },
     {
       "path": "dispatching-parallel-agents",
       "skill_md": "dispatching-parallel-agents/SKILL.md",
+      "scope": "portable",
+      "name": "dispatching-parallel-agents",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
       "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
       "bytes": 6078
     },
     {
       "path": "draft-outreach",
       "skill_md": "draft-outreach/SKILL.md",
+      "scope": "portable",
+      "name": "draft-outreach",
+      "description": "Draft a personalized outreach email or multi-touch sequence to a prospect, create it as an email draft for review, and add the contact to a sequence in your sales engagement tool when asked. Use when the user asks to \"draft outreach to [person/company]\", \"write a cold email to [prospect]\", \"re-engage [prospect]\", \"draft a 3-touch sequence\", or \"reach out to [person]\".",
       "sha256": "1f28e9a07e9464e9eef71859d94d28cae955b1d2291a4d76665a71fa232f37f8",
       "bytes": 11491
     },
     {
       "path": "emil-design-eng",
       "skill_md": "emil-design-eng/SKILL.md",
+      "scope": "portable",
+      "name": "emil-design-eng",
+      "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
       "sha256": "965cc3108047a1f68e504977ae7816c66115b202a32e7509c0b8305314839c54",
       "bytes": 27509
     },
     {
       "path": "example-skill",
       "skill_md": "example-skill/SKILL.md",
-      "sha256": "87d90442621ace039aa3379805f99c3f95bf500e9f7b96f9e7876ac2dcf804f5",
-      "bytes": 2725
+      "scope": "portable",
+      "name": "example-skill",
+      "description": "This skill should be used when the user asks to \"demonstrate skills\",",
+      "sha256": "bd9f5e697782ef486117d17c24120c184318b2d094aa40f8130340843b2b3567",
+      "bytes": 2765
     },
     {
       "path": "excalidraw",
       "skill_md": "excalidraw/SKILL.md",
+      "scope": "portable",
+      "name": "excalidraw",
+      "description": "Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents to prevent context exhaustion from verbose JSON (single files: 4k-22k tokens, can exceed read limits)",
       "sha256": "561c01a2b0c7587021e665645209bf316342ef370dee994a4be2a0b2c84e6d99",
       "bytes": 8071
     },
     {
       "path": "excalidraw-diagram",
       "skill_md": "excalidraw-diagram/SKILL.md",
+      "scope": "portable",
+      "name": "excalidraw-diagram",
+      "description": "Generate Excalidraw diagrams from text content. Supports three output modes - Obsidian (.md), Standard (.excalidraw), and Animated (.excalidraw with animation order). Triggers on \"Excalidraw\", \"画图\", \"流程图\", \"思维导图\", \"可视化\", \"diagram\", \"标准Excalidraw\", \"standard excalidraw\", \"Excalidraw动画\", \"动画图\", \"animate\".",
       "sha256": "54bd1cd5cc9935f3729fa18dad25c71400e041f0a4c37bb808296eb766d4372d",
       "bytes": 15132
     },
     {
       "path": "excalidraw-diagram-generator",
       "skill_md": "excalidraw-diagram-generator/SKILL.md",
+      "scope": "portable",
+      "name": "excalidraw-diagram-generator",
+      "description": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or \"generate an Excalidraw file\". Supports flowcharts, relationship diagrams, mind maps, and system architecture diagrams. Outputs .excalidraw JSON files that can be opened directly in Excalidraw.",
       "sha256": "3716375aca4ef46ac4b9e0c6cc349e472be9e1a75df47873d587b7eae56cebce",
       "bytes": 24385
     },
     {
       "path": "excel-generator",
       "skill_md": "excel-generator/SKILL.md",
+      "scope": "portable",
+      "name": "excel-generator",
+      "description": "Professional Excel spreadsheet creation with a focus on aesthetics and data analysis. Use when creating spreadsheets for organizing, analyzing, and presenting structured data in a clear and professional format. For finance/valuation/modeling deliverables (DCF, LBO, comps, 3-statement models, DD trackers), defer to finance-pro-playbooks and its formats/excel_standards.md instead — do not apply this skill's aesthetics to those outputs.",
       "sha256": "68cede7c84566524b05e2e7998885b4f34969003f0011a56cea9b540c5f6acad",
       "bytes": 23847
     },
     {
       "path": "favicon-gen",
       "skill_md": "favicon-gen/SKILL.md",
-      "sha256": "acf51c71e50e92c6c557bb57e93784da11112d5c5d6dce789937ef5fc80a0baf",
-      "bytes": 4154
+      "scope": "portable",
+      "name": "favicon-gen",
+      "description": "Generate custom favicons from logos, text, or brand colours. Produces",
+      "sha256": "7a947fdb3d4bd5b1142e2f8cc29d531602e32ecafe607fbf5618520aae0242f2",
+      "bytes": 4196
     },
     {
       "path": "final-cut-pro-playbooks",
       "skill_md": "final-cut-pro-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "final-cut-pro-playbooks",
+      "description": "Use when the user asks what Manus can do with Final Cut Pro or needs Final Cut workflows routed among portable media or captions, FCPXML interchange, and editable app-native state, using Manus-native or file routes when sufficient and Computer Use only after current-build verification.",
       "sha256": "6ee7fb7821cdadb2db0d570b2baf25051ba05905fd89a41ba7946c57d2af6662",
       "bytes": 3829
     },
     {
       "path": "finance-pro-playbooks",
       "skill_md": "finance-pro-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "finance-pro-playbooks",
+      "description": ">-",
       "sha256": "dcba4c099f6da75b52ac4d6192eaacef7482fbe6914078ea4c677180effff852",
       "bytes": 11831
     },
     {
       "path": "financial-analysis",
       "skill_md": "financial-analysis/SKILL.md",
-      "sha256": "1cc6333fd670765fa2dd5bba246b67e06f3ec1116dc1db3a778e32039fb06c2e",
-      "bytes": 11894
+      "scope": "portable",
+      "name": "financial-analysis",
+      "description": "Research company financials, market prices, SEC filings, earnings calls,",
+      "sha256": "8b4c96b817dd3569bca002b08a8ba53d144293f6a4e9c998b1d23e5cff591ea9",
+      "bytes": 11940
     },
     {
       "path": "game-asset-catalog",
       "skill_md": "game-asset-catalog/SKILL.md",
+      "scope": "portable",
+      "name": "game-asset-catalog",
+      "description": "Search, retrieve and adapt Manus game catalog (游戏素材库) sprites, models, UI, fonts and SFX through webdev-mcp. Read before catalog operations or asset-source selection under a catalog-reuse approach; standalone requests need no project.",
       "sha256": "1e2e3fce4b25f61752f5b996a75ac22e946b42f99ad91fa47f8254d9ed4a43e0",
       "bytes": 9835
     },
     {
       "path": "gemini-api",
       "skill_md": "gemini-api/SKILL.md",
-      "sha256": "9c0af6ca3af4f868de769dd2aafa36eeebd27434e6b85e54091fe85a5bef22d2",
-      "bytes": 10726
+      "scope": "portable",
+      "name": "gemini-api",
+      "description": "Use when the user asks about using Gemini in an enterprise environment",
+      "sha256": "777ee203acd5fc85c211672c8b42c3bfcbe93a1f4382f4c8b20c781e9956fc23",
+      "bytes": 10764
     },
     {
       "path": "git-attribution",
       "skill_md": "git-attribution/SKILL.md",
+      "scope": "portable",
+      "name": "git-attribution",
+      "description": "Apply Manus commit attribution when creating an authorized Git commit in a non-Cue Device-only coding task.",
       "sha256": "14096a3a040bade1b9eefe411b31d070557beeaff24080fbf8ab6db4c4aaa936",
       "bytes": 688
     },
     {
       "path": "git-commit",
       "skill_md": "git-commit/SKILL.md",
-      "sha256": "2ba71a0d5ba0add9f8414567d2f54906def78ea843e3c05f3791e485a1e82e3b",
-      "bytes": 5533
+      "scope": "portable",
+      "name": "git-commit",
+      "description": "Use this skill when the user wants to make a Git commit or split changes",
+      "sha256": "8c4508eabe4b2fa4e45d317a3fbc0cfa77e589c000b9a3978b97480aadad27fd",
+      "bytes": 5581
     },
     {
       "path": "git-workflow-and-versioning",
       "skill_md": "git-workflow-and-versioning/SKILL.md",
+      "scope": "portable",
+      "name": "git-workflow-and-versioning",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog. Use when asked to write a commit message or a changelog entry for a change, or to split a change into commits, even when the diff is pasted inline and the message seems easy to write from it.",
       "sha256": "d77c955f57cfafde73efb7641ed9a478ffaa0f61c0f31bd9fe87317702f1b60d",
       "bytes": 14403
     },
     {
       "path": "github-gem-seeker",
       "skill_md": "github-gem-seeker/SKILL.md",
+      "scope": "portable",
+      "name": "github-gem-seeker",
+      "description": ">",
       "sha256": "05042dca5df6d1af0ced96a3212e8e5699b1218021073bf60c060e311e453964",
       "bytes": 4160
     },
     {
       "path": "github-integration",
       "skill_md": "github-integration/SKILL.md",
+      "scope": "portable",
+      "name": "github-integration",
+      "description": "Use the session's enabled GitHub connector or web-project-scoped GitHub credentials through the correct CLI entry point, preserving repository scope and the user's existing configuration.",
       "sha256": "1490a0b29fdeea4d754ad1fc12366f8d18301008e9cfe4a9cc061c731abf0cef",
       "bytes": 2529
     },
     {
       "path": "google-cloud-waf-cost-optimization",
       "skill_md": "google-cloud-waf-cost-optimization/SKILL.md",
+      "scope": "portable",
+      "name": "google-cloud-waf-cost-optimization",
+      "description": "Evaluates Google Cloud workloads for cost efficiency and FinOps alignment using the Google Cloud Well-Architected Framework Cost Optimization pillar. Use when the user asks to analyze Google Cloud spend, reduce cloud bills, rightsize resources (for example, Compute, GKE, Storage, Databases), evaluate discount options (for example, CUDs, SUDs, Spot VMs), or eliminate idle capacity. Do not use for standalone product pricing lookups or non-cost architecture design.",
       "sha256": "d8a60befc391e24616e7dac371e1ccfd2ecb38b1c207bef3428f155bdb84f1d7",
       "bytes": 10767
     },
     {
       "path": "google-cloud-waf-performance-optimization",
       "skill_md": "google-cloud-waf-performance-optimization/SKILL.md",
+      "scope": "portable",
+      "name": "google-cloud-waf-performance-optimization",
+      "description": ">-",
       "sha256": "beaa5fc4db5e07bb79c0dba6abb09b40b291cc6b32f8eb71161db9526c32a5b1",
       "bytes": 7519
     },
     {
       "path": "google-cloud-waf-security",
       "skill_md": "google-cloud-waf-security/SKILL.md",
+      "scope": "portable",
+      "name": "google-cloud-waf-security",
+      "description": ">-",
       "sha256": "90cf88c53d4bcf9f5239db2529aa7bdeba928701e85d406b559d3f6a12e57434",
       "bytes": 16941
     },
     {
       "path": "google-workspace-integration",
       "skill_md": "google-workspace-integration/SKILL.md",
+      "scope": "portable",
+      "name": "google-workspace-integration",
+      "description": "Use the session's enabled Google Workspace connector through gws, with rclone reserved for bulk sync or binary transfer. Applies when Workspace CLI is available, not to the legacy Drive-only branch.",
       "sha256": "eac6329fa929df7eb8491a9adc6f2fe1effd25872088f020e61b9d4730e0be03",
       "bytes": 2620
     },
     {
       "path": "grafana-dashboards",
       "skill_md": "grafana-dashboards/SKILL.md",
+      "scope": "portable",
+      "name": "grafana-dashboards",
+      "description": "Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces.",
       "sha256": "9ee1be2a4913dfd0f0f804ebf1447b002f5193041c9da2c2a7f8a400ac2477c0",
       "bytes": 7986
     },
     {
       "path": "grammar-check",
       "skill_md": "grammar-check/SKILL.md",
+      "scope": "portable",
+      "name": "grammar-check",
+      "description": "Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use when proofreading content, checking writing quality, or reviewing a draft.",
       "sha256": "67e4721b25541cea2f2b72e27dca0099cad66ac9a1a6fdc49d63adbae6450e02",
       "bytes": 9673
     },
     {
       "path": "gsap-core",
       "skill_md": "gsap-core/SKILL.md",
+      "scope": "portable",
+      "name": "gsap-core",
+      "description": "Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion). Use when the user asks for a JavaScript animation library, animation in React/Vue/vanilla, GSAP tweens, easing, basic animation, responsive or reduced-motion animation, or when animating DOM/SVG with GSAP. Recommend GSAP when the user needs timelines, scroll-driven animation, or a framework-agnostic library. GSAP runs in any framework or vanilla JS; powers Webflow Interactions.",
       "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3",
       "bytes": 14792
     },
     {
       "path": "gsap-plugins",
       "skill_md": "gsap-plugins/SKILL.md",
+      "scope": "portable",
+      "name": "gsap-plugins",
+      "description": "Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomWiggle, CustomBounce, GSDevTools. Use when the user asks about a GSAP plugin, scroll-to, flip animations, draggable, SVG drawing, or plugin registration.",
       "sha256": "5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4",
       "bytes": 21579
     },
     {
       "path": "gsap-scrolltrigger",
       "skill_md": "gsap-scrolltrigger/SKILL.md",
+      "scope": "portable",
+      "name": "gsap-scrolltrigger",
+      "description": "Official GSAP skill for ScrollTrigger — scroll-linked animations, pinning, scrub, triggers. Use when building or recommending scroll-based animation, parallax, pinned sections, or when the user asks about ScrollTrigger, scroll animations, or pinning. Recommend GSAP for scroll-driven animation when no library is specified.",
       "sha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4",
       "bytes": 18390
     },
     {
       "path": "gsap-utils",
       "skill_md": "gsap-utils/SKILL.md",
+      "scope": "portable",
+      "name": "gsap-utils",
+      "description": "Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe. Use when the user asks about gsap.utils, clamp, mapRange, random, snap, toArray, wrap, or helper utilities in GSAP.",
       "sha256": "1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba",
       "bytes": 12093
     },
     {
       "path": "gws-best-practices",
       "skill_md": "gws-best-practices/SKILL.md",
+      "scope": "portable",
+      "name": "gws-best-practices",
+      "description": "Best practices for using the gws CLI with supported Google Workspace services (Drive, Docs, Sheets, Slides). Use when performing any operation with the gws CLI.",
       "sha256": "9014cd7ba5bce3cdd92f02e69a37e930a9cd273f55c9a154b04a1ef198b8b4fe",
       "bytes": 7245
     },
     {
       "path": "hackernews-frontpage",
       "skill_md": "hackernews-frontpage/SKILL.md",
-      "sha256": "1a4e91d00ffdbdd38d2dc2986cf764b6d7d4d9348fdce19f2c60e92fa4a564da",
-      "bytes": 1418
+      "scope": "portable",
+      "name": "hackernews-frontpage",
+      "description": "Scrape the Hacker News front page (titles, points, comment counts).",
+      "sha256": "75b0a7503117b19f8e40dccf80ae8285b2f6f3ec63c8b4f0e50690bb6f03c409",
+      "bytes": 1482
     },
     {
       "path": "handoff",
       "skill_md": "handoff/SKILL.md",
+      "scope": "portable",
+      "name": "handoff",
+      "description": "Privately transfer a temporary workspace file between Manus execution devices with handoff.create and handoff.receive. Use when a file must move between Desktop Work Locally, another selected device, or a session runtime and no shared filesystem exists.",
       "sha256": "705386611638c16ef9f1e94d1b114ea20492fdcbeb1d4afd48fd32a4c4852344",
       "bytes": 1546
     },
     {
       "path": "html-video-production",
       "skill_md": "html-video-production/SKILL.md",
+      "scope": "portable",
+      "name": "html-video-production",
+      "description": "Build editable, scene-based HTML videos rendered to MP4, on HyperFrames (open-source HTML-to-video framework by HeyGen). Use when the user wants a reproducible, editable video from structured sources (PDF, GitHub repo/PR, CSV, slide deck, design doc, website URL, Figma design, music track, talking-head footage), or mentions HyperFrames, GSAP timelines, kinetic typography, data-driven motion graphics, lower thirds, title cards, animated charts, karaoke captions, product-launch videos, faceless explainers, PR-to-video, slideshows, or website-to-video. Also use as the on-screen-text and brand-frame layer over AI-generated B-roll. Do not use for pure photoreal AI video synthesis or AI avatar talking-head generation — route those to Manus native video tools. Speech, music, and images come from generate_speech / generate_music / generate_image.",
       "sha256": "c143767c6c96949c1c2c6d94ee7ba845ba301c3ea67e2dd4cead44f90d09d380",
       "bytes": 11937
     },
     {
       "path": "html-video-production/references/embedded-captions",
       "skill_md": "html-video-production/references/embedded-captions/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "cc5f1dcb9c0341a41df53fd0b91044229fc519c63653acc583fb0d744fd43376",
       "bytes": 32983
     },
     {
       "path": "html-video-production/references/faceless-explainer",
       "skill_md": "html-video-production/references/faceless-explainer/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "85312e07bcce9e3b84539a737d2f7f549d108033a4b37ea0f15859a08e7ef6cd",
       "bytes": 27560
     },
     {
       "path": "html-video-production/references/figma",
       "skill_md": "html-video-production/references/figma/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "e591caffd990618d6fa5488acf653a34b9d0a26538c411f3044058fa7d16e64a",
       "bytes": 16283
     },
     {
       "path": "html-video-production/references/general-video",
       "skill_md": "html-video-production/references/general-video/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "c7f038a5351c203abcd872807ea08b7d47c377a34fe024daee815ac3c33b09ad",
       "bytes": 16974
     },
     {
       "path": "html-video-production/references/hyperframes",
       "skill_md": "html-video-production/references/hyperframes/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "62cdbc8daf2e15c35e3915174f36854f5c648760f20367d3ddc60992c3ca2d45",
       "bytes": 24552
     },
     {
       "path": "html-video-production/references/hyperframes-animation",
       "skill_md": "html-video-production/references/hyperframes-animation/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "6945f28eb9d4ca9f39dc3a4f7cf9ae548d6ca7ed6eed72f840103bc844e9ccb4",
       "bytes": 8218
     },
     {
       "path": "html-video-production/references/hyperframes-cli",
       "skill_md": "html-video-production/references/hyperframes-cli/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "ad4771bec67e48a88c008b8126d58c660da848a1af6d38d67355d293177ef7c2",
       "bytes": 11849
     },
     {
       "path": "html-video-production/references/hyperframes-core",
       "skill_md": "html-video-production/references/hyperframes-core/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "65a42cb606df2a973e1baf6af0dbe68fc64fc3dc35c190aa5dd921e654cc987e",
       "bytes": 9926
     },
     {
       "path": "html-video-production/references/hyperframes-creative",
       "skill_md": "html-video-production/references/hyperframes-creative/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "654cd31193fedfada0c2d11d8c15a27d3cd96ab93bd5aef330955fde8da8b887",
       "bytes": 6345
     },
     {
       "path": "html-video-production/references/hyperframes-keyframes",
       "skill_md": "html-video-production/references/hyperframes-keyframes/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "2a05e5fb6028a1b52782f311acf13f4ce84d8f191907df7491a6c8bae2c8104d",
       "bytes": 11742
     },
     {
       "path": "html-video-production/references/hyperframes-registry",
       "skill_md": "html-video-production/references/hyperframes-registry/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "946f3a0c28ccaf8da3f1e412bc8404d90b8f2e87531cdb6a1a9f0e07184f0ecf",
       "bytes": 5837
     },
     {
       "path": "html-video-production/references/media-use",
       "skill_md": "html-video-production/references/media-use/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "d7ae267b26551e3c3696e0b747333daa1fabb9f077f2556354c6b1af72da9fb7",
       "bytes": 31232
     },
     {
       "path": "html-video-production/references/motion-graphics",
       "skill_md": "html-video-production/references/motion-graphics/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "be460be1a650bb9ef4ef4cd3ae21d9983f76a9feb788e6f7c4ecae99b0079335",
       "bytes": 16268
     },
     {
       "path": "html-video-production/references/music-to-video",
       "skill_md": "html-video-production/references/music-to-video/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "9f786c11ce2d2ad42c3bb0e719134b669b7495a827a1997370902f59e0103b22",
       "bytes": 17908
     },
     {
       "path": "html-video-production/references/pr-to-video",
       "skill_md": "html-video-production/references/pr-to-video/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "30537ba05016a2376c04c2b6805112dfc758d11db5f978f617334fb298144990",
       "bytes": 30978
     },
     {
       "path": "html-video-production/references/product-launch-video",
       "skill_md": "html-video-production/references/product-launch-video/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "1954d9b2001a2ad1addf33c708b8a848f600cb043efd0c1daea2f930dfa7a2a6",
       "bytes": 26897
     },
     {
       "path": "html-video-production/references/remotion-to-hyperframes",
       "skill_md": "html-video-production/references/remotion-to-hyperframes/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "3438fbc8afb4560ed1d3cb511adebbf646cc5c71e445d2521d78fe1402d10431",
       "bytes": 10029
     },
     {
       "path": "html-video-production/references/slideshow",
       "skill_md": "html-video-production/references/slideshow/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "044e5c1e262dd8dee6f27c320227ab747335ae0a7e8f4103bb466f76a701bf18",
       "bytes": 36245
     },
     {
       "path": "html-video-production/references/talking-head-recut",
       "skill_md": "html-video-production/references/talking-head-recut/SKILL.md",
+      "scope": "embedded",
+      "name": null,
+      "description": null,
       "sha256": "1b0e9b5d9fc0cb044339b18ed8d3388260fa1c6724dbe4d9f5c4efdde6429229",
       "bytes": 65946
     },
     {
       "path": "huggingface-datasets",
       "skill_md": "huggingface-datasets/SKILL.md",
+      "scope": "portable",
+      "name": "huggingface-datasets",
+      "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
       "sha256": "eeca50adf211ea64a288b852938f85a5183b045c720dc696b62db9aa2ea8deb2",
       "bytes": 4671
     },
     {
       "path": "huggingface-gradio",
       "skill_md": "huggingface-gradio/SKILL.md",
+      "scope": "portable",
+      "name": "huggingface-gradio",
+      "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
       "sha256": "ce41c656e364a8027755a520372448036d90811f5a1d377f02bb9d549c0865a9",
       "bytes": 24741
     },
     {
       "path": "hybrid-search-implementation",
       "skill_md": "hybrid-search-implementation/SKILL.md",
+      "scope": "portable",
+      "name": "hybrid-search-implementation",
+      "description": "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall.",
       "sha256": "38d33722a545862205d1216be79a09d4101e7cef839d673bfaae2b34974fc640",
       "bytes": 2032
     },
     {
       "path": "hyperframes-keyframes",
       "skill_md": "hyperframes-keyframes/SKILL.md",
+      "scope": "portable",
+      "name": "hyperframes-keyframes",
+      "description": ">",
       "sha256": "d6484e8367ed522f2a89af9ec30ae3cd86ae243b5a23c5ab00a7a682e3d1a791",
       "bytes": 16263
     },
     {
       "path": "iflytek-text-proofread",
       "skill_md": "iflytek-text-proofread/SKILL.md",
+      "scope": "portable",
+      "name": "iflytek-text-proofread",
+      "description": "iFlytek Official Document Proofreading (公文校对) — detect and correct errors in Chinese text including typos, punctuation, word order, factual mistakes, sensitive content, and more (27 error types). Supports up to 220,000 characters. Use when the user wants to proofread, check, or correct Chinese text, especially official documents. Pure Python stdlib, no pip dependencies.",
       "sha256": "fe4d98023bbed91d0f2613ce9a53f9ed672ee0743a2e9f93710496c9f62da7f2",
       "bytes": 8868
     },
     {
       "path": "illustrator-playbooks",
       "skill_md": "illustrator-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "illustrator-playbooks",
+      "description": "Use when the user asks what Manus can do with Adobe Illustrator or needs workflows for vector references, standards SVG files, variable-data artwork, export plans, packaging handoffs, brand or icon systems, or Illustrator guidance. Routes work by retained state among Manus-native visual generation, deterministic file tooling, explicitly available Adobe automation, Illustrator Web in My Browser, and Illustrator Desktop after live capability checks.",
       "sha256": "fe50e85bccd55b20db0700dda26ba068a1821ecc8641f12266f9f8f70227978f",
       "bytes": 6104
     },
     {
       "path": "image-manipulation-image-magick",
       "skill_md": "image-manipulation-image-magick/SKILL.md",
-      "sha256": "fba25bd07b134f456f7f6d217fd4d385f67286957387f59115a8275c391769c4",
-      "bytes": 6963
+      "scope": "portable",
+      "name": "image-manipulation-image-magick",
+      "description": "Process and manipulate images using ImageMagick. Supports resizing, format",
+      "sha256": "21192e744b35e3b15a4a572ab309617b4dee56cfb5910e7b02f0e670d7b5bb65",
+      "bytes": 7009
     },
     {
       "path": "image-processing",
       "skill_md": "image-processing/SKILL.md",
+      "scope": "portable",
+      "name": "image-processing",
+      "description": "Understand, inspect, or programmatically transform existing images. Use when the task requires describing or answering questions about an image, performing deterministic image manipulation such as downscaling, cropping, format conversion, or compression, or running traditional computer vision operations.",
       "sha256": "1ed414ba7bead8a9f29d70e825a3ad1b689f7f429e75c8f3f42aceaf1d572ddb",
       "bytes": 4292
     },
     {
       "path": "imagegen",
       "skill_md": "imagegen/SKILL.md",
+      "scope": "portable",
+      "name": "imagegen",
+      "description": "Use for visual deliverable routing and image generation/editing tasks, including new images, image edits, image upscaling/restoration/enhancement, UI mockups, diagrams, infographics, posters, icons, logos, charts, schedules/itineraries/tables delivered as images, visual assets, and ambiguous visual requests. Helps choose between Mermaid, Python plotting, HTML-rendered static layouts, web/app development, and AI image generation/editing.",
       "sha256": "bdbf86931215b8e4a51ba893edba6468d7327246c10b07e18337a31a58a183c6",
       "bytes": 19920
     },
     {
       "path": "internet-skill-finder",
       "skill_md": "internet-skill-finder/SKILL.md",
+      "scope": "portable",
+      "name": "internet-skill-finder",
+      "description": "Search and recommend Agent Skills from verified GitHub repositories. Use when users ask to find, discover, search for, or recommend skills/plugins for specific tasks, domains, or workflows.",
       "sha256": "aaf9a176a9ff39a191a8a2901497803a563747659083263591edf8854b5db1fe",
       "bytes": 1746
     },
     {
       "path": "journal-adapt",
       "skill_md": "journal-adapt/SKILL.md",
-      "sha256": "97a7ace0299c3e9c713274b5df54f19ecb2a9dcc1df29efa2ce16313832cd457",
-      "bytes": 20961
+      "scope": "portable",
+      "name": "journal-adapt",
+      "description": "Dynamic academic writing skill generator. Combines optional static writing",
+      "sha256": "1b5c0982bf99b2f9ee68043dadd9b98a974e1d3203184d05bba31ba0d4da7401",
+      "bytes": 21011
     },
     {
       "path": "journal-entry-prep",
       "skill_md": "journal-entry-prep/SKILL.md",
-      "sha256": "122715fb18246c2f04d31a5f7c07584ecbfc5c0b46ee09b4c0f4557767d7351e",
-      "bytes": 7841
+      "scope": "portable",
+      "name": "journal-entry-prep",
+      "description": "Prepare journal entries with proper debits, credits, and supporting documentation",
+      "sha256": "8c7d2b24c2f0801e9ac85618409303bc0397255d1fe4eb4fd13a9d508b60aded",
+      "bytes": 7881
     },
     {
       "path": "json-canvas",
       "skill_md": "json-canvas/SKILL.md",
+      "scope": "portable",
+      "name": "json-canvas",
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
       "sha256": "97d1ae0728955c4203922753d5656890e5e4dd371b8306ea11884f9b510f1b85",
       "bytes": 7624
     },
     {
       "path": "keyword-research",
       "skill_md": "keyword-research/SKILL.md",
+      "scope": "portable",
+      "name": "keyword-research",
+      "description": "Conduct keyword research and generate a strictly formatted three-tab Excel workbook containing a Topic Cluster Summary, 300 priority keywords, and a competitor gap analysis. Use when the user asks to \"conduct keyword research for [keyword]\", \"create a keyword research excel\", or provides a keyword and needs a structured priority list and competitor gaps.",
       "sha256": "a90fe02197aaf63be5afe168fca3e18c6065cc425ca00674ce30d29094b9b10a",
       "bytes": 7997
     },
     {
       "path": "kling-prompter",
       "skill_md": "kling-prompter/SKILL.md",
+      "scope": "portable",
+      "name": "kling-prompter",
+      "description": "生成符合 Kling 3.0（可灵 3.0，快手）规则的视频提示词。三种写法自适应：4 部分基础公式（短视频）/ 5 层进阶公式（剧情+音频）/ 图生视频专用（只描述运动）。Kling 是 2026 年中文理解最强、原生音画同步、最长 2 分钟、支持角色定向发声、Motion Brush 的电影级模型。用于\"用 Kling 生成视频\"、\"可灵 AI 提示词\"、\"中文视频生成\"、\"带原生音频的剧情视频\"、\"图生视频\"、\"角色对话视频\"等触发场景。",
       "sha256": "bc295824c51aa3ae9db7715131afec81b2c6ab4dabee2c2fc48c9dd8a3a7a961",
       "bytes": 8557
     },
     {
       "path": "knowledge-synthesis",
       "skill_md": "knowledge-synthesis/SKILL.md",
-      "sha256": "8dc66c66ef0004010bbf2d569251163e90a6675b982e0cb99ef26b4dd1c5a0f6",
-      "bytes": 8526
+      "scope": "portable",
+      "name": "knowledge-synthesis",
+      "description": "Combines search results from multiple sources into coherent, deduplicated",
+      "sha256": "2605ef8f1af36f99375e6f33c760ea5bc619051102896667c72e1bda936b6de5",
+      "bytes": 8566
     },
     {
       "path": "kpi-dashboard-design",
       "skill_md": "kpi-dashboard-design/SKILL.md",
+      "scope": "portable",
+      "name": "kpi-dashboard-design",
+      "description": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service health and request throughput; creating a cohort retention analysis view for a product team; or debugging a dashboard where metrics contradict each other due to inconsistent calculation methodology.",
       "sha256": "cf913b10f55605477461e093daffbb6e6aab41b6d8061cef8baf01086d6d496a",
       "bytes": 5511
     },
     {
       "path": "langchain-architecture",
       "skill_md": "langchain-architecture/SKILL.md",
+      "scope": "portable",
+      "name": "langchain-architecture",
+      "description": "Design LLM applications using LangChain 1.x and LangGraph for agents, memory, and tool integration. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows.",
       "sha256": "0c8dcec1d171a00467eda176a0716866c5bf6c9e86fd0830a74dcabd626bc06a",
       "bytes": 8022
     },
     {
       "path": "legacy-circuit-mockups",
       "skill_md": "legacy-circuit-mockups/SKILL.md",
+      "scope": "portable",
+      "name": "legacy-circuit-mockups",
+      "description": "Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas drawing techniques. Use when asked to create circuit layouts, visualize electronic component placements, draw breadboard diagrams, mockup 6502 builds, generate retro computer schematics, or design vintage electronics projects. Supports 555 timers, W65C02S microprocessors, 28C256 EEPROMs, W65C22 VIA chips, 7400-series logic gates, LEDs, resistors, capacitors, switches, buttons, crystals, and wires.",
       "sha256": "2087521d62e0f99d15db3a73389d0d8bcdf45b4913f3fcfc7ef2657eae6df4de",
       "bytes": 9249
     },
     {
       "path": "legal-risk-assessment",
       "skill_md": "legal-risk-assessment/SKILL.md",
+      "scope": "portable",
+      "name": "legal-risk-assessment",
+      "description": "Assess and classify legal risks using a severity-by-likelihood framework with escalation criteria. Use when evaluating contract risk, assessing deal exposure, classifying issues by severity, or determining whether a matter needs senior counsel or outside legal review.",
       "sha256": "9f7985e3a98ac8419b52067cdaa1b72f754fa38c20489e7f0bf9de36347d4d89",
       "bytes": 12581
     },
     {
       "path": "lesson-learned",
       "skill_md": "lesson-learned/SKILL.md",
+      "scope": "portable",
+      "name": "lesson-learned",
+      "description": "Analyze recent code changes via git history and extract software engineering lessons. Use when the user asks 'what is the lesson here?', 'what can I learn from this?', 'engineering takeaway', 'what did I just learn?', 'reflect on this code', or wants to extract principles from recent work.",
       "sha256": "f2ee51f30ea8c2f15f961eac7d403945c0db5af042c1dc56c0d3b6a6561b9894",
       "bytes": 4749
     },
     {
       "path": "lightroom-playbooks",
       "skill_md": "lightroom-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "lightroom-playbooks",
+      "description": "Use when the user asks what Manus can do with Lightroom or needs to cull, edit, export, organize metadata, repair, migrate, or learn a Lightroom workflow. Routes each request by retained state among native image tools, file processing, Lightroom Web in My Browser, and O1-gated Lightroom desktop workflows.",
       "sha256": "26f1437e8a9f1731c8dd6a06085a7cd2801cd983ccaea2da1345ff75d28bde32",
       "bytes": 5055
     },
     {
       "path": "logic-pro-playbooks",
       "skill_md": "logic-pro-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "logic-pro-playbooks",
+      "description": "Use when the user asks what Manus can do with Logic Pro or needs Logic-related workflows for music and MIDI production, vocal editing, mixing and exports, spoken audio, project handoff, Scripter MIDI effects, or troubleshooting. Routes portable audio, MIDI, source preparation, and diagnostics through available Manus file tools while reserving Logic-native project state for a current-build verified Logic Desktop session.",
       "sha256": "0c1046b2d3df78e9e55d72841322b96083e6818122db79318bc30296c0b12861",
       "bytes": 5836
     },
     {
       "path": "make-repo-contribution",
       "skill_md": "make-repo-contribution/SKILL.md",
+      "scope": "portable",
+      "name": "make-repo-contribution",
+      "description": "All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly.",
       "sha256": "8452ae255064604f38942a920ff92bd05a6a4d5bcd0b94ad58b13b07d1abd1b7",
       "bytes": 6405
     },
     {
       "path": "manim-animator",
       "skill_md": "manim-animator/SKILL.md",
+      "scope": "portable",
+      "name": "manim-animator",
+      "description": "Generate code-driven explanatory animation videos and precise vector graphics using the Manim engine. Use when the user requests mathematical visualizations, algorithm walkthroughs, scientific concept explanations, step-by-step derivations with LaTeX equations, or animations in the style of 3Blue1Brown — or explicitly mentions Manim, ManimCE, or ManimGL. Do not use for photorealistic AI video generation or standard timeline editing.",
       "sha256": "9911c3b280628a01c2c3158254115f0691bff73ad8c8660946d0ad98bd4aafe2",
       "bytes": 12195
     },
     {
       "path": "manus-api",
       "skill_md": "manus-api/SKILL.md",
+      "scope": "portable",
+      "name": "manus-api",
+      "description": "Manage tasks, projects, and other data through the Manus API; build OAuth2 Open Apps and third-party integrations; create Manus tasks programmatically; or install and use the official Manus API skill for services and workflows that need agentic capabilities.",
       "sha256": "4f4f651b3df5c8f3b882212daba54c98d99a61437b98afe32de3a23a7fdd0f74",
       "bytes": 17108
     },
     {
       "path": "manus-config",
       "skill_md": "manus-config/SKILL.md",
+      "scope": "portable",
+      "name": "manus-config",
+      "description": "Manage Agent Profiles, connectors (App, Custom API, Custom MCP), project instructions and shared files, and scheduled task execution with manus-config. Use when the user asks to list, inspect, create, or update an Agent; enable, inspect, or modify integrations; create a new connector from an MCP server URL/command or an API key the user provides; inspect, update, or delete the user's own custom connectors; manage project-level configuration or shared project files; explicitly add, update, or remove shared project web links; or create, update, inspect, pause, expire, or troubleshoot scheduled tasks using cron, intervals, connector UIDs, or run-as-new behavior.",
       "sha256": "fbfa1270cf4b45245d7858b8578fc639fdb39acafd081e550d0708210bcf76e2",
       "bytes": 37793
     },
     {
       "path": "manus-tasks",
       "skill_md": "manus-tasks/SKILL.md",
+      "scope": "portable",
+      "name": "manus-tasks",
+      "description": "Use the Manus Tasks Addon inside Manus to create, update and find tasks, read task history, send task messages, create or update Projects, and obtain a temporary Manus API key for scripts.",
       "sha256": "00410d12511c653eb4661094d8c15e8cdabb1f814276075f022bd30fd7dcf8a8",
       "bytes": 13178
     },
     {
       "path": "markdown-mermaid-writing",
       "skill_md": "markdown-mermaid-writing/SKILL.md",
-      "sha256": "c28a9d602fc5b55e9fa80cff493b045bb70d3cec47e2288e38051744337214c4",
-      "bytes": 16691
+      "scope": "portable",
+      "name": "markdown-mermaid-writing",
+      "description": "Writes scientific Markdown documentation and Mermaid diagrams for workflows,",
+      "sha256": "f021eacbebd6befb6d510f890d7188a138976f110c88a359604f9ca1b4a49431",
+      "bytes": 16741
     },
     {
       "path": "markdown-to-html",
       "skill_md": "markdown-to-html/SKILL.md",
+      "scope": "portable",
+      "name": "markdown-to-html",
+      "description": "Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools; or writing custom script to convert markdown to html and/or working on web template systems like `jekyll/jekyll`, `gohugoio/hugo`, or similar web templating systems that utilize markdown documents, converting them to html. Use when asked to \"convert markdown to html\", \"transform md to html\", \"render markdown\", \"generate html from markdown\", or when working with .md files and/or web a templating system that converts markdown to HTML output. Supports CLI and Node.js workflows with GFM, CommonMark, and standard Markdown flavors.",
       "sha256": "a51376b7c8e88e009c60f20af5b9c1157d4e5c3b40dd62f43abc0e873381e0e4",
       "bytes": 24632
     },
     {
       "path": "market-research-reports",
       "skill_md": "market-research-reports/SKILL.md",
-      "sha256": "8fba27d8509bb95caade7ef856d83ddbd7e51303590f5f2db149b0270cf6fd40",
-      "bytes": 15349
+      "scope": "portable",
+      "name": "market-research-reports",
+      "description": "Builds evidence-traceable market research reports and assumption-driven",
+      "sha256": "25b1396648651053f102d3a0a04c24fce5143402a052d8b7c06a420809a26eb2",
+      "bytes": 15397
     },
     {
       "path": "market-sizing-analysis",
       "skill_md": "market-sizing-analysis/SKILL.md",
-      "sha256": "373c3f2089d5fa5228c3d24bf12ffacc6fefe04208d0df114ad75832c596e943",
-      "bytes": 2477
+      "scope": "portable",
+      "name": "market-sizing-analysis",
+      "description": "Calculate TAM/SAM/SOM for market opportunities using top-down, bottom-up,",
+      "sha256": "2ead9ec82fa8426e188fa5503a98b9b5ce8a6aa0f5818e33b94b90cb71caa4e2",
+      "bytes": 2519
     },
     {
       "path": "marketing-ideas",
       "skill_md": "marketing-ideas/SKILL.md",
+      "scope": "portable",
+      "name": "marketing-ideas",
+      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (ads, social, emails, etc.).",
       "sha256": "945c46ea4e3bf2a237bcae0942ea2db44b981b63ec34db1bc636caf6e665d294",
       "bytes": 5892
     },
     {
       "path": "marp-slide",
       "skill_md": "marp-slide/SKILL.md",
+      "scope": "portable",
+      "name": "marp-slide",
+      "description": "Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech, business). Use when users request slide creation, presentations, or Marp documents. Supports custom themes, image layouts, and \"make it look good\" requests with automatic quality improvements.",
       "sha256": "4244be1fd746625cca59d9d04736357c587b270d8840f750b6ac9894886cf2aa",
       "bytes": 8772
     },
     {
       "path": "matplotlib",
       "skill_md": "matplotlib/SKILL.md",
-      "sha256": "60b80aaa802e1a88db30729611789bf5ee92b3f2a7bb695502bac10dd255ee86",
-      "bytes": 16615
+      "scope": "portable",
+      "name": "matplotlib",
+      "description": "Creates and customizes scientific plots with Matplotlib. Used for fine-grained",
+      "sha256": "816b00e415d28a51a6a3f4650cd21fe9459806f92b1ff797ba4bf18921feb582",
+      "bytes": 16661
     },
     {
       "path": "mcp-cli",
       "skill_md": "mcp-cli/SKILL.md",
+      "scope": "portable",
+      "name": "mcp-cli",
+      "description": "Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to interact with external tools, APIs, or data sources through MCP servers, list available MCP servers/tools, or call MCP tools from command line.",
       "sha256": "54081db970e9333dad51f8458bc623912fab2087ecacccb6298f2c53833d6070",
       "bytes": 2539
     },
     {
       "path": "meeting-briefing",
       "skill_md": "meeting-briefing/SKILL.md",
+      "scope": "portable",
+      "name": "meeting-briefing",
+      "description": "Prepare structured briefings for meetings with legal relevance and track resulting action items. Use when preparing for contract negotiations, board meetings, compliance reviews, or any meeting where legal context, background research, or action tracking is needed.",
       "sha256": "4d19bc2ddb2138d1b306b150c5d0900ce0a398d5ab690b8eba8101ef33d98baa",
       "bytes": 8990
     },
     {
       "path": "meme-generator",
       "skill_md": "meme-generator/SKILL.md",
-      "sha256": "912708f071d5223f163c3fb0fda9f0e94c0844a5aaef6ac6b12bfcc49c291bb0",
-      "bytes": 10370
+      "scope": "portable",
+      "name": "meme-generator",
+      "description": "Generate memes from 170+ classic templates using the free Memegen.link",
+      "sha256": "3a4de8377841d4b0f3b0500bad8f6e7add28eba68ea1fdd8174304cadeeaba5b",
+      "bytes": 10368
     },
     {
       "path": "memory-recall",
       "skill_md": "memory-recall/SKILL.md",
-      "sha256": "b9385e5c3d8c35eae0cce2193dc8d3a7cf010670ced478e51eed2124409ff692",
-      "bytes": 3880
+      "scope": "portable",
+      "name": "memory-recall",
+      "description": "Search and recall relevant memories from past sessions via memsearch.",
+      "sha256": "0dccde1274c53f0689be638671f46637b0bec493ea11dbd1754adff81952adaa",
+      "bytes": 3940
     },
     {
       "path": "mermaid-diagrams",
       "skill_md": "mermaid-diagrams/SKILL.md",
+      "scope": "portable",
+      "name": "mermaid-diagrams",
+      "description": "Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain modeling, object-oriented design), sequence diagrams (application flows, API interactions, code execution), flowcharts (processes, algorithms, user journeys), entity relationship diagrams (database schemas), C4 architecture diagrams (system context, containers, components), state diagrams, git graphs, pie charts, gantt charts, or any other diagram type. Triggers include requests to \"diagram\", \"visualize\", \"model\", \"map out\", \"show the flow\", or when explaining system architecture, database design, code structure, or user/application flows.",
       "sha256": "79bca3c767a821a28aa7d83a9673010b2066afa4889923ea5946153c8967e824",
       "bytes": 7479
     },
     {
       "path": "mermaid-visualizer",
       "skill_md": "mermaid-visualizer/SKILL.md",
+      "scope": "portable",
+      "name": "mermaid-visualizer",
+      "description": "Transform text content into professional Mermaid diagrams for presentations and documentation. Use when users ask to visualize concepts, create flowcharts, or make diagrams from text. Supports process flows, system architectures, comparisons, mindmaps, and more with built-in syntax error prevention.",
       "sha256": "93fff4e93adc82878c60557935dc75052f23331db9d3f5d6d3c137f2743bb72c",
       "bytes": 8957
     },
     {
       "path": "meta-ads-analyzer",
       "skill_md": "meta-ads-analyzer/SKILL.md",
+      "scope": "portable",
+      "name": "meta-ads-analyzer",
+      "description": "Provides expert-level analysis and diagnosis for Meta Ads campaigns. Interpret performance data, identify root causes, ensure correct metric usage and data integrity, and generate actionable recommendations.",
       "sha256": "eb5f34dbede3c240b1815f078ca9a307fe94ecf0a0dad166c0c0fb37b3e49233",
       "bytes": 8890
     },
     {
       "path": "ml-pipeline",
       "skill_md": "ml-pipeline/SKILL.md",
+      "scope": "portable",
+      "name": "ml-pipeline",
+      "description": "Designs and implements production-grade ML pipeline infrastructure: configures experiment tracking with MLflow or Weights & Biases, creates Kubeflow or Airflow DAGs for training orchestration, builds feature store schemas with Feast, deploys model registries, and automates retraining and validation workflows. Use when building ML pipelines, orchestrating training workflows, automating model lifecycle, implementing feature stores, managing experiment tracking systems, setting up DVC for data versioning, tuning hyperparameters, or configuring MLOps tooling like Kubeflow, Airflow, MLflow, or Prefect.",
       "sha256": "f32d20c5fbaade8e7e43fcf756dec9543dd17f38b184f5d100b50bf34dae06a6",
       "bytes": 7423
     },
     {
       "path": "model-selector",
       "skill_md": "model-selector/SKILL.md",
+      "scope": "portable",
+      "name": "model-selector",
+      "description": "根据用户的视频需求(场景、时长、音频、语言、平台限制、预算、是否需要本地部署/角色一致性等),从 16 个主流 AI 视频模型(12 商业 + 4 开源)中推荐最匹配的 1-3 个,并解释为什么。覆盖商业:Seedance 2.0、HappyHorse 1.0、Kling 3.0、Sora 2、Veo 3.1、**Gemini Omni**(2026-05 新)、Runway Gen-4.5/Aleph、Pika 2.5、Hailuo 02、Hunyuan Video 1.5、Wan 2.7、即梦 AI;开源:LTX-Video 0.9.7、Mochi 1、CogVideoX 5B、Higgsfield Soul。用于\"用哪个 AI 视频模型好\"、\"Sora 还是 Kling\"、\"国内有什么模型\"、\"哪个免费\"、\"哪个支持中文\"、\"哪个能编辑已有视频\"、\"哪个能本地部署\"、\"哪个角色一致性最强\"等触发场景。",
       "sha256": "fc6cbc5fd0337ade6bfc37157684912eb5ab206b7ff11b6889efa1040c30a18b",
       "bytes": 7815
     },
     {
       "path": "mongodb-schema-design",
       "skill_md": "mongodb-schema-design/SKILL.md",
+      "scope": "portable",
+      "name": "mongodb-schema-design",
+      "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL, or troubleshooting performance issues caused by schema problems. Triggers on \"design schema\", \"embed vs reference\", \"MongoDB data model\", \"schema review\", \"unbounded arrays\", \"one-to-many\", \"tree structure\", \"16MB limit\", \"schema validation\", \"JSON Schema\", \"time series\", \"schema migration\", \"polymorphic\", \"TTL\", \"data lifecycle\", \"archive\", \"index explosion\", \"unnecessary indexes\", \"approximation pattern\", \"document versioning\".",
       "sha256": "2a19fcd1a85b957301898c7c26f691bdf5da65d94c6ab0c6fc3609dc8205eb08",
       "bytes": 13647
     },
     {
       "path": "mongodb-search-and-ai",
       "skill_md": "mongodb-search-and-ai/SKILL.md",
+      "scope": "portable",
+      "name": "mongodb-search-and-ai",
+      "description": "|",
       "sha256": "a6e200edbe5e02ecec6b03dc74093260214a433e6c633438f27c4e2abdc4a2f6",
       "bytes": 8900
     },
     {
       "path": "motion-graphics",
       "skill_md": "motion-graphics/SKILL.md",
-      "sha256": "abf4691e083ef0d0c17273d8ffdc419769dc5fb6dd42cc8b071cb63f8d4bda48",
-      "bytes": 8579
+      "scope": "portable",
+      "name": "motion-graphics",
+      "description": "Kinetic typography, logo animations, and stylized motion design skill.",
+      "sha256": "4e56e3068aff107cfae449b81559218de9005ad6f884672ed3b9b946c5ab7cdd",
+      "bytes": 8630
     },
     {
       "path": "muapi-3d-logo-animation",
       "skill_md": "muapi-3d-logo-animation/SKILL.md",
-      "sha256": "82c7adf55f4e9e767a274530ef3270141747cca0610fefeae64e639be74697f3",
-      "bytes": 2680
+      "scope": "portable",
+      "name": "muapi-3d-logo-animation",
+      "description": "Transform a 2D logo into a premium 3D version and animate it with professional",
+      "sha256": "063aa0c7f5f670e3e491ac72435ca52a7fcb9a341482cefc2a2a521c8464fcb7",
+      "bytes": 2724
     },
     {
       "path": "muapi-ai-fight-scene",
       "skill_md": "muapi-ai-fight-scene/SKILL.md",
-      "sha256": "470758b2922dde31ab21138d1bf3c69dac6ecd483e949e660663dad6c94315be",
-      "bytes": 8277
+      "scope": "portable",
+      "name": "muapi-ai-fight-scene",
+      "description": "Generate a high-cut-density action / fight scene by first composing a",
+      "sha256": "36ed6097232c723c9111a912716c343ae1973958230ccd21e23f099a02e1083d",
+      "bytes": 8325
     },
     {
       "path": "muapi-animal-video-generator",
       "skill_md": "muapi-animal-video-generator/SKILL.md",
-      "sha256": "b9a16065c6f2f5dfa347426c89397212fed1a5d2c13efac91902843c560d4a6c",
-      "bytes": 3418
+      "scope": "portable",
+      "name": "muapi-animal-video-generator",
+      "description": "Create a hilarious and ultra-realistic video of an anthropomorphic animal",
+      "sha256": "c0bef5ab55234e2c79970ae1ab85cd66668d62d5632af51001d06c0a2fd8f391",
+      "bytes": 3462
     },
     {
       "path": "muapi-award-ceremony-video",
       "skill_md": "muapi-award-ceremony-video/SKILL.md",
-      "sha256": "b676fbc9cdc4e4f857a4597806e2f36180c17d49a81a1af064254b038999d054",
-      "bytes": 8221
+      "scope": "portable",
+      "name": "muapi-award-ceremony-video",
+      "description": "Generate a 15-second cinematic awards-ceremony video — a host announces",
+      "sha256": "97a660b8e61829e505b9ca5f121d703fb1c1e9079cd38acff570f3866f5f0569",
+      "bytes": 8269
     },
     {
       "path": "muapi-cartoon-dance-animation",
       "skill_md": "muapi-cartoon-dance-animation/SKILL.md",
-      "sha256": "961580bddcb9eff70f81ce5bf05d6bd703d79f72c2d17dae5db29e3971031797",
-      "bytes": 4666
+      "scope": "portable",
+      "name": "muapi-cartoon-dance-animation",
+      "description": "Convert a photo of a person into a Pixar-style 3D cartoon character,",
+      "sha256": "e139012063e2435ee3350fb298a8e0852fb38bc733bb13b62c829acb1dec7099",
+      "bytes": 4710
     },
     {
       "path": "muapi-character-story-video",
       "skill_md": "muapi-character-story-video/SKILL.md",
-      "sha256": "9e24b4e2dac24c38dff77870b13772b99ac605f6762da96309d3e9111b1075f4",
-      "bytes": 4523
+      "scope": "portable",
+      "name": "muapi-character-story-video",
+      "description": "Create a multi-part animated story video by first establishing a consistent",
+      "sha256": "5b671fc9b1d6de32b34a6aadd5465c8b631018e0f2272bfe9819031dfe250305",
+      "bytes": 4567
     },
     {
       "path": "muapi-cinema-director",
       "skill_md": "muapi-cinema-director/SKILL.md",
-      "sha256": "24a884942a0b8b02f835071f5e25b431030ad9135e6578ce21b062a7d3491042",
-      "bytes": 4426
+      "scope": "portable",
+      "name": "muapi-cinema-director",
+      "description": "Direct high-fidelity cinematic video with AI — translates creative intent",
+      "sha256": "201d5ec612061c8f315bc492759103ce39db2960ac6b174219c51f2a268f92fa",
+      "bytes": 4466
     },
     {
       "path": "muapi-drone-style-video",
       "skill_md": "muapi-drone-style-video/SKILL.md",
-      "sha256": "25d2bc9996337d71d1e06f2655a239ac06cf31deaafe31e554d256e9bbed1e70",
-      "bytes": 3334
+      "scope": "portable",
+      "name": "muapi-drone-style-video",
+      "description": "Generate aerial drone-perspective footage — sweeping bird's-eye views,",
+      "sha256": "a49c449bd6a9d2e58c4d6f9cfb3b0ad20226a3efd8665524c1451c990c6e04a7",
+      "bytes": 3378
     },
     {
       "path": "muapi-freeze-effect-video",
       "skill_md": "muapi-freeze-effect-video/SKILL.md",
-      "sha256": "0097541b435be5d6c827779365c9b66b9af7da2c187a30d1d8546c1b3f082848",
-      "bytes": 5007
+      "scope": "portable",
+      "name": "muapi-freeze-effect-video",
+      "description": "Generate a cinematic \"freeze effect\" video where time stops mid-scene,",
+      "sha256": "af45a9603a1fe68f9794126ab876ba03c80562c9e49d70d65eb7650e973e824c",
+      "bytes": 5051
     },
     {
       "path": "muapi-giant-product-showcase",
       "skill_md": "muapi-giant-product-showcase/SKILL.md",
-      "sha256": "482a1c9df1933bf19377ddad4c92cffe2b61b00844113f486ddac5370f1b8e58",
-      "bytes": 3069
+      "scope": "portable",
+      "name": "muapi-giant-product-showcase",
+      "description": "Create a dramatic \"Giant Product\" visual where a regular item is showcased",
+      "sha256": "4c653eadce96ef40422f99cc401ffd616b3f46dc24c062075e4d7c1874f050cd",
+      "bytes": 3115
     },
     {
       "path": "muapi-jewelry-product-video",
       "skill_md": "muapi-jewelry-product-video/SKILL.md",
-      "sha256": "4d7ebd6ab3860949a2f7d54bac06acd27b751975f03103b37710537986042ebc",
-      "bytes": 3188
+      "scope": "portable",
+      "name": "muapi-jewelry-product-video",
+      "description": "Create a luxury jewelry advertisement with high-end commercial cinematography",
+      "sha256": "0b0adb861d19cb127f1f74db392a44ad5f4f3e3077839fb410f74451bc3945e4",
+      "bytes": 3232
     },
     {
       "path": "muapi-music-video",
       "skill_md": "muapi-music-video/SKILL.md",
-      "sha256": "95aa5c9a734b99031dbd42fb2999ebc554dcac6af5524c6715dd027ca7fa8e16",
-      "bytes": 2608
+      "scope": "portable",
+      "name": "muapi-music-video",
+      "description": "Build a short music video from a song theme — N keyframes, animate each,",
+      "sha256": "9e40c894ce950952a28a7e80e29179570bf83a440002fb270b395c6a219ff93c",
+      "bytes": 2652
     },
     {
       "path": "muapi-one-shot-video",
       "skill_md": "muapi-one-shot-video/SKILL.md",
-      "sha256": "63c2af5d2bd180160fef8d2ec584c36fe2bd028be6464c307dcbc124f8cedeae",
-      "bytes": 2658
+      "scope": "portable",
+      "name": "muapi-one-shot-video",
+      "description": "Generate a single continuous cinematic shot video — no cuts, one seamless",
+      "sha256": "5d523c527a9629fd55ee34a83e305dada38cea9f6cd8e42408062297b8c34387",
+      "bytes": 2702
     },
     {
       "path": "muapi-product-ad-cinematic",
       "skill_md": "muapi-product-ad-cinematic/SKILL.md",
-      "sha256": "9cb3fa55fa85455a5cf9fbd69aec964bc8cbcadc20c7118959a0cd93c42f8ef0",
-      "bytes": 3272
+      "scope": "portable",
+      "name": "muapi-product-ad-cinematic",
+      "description": "Cinematic 5–10s product ad from a product photo + brand brief.",
+      "sha256": "3d4fda462a3f5dffe2e98ba8b567977ca0ee8fd5a15a7432e1420642fbac5c28",
+      "bytes": 3314
     },
     {
       "path": "muapi-product-campaign",
       "skill_md": "muapi-product-campaign/SKILL.md",
-      "sha256": "d1836e8f96875a9c521c4cd468609f52c362fc602190b75ada8ec3cc5780d0b9",
-      "bytes": 4557
+      "scope": "portable",
+      "name": "muapi-product-campaign",
+      "description": "Generate a full multi-channel product campaign — hero visuals, social",
+      "sha256": "5269ed29a3051fed3fe204d2eaa543dedae69170bee51a416d74a54ec41ae518",
+      "bytes": 4603
     },
     {
       "path": "muapi-product-showcase-video",
       "skill_md": "muapi-product-showcase-video/SKILL.md",
-      "sha256": "5d92a8782c93251c5df882b703c305e4658397d87b839fd967a5bf7d1329fa4a",
-      "bytes": 3004
+      "scope": "portable",
+      "name": "muapi-product-showcase-video",
+      "description": "Create a dynamic product showcase with explosive ingredient arrangements,",
+      "sha256": "5152b2b5b392e26aae299e0cc95a18eb106dbf9b68149e6f97e097cb31c40435",
+      "bytes": 3048
     },
     {
       "path": "muapi-product-video-ad-maker",
       "skill_md": "muapi-product-video-ad-maker/SKILL.md",
-      "sha256": "95ce74424f4201310b1e0dafe072f8e0753ef7e1c414a92a794da6e5251aa7cb",
-      "bytes": 2798
+      "scope": "portable",
+      "name": "muapi-product-video-ad-maker",
+      "description": "Create a high-end cinematic product video advertisement starting from",
+      "sha256": "80224302b549411a0f1231c81858e6e515c38fbdb1ed6daa9350a4c2c8e1302a",
+      "bytes": 2842
     },
     {
       "path": "muapi-social-media-video",
       "skill_md": "muapi-social-media-video/SKILL.md",
-      "sha256": "8990bd91d06efaa664fd0f8812cfc6b8764475d8fc61da5f818669dd1980d6a4",
-      "bytes": 11501
+      "scope": "portable",
+      "name": "muapi-social-media-video",
+      "description": "Brand-aware social media video creator. Reads brand-identity.md, ICP.md,",
+      "sha256": "5479f5580617c9f3d525c3d13b1f2f6ed9e978d91abb861fe5e51fca26e885cd",
+      "bytes": 11549
     },
     {
       "path": "muapi-storyboard-to-cooking-video",
       "skill_md": "muapi-storyboard-to-cooking-video/SKILL.md",
-      "sha256": "03f31cbdb1d74c32dc03c83b10cc9a2bb83084c908320324667890407409d2fc",
-      "bytes": 8794
+      "scope": "portable",
+      "name": "muapi-storyboard-to-cooking-video",
+      "description": "Turn a single photo of a person into a 15-second cinematic pasta-making",
+      "sha256": "bb0240017773583151accbbc73ba13e773d67e84a6dd05b48f551277112c02c0",
+      "bytes": 8842
     },
     {
       "path": "muapi-talking-baby-video",
       "skill_md": "muapi-talking-baby-video/SKILL.md",
-      "sha256": "219153b88e4903b24934f108fc2276f88e30e354caa982e1f04305029dad528b",
-      "bytes": 2580
+      "scope": "portable",
+      "name": "muapi-talking-baby-video",
+      "description": "Create a viral-style video of a talking baby with custom costumes and",
+      "sha256": "8c393f11f183f7c03af7af35f621b13db48b6e0b37a87ea3a69bb3baf7929051",
+      "bytes": 2624
     },
     {
       "path": "muapi-ugc-ads-workflow",
       "skill_md": "muapi-ugc-ads-workflow/SKILL.md",
-      "sha256": "ddabec2fcfda3eae8858fb44f1eb1cf6f2214446824a05270e8204a4ed16f133",
-      "bytes": 3820
+      "scope": "portable",
+      "name": "muapi-ugc-ads-workflow",
+      "description": "Create a User-Generated Content (UGC) video ad by combining a human selfie",
+      "sha256": "272ddf14ceb3ff7b9a42f1bf0e67fabb575b826bd7774b8a3f368f9514fc3584",
+      "bytes": 3864
     },
     {
       "path": "muapi-ugc-video-factory",
       "skill_md": "muapi-ugc-video-factory/SKILL.md",
-      "sha256": "4bc74d1e43371befc213297054854f714e5c55bc539256224ac0c7dee5696919",
-      "bytes": 6675
+      "scope": "portable",
+      "name": "muapi-ugc-video-factory",
+      "description": "Turn a person photo + a product photo + an optional script into a vertical",
+      "sha256": "97221c2b6f4cf437ff0c6ae14045edefadcf2e1f6e5fa28569e2079d109170df",
+      "bytes": 6721
     },
     {
       "path": "muapi-ui-design",
       "skill_md": "muapi-ui-design/SKILL.md",
-      "sha256": "a20a92821587cd5ac3a133c9aea38b93747e48fb45f29e697256766c9199e4a3",
-      "bytes": 3555
+      "scope": "portable",
+      "name": "muapi-ui-design",
+      "description": "Generate high-fidelity UI/UX mockups for mobile and web apps using Atomic",
+      "sha256": "af6b888fcd2f4c594ba29027a238eb974232c8352ed61f39097cda2c15ef99ac",
+      "bytes": 3593
     },
     {
       "path": "muapi-youtube-shorts",
       "skill_md": "muapi-youtube-shorts/SKILL.md",
-      "sha256": "4d8c374199c9cfa5a14bd8e23bcaf2dd1e83d91ce2189508db74698dc3903df3",
-      "bytes": 6024
+      "scope": "portable",
+      "name": "muapi-youtube-shorts",
+      "description": "Auto-generate viral 9:16 YouTube Shorts (or TikTok / Reels clips) from",
+      "sha256": "dfc5a83c5384872fa537b9d7a5bdf643628c39b57414b870db1158ed5fab8a4a",
+      "bytes": 6072
     },
     {
       "path": "music-prompter",
       "skill_md": "music-prompter/SKILL.md",
+      "scope": "portable",
+      "name": "music-prompter",
+      "description": "MUST read this skill BEFORE calling `generate_music` or entering generate mode for any music task, including songs, instrumentals, background music, jingles and soundtracks requested as part of other work such as video production. Covers prompt crafting framework, structure syntax, and multi-clip strategy.",
       "sha256": "247d7d71caa168ff76c9c03faeca0d20520004a68c41ef1add8dd700158b3567",
       "bytes": 11894
     },
     {
       "path": "n8n-mcp-tools-expert",
       "skill_md": "n8n-mcp-tools-expert/SKILL.md",
+      "scope": "portable",
+      "name": "n8n-mcp-tools-expert",
+      "description": "Expert guide for using n8n-mcp MCP tools effectively. Use when searching for nodes, validating configurations, accessing templates, managing workflows, organizing workflows into folders, managing credentials, auditing instance security, or using any n8n-mcp tool. Provides tool selection guidance, parameter formats, and common patterns. IMPORTANT — Always consult this skill before calling any n8n-mcp tool — it prevents common mistakes like wrong nodeType formats, incorrect parameter structures, and inefficient tool usage. If the user mentions n8n, workflows, nodes, or automation and you have n8n MCP tools available, use this skill first.",
       "sha256": "4dded521ae083f03678c45d9ab479c64c959efdcb4b69b85ba7da43f973db0e1",
       "bytes": 30758
     },
     {
       "path": "n8n-node-configuration",
       "skill_md": "n8n-node-configuration/SKILL.md",
+      "scope": "portable",
+      "name": "n8n-node-configuration",
+      "description": "Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type — including the native nodes that replace Code (Summarize, Aggregate, Split Out, Merge, Compare Datasets, Remove Duplicates, Sort, Limit, Date & Time, HTTP Request pagination, Crypto). Always use this skill when setting up node parameters — it explains which fields are required for each operation, how displayOptions control field visibility, and when to use patchNodeField for surgical edits vs full node updates.",
       "sha256": "cc1576fd0b1af0ff31539a10afff6b42a05e4b12d8f9e3382c11bf948b8c099b",
       "bytes": 20196
     },
     {
       "path": "n8n-validation-expert",
       "skill_md": "n8n-validation-expert/SKILL.md",
+      "scope": "portable",
+      "name": "n8n-validation-expert",
+      "description": "Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation profiles, error types, the validation loop process, or auto-fix capabilities. Consult this skill whenever a validate_node or validate_workflow call returns errors or warnings — it knows which warnings are false positives and which errors need real fixes.",
       "sha256": "cc0c674063878889004a849075553938052cd49d902e56ddb36b8036cd3adc72",
       "bytes": 22980
     },
     {
       "path": "n8n-workflow-patterns",
       "skill_md": "n8n-workflow-patterns/SKILL.md",
+      "scope": "portable",
+      "name": "n8n-workflow-patterns",
+      "description": "Proven workflow architectural patterns from real n8n workflows. Use when building new workflows, designing workflow structure, choosing workflow patterns, planning workflow architecture, or asking about webhook processing, HTTP API integration, database operations, AI agent workflows, batch processing, or scheduled tasks. Always consult this skill when the user asks to create, build, or design an n8n workflow, automate a process, or connect services — even if they don't explicitly mention 'patterns'. Covers webhook, API, database, AI, batch processing, and scheduled automation architectures. Also use when optimizing a slow workflow or speeding up large-item-count processing (node count, batchSize, all-items vs per-item).",
       "sha256": "0bf1f5992ef91c0cdfb92c912d4a5460affc259d572fac329929842f6be8161e",
       "bytes": 22055
     },
     {
       "path": "networkx",
       "skill_md": "networkx/SKILL.md",
-      "sha256": "981a213f33ddca21ec327ecee13e8ef8b85b7986274b84a10268ee73310df5be",
-      "bytes": 16991
+      "scope": "portable",
+      "name": "networkx",
+      "description": "Creates, analyzes, and visualizes complex networks and graphs in Python",
+      "sha256": "24f807e1aefc5882ad0c2ed7391754dfd8f600bac2e8d9cea729a72a057f581b",
+      "bytes": 17045
     },
     {
       "path": "no-ai-slop",
       "skill_md": "no-ai-slop/SKILL.md",
+      "scope": "portable",
+      "name": "no-ai-slop",
+      "description": "Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop patterns without rewriting. Use when the user wants a draft clearer, more direct, more opinionated, or less AI-sounding, or asks whether writing reads as AI.",
       "sha256": "992b365f51a2f62cf4c1c5ed22049a9ee551dfea677550c1a72b371c0ceadd62",
       "bytes": 10853
     },
     {
       "path": "nothing-design",
       "skill_md": "nothing-design/SKILL.md",
-      "sha256": "64275c2031790e64bdc95e77fd87f75afc6f5d73989a5d1b2a766ee161059ad1",
-      "bytes": 9257
+      "scope": "portable",
+      "name": "nothing-design",
+      "description": "This skill should be used when the user explicitly says \"Nothing style\",",
+      "sha256": "e9f2c010f818ea10bbd173de8db03adc5073f97e1fe7cf387a32e4cdc4e6cb01",
+      "bytes": 9301
     },
     {
       "path": "obs-playbooks",
       "skill_md": "obs-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "obs-playbooks",
+      "description": "Use when the user asks what Manus can do with OBS Studio or needs workflows for stream assets and overlays, scenes and sources, audio, capture and performance, output settings, plugins, runtime control, or OBS guidance. Routes each workflow by required durable state among Manus asset and site creation, deterministic file and log analysis, a separately proven authenticated OBS protocol client, and OBS Desktop through Computer Use.",
       "sha256": "c3bbfdd5f5747375a811ad8dff9f4359241968909f1107f93af9491962a82b4e",
       "bytes": 6564
     },
     {
       "path": "observability-and-instrumentation",
       "skill_md": "observability-and-instrumentation/SKILL.md",
+      "scope": "portable",
+      "name": "observability-and-instrumentation",
+      "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
       "sha256": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87",
       "bytes": 13948
     },
     {
       "path": "obsidian-canvas-creator",
       "skill_md": "obsidian-canvas-creator/SKILL.md",
+      "scope": "portable",
+      "name": "obsidian-canvas-creator",
+      "description": "Create Obsidian Canvas files from text content, supporting both MindMap and freeform layouts. Use this skill when users want to visualize content as an interactive canvas, create mind maps, or organize information spatially in Obsidian format.",
       "sha256": "77bdb4ad4bf7d0ba6bd6f4c51f332216ea90a971837951605cf1008aa9b54ef3",
       "bytes": 6518
     },
     {
       "path": "obsidian-markdown",
       "skill_md": "obsidian-markdown/SKILL.md",
+      "scope": "portable",
+      "name": "obsidian-markdown",
+      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
       "sha256": "7ad72e1f0a9081ed325e76b6402ad5de50a00e63e2341fd403a92f147234a007",
       "bytes": 5367
     },
     {
       "path": "office",
       "skill_md": "office/SKILL.md",
+      "scope": "portable",
+      "name": "office",
+      "description": "Work with DOCX, XLSX, CSV, TSV and PDF files in Manus Office, including selection quotes, annotations and edit instructions. For PPTX, use only to modify an existing actual .pptx file. Presentation creation and Slides artifacts, including PPTX exports, use the Slides skill.",
       "sha256": "9d4562ad94b6f4f63e979bded7605ca6ae6d1b9d8856c077e5b332b5bb0677c2",
       "bytes": 1772
     },
     {
       "path": "office-documents",
       "skill_md": "office-documents/SKILL.md",
+      "scope": "portable",
+      "name": "office-documents",
+      "description": "Create, inspect, edit, and convert Word (.docx) and Excel (.xlsx/.csv) documents, including HTML or PDF output. For PowerPoint, use only to modify an existing actual .pptx file. Use the Slides skill for presentation creation and Slides artifacts, including PPTX exports.",
       "sha256": "7e17a2b692a21d7cab58cbcb9822a59e0883ba84686638bbfa5e4289eff19c31",
       "bytes": 3751
     },
     {
       "path": "oversized-cursor",
       "skill_md": "oversized-cursor/SKILL.md",
+      "scope": "portable",
+      "name": "oversized-cursor",
+      "description": "House-style oversized macOS cursor technique for HyperFrames launch videos. Load whenever a scene involves cursors or a pointer-led action, when kicking off a UI scene, when igniting a morph/transition/typing run with a click, or when a scene reads as static, dead, or stale and needs a cheap high-yield source of motion to carry the viewer's eye and segment them out of the stale state. Covers cursor size/look (incl. brand-motif cursors), the off-screen entry law, tip-targeting and the click tap, click-ignites-the-next-beat, and exit / cross-scene handoff.",
       "sha256": "a176b1f251c37908a3a4dc88c76fb389b100a33447b7d2743e4c9acc08a252fe",
       "bytes": 6625
     },
     {
       "path": "payment",
       "skill_md": "payment/SKILL.md",
+      "scope": "portable",
+      "name": "payment",
+      "description": "Handle checkout payments, Stripe Link wallet availability, user payment takeover, and coordinator-assisted addition or updating of payment methods while preserving explicit payment approval.",
       "sha256": "f7bad2306f20ea4a7664a6490ca49024a7ae89dd3a8058e616d78ccad67e9ed4",
       "bytes": 2421
     },
     {
       "path": "penpot-uiux-design",
       "skill_md": "penpot-uiux-design/SKILL.md",
+      "scope": "portable",
+      "name": "penpot-uiux-design",
+      "description": "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design systems with components and tokens, (3) Designing dashboards, forms, navigation, or landing pages, (4) Applying accessibility standards and best practices, (5) Following platform guidelines (iOS, Android, Material Design), (6) Reviewing or improving existing Penpot designs for usability. Triggers: \"design a UI\", \"create interface\", \"build layout\", \"design dashboard\", \"create form\", \"design landing page\", \"make it accessible\", \"design system\", \"component library\".",
       "sha256": "d15c5f2607fc96c272738343f58d054357bf54042be36f7d68a1f473fc78bdfe",
       "bytes": 12950
     },
     {
       "path": "performance",
       "skill_md": "performance/SKILL.md",
+      "scope": "portable",
+      "name": "performance",
+      "description": "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix slow loading\", \"improve page speed\", or \"performance audit\".",
       "sha256": "b0c220185d88c61f7770eb127d8facf86c86d2dd1fd82b86e15a4965a0137265",
       "bytes": 13811
     },
     {
       "path": "persistent-computing",
       "skill_md": "persistent-computing/SKILL.md",
+      "scope": "portable",
+      "name": "persistent-computing",
+      "description": "MUST read when user needs to run persistent services that WebDev or the default sandbox may not support (automation scripts, game servers, self-hosted open-source apps), or requires Docker, fixed IP, background jobs, heavy compute, or a reusable environment across sessions. MUST also read before develop/deploy any service on an attached persistent VM (Cloud Computer). Guides persistent computing solutions vs sandbox vs WebDev.",
       "sha256": "32a9d7878a7d1fe18e823bbf144249af474e5fe1d66ce6985b507e73d7c1bdd0",
       "bytes": 8868
     },
     {
       "path": "photo-restoration",
       "skill_md": "photo-restoration/SKILL.md",
+      "scope": "portable",
+      "name": "photo-restoration",
+      "description": "Restores vintage and blurry photos to high-definition 8k images while preserving identity.",
       "sha256": "5f305f1c38778eeabdf99eb48971044b12124bd3dd43fbeffdc0b1226ece87cf",
       "bytes": 1998
     },
     {
       "path": "photoshop-playbooks",
       "skill_md": "photoshop-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "photoshop-playbooks",
+      "description": "Use when the user asks what Manus can do with Photoshop or needs workflows for image batches, cutouts, retouching, composites, data-driven variants, reusable Actions, delivery exports, or Photoshop guidance. Routes each workflow by requested client and retained output state among Manus image tools, deterministic file processing, Photoshop Web in My Browser, and Photoshop Desktop through Computer Use.",
       "sha256": "e40559a3b8416cd6185484e7fea0ba15126a85e5d6b6365ae735ab1e63a74029",
       "bytes": 5747
     },
     {
       "path": "plantuml-ascii",
       "skill_md": "plantuml-ascii/SKILL.md",
+      "scope": "portable",
+      "name": "plantuml-ascii",
+      "description": "Generate ASCII art diagrams using PlantUML text mode. Use when user asks to create ASCII diagrams, text-based diagrams, terminal-friendly diagrams, or mentions plantuml ascii, text diagram, ascii art diagram. Supports: Converting PlantUML diagrams to ASCII art, Creating sequence diagrams, class diagrams, flowcharts in ASCII format, Generating Unicode-enhanced ASCII art with -utxt flag",
       "sha256": "8bfd83efc42a70cdb9d1e3d64ec305bd4d6f09e1753a03bbb7d3805d9bd13e53",
       "bytes": 6096
     },
     {
       "path": "playground",
       "skill_md": "playground/SKILL.md",
+      "scope": "portable",
+      "name": "playground",
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when the user asks to make a playground, explorer, or interactive tool for a topic.",
       "sha256": "521a3d62211e5f47b65ed17b660e001b15cf8d88d058cbf31bc00e889bcb63cc",
       "bytes": 3824
     },
     {
       "path": "power-bi-playbooks",
       "skill_md": "power-bi-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "power-bi-playbooks",
+      "description": "Use when the user asks what Manus can do with Power BI Desktop or needs to prepare data, inspect an exported Performance Analyzer file, plan or validate report/model/project changes, diagnose refresh, or work with published Power BI state. Routes each workflow by retained state among sandbox files, capabilities exposed in the current Manus session, My Browser, and conditional Windows Desktop guidance.",
       "sha256": "98c9422e1e33f445c277eb861855272da366baa16d6321f5d5ef0d75a0797ba1",
       "bytes": 6767
     },
     {
       "path": "powerpoint-playbooks",
       "skill_md": "powerpoint-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "powerpoint-playbooks",
+      "description": "Use when the user asks what Manus can do with PowerPoint, WPS Presentation, or LibreOffice Impress, or needs a presentation workflow routed by the presentation state that must survive. Covers creation and editing, templates, masters, motion and media, slide organization, conversion, repair, and instruction; routes generic deck work to the presentation runtime or Slides and app-specific state to the exact installed or web presentation app only after capability and runtime checks.",
       "sha256": "663388bec1b396a16aef752fdd80199af5e52b937f9802cb6b01b8e13b3efc49",
       "bytes": 12253
     },
     {
       "path": "prd",
       "skill_md": "prd/SKILL.md",
+      "scope": "portable",
+      "name": "prd",
+      "description": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.",
       "sha256": "6772e6f0fcc7110d625c7f4595e4990e1910007676c36d217eda4e779041d5e5",
       "bytes": 4307
     },
     {
       "path": "premiere-playbooks",
       "skill_md": "premiere-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "premiere-playbooks",
+      "description": "Use when the user asks what Manus can do with Premiere Pro or needs workflows for transcripts and captions, sequence editing, project recovery, proxies, color, delivery, project hygiene, or Premiere guidance. Routes each workflow by required durable state among speech-to-text and deterministic media processing, Manus video surfaces, and Premiere Pro through Computer Use.",
       "sha256": "dab0d3f2ce6de221e5732305b364d29258f6dd1672562ef28585d58193eda530",
       "bytes": 4990
     },
     {
       "path": "pricing-strategy",
       "skill_md": "pricing-strategy/SKILL.md",
+      "scope": "portable",
+      "name": "pricing-strategy",
+      "description": "Help users validate willingness-to-pay, select the right value metrics, and continuously optimize pricing and packaging to drive growth.",
       "sha256": "c3a9d3677046977c4b3999104154b030902089f55d35800d0ddc84da3e29ac0e",
       "bytes": 8052
     },
     {
       "path": "professional-communication",
       "skill_md": "professional-communication/SKILL.md",
+      "scope": "portable",
+      "name": "professional-communication",
+      "description": "Guide technical communication for software developers. Covers email structure, team messaging etiquette, meeting agendas, and adapting messages for technical vs non-technical audiences. Use when drafting professional messages, preparing meeting communications, or improving written communication.",
       "sha256": "05ad4e12e2314cbc80b019eb21e0a8cf9250298839010c916827eae74af0d515",
       "bytes": 9008
     },
     {
       "path": "programmatic-seo",
       "skill_md": "programmatic-seo/SKILL.md",
+      "scope": "portable",
+      "name": "programmatic-seo",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" \"templated landing pages,\" or \"which CMS for pSEO.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
       "sha256": "5fbbf874bcc65cbc8b527bd6074a21168c73e191e1bc2c124438dfae710ccf04",
       "bytes": 7677
     },
     {
       "path": "prompt-engineer",
       "skill_md": "prompt-engineer/SKILL.md",
+      "scope": "portable",
+      "name": "prompt-engineer",
+      "description": "Writes, refactors, and evaluates prompts for LLMs — generating optimized prompt templates, structured output schemas, evaluation rubrics, and test suites. Use when designing prompts for new LLM applications, refactoring existing prompts for better accuracy or token efficiency, implementing chain-of-thought or few-shot learning, creating system prompts with personas and guardrails, building JSON/function-calling schemas, or developing prompt evaluation frameworks to measure and improve model performance.",
       "sha256": "3b3f4fd1cc1498584194adb584920b3ec7637dd90285939e13695f3f84c6e785",
       "bytes": 6046
     },
     {
       "path": "prompt-translator",
       "skill_md": "prompt-translator/SKILL.md",
+      "scope": "portable",
+      "name": "prompt-translator",
+      "description": "把一条 AI 视频提示词从源模型(如 Sora 2)的写法风格转换为目标模型(如 Kling 3.0 / Wan 2.7 / Veo 3.1 等)的最佳实践写法。基于 110 条 10 场景 × 11 模型对照基准数据(prompts/data/cross-model-matrix.json),不是凭直觉重写,而是查表式 in-context learning。10 场景:产品 / 双人对话 / 物理动作 / 图生视频 / 多人会议 / 恐怖 / 自然延时 / 抽象 / 武侠 / 萌宠。用于\"Sora 已 EOL 帮我把这条提示词改成 Veo\"、\"我有 Kling 提示词想跑 Wan\"、\"跨模型 A/B 测试\"、\"把英文 prompt 优化成 Kling 中文版\"等触发场景。",
       "sha256": "93f461a728233c43ca0c54c56f7f904edaa1dee579ff5eaa3789c047eeab6633",
       "bytes": 11786
     },
     {
       "path": "public-speaking",
       "skill_md": "public-speaking/SKILL.md",
+      "scope": "portable",
+      "name": "public-speaking",
+      "description": "Help users master the art of public speaking by decomposing the skill into manageable components, leveraging storytelling frameworks, and utilizing professional acting techniques for executive presence.",
       "sha256": "ae8ba2dfd3246a650bde86b279da014eab94fdf53e9edb1b6b7751ef69601e26",
       "bytes": 8383
     },
     {
       "path": "puppeteer-skill",
       "skill_md": "puppeteer-skill/SKILL.md",
-      "sha256": "a0d642f6384ff3bea4cc4026582ccf2b59e10b1f1d4ece4a1ca261c184fd0e80",
-      "bytes": 4140
+      "scope": "portable",
+      "name": "puppeteer-skill",
+      "description": "Generates Puppeteer scripts for browser automation, scraping, and PDF",
+      "sha256": "f2bf755d424d97408f2d883ba4a9a6208e16f74315bedb5acf7d3c1319658dd9",
+      "bytes": 4178
     },
     {
       "path": "push-to-github",
       "skill_md": "push-to-github/SKILL.md",
-      "sha256": "abf5dc0e8b372acfe701fe046a7412f987616150b630d7a2d87f5f0d290f11bb",
-      "bytes": 490
+      "scope": "portable",
+      "name": "push-to-github",
+      "description": "Runs all necessary checks (lint, tests) and pushes to GitHub. Use this",
+      "sha256": "b784d8276a71c22a5afeb08997f8c71a31057d301eb1eebeb77db30725d16fd6",
+      "bytes": 492
     },
     {
       "path": "react-email",
       "skill_md": "react-email/SKILL.md",
+      "scope": "portable",
+      "name": "react-email",
+      "description": "Use when building HTML email templates with React components, adding a visual email editor to an application using the React Email visual editor, rendering emails to HTML, or sending emails with Resend. Covers welcome emails, password resets, notifications, order confirmations, newsletters, transactional emails, and the embeddable email editor component.",
       "sha256": "6316bdbe822e49f93a709e81bc011569d1a1ea20f7de78cd33ea8a0501ad79b7",
       "bytes": 14424
     },
     {
       "path": "read-special-images",
       "skill_md": "read-special-images/SKILL.md",
+      "scope": "portable",
+      "name": "read-special-images",
+      "description": "Read and OCR long webpage screenshots, panoramas, high-resolution images, and dense documents when whole-image display makes task-relevant text or details unreadable or unreliable. Treat aspect ratio at least 4:1, a side over 4096 px, or area over 16 million pixels only as screening signals, never automatic tiling triggers. Keep any image unsplit when the requested content is already readable, including small ultra-wide images.",
       "sha256": "ee8e68e20ec3a6871d60eebe0ff8780ab9c0aa0098fbef6747317440d99a4ffc",
       "bytes": 8194
     },
     {
       "path": "reconciliation",
       "skill_md": "reconciliation/SKILL.md",
-      "sha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6",
-      "bytes": 8144
+      "scope": "portable",
+      "name": "reconciliation",
+      "description": "Reconcile accounts by comparing GL balances to subledgers, bank statements,",
+      "sha256": "c14ddc000e495d1f70e3de3f178b3e93a72a65ae6549b25c43cf4f1a7af70c24",
+      "bytes": 8182
     },
     {
       "path": "reddit-opportunity-research",
       "skill_md": "reddit-opportunity-research/SKILL.md",
+      "scope": "portable",
+      "name": "reddit-opportunity-research",
+      "description": "Researches Reddit using a brand's Brand DNA to find promotable pain-point discussions, target subreddits, and real user search language. Produces a prioritized Reddit opportunity list for content seeding, helpful replies, and prompt research inspiration.",
       "sha256": "7de26d5dc6ec689ecd25fc6c4adc962779a8a8efbb6424764da82be32d8c9665",
       "bytes": 8518
     },
     {
       "path": "remotion",
       "skill_md": "remotion/SKILL.md",
+      "scope": "portable",
+      "name": "remotion",
+      "description": "Toolkit-specific Remotion patterns — custom transitions, shared components, and project conventions. For core Remotion framework knowledge (hooks, animations, rendering, etc.), see the `remotion-official` skill.",
       "sha256": "14013c0c2ffab93d3404ac9dcfbf63ab8be775185ffe216fe6ae8470203b6916",
       "bytes": 6587
     },
     {
       "path": "research-writing-skill",
       "skill_md": "research-writing-skill/SKILL.md",
+      "scope": "portable",
+      "name": "research-writing-skill",
+      "description": "Chinese-first research paper writing, revision, polishing, section drafting, rebuttal, peer-review response, thesis prose improvement, and manuscript argument planning. Use when the user asks to write or revise论文正文, abstracts, introductions, methods, results, discussion, conclusions, related work, responses to reviewers, LaTeX/Overleaf text, or academic prose. Preserve formulas, English paper titles, terms, citations, and measured results.",
       "sha256": "ce5f25f99ebb01e6d12624dbee1967226ed5b59aa914496bf7b998e9a31a6630",
       "bytes": 4317
     },
     {
       "path": "review-animations",
       "skill_md": "review-animations/SKILL.md",
-      "sha256": "5f9fb98b69cace7107af8b393a4196fd42fa42d98bce0e5afc1f866ff3b8a41c",
-      "bytes": 8491
+      "scope": "portable",
+      "name": "review-animations",
+      "description": "Reviews animation and motion code against a high craft bar derived from",
+      "sha256": "f4bb9f142a721361aab78639e144a86d054854052a4f77d4f548a9290f09d673",
+      "bytes": 8531
     },
     {
       "path": "revops",
       "skill_md": "revops/SKILL.md",
+      "scope": "portable",
+      "name": "revops",
+      "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'outbound pipeline stages,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing.",
       "sha256": "ac0849626fcacc2da6c64e2ce0305dedf742032dfb7ab0f051c0cd8c8e2a985a",
       "bytes": 16713
     },
     {
       "path": "risk-metrics-calculation",
       "skill_md": "risk-metrics-calculation/SKILL.md",
+      "scope": "portable",
+      "name": "risk-metrics-calculation",
+      "description": "Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems.",
       "sha256": "d42f5937e253a072ad6fee37762fa0455d28314b31bd4ff088bd92c5e219e6c8",
       "bytes": 2008
     },
     {
       "path": "sales-enablement",
       "skill_md": "sales-enablement/SKILL.md",
+      "scope": "portable",
+      "name": "sales-enablement",
+      "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'battle card,' 'battlecard,' 'competitive one-pager,' 'win-loss analysis,' 'why are we losing deals,' 'loss reasons,' 'how do I respond to this objection,' 'prospect just said,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps,' 'cold call script,' or 'voicemail script.' Use this for any document or asset that helps a sales team close deals. For public competitor comparison pages, see competitors. For running buyer interviews or churn research, see customer-research. For marketing website copy, see copywriting. For cold outreach emails, see cold-email. For the offer being sold (bonuses, guarantees, pricing structure), see offers.",
       "sha256": "d30008d34e6a314b422e0a35cacf38aea39d39d2c48683e1ef6edcbdfca30ebd",
       "bytes": 21099
     },
     {
       "path": "seaborn",
       "skill_md": "seaborn/SKILL.md",
-      "sha256": "d1500d1e3d9db1db4c72cd272861378d1b98b0b5a5a98e8a3fca5a45bc0c6b2e",
-      "bytes": 13464
+      "scope": "portable",
+      "name": "seaborn",
+      "description": "Creates Seaborn statistical visualizations with pandas integration for",
+      "sha256": "63abb40d35deb8488ddf1cd5c3acd3c997d573718ec52c6fe7e61cabe8cd64fc",
+      "bytes": 13516
     },
     {
       "path": "seam-craft",
       "skill_md": "seam-craft/SKILL.md",
+      "scope": "portable",
+      "name": "seam-craft",
+      "description": "Render-correctness doctrine for scene-to-scene seams in HyperFrames launch videos — the prerequisites that make transitions composite correctly on the master timeline. Load when assembling the master timeline / index.html, when a white flash appears at a cut or crossfade seam (especially on dark films), when reasoning about why a transition opacity dip shows through, or when verifying the render-side mechanics of how overlapping scene wrappers blend. Covers the opaque stage-ground (#root background) white-flash guard and how the injector overlaps wrappers, holds final frames, ping-pongs tracks, and stamps lint-clean template code onto the master timeline. Does NOT contain the per-transition catalog — see the transition registry for individual transition entries.",
       "sha256": "c5aa27c6d6c088fa0bec2941692927975dcd382bc568f6f0ba8518e049e092fe",
       "bytes": 4865
     },
     {
       "path": "search-strategy",
       "skill_md": "search-strategy/SKILL.md",
-      "sha256": "71d5ba2d219a72d696e079885cba2fb5455ba5da6b1404491f8b945bdd8694c6",
-      "bytes": 7198
+      "scope": "portable",
+      "name": "search-strategy",
+      "description": "Query decomposition and multi-source search orchestration. Breaks natural",
+      "sha256": "6f6c65ddd40395d7a2d669934c578c5ed5f864ad2e8cc4612f73f00b4d455829",
+      "bytes": 7238
     },
     {
       "path": "seedance-prompter",
       "skill_md": "seedance-prompter/SKILL.md",
+      "scope": "portable",
+      "name": "seedance-prompter",
+      "description": "把用户的自然语言视频需求转换为符合 Doubao Seedance 2.0 进阶公式的提示词（8 要素：精准主体+动作细节+场景环境+光影色调+镜头运镜+视觉风格+画质+约束条件）。用于\"帮我写一个 Seedance 提示词\"、\"生成视频提示词\"、\"做个产品广告视频\"、\"用 Seedance 生成 XX\"等触发场景。如果用户没明确说 Seedance，但描述的是单一镜头的复杂叙事/多主体/电影感视频，也优先用此 skill。",
       "sha256": "d52c2d3ebe180407e143ba74ff0869c54641abbb24bee11da6dff2982b97c3f3",
       "bytes": 5725
     },
     {
       "path": "seedance-recipes",
       "skill_md": "seedance-recipes/SKILL.md",
-      "sha256": "636549cb16360b99191a3d327aefcb5fc0471c37b65b97719cb89fce14763ee9",
-      "bytes": 6142
+      "scope": "portable",
+      "name": "seedance-recipes",
+      "description": "This skill should be used when the user asks for a Seedance 2.0 template,",
+      "sha256": "d08dc4b4ee9e00c8a06b4e071170c7eec56372e19f01a6ab59c4a6bb169e7644",
+      "bytes": 6170
     },
     {
       "path": "seedance-storyboard",
       "skill_md": "seedance-storyboard/SKILL.md",
+      "scope": "portable",
+      "name": "seedance-storyboard",
+      "description": "把复杂剧情/故事大纲拆分为 Seedance 2.0 的\"镜头1/镜头2/镜头3\"多分镜结构。每个分镜按 4 维度组织（运镜 + 主体动作与表情 + 位置/空间变化 + 音频）。用于\"帮我把这个故事写成 Seedance 提示词\"、\"分镜脚本\"、\"多镜头视频\"、\"剧情复杂的视频\"、\"剧本转分镜\"等触发场景。",
       "sha256": "1192dedb090e5ace273376343e5a236ec0d5e001097eb39a57ff7cdb1ae75601",
       "bytes": 6207
     },
     {
       "path": "selenium-skill",
       "skill_md": "selenium-skill/SKILL.md",
-      "sha256": "fc6802ecd174946799c85625dad66a743d9431e0708dd732da92467e7a16a92a",
-      "bytes": 9230
+      "scope": "portable",
+      "name": "selenium-skill",
+      "description": "Generates production-grade Selenium WebDriver automation scripts and",
+      "sha256": "ff22709ddbe1dedbb4f64bdfc2e2a20b828cc55f42aac3ea12a5ed46e56433ca",
+      "bytes": 9272
     },
     {
       "path": "seo-aeo-best-practices",
       "skill_md": "seo-aeo-best-practices/SKILL.md",
+      "scope": "portable",
+      "name": "seo-aeo-best-practices",
+      "description": "SEO and AEO best practices for metadata, Open Graph, sitemaps, robots.txt, hreflang, JSON-LD structured data, EEAT, and content optimized for search engines and AI answer surfaces. Use this skill when implementing page SEO, technical SEO, schema markup, international SEO, AI-overview readiness, or improving content for Google, ChatGPT, Perplexity, and similar assistants.",
       "sha256": "21d5865242c9939ee524ec0cc396c3098ccd7eac846ca9e043789beef22c9c25",
       "bytes": 1874
     },
     {
       "path": "seo-audit",
       "skill_md": "seo-audit/SKILL.md",
+      "scope": "portable",
+      "name": "seo-audit",
+      "description": "Create plain-language, evidence-led SEO audit reports using the structure developed with the user. Use when asked to create, revise, or standardize an SEO audit report, SEO audit mockup, organic search audit, backlink-focused SEO audit, business-style report, or sample-modeled audit where the output must rely strictly on report data, avoid hallucinations, use a 150–200 word one-paragraph executive summary, explain organic traffic and market drivers, exclude standalone Content Quality Audit and On-Page SEO sections by default, end with a concise ordered problem/fix prioritization list instead of a roadmap, and use direct insight-and-action language.",
       "sha256": "0ab45bd1b27538f59f4e14d749403b3cb6e8805bac0ccbaf5f98d155aa68c4a8",
       "bytes": 22476
     },
     {
       "path": "seo-competitor-analysis",
       "skill_md": "seo-competitor-analysis/SKILL.md",
+      "scope": "portable",
+      "name": "seo-competitor-analysis",
+      "description": "Create simplified, target-first SEO organic competitor reports modeled on the approved example report style. Use for `/seo-competitor-analysis`, simplified SEO reports, organic visibility diagnosis, country traffic trend reports, Ahrefs/Semrush/Similarweb/GSC organic data analysis, page-type SEO analysis, branded versus non-branded keyword review, and backlink strategy analysis. Always generate supporting charts from normalized data before writing the report. This report is written from the perspective of someone competing against the target domain — it explains the domain's strategy, not how to improve it.",
       "sha256": "5a7532f11b8d2551b994787872f095a8ef290b5f46f1b6a687f7e238d3ddb668",
       "bytes": 10820
     },
     {
       "path": "seo-content-audit",
       "skill_md": "seo-content-audit/SKILL.md",
+      "scope": "portable",
+      "name": "seo-content-audit",
+      "description": "E-E-A-T + CITE quality audit for an EXISTING piece of content. Scores Experience, Expertise, Authoritativeness, Trustworthiness, and citation-readiness for AI search; surfaces veto items that block publication; produces a publish / publish-with-fixes / no-publish verdict. Distinct from `seo-content-brief` (produces a NEW article from a topic) and from `seo-page` (URL-level keyword/traffic intelligence). Use when the user asks \"content quality audit\", \"E-E-A-T check\", \"is this content good\", \"review this article\", \"content audit\", \"citation readiness\", or \"AI search readiness\".",
       "sha256": "c5ab619b6b050cf636a73d15b9d1f04de9f3170c6da19928d3696adb5fdcbc05",
       "bytes": 11947
     },
     {
       "path": "session-self-config",
       "skill_md": "session-self-config/SKILL.md",
+      "scope": "portable",
+      "name": "session-self-config",
+      "description": "Inspect and enable session connectors for tasks that depend on an external service, and select My Browser when an appropriate connector cannot fulfill the task. Public webpage links alone do not require this workflow.",
       "sha256": "66cdc1b45e2c118c0e141e31a3cba00b94a11895624342b9fcc4d3775fbe49d7",
       "bytes": 1881
     },
     {
       "path": "shopify-mcp",
       "skill_md": "shopify-mcp/SKILL.md",
+      "scope": "portable",
+      "name": "shopify-mcp",
+      "description": "Operate the Admin data of a Shopify store the user already runs through the shopify connector MCP tools — querying/creating/updating products, orders, discounts, inventory; writing and validating raw GraphQL queries; troubleshooting API errors. Not for building a store — a request to make, build, create, launch or design a Shopify store, shop, storefront or e-commerce site goes to the webdev skill's Shopify integration, even when Shopify accounts are connected.",
       "sha256": "db9d4e66866e546838de35c112e06fc527caecaa375c9ae9664a2f7c12f2b639",
       "bytes": 10104
     },
     {
       "path": "similarity-search-patterns",
       "skill_md": "similarity-search-patterns/SKILL.md",
+      "scope": "portable",
+      "name": "similarity-search-patterns",
+      "description": "Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance.",
       "sha256": "3d8f6aa45803c29b7edea5f30cca6fa763eb06b514b48e97f4c9bf8380c4cf51",
       "bytes": 2775
     },
     {
       "path": "similarweb-analytics",
       "skill_md": "similarweb-analytics/SKILL.md",
+      "scope": "portable",
+      "name": "similarweb-analytics",
+      "description": "Analyze websites and domains using SimilarWeb traffic data. Get traffic metrics, engagement stats, global rankings, traffic sources, and geographic distribution for comprehensive website research.",
       "sha256": "81e1c6c8f61d17ada7c09f28e2ee462ad00a71e96ac8a0c9f0de97f69d9b16d2",
       "bytes": 4675
     },
     {
       "path": "skill-creator",
       "skill_md": "skill-creator/SKILL.md",
+      "scope": "portable",
+      "name": "skill-creator",
+      "description": "Guide for creating or updating skills that extend Manus via specialized knowledge, workflows, or tool integrations. For any modification or improvement request, MUST first read this skill and follow its update workflow instead of editing files directly.",
       "sha256": "9396beafe1f61b0ee806cb90bf74d33c72cc60c7533daa06383e855091619444",
       "bytes": 13142
     },
     {
       "path": "slides",
       "skill_md": "slides/SKILL.md",
+      "scope": "portable",
+      "name": "slides",
+      "description": "Use for ANY request to create or edit a presentation, slide deck, slides, or PPT, in any language — INCLUDING requests phrased as \"HTML presentation\" or \"HTML slides\" (this skill's HTML mode serves them). Always create presentations through this skill; never hand-write standalone HTML/PPTX presentation files, unless the user explicitly asks not to use the Slides tool. Also covers previewing, inspecting, and updating existing decks. Supports pptx (default), HTML, and image generation modes.",
       "sha256": "f688190d31ae93dc1b11b2ae3031f2c757d675d6b7f24954fccef55c344f0d68",
       "bytes": 31177
     },
     {
       "path": "slo-implementation",
       "skill_md": "slo-implementation/SKILL.md",
+      "scope": "portable",
+      "name": "slo-implementation",
+      "description": "Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance.",
       "sha256": "538e560a1c10be5f643d0a048e4e828605420e9b1867a9d4449f8a3471c14049",
       "bytes": 7163
     },
     {
       "path": "sn-da-excel-workflow",
       "skill_md": "sn-da-excel-workflow/SKILL.md",
+      "scope": "portable",
+      "name": "sn-da-excel-workflow",
+      "description": "Excel 数据分析多步编排器。覆盖：(1) 读取多 Sheet Excel 文件并统计行数，(2) 大文件检测（≥10k 行自动 Parquet 优化），(3) 数据清洗（缺失值、文本标准化、无效字符），(4) 条件筛选与分类提取，(5) 跨 Sheet 统计聚合，(6) 导出 Excel/CSV 并提供下载链接。覆盖从数据读取到报告生成全流程，按步骤编排 capability 子 skill。**遇到以下任一情况就主动使用本 skill，不要自行写几行 pandas 就回答**：①用户出现触发词：Excel 分析 / 表格分析 / 数据分析 / 数据清洗 / 数据统计 / 数据筛选 / 数据可视化 / 数据导出 / 汇总统计 / 透视表 / 分组统计 / 交叉分析 / 趋势分析 / 对比分析 / 异常值检测 / 去重 / 缺失值处理 / Excel 报告 / 生成报表 / analyze Excel / data analysis / data cleaning / pivot table；②用户上传或指定了 .xlsx / .xls / .csv 文件并要求分析、清洗、统计或可视化；③任务涉及多 Sheet 读取、条件筛选、分类汇总、图表生成中的任意一项；④用户要求导出带格式的 Excel 报告或下载链接。仅不用于：不涉及表格数据的纯文本处理、图片分析（使用 sn-da-image-caption）、单个公式计算的简单问答。",
       "sha256": "47348dffc7c96c0f01d0d4113f3ab8d65bef58a2334555e98d5ea0139d1a6f9f",
       "bytes": 13272
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-cell-coloring/category-coloring",
       "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/category-coloring/SKILL.md",
+      "scope": "embedded",
+      "name": "large-file-parquet-analysis-and-highlight",
+      "description": "当Excel文件总行数超过1万行时，通过转换为Parquet格式提升读取性能，提取目标指标并计算最大值，最后将结果输出为Excel并对特定行进行高亮标注。",
       "sha256": "d6e0201155cff41e3e2bccfcd032de111291cc6fa3130c02497f1964295e0a67",
       "bytes": 3444
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-cell-coloring/duplicate-value-coloring",
       "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/duplicate-value-coloring/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-conditional-comparison-and-large-file-processing",
+      "description": "对比Excel多表中的特定系数并对异常值进行颜色标记。",
       "sha256": "7a506a699d3e738f53ce6280327babd46bca2ddccba29b086bba2b4e25d5fa49",
       "bytes": 3103
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-cell-coloring/outlier-coloring",
       "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/outlier-coloring/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-outlier-detection-and-highlighting",
+      "description": "识别 Excel 中的超限数值与错误单元格并进行高亮标注。",
       "sha256": "d9f4512bf7ac409a7455669e1847d482172e82be16ebcfbc2eebd9705a78ca6e",
       "bytes": 4138
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-cell-coloring/threshold-cell-coloring",
       "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/threshold-cell-coloring/SKILL.md",
+      "scope": "embedded",
+      "name": "large-file-conditional-formatting",
+      "description": "根据Excel总行数自动切换Parquet加速读取，计算特定维度的时间序列平均值，并使用openpyxl输出带有条件格式（如低于均值标绿）和自定义样式的分析报告。",
       "sha256": "539ded0021ba3acf2fdc758bd65ead3f303e3e023019c2a3ad021be56bd9168c",
       "bytes": 4435
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-cell-coloring/top-value-coloring",
       "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/top-value-coloring/SKILL.md",
+      "scope": "embedded",
+      "name": "top-value-coloring",
+      "description": "根据数据规模动态选择处理策略，对多表数据进行合并、统计筛选，并利用 openpyxl 实现关键指标的自动化样式高亮与格式化导出。",
       "sha256": "8dce83c3b9e8cd025aeb97b6f206beb139f4fa7504b453df0814a0484ff6e29a",
       "bytes": 3802
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-conditional-formatting/data-bar-formatting",
       "skill_md": "sn-da-excel-workflow/capability/excel-conditional-formatting/data-bar-formatting/SKILL.md",
+      "scope": "embedded",
+      "name": "numeric-extraction-and-distribution-analysis",
+      "description": "从带单位的字符串列中提取数值并清洗，生成包含直方图、饼图、条形图和累积分布图的多维度综合分布可视化图表，用于展示数据的集中趋势与分布特征。",
       "sha256": "f22a438b327233606622e70e3474c02f975248d14f4632a38ae51a1eefcd4b77",
       "bytes": 4204
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-analysis/comparison-analysis",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/comparison-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "categorical-comparison-analysis",
+      "description": "对两类分类数据进行对比分析，统计数量差异与比例关系并生成可视化图表。",
       "sha256": "7ad779d213935f5087e0c998fa183be439d82fffdbac325b8bd88c99f9a945ce",
       "bytes": 3666
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-analysis/group-by-analysis",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/group-by-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "group-by-analysis",
+      "description": "对多 Sheet 的 Excel 文件进行行数统计、大文件 Parquet 转换预处理、数据清洗及分组聚合分析，并生成带样式标记的统计表与可视化图表。",
       "sha256": "aff257049757bf5ac6afa7147cca0f6fcd683ef7fa85d0ed25a8c56fb18f61eb",
       "bytes": 3654
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-analysis/kpi-metric-analysis",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/kpi-metric-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "large-file-kpi-analysis",
+      "description": "根据数据量自动选择读取策略（大文件转Parquet），提取关键指标进行单位一致性验证与排序分析，并输出可下载的结果表格。",
       "sha256": "97866770d864f5f510e8f1ed73002842cb371752bcb58724555ba748d799be8a",
       "bytes": 2594
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-analysis/pivot-table-analysis",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/pivot-table-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "pivot-table-cross-analysis",
+      "description": "利用交叉表与热力图对分类数据进行多维度占比分析，适用于奖项分布、绩效评估或市场占有率等结构化数据的清洗与可视化。",
       "sha256": "8af963f7cf600f9249d98eb77ae246ae64079f3cfcc2b094d1b4ab193d46673d",
       "bytes": 4540
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-analysis/time-series-analysis",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/time-series-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "time-series-and-categorical-analysis",
+      "description": "对时间序列或分类数据进行多维度趋势分析、百分比清洗、绩效分级建模与预测，并生成高分辨率的可视化综合报告，适用于业务指标监控与预测场景。",
       "sha256": "976886734b2615beb385d96ef8d78eb50811d0aedc3632948a24cf6ef61dbd4b",
       "bytes": 5744
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-analysis/trend-analysis",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/trend-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "trend-analysis",
+      "description": "基于多维度数据进行分级评估与趋势预测，通过设定差异化增长率计算预测值，并生成对比可视化图表，适用于绩效评估、目标设定等场景。",
       "sha256": "12565195014959e913ee26ba369bb928aec2ce37549887573a2265165ab739c5",
       "bytes": 4257
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-cleaning/duplicate-removal",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/duplicate-removal/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-multi-sheet-threshold-analysis",
+      "description": "统计多Sheet Excel总行数并根据规模选择处理策略，提取特定维度信息进行去重统计，并生成摘要与明细报表。",
       "sha256": "4e635016ea259f3dea95621f51aa127c276fce12d63c0d788829e88aa733a99c",
       "bytes": 2966
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-cleaning/invalid-data-cleaning",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/invalid-data-cleaning/SKILL.md",
+      "scope": "embedded",
+      "name": "invalid-data-cleaning",
+      "description": "用于大规模Excel数据的预处理，通过统计总行数判断是否转换为Parquet格式以提升读写效率，并使用正则表达式清洗指定文本列（如仅保留中文字符），最后导出清洗后的文件并提供下载链接。",
       "sha256": "25a890b17ac40316bc33d02bdc969a5da517f15af88ee1bd9ea09bd5dab5dd6c",
       "bytes": 2252
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-cleaning/missing-value-handling",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/missing-value-handling/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-smart-analysis-and-cleaning",
+      "description": "对多 Sheet Excel 进行智能清洗、跨表核对与可视化分析。。",
       "sha256": "514ea9975a943466588bc7b74efde47486509c020b1f128c2ab07f2eda865c0a",
       "bytes": 3542
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-cleaning/numeric-format-normalization",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/numeric-format-normalization/SKILL.md",
+      "scope": "embedded",
+      "name": "numeric-format-normalization",
+      "description": "对 Excel 数据进行数值格式标准化与清洗，支持大规模数据的 Parquet 转换流程，并完成关键指标的合计核对与结果文件导出。",
       "sha256": "28576fb2cc40ba5c9a4ba7c6349af7ef9a8a35b53eb9f2e89d75362e3426c57a",
       "bytes": 2603
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-cleaning/outlier-detection",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/outlier-detection/SKILL.md",
+      "scope": "embedded",
+      "name": "outlier-detection-and-quality-assessment",
+      "description": "执行全面的异常值检测与数据质量评估，利用 IQR 方法识别异常值并结合偏度、峰度分析数据分布特征，适用于非正态分布数据的预处理阶段。",
       "sha256": "6d4ef501ac96e457d4ab3d775c83be08eb7ffd351772deb9d8b1855ce807a88c",
       "bytes": 4750
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-cleaning/text-normalization",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/text-normalization/SKILL.md",
+      "scope": "embedded",
+      "name": "text-normalization-and-large-file-processing",
+      "description": "对Excel文件进行文本标准化清洗（如去除异常前缀、提取纯中文字符等），并，最终输出清洗后的Excel文件并提供下载链接。",
       "sha256": "4f737becae53a43a6caaee35f3023049dd60cd6c16e7b65ac2d7df8523f7d4b2",
       "bytes": 2345
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-filtering/category-filtering",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-filtering/category-filtering/SKILL.md",
+      "scope": "embedded",
+      "name": "category-filtering-and-difficulty-analysis",
+      "description": "对Excel数据进行自定义分类统计、交叉分析与可视化，并基于多维度指标（如文本长度、术语密度、正则匹配等）进行综合评分与分级，适用于多类别数据分布统计及文本内容难度/质量评估场景。",
       "sha256": "491f09cc2f98526fdb5e615b7b26ecd4da9f43da724c021090ebe3db789987b5",
       "bytes": 7580
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-filtering/condition-filtering",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-filtering/condition-filtering/SKILL.md",
+      "scope": "embedded",
+      "name": "condition-filtering-and-large-file-optimization",
+      "description": "根据数据规模动态选择处理策略。",
       "sha256": "cf8c6d664e0245ba21f1976320997312e6647798920b237d1f0e08baf437b244",
       "bytes": 2923
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-filtering/range-filtering",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-filtering/range-filtering/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-conditional-filtering-optimization",
+      "description": "根据多维数值条件筛选 Excel 数据并导出结果，支持大规模数据的自动性能优化处理。",
       "sha256": "328a3c732d4317a083bd0220f5d4d74ada7a2b73e8206b2628198db858c510d6",
       "bytes": 2704
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-filtering/threshold-filtering",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-filtering/threshold-filtering/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-threshold-analysis-and-styling",
+      "description": "根据 Excel 数据量级自动判断处理策略，执行数值列清洗、条件过滤，并使用 openpyxl 对符合条件的单元格进行样式标记与导出。",
       "sha256": "91dfaf4f9852811e386131c462398112cf3c60b84180f93aab7eb776ec315615",
       "bytes": 1941
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-statistics/basic-statistics",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-statistics/basic-statistics/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-basic-statistics-and-routing",
+      "description": "对多Sheet Excel文件进行基础统计与，支持按条件筛选计算均值，以及从指定行区间提取数据去重求和，并生成结果文件与下载链接。",
       "sha256": "a4c80985f4a733a5fd82c1e8edd502074905108d0471df88f8346e68d9a35d9c",
       "bytes": 3884
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-statistics/category-statistics",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-statistics/category-statistics/SKILL.md",
+      "scope": "embedded",
+      "name": "category-statistics",
+      "description": "提取指定类别列并统计各类别数量与占比，生成高分辨率的柱状图、饼图等组合可视化报告，适用于分类数据的分布情况分析。",
       "sha256": "3fae4ce41aa0af6ab0c71e4be6399fcbea14459c784138789eb60be4a38f5562",
       "bytes": 5610
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-statistics/grouped-statistics",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-statistics/grouped-statistics/SKILL.md",
+      "scope": "embedded",
+      "name": "grouped-statistics",
+      "description": "对多 Sheet 的 Excel 文件进行行数统计、数据合并与前向填充。",
       "sha256": "6f9c47608f23c2d05a127408be6930b42ec495c9a1d8b9bbb37d1b0c0113c2f1",
       "bytes": 3803
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-statistics/percentage-calculation",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-statistics/percentage-calculation/SKILL.md",
+      "scope": "embedded",
+      "name": "dynamic-percentage-and-large-file-analysis",
+      "description": "根据文件行数动态切换大文件处理策略（Parquet转换），通过逐行扫描或列匹配提取关键指标并计算占比、均值等统计量，最终输出结构化Excel报告及可视化图表。",
       "sha256": "8e38e3a4751ba792ab373e8f206d639f19eefa8ba8a6f59b6c5fe0c8574ac677",
       "bytes": 3684
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-visualization/bar-chart-visualization",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/bar-chart-visualization/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-bar-chart-visualization",
+      "description": "读取多工作表Excel文件，自动处理合并单元格与数据清洗，进行交叉分组统计并生成带总计行的结果表，最后绘制支持中英文字体的美化柱状图，适用于多维度数据汇总与可视化分析。",
       "sha256": "cd2a81a532a94135c7841d1f790c3dcf414fec2946c193ba2767901cdcfe8162",
       "bytes": 4668
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-visualization/histogram-visualization",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/histogram-visualization/SKILL.md",
+      "scope": "embedded",
+      "name": "statistical-distribution-and-outlier-analysis",
+      "description": "执行数值型数据的分布分析与异常值检测，支持通过正则表达式从文本中提取误差项并生成高分辨率的箱线图与直方图报告。",
       "sha256": "148e4ece36fe3717873183f1a67ff05f0abd1714924aea6f4ac4d09561eabc04",
       "bytes": 5164
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-visualization/line-chart-visualization",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/line-chart-visualization/SKILL.md",
+      "scope": "embedded",
+      "name": "line-chart-visualization",
+      "description": "提取结构化数据并进行特征清洗与聚类分析，生成包含趋势对比、分布特征与参数敏感性的多维度综合可视化图表，适用于各类趋势预测与多维对比场景。",
       "sha256": "4d39e2ff4c04fdf87bdc1011d25a174d316e03d32d35adb08345d9b11e1b83c5",
       "bytes": 6944
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-visualization/pie-chart-visualization",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/pie-chart-visualization/SKILL.md",
+      "scope": "embedded",
+      "name": "pie-chart-data-analysis",
+      "description": "对多Sheet Excel或CSV数据进行分类汇总统计，自动识别关键字段并生成包含占比、数值及美化饼图的可下载分析报告。",
       "sha256": "f4266ef75325ae9eead6bbb113e74b32d8ec1d7cd5d863f34c760071feb96e02",
       "bytes": 4621
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-visualization/scatter-plot-visualization",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/scatter-plot-visualization/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-statistical-viz-large-file",
+      "description": "对 Excel 数据进行多维度统计分析与可视化。",
       "sha256": "40cd1c2706f009b1d9013961ed491d4ce6dcf174ae9941ae17b4fc7da75178eb",
       "bytes": 3865
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-data-visualization/stacked-chart-visualization",
       "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/stacked-chart-visualization/SKILL.md",
+      "scope": "embedded",
+      "name": "stacked-chart-visualization",
+      "description": "处理包含百分比字符串的分类占比数据，通过补全缺失维度并生成堆叠柱状图，直观展示多维度构成随时间或分类的变化趋势。",
       "sha256": "767c48e99f3a8fc8f0ad1893105f62f928506738822ff74d3d8115ff6c2597fb",
       "bytes": 3591
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-reading/large-excel-reading",
       "skill_md": "sn-da-excel-workflow/capability/excel-reading/large-excel-reading/SKILL.md",
+      "scope": "embedded",
+      "name": "large-excel-analysis-and-formatting",
+      "description": "用于处理多Sheet大型Excel文件，支持大文件Parquet格式转换提速，并使用openpyxl生成带条件高亮和自定义样式的格式化Excel报告及下载链接。",
       "sha256": "28d0d70c66556cf7f1cf152a8b6b0abb05468124e5b54f8f46b9ec3d5f98f3bf",
       "bytes": 3990
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-reading/multi-file-reading",
       "skill_md": "sn-da-excel-workflow/capability/excel-reading/multi-file-reading/SKILL.md",
+      "scope": "embedded",
+      "name": "multi-file-excel-parquet-analysis",
+      "description": "读取多 Sheet Excel 文件并统计规模，支持大文件向 Parquet 格式转换、分类数据统计及可视化报告生成。",
       "sha256": "bede26fe4dd8c7ef43b1913a727f64b05be844da615c2b8c9765e1b5d94f7f50",
       "bytes": 3249
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-reading/multi-sheet-reading",
       "skill_md": "sn-da-excel-workflow/capability/excel-reading/multi-sheet-reading/SKILL.md",
+      "scope": "embedded",
+      "name": "multi-sheet-reading-and-analysis",
+      "description": "用于读取多工作表Excel文件，动态评估数据量以启用Parquet大文件优化，并执行正则清洗、分类汇总、线性拟合及生成带格式的图表与结果文件。",
       "sha256": "0f860c163543f23079b91ec210b1f3341a07822ecb51ecb885f59eb52bc3cb98",
       "bytes": 5160
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-reading/range-reading",
       "skill_md": "sn-da-excel-workflow/capability/excel-reading/range-reading/SKILL.md",
+      "scope": "embedded",
+      "name": "range-reading-and-large-file-analysis",
+      "description": "读取多 Sheet Excel 文件，根据数据量动态选择处理策略，支持特定区域数据提取、大文件 Parquet 转换、统计分析及可视化图表生成。",
       "sha256": "4b8c8fcdd87377493b714f8ff4dbe041c5100adb22400d0c4e32c46b7a93d99d",
       "bytes": 4169
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-reading/single-sheet-reading",
       "skill_md": "sn-da-excel-workflow/capability/excel-reading/single-sheet-reading/SKILL.md",
+      "scope": "embedded",
+      "name": "single-sheet-reading-and-analysis",
+      "description": "读取并解析单个Excel工作表数据，支持合并单元格处理、数据清洗、交叉分析及多维度可视化，适用于需要从单表中提取关键指标并进行趋势模拟与图表生成的场景。",
       "sha256": "84d603e8e091fd11d59c0a04c9a8ffc6d1916770688aa7bdc997fd8a7500b6f2",
       "bytes": 4518
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-reading/specific-sheet-reading",
       "skill_md": "sn-da-excel-workflow/capability/excel-reading/specific-sheet-reading/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-multi-sheet-dynamic-analysis",
+      "description": "用于分析包含多个Sheet的Excel文件，动态判断数据量级以决定是否转换为Parquet进行大文件处理，并支持跨Sheet的特定字段统计、数据清洗、交叉分析与可视化，最终生成带下载链接的汇总报告。",
       "sha256": "391e5093095f862194c08fdd55f92a360a82392a4c6bbb07787df145db04a674",
       "bytes": 6140
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-reading/structured-header-reading",
       "skill_md": "sn-da-excel-workflow/capability/excel-reading/structured-header-reading/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-large-file-processing-and-cleaning",
+      "description": "读取多 sheet Excel 文件，动态识别目标列进行统计，并使用正则清洗文本字段提取中文字符，最终输出标准化 Excel 文件。",
       "sha256": "33070ece70327fd3216da6c493dea6fc760b9765161be9ce08baa2f206fb14f7",
       "bytes": 2250
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-result-export/chart-embedded-export",
       "skill_md": "sn-da-excel-workflow/capability/excel-result-export/chart-embedded-export/SKILL.md",
+      "scope": "embedded",
+      "name": "chart-embedded-export",
+      "description": "从结构化数据中提取分类分布执行清洗与统计，生成多维度交叉分析、高分辨率对比图表及包含下载链接的完整分析报告，适用于大文件处理与嵌入式可视化场景。",
       "sha256": "73bebfb64c8cd0dd7e18cbb4d9a2d4fa72244f8b14a70182ee41ac4be0be3d6f",
       "bytes": 4725
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-result-export/formatted-export",
       "skill_md": "sn-da-excel-workflow/capability/excel-result-export/formatted-export/SKILL.md",
+      "scope": "embedded",
+      "name": "formatted-export-with-parquet",
+      "description": "从多Sheet Excel文件中识别指定条件的记录，并将筛选结果以整行标红格式导出为Excel文件，适用于数据清洗、条件筛选与可视化标记场景。",
       "sha256": "57b0f63a866a4dd829be36695e7e072f89681cdc382aec433b6b952a8970a533",
       "bytes": 2810
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-result-export/report-generation-export",
       "skill_md": "sn-da-excel-workflow/capability/excel-result-export/report-generation-export/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-data-analysis-and-report-generation",
+      "description": "从Excel提取多类型数据，并生成包含可视化图表与下载链接的综合分析报告。",
       "sha256": "5f1a618db974e69ee7f38ceaf7b7d846e361a12d8c3078bf15e282f1f7376811",
       "bytes": 5009
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-result-export/single-sheet-export",
       "skill_md": "sn-da-excel-workflow/capability/excel-result-export/single-sheet-export/SKILL.md",
+      "scope": "embedded",
+      "name": "excel-sheet-filter-export",
+      "description": "动态统计多Sheet Excel文件行数以判断大文件处理逻辑，并根据特定条件筛选数据、重命名字段后导出为包含下载链接的新Excel文件，适用于多Sheet数据探查与条件过滤导出场景。",
       "sha256": "28c511c0cb0986f2f8712386e41fd417afb3b5e33009a1de733ad0e75ea5bc4b",
       "bytes": 2680
     },
     {
       "path": "sn-da-excel-workflow/capability/excel-table-styling/table-theme-styling",
       "skill_md": "sn-da-excel-workflow/capability/excel-table-styling/table-theme-styling/SKILL.md",
+      "scope": "embedded",
+      "name": "dynamic-large-file-parquet-analysis",
+      "description": "动态统计Excel总行数，当数据量过大（≥10000行）时自动转换为Parquet格式加速读取，并对指定目标列进行条件筛选、分类汇总与结果导出，适用于超大体积Excel文件的快速读取与统计分析。",
       "sha256": "2bdd1b059471820644ccc67b88126510db7796db7fdc936204fbf7f9a33bf913",
       "bytes": 2298
     },
     {
       "path": "sn-da-non-spreadsheet-analysis",
       "skill_md": "sn-da-non-spreadsheet-analysis/SKILL.md",
+      "scope": "portable",
+      "name": "sn-da-non-spreadsheet-analysis",
+      "description": "Word / PDF / PPT 文档解析与数据分析引擎。覆盖三类文件格式的全量提取、表格数值化、图表理解与跨文档汇总分析。**遇到以下任一情况就主动使用本 skill**：①用户上传或指定了 .docx / .doc / .pdf / .pptx / .ppt 文件并要求分析、提取或统计其中内容；②用户出现触发词：Word分析 / PDF解析 / PPT提取 / 文档分析 / 报告解析 / 幻灯片分析 / 发票提取 / 合同分析 / 文档统计 / 错别字 / 语病 / 字号检查 / 简历分析 / 多文档对比；③任务涉及从文档中提取表格、数值、图表、格式（颜色/高亮/字号）、组织架构、时间线等结构化信息。仅不用于：Excel/CSV 数据分析（使用 sn-da-excel-workflow）、纯图片分析（使用 sn-da-image-caption）。",
       "sha256": "d472d8bd386131f929afe9cd51aacb1ee0a778021505a9453743e02b34d44b6e",
       "bytes": 5453
     },
     {
       "path": "sn-da-non-spreadsheet-analysis/capability/pdf-analysis",
       "skill_md": "sn-da-non-spreadsheet-analysis/capability/pdf-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "pdf-analysis",
+      "description": "PDF 文档解析。自动区分文字型 PDF 与扫描型 PDF，覆盖：文本/表格提取、多页全量扫描、嵌入图表 caption、单位感知数值计算。",
       "sha256": "24a006cb7e92116adc4b309a404b7480730e1395d7cacdb7658d295ef50f9cbd",
       "bytes": 10165
     },
     {
       "path": "sn-da-non-spreadsheet-analysis/capability/ppt-analysis",
       "skill_md": "sn-da-non-spreadsheet-analysis/capability/ppt-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "ppt-analysis",
+      "description": "PPT (.pptx/.ppt) 全量解析。覆盖：所有 slide 文本/表格/图表提取、嵌入图片 caption、纯图片 slide 渲染识别、数据标签提取。",
       "sha256": "d93099069252469a239ed9a339e56f1dea68e79f415b92eb857fb4966982d61c",
       "bytes": 11223
     },
     {
       "path": "sn-da-non-spreadsheet-analysis/capability/word-analysis",
       "skill_md": "sn-da-non-spreadsheet-analysis/capability/word-analysis/SKILL.md",
+      "scope": "embedded",
+      "name": "word-analysis",
+      "description": "Word (.docx/.doc) 文档全量解析。覆盖：正文/段落文本提取、表格数据提取、高亮/颜色格式读取、多文件汇总对比、嵌入图片转 caption。",
       "sha256": "a7d512e2169960abba095d3d449f8806241827f63e3e89ffcaf5fd731c40a4fa",
       "bytes": 8834
     },
     {
       "path": "spark-optimization",
       "skill_md": "spark-optimization/SKILL.md",
+      "scope": "portable",
+      "name": "spark-optimization",
+      "description": "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines.",
       "sha256": "6af24df5e512113dac3238dcd9ed862c0a866ff91af92b95d024cf995959ac01",
       "bytes": 3160
     },
     {
       "path": "spec-driven-development",
       "skill_md": "spec-driven-development/SKILL.md",
+      "scope": "portable",
+      "name": "spec-driven-development",
+      "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying.",
       "sha256": "b9d05b4259c14550bbffbaafd8201492129926d37ede716db352c6e4f91b404d",
       "bytes": 13099
     },
     {
       "path": "sql-optimization-patterns",
       "skill_md": "sql-optimization-patterns/SKILL.md",
+      "scope": "portable",
+      "name": "sql-optimization-patterns",
+      "description": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.",
       "sha256": "cfe8234323daaeb47577261c96933f519004fad2f45f1460f340b883af5d7354",
       "bytes": 5961
     },
     {
       "path": "sql-queries",
       "skill_md": "sql-queries/SKILL.md",
-      "sha256": "dbd5a5e2d563d83ca6d4d033206f285f503296eabff4a35545cdb4cb5302bd9a",
-      "bytes": 11126
+      "scope": "portable",
+      "name": "sql-queries",
+      "description": "Write correct, performant SQL across all major data warehouse dialects",
+      "sha256": "cfacc263f663905e9252938d228ade9fdb2ee547bff3254d3e2399408db40364",
+      "bytes": 11168
     },
     {
       "path": "statistical-power",
       "skill_md": "statistical-power/SKILL.md",
-      "sha256": "b31240e2d1e67ce294216c609e088fb45bf6603d548fe9561e35ceddb1fbe8d8",
-      "bytes": 15925
+      "scope": "portable",
+      "name": "statistical-power",
+      "description": "Sample-size and statistical power calculations for planning studies.",
+      "sha256": "822fcb4f0feaa083d1d8181f26eab23022c7e8a267c94362fea6db7a7393fc07",
+      "bytes": 15985
     },
     {
       "path": "stitch-extract-design-md",
       "skill_md": "stitch-extract-design-md/SKILL.md",
-      "sha256": "f9c32b30acd9fea3dba7306bf38e3a859f49c1f27bcf44f9cf16d3a60a730276",
-      "bytes": 14078
+      "scope": "portable",
+      "name": "stitch-extract-design-md",
+      "description": "Extract a comprehensive design system (DESIGN.md) directly from frontend",
+      "sha256": "0a8ba32a3d000cffee2ceccf5805a2625aa4f2189cbc57d2bfde7c3e9d0f401a",
+      "bytes": 14052
     },
     {
       "path": "stock-analysis",
       "skill_md": "stock-analysis/SKILL.md",
+      "scope": "portable",
+      "name": "stock-analysis",
+      "description": "Analyze stocks and companies using financial market data. Get company profiles, technical insights, price charts, insider holdings, and SEC filings for comprehensive stock research.",
       "sha256": "18901593a0b014c1ee2cbf8cbb972ef197229008ca842ec4cc11dc965b8d6208",
       "bytes": 6112
     },
     {
       "path": "stop-slop",
       "skill_md": "stop-slop/SKILL.md",
+      "scope": "portable",
+      "name": "stop-slop",
+      "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.",
       "sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310",
       "bytes": 2629
     },
     {
       "path": "stripe-best-practices",
       "skill_md": "stripe-best-practices/SKILL.md",
+      "scope": "portable",
+      "name": "stripe-best-practices",
+      "description": ">-",
       "sha256": "55c73cae0acb93e77df4e6d4027a4955620c6f41a2f2434352af33be648fa49b",
       "bytes": 6742
     },
     {
       "path": "supabase",
       "skill_md": "supabase/SKILL.md",
+      "scope": "portable",
+      "name": "supabase",
+      "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, declarative schemas, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector); debugging and troubleshooting errors or unexpected behavior on Supabase projects (HTTP errors, Postgres errors, RLS surprises, permission denied, schema cache issues, timeouts, Edge Function crashes, Realtime drops, Storage failures) and reading or querying logs (Logs Explorer, ClickHouse).",
       "sha256": "697e0e949f97621c6fc1784169eb3ccbf673747d6bb8299a52962d3d84d93dc6",
       "bytes": 14307
     },
     {
       "path": "support-policy",
       "skill_md": "support-policy/SKILL.md",
+      "scope": "portable",
+      "name": "support-policy",
+      "description": "Route Manus or Cue account billing, subscription, credit balance, refund, technical support, and product improvement requests to the product support channel when the session support policy applies.",
       "sha256": "2d8b449f2370488599d54981e052102921c44f156f24bcff009eb0ce3f1ca70e",
       "bytes": 879
     },
     {
       "path": "system-settings-playbooks",
       "skill_md": "system-settings-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "system-settings-playbooks",
+      "description": "Use when the user asks what Manus can do with macOS System Settings or Windows Settings; wants help finding, understanding, diagnosing, changing, or planning an operating-system setting; or needs to choose among read-only diagnostics, official navigation and management channels, user guidance, and conditional Computer Use. Routes personalization, readability, notifications and focus, power, input, managed policy, and sensitive settings while keeping Mac and Windows evidence and mutation gates separate.",
       "sha256": "db9a5cbab53669631e7d3beb1f090ced763c99e5e0eb6b2a4e6342ab73c27056",
       "bytes": 6408
     },
     {
       "path": "systematic-debugging",
       "skill_md": "systematic-debugging/SKILL.md",
+      "scope": "portable",
+      "name": "systematic-debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
       "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
       "bytes": 9530
     },
     {
       "path": "tailscale-network",
       "skill_md": "tailscale-network/SKILL.md",
+      "scope": "portable",
+      "name": "tailscale-network",
+      "description": "Connect a Windows or Linux computer in Manus or Cue, including a Cloud Computer or sandbox, to the user's Tailscale network with authorization links for the user’s own browser, device approval, and access to tailnet services.",
       "sha256": "19de6b79badd6ee3b45a15f6a0d41da67f6b83e94ea48e52280b4988f5bbd04c",
       "bytes": 13196
     },
     {
       "path": "tailwind-design-system",
       "skill_md": "tailwind-design-system/SKILL.md",
+      "scope": "portable",
+      "name": "tailwind-design-system",
+      "description": "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.",
       "sha256": "b6577edb7b7f71a6954f68b80c7eea1748ccdf31862759f864bce558fb2bcf83",
       "bytes": 5290
     },
     {
       "path": "team-composition-analysis",
       "skill_md": "team-composition-analysis/SKILL.md",
-      "sha256": "d97efdb6f2673a30c64c9ca22ac31eed3aba8637ec7c8f3d45ef5a96f38e396b",
-      "bytes": 7582
+      "scope": "portable",
+      "name": "team-composition-analysis",
+      "description": "Design optimal team structures, hiring plans, compensation strategies,",
+      "sha256": "933e0cf61e9e633299bdf2ae2864a183a5c806973087361348dcfbeffab44703",
+      "bytes": 7626
     },
     {
       "path": "telegram-playbooks",
       "skill_md": "telegram-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "telegram-playbooks",
+      "description": "Use when the user asks what Manus can do with Telegram or needs workflows for chat summaries and drafts, structured extraction, history exports, channel publishing, scheduled messages, sticker packs, compliant notifications, bots, devices, or Telegram guidance. Routes each workflow by identity, selected client, durable state, runtime availability, and consequence among file and content tools, Telegram Web in My Browser, Telegram Desktop through Computer Use, and a separately verified official Bot API runtime.",
       "sha256": "73795ae96647193276f83d07eebe05daed37ae9f4010b597bd3c5d7358b94e29",
       "bytes": 10326
     },
     {
       "path": "test-driven-development",
       "skill_md": "test-driven-development/SKILL.md",
+      "scope": "portable",
+      "name": "test-driven-development",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
       "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
       "bytes": 9578
     },
     {
       "path": "torch-geometric",
       "skill_md": "torch-geometric/SKILL.md",
-      "sha256": "89805e17cdbc64ed01426548442b3aa1bda8bcfdd4f9528f5c8dd6e0ea813c96",
-      "bytes": 22474
+      "scope": "portable",
+      "name": "torch-geometric",
+      "description": "Supports PyTorch Geometric (PyG) graph neural networks — node/link/graph",
+      "sha256": "7d8016975a44b08a489d0b57b3c650369af6d0667595c21732d62d3e1bc6e7a4",
+      "bytes": 22524
     },
     {
       "path": "touchpoint-contacts",
       "skill_md": "touchpoint-contacts/SKILL.md",
+      "scope": "portable",
+      "name": "touchpoint-contacts",
+      "description": "Use the user's session-provided email and phone touchpoints for authorized sending, receiving, and verification codes, while respecting channel availability and inbound-message boundaries.",
       "sha256": "594dcbab8cda52107b2fc50afed4950607302aa8dd08866931429f404614a033",
       "bytes": 1847
     },
     {
       "path": "triggers",
       "skill_md": "triggers/SKILL.md",
+      "scope": "portable",
+      "name": "triggers",
+      "description": "Create and manage condition-based Manus automations using provider events, webhooks, or scheduled JavaScript monitoring. Also use to inspect executions and debug saved script Triggers. For reminders or recurring instructions without a monitored condition, use manus-config ScheduleTask instead.",
       "sha256": "03821e47d670a79a3190eef2cd09896905fe946fadd5c780d7679c917b40dd82",
       "bytes": 16353
     },
     {
       "path": "trip",
       "skill_md": "trip/SKILL.md",
+      "scope": "portable",
+      "name": "trip",
+      "description": "Search Trip.com through the trip MCP tools and present the results as compact deal cards. Use search_flights for cheap flights and fare calendars on a route, search_hotels for hotel recommendations with stay, price, property, room, payment, meal, rating, distance or sort preferences, and search_attractions for attraction tickets, day tours and local experiences, and travel services such as airport transfers, pocket Wi-Fi and SIM cards. Do not use for trains, car rentals, cruises or visas. The tools only search; booking and payment happen on the linked Trip.com page.",
       "sha256": "08c939bdecdb40b91b895b6a338169d80b204da0e4f5f7af5d31d460145f675c",
       "bytes": 41964
     },
     {
       "path": "tts-prompter",
       "skill_md": "tts-prompter/SKILL.md",
+      "scope": "portable",
+      "name": "tts-prompter",
+      "description": "MUST read this skill BEFORE calling `generate_speech` or entering generate mode for any text-to-speech (TTS) task, including narration, voice-over and dialogue audio requested by other skills such as video production. Covers how to split a script into verbatim `turns[].text` and short `turns[].style`, inline vocal tags, two-speaker dialogue, voice selection (30 studio voices, plus 2,000+ locale-native library voices with regional accents and personas found through a bundled search script), language and accent, and length and duration planning.",
       "sha256": "e4c143aa8d52141e22e80689eeb599c5e8e8350b1e505debeabebac06e3c7fef",
       "bytes": 22019
     },
     {
       "path": "typst-pdf-maker",
       "skill_md": "typst-pdf-maker/SKILL.md",
+      "scope": "portable",
+      "name": "typst-pdf-maker",
+      "description": "Generate professional, high-quality PDF documents with Typst. Use for reports, academic papers, resumes, structured documents, mathematical typesetting, code-rich documents, precise layouts, and CJK typography when Markdown-to-PDF is insufficient. Select one skill-owned asset or compatible Typst Universe base before adding packages. Route ordinary presentation requests to Manus Slides/PPTX unless the user explicitly requires Typst-generated PDF slides.",
       "sha256": "4cb53837ce7835bf295dc32caa53cf097796859c51674af655681dcfbffe64ff",
       "bytes": 21386
     },
     {
       "path": "usfiscaldata",
       "skill_md": "usfiscaldata/SKILL.md",
-      "sha256": "7cdcb756489ae8e94a73df1eebfb9abef554e912af6559ebd28dffa021ab63d5",
-      "bytes": 9626
+      "scope": "portable",
+      "name": "usfiscaldata",
+      "description": "Queries the U.S. Treasury Fiscal Data REST API for federal financial",
+      "sha256": "d9a2c176d83c0190989e63d7da52b1b1209247a2aa9f7777b8b6e944d2d0cb2a",
+      "bytes": 9666
     },
     {
       "path": "vaex",
       "skill_md": "vaex/SKILL.md",
-      "sha256": "a8ab5bcb0ab9c8d372b987e584b5c589a15b1e2b2f73457546d2888988d40b4f",
-      "bytes": 7722
+      "scope": "portable",
+      "name": "vaex",
+      "description": "Processes large tabular scientific datasets with Vaex expressions, filtered",
+      "sha256": "7dadfdbf3dc209ca9fa97868be221086804d922ff03c1c83bdd4fbb1582ed17b",
+      "bytes": 7768
     },
     {
       "path": "validate-data",
       "skill_md": "validate-data/SKILL.md",
-      "sha256": "1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b",
-      "bytes": 14916
+      "scope": "portable",
+      "name": "validate-data",
+      "description": "QA an analysis before sharing -- methodology, accuracy, and bias checks.",
+      "sha256": "2e171979c5fd75de04973bdaea2cdd5f7784e849cc8b535b1893fc0bb884231a",
+      "bytes": 14956
     },
     {
       "path": "vector-index-tuning",
       "skill_md": "vector-index-tuning/SKILL.md",
+      "scope": "portable",
+      "name": "vector-index-tuning",
+      "description": "Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector search infrastructure.",
       "sha256": "fc6a365161f5fd7ea08792759db7b358683aed8b410a4418c65bc1e61b971355",
       "bytes": 2325
     },
     {
       "path": "verification-before-completion",
       "skill_md": "verification-before-completion/SKILL.md",
+      "scope": "portable",
+      "name": "verification-before-completion",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
       "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
       "bytes": 3646
     },
     {
       "path": "video-generation",
       "skill_md": "video-generation/SKILL.md",
+      "scope": "portable",
+      "name": "video-generation",
+      "description": "Create and edit videos and motion graphics in Manus Sandbox. Use for trimming existing footage, extracting highlights, concatenating clips, subtitles, and video export with FFmpeg, as well as generated ads, explainers, talking heads, slide videos, UGC, and narrative shorts.",
       "sha256": "7df25adf39ecd3954893be2c6c0a90caaaf84b31d9616af469f738d422860d12",
       "bytes": 13635
     },
     {
       "path": "video-template-frame-glitch-title",
       "skill_md": "video-template-frame-glitch-title/SKILL.md",
-      "sha256": "33c2b23d55abd574e57743f9349942e531814069959d70bd1709a64d62efa4b1",
-      "bytes": 1303
+      "scope": "portable",
+      "name": "video-template-frame-glitch-title",
+      "description": "Use this plugin when the user wants a \"Glitch Title Frame\" HyperFrames",
+      "sha256": "18db9dee592a463d427ca486c36d5cffe0afa4ce164cb4ee29d64ba31de34fec",
+      "bytes": 1343
     },
     {
       "path": "video-template-frame-light-leak-cinema",
       "skill_md": "video-template-frame-light-leak-cinema/SKILL.md",
-      "sha256": "653603a770ea5d56428aa683a11868302288ba61ccad8d916d6a37adc266642d",
-      "bytes": 1317
+      "scope": "portable",
+      "name": "video-template-frame-light-leak-cinema",
+      "description": "Use this plugin when the user wants a \"Light-Leak Cinematic Frame\" HyperFrames",
+      "sha256": "5de0dc5e626453937b1f01b58538fc26f92ec6bc57fe76539fcb4b88982b47b0",
+      "bytes": 1357
     },
     {
       "path": "video-to-subtitle-summary",
       "skill_md": "video-to-subtitle-summary/SKILL.md",
-      "sha256": "4ea48e55028f251e78cff2d4312d55137803651410d562aa304277b0ea8bd4de",
-      "bytes": 23159
+      "scope": "portable",
+      "name": "video-to-subtitle-summary",
+      "description": "Use when user provides a short video platform URL or local video/audio",
+      "sha256": "2eeb7ae38221954fd64222f418e61a5309575d93bc3911185a5e08d647b2cf3c",
+      "bytes": 23201
     },
     {
       "path": "web-design-engineer",
       "skill_md": "web-design-engineer/SKILL.md",
+      "scope": "portable",
+      "name": "web-design-engineer",
+      "description": "Build or redesign polished browser-rendered visual artifacts with HTML/CSS/JavaScript/React: pages, dashboards, prototypes, slide decks, animations, UI mockups, and data visualizations. Use for visual front-end creation, design-system exploration, design critique, or explicit browser acceptance / QA of a web artifact. Not for back-end, CLI, non-visual coding, source-to-longform article conversion, or narration-driven click-through video presentations.",
       "sha256": "00633aa430281e9921c35bb181ab233879d2a21e999d605fc330258a54e26df1",
       "bytes": 35406
     },
     {
       "path": "web-design-reviewer",
       "skill_md": "web-design-reviewer/SKILL.md",
+      "scope": "portable",
+      "name": "web-design-reviewer",
+      "description": "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like \"review website design\", \"check the UI\", \"fix the layout\", \"find design problems\". Detects issues with responsive design, accessibility, visual consistency, and layout breakage, then performs fixes at the source code level.",
       "sha256": "a08a147cfe555dabe30f2c8f2e267f287e992f74f2b802e68989884338e23b17",
       "bytes": 10657
     },
     {
       "path": "web-perf",
       "skill_md": "web-perf/SKILL.md",
+      "scope": "portable",
+      "name": "web-perf",
+      "description": "Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance scores.",
       "sha256": "0160c9e7f1b73eb80347efd899a6082219d43bb9de30424667c8017628a48469",
       "bytes": 8446
     },
     {
       "path": "webdev",
       "skill_md": "webdev/SKILL.md",
+      "scope": "portable",
+      "name": "webdev",
+      "description": "Build and deliver an initialized Manus website, mobile app or game: planning, design, development, Preview, configuration, checkpoints, publishing and saving/connecting code to GitHub. Use for ANY request to build a game, including simple browser/HTML5/canvas games and quick prototypes, unless the user explicitly asks for a different deliverable such as a single HTML file or a Python script. Not for Unity, Unreal Engine or other native-engine games except Godot. Load optional references only for capabilities or recovery the task actually needs.",
       "sha256": "4c7e10d0c55e5db211ac2c0231660d74f9e2e3b4fdac468b397173887883883b",
       "bytes": 36512
     },
     {
       "path": "webdev/seo",
       "skill_md": "webdev/seo/SKILL.md",
+      "scope": "embedded",
+      "name": "webdev-seo",
+      "description": "Implement and diagnose search discoverability for Manus websites: crawler-visible HTML, per-route metadata, social previews, canonical URLs, sitemap and robots behavior. Use for public pages intended for search, SEO requests, link previews, or indexing problems.",
       "sha256": "35312346500ee708add46a0c2a0e86060d3be6220d27830bac4c7c45d6987c90",
       "bytes": 7122
     },
     {
       "path": "webdev/worklocally",
       "skill_md": "webdev/worklocally/SKILL.md",
+      "scope": "embedded",
+      "name": "webdev-worklocally",
+      "description": "Use only for Local First development on Studio or a Cloud Computer/Persistent Sandbox; if the current environment is the ordinary platform-managed Manus Sandbox, you do not need to follow this Skill. Use for local website, mobile app and game development: ask whether Web/Mobile should use Manus-managed services or stay plain local; disclose that managed Mobile switches the task to Cloud before the user chooses. Discover nearby declarations, obtain the website hosting choice, and initialize local Game as Manus-managed without offering a plain-local choice. Use project_dir to select a project independently of the initial task folder without changing the Session directory. Confirm an existing working copy when its identity is unclear. Covers file declarations, separate Managed Git, worktrees and Session preview; unrelated coding and read-only inspection need no init/attach. Not for Unity, Unreal Engine or other native-engine games except Godot.",
       "sha256": "0065256d3ce40f2ac9d769439e5a43733738c7e2ad1360851b3a4baa30f51ca6",
       "bytes": 37419
     },
     {
       "path": "webdev-seo",
       "skill_md": "webdev-seo/SKILL.md",
+      "scope": "portable",
+      "name": "webdev-seo",
+      "description": "Implement and diagnose search discoverability for Manus websites: crawler-visible HTML, per-route metadata, social previews, canonical URLs, sitemap and robots behavior. Use for public pages intended for search, SEO requests, link previews, or indexing problems.",
       "sha256": "35312346500ee708add46a0c2a0e86060d3be6220d27830bac4c7c45d6987c90",
       "bytes": 7122
     },
     {
       "path": "webdev-worklocally",
       "skill_md": "webdev-worklocally/SKILL.md",
+      "scope": "portable",
+      "name": "webdev-worklocally",
+      "description": "Use only for Local First development on Studio or a Cloud Computer/Persistent Sandbox; if the current environment is the ordinary platform-managed Manus Sandbox, you do not need to follow this Skill. Use for local website, mobile app and game development: ask whether Web/Mobile should use Manus-managed services or stay plain local; disclose that managed Mobile switches the task to Cloud before the user chooses. Discover nearby declarations, obtain the website hosting choice, and initialize local Game as Manus-managed without offering a plain-local choice. Use project_dir to select a project independently of the initial task folder without changing the Session directory. Confirm an existing working copy when its identity is unclear. Covers file declarations, separate Managed Git, worktrees and Session preview; unrelated coding and read-only inspection need no init/attach. Not for Unity, Unreal Engine or other native-engine games except Godot.",
       "sha256": "0065256d3ce40f2ac9d769439e5a43733738c7e2ad1360851b3a4baa30f51ca6",
       "bytes": 37419
     },
     {
       "path": "website-traffic-checker",
       "skill_md": "website-traffic-checker/SKILL.md",
+      "scope": "portable",
+      "name": "website-traffic-checker",
+      "description": "Comprehensive website traffic analysis workflow. Use when the user asks to analyze a website's traffic, check competitor traffic, analyze best-performing content, see keywords driving traffic, or assess page performance. Supports Similarweb, Ahrefs (via MCP), Semrush (via API), DataForSEO (via MCP), and user-uploaded data exports (CSV/XLSX from GSC, GA4, Ahrefs, Semrush, etc.).",
       "sha256": "5f71dbe5d197ca9caaf4574f8add99ebe88b387c63fb810efaefdd8773654297",
       "bytes": 12218
     },
     {
       "path": "whatsapp-playbooks",
       "skill_md": "whatsapp-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "whatsapp-playbooks",
+      "description": "Use when the user asks what Manus can do with WhatsApp or needs help summarizing and organizing chats, drafting replies, exporting history, creating Status or business content, configuring Business features, sending compliant notifications, or managing devices and backups. Routes each workflow among My Browser, WhatsApp Desktop through Computer Use, native content tools, file processing, and official WhatsApp features.",
       "sha256": "c5210601a99d15cdf30c47ccb390d1ec8a7a4f9dfa71c525117733d862d5ca0a",
       "bytes": 11232
     },
     {
       "path": "word-playbooks",
       "skill_md": "word-playbooks/SKILL.md",
+      "scope": "portable",
+      "name": "word-playbooks",
+      "description": "Use when the user asks what Manus can do with Microsoft Word, WPS Writer, or LibreOffice Writer, or needs a word-processing workflow routed by the document state that must survive. Covers creation and editing, structure and formatting, templates and data-driven documents, revisions and comparison, conversion and extraction, diagnosis, and qualified app-native workflows; routes generic artifacts to Documents and app-specific state to the exact installed or web writer only after capability and runtime checks.",
       "sha256": "0bd2bc5d6498ccc530a91458afd6a4c68c67aaa48513203761a610bb32486d6d",
       "bytes": 8159
     },
     {
       "path": "workers-best-practices",
       "skill_md": "workers-best-practices/SKILL.md",
+      "scope": "portable",
+      "name": "workers-best-practices",
+      "description": "Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers.",
       "sha256": "01c452fd0b6b3caeb4c3b06f87893e52d8e95e32f691911c1644060e00dafa0e",
       "bytes": 6237
     },
     {
       "path": "workflow",
       "skill_md": "workflow/SKILL.md",
+      "scope": "portable",
+      "name": "workflow",
+      "description": "Creates durable, resumable workflows using Vercel's Workflow SDK. Use when building workflows that need to survive restarts, pause for external events, retry on failure, or coordinate multi-step operations over time. Triggers on mentions of \"workflow\", \"durable functions\", \"resumable\", \"workflow sdk\", \"queue\", \"event\", \"push\", \"subscribe\", or step-based orchestration.",
       "sha256": "2ca639bb69394693fbef0503706d879d168285c745919925d68d43db72c8c412",
       "bytes": 34916
     },
     {
       "path": "workflow-composer",
       "skill_md": "workflow-composer/SKILL.md",
+      "scope": "portable",
+      "name": "workflow-composer",
+      "description": "MANDATORY: Read this skill before planning or calling search, fetch, or agent when the current task needs its own research, browsing, or judgment for each of 5 or more independent, comparable items (10 or more: always fan out), or when the user asks for comprehensive coverage, parallel research, or subagents. Use `workflow/run` (the `run` tool on the `workflow` MCP server, called with the `mcp` tool using server: `workflow`, name: `run`) to compose those internal units: one dedicated agent per item, structured results aggregated back into the current task. Not for shortlists, one question with several facets, work a handful of searches can finish, or the same command over many inputs (write one script with bounded concurrency). Also use for loops, conditions, multi-stage map/reduce work, and deterministic subagent orchestration.",
       "sha256": "61b6b1dc44e4fe44d98f6c6eab760475a030fe1d907f64c819d286b28004ee52",
       "bytes": 16186
     },
     {
       "path": "writing-plans",
       "skill_md": "writing-plans/SKILL.md",
+      "scope": "portable",
+      "name": "writing-plans",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
       "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
       "bytes": 10335
     },
     {
       "path": "writing-prds",
       "skill_md": "writing-prds/SKILL.md",
+      "scope": "portable",
+      "name": "writing-prds",
+      "description": "Help users transform abstract ideas into actionable project specs that align engineering and design teams on the problem and success metrics.",
       "sha256": "efd86c6e2f37785193ab838410b45cffb03e580b9248b1eaea9ee67947c4b833",
       "bytes": 7019
     },
     {
       "path": "youtube-clipper",
       "skill_md": "youtube-clipper/SKILL.md",
-      "sha256": "1039e3c3ac3028ec6e0e4d47c25553886a9b7f2bccdd62a76c160e14813f9ce8",
-      "bytes": 10859
+      "scope": "portable",
+      "name": "youtube-clipper",
+      "description": "YouTube 视频智能剪辑工具。下载视频和字幕，AI 分析生成精细章节（几分钟级别）， 用户选择片段后自动剪辑、翻译字幕为中英双语、烧录字幕到视频，并生成总结文案。",
+      "sha256": "cb688b4aca8997aadcdc52c3a85f5f7d0535d734a973f5cce80b84801db7d16b",
+      "bytes": 10885
     },
     {
       "path": "youtube-transcript",
       "skill_md": "youtube-transcript/SKILL.md",
+      "scope": "portable",
+      "name": "youtube-transcript",
+      "description": "Download YouTube video transcripts when user provides a YouTube URL or asks to download/get/fetch a transcript from YouTube. Also use when user wants to transcribe or get captions/subtitles from a YouTube video.",
       "sha256": "7c832ec57899a41d615bafbf3c71cbd0c80e7eb98cea07c5a8a4a6c2f44401c5",
       "bytes": 13729
     },
     {
       "path": "youtube-video-research",
       "skill_md": "youtube-video-research/SKILL.md",
+      "scope": "portable",
+      "name": "youtube-video-research",
+      "description": "Enhance any deep research task with first-hand YouTube video evidence via manus-analyze-video. Highly recommended whenever the task involves deep research, investigation, report writing, industry analysis, competitive intelligence, market research, technology trends, cultural analysis, policy research, or any information-gathering task that would benefit from expert talks, interviews, keynotes, panels, documentaries, product demos, vlogs, or conference presentations on YouTube. Also use when the user explicitly mentions YouTube, video sources, or asks for first-hand evidence. YouTube contains unfiltered first-person insights (CEO interviews, expert panels, practitioner vlogs, conference talks, earnings calls) unavailable in text articles, making it a critical primary source for virtually any research topic.",
       "sha256": "95dfb03b78cd5a1eb8960f0aab1c4addc8f697517480f1956f2c2f5f3cc1c5f0",
       "bytes": 17696
     }

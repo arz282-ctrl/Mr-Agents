@@ -1,9 +1,12 @@
 ---
-slug: muapi-animal-video-generator
 name: muapi-animal-video-generator
-version: "1.0.0"
-description: Create a hilarious and ultra-realistic video of an anthropomorphic animal acting like a human vlogger in a real-world setting.
-acceptLicenseTerms: true
+description: Create a hilarious and ultra-realistic video of an anthropomorphic animal
+  acting like a human vlogger in a real-world setting.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-animal-video-generator
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

@@ -1,6 +1,7 @@
 ---
-name: Push to GitHub
-description: Runs all necessary checks (lint, tests) and pushes to GitHub. Use this as the final safety gate.
+name: push-to-github
+description: Runs all necessary checks (lint, tests) and pushes to GitHub. Use this
+  as the final safety gate.
 ---
 
 # Push to GitHub

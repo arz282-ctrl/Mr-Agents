@@ -1,9 +1,13 @@
 ---
-slug: muapi-product-campaign
 name: muapi-product-campaign
-version: "1.0.0"
-description: Generate a full multi-channel product campaign — hero visuals, social media assets, short ad video, and platform-specific crops for an end-to-end launch campaign.
-acceptLicenseTerms: true
+description: Generate a full multi-channel product campaign — hero visuals, social
+  media assets, short ad video, and platform-specific crops for an end-to-end launch
+  campaign.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-product-campaign
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

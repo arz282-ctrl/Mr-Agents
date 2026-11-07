@@ -1,13 +1,20 @@
 ---
 name: matplotlib
-description: Creates and customizes scientific plots with Matplotlib. Used for fine-grained control over plot elements, novel plot types, and scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.
-allowed-tools: Read Write Bash
+description: Creates and customizes scientific plots with Matplotlib. Used for fine-grained
+  control over plot elements, novel plot types, and scientific workflows. Export to
+  PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive
+  plots use plotly; for publication-ready multi-panel figures with journal styling,
+  use scientific-visualization.
 license: https://github.com/matplotlib/matplotlib/tree/main/LICENSE
-compatibility: Requires Python 3.11+ and Matplotlib 3.11.2. Bundled examples also use NumPy and SciPy; pandas examples need pandas, and Jupyter widgets need ipympl. Installation needs network access; local plotting needs no credentials.
+allowed-tools: Read Write Bash
 metadata:
-  version: "1.4"
-  last-reviewed: "2026-10-01"
+  version: '1.4'
+  last-reviewed: '2026-10-01'
   skill-author: K-Dense Inc.
+  legacy-frontmatter:
+    compatibility: Requires Python 3.11+ and Matplotlib 3.11.2. Bundled examples also
+      use NumPy and SciPy; pandas examples need pandas, and Jupyter widgets need ipympl.
+      Installation needs network access; local plotting needs no credentials.
 ---
 
 # Matplotlib

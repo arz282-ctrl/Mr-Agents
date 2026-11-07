@@ -1,7 +1,13 @@
 ---
 name: color-palette
-description: "Generate complete, accessible colour palettes from a single brand hex. Produces 11-shade scale (50-950), semantic tokens, dark mode variants, Tailwind v4 CSS output, WCAG contrast checks. Use whenever the user supplies a brand hex and asks for a palette, mentions setting up a design system, wants Tailwind theme colours from a brand colour, or asks to check colour accessibility / contrast."
-compatibility: claude-code-only
+description: Generate complete, accessible colour palettes from a single brand hex.
+  Produces 11-shade scale (50-950), semantic tokens, dark mode variants, Tailwind
+  v4 CSS output, WCAG contrast checks. Use whenever the user supplies a brand hex
+  and asks for a palette, mentions setting up a design system, wants Tailwind theme
+  colours from a brand colour, or asks to check colour accessibility / contrast.
+metadata:
+  legacy-frontmatter:
+    compatibility: claude-code-only
 ---
 
 # Colour Palette Generator
