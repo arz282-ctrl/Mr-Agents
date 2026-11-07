@@ -1,17 +1,20 @@
 ---
 name: blog-write
-description: >
-  Write a new blog article from scratch for Google rankings and AI citations,
-  then take it through the delivery gates. Generates the full article with
-  template selection, answer-first formatting, Key Takeaways box, sourced
-  statistics, licensed images, built-in SVG charts, optional FAQ and internal
-  linking, in MDX, markdown or HTML. Use when the user asks to write a new blog
-  post or article from a topic or brief ("write a blog post", "draft a new
-  article", "/blog write"). Not for editing an existing post (blog-rewrite), and
-  not for a standalone outline, brief or research request.
-user-invocable: true
-argument-hint: "<topic>"
+description: 'Write a new blog article from scratch for Google rankings and AI citations,
+  then take it through the delivery gates. Generates the full article with template
+  selection, answer-first formatting, Key Takeaways box, sourced statistics, licensed
+  images, built-in SVG charts, optional FAQ and internal linking, in MDX, markdown
+  or HTML. Use when the user asks to write a new blog post or article from a topic
+  or brief ("write a blog post", "draft a new article", "/blog write"). Not for editing
+  an existing post (blog-rewrite), and not for a standalone outline, brief or research
+  request.
+
+  '
 license: MIT
+metadata:
+  legacy-frontmatter:
+    user-invocable: true
+    argument-hint: <topic>
 ---
 
 # Blog Writer: New Article Generation

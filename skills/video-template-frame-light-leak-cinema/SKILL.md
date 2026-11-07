@@ -1,14 +1,17 @@
 ---
 name: video-template-frame-light-leak-cinema
-description: Use this plugin when the user wants a "Light-Leak Cinematic Frame" HyperFrames motion video — Film light leaks, grain, 16:9 letterbox, and large serif type for cinematic openings or chapter cards.
+description: Use this plugin when the user wants a "Light-Leak Cinematic Frame" HyperFrames
+  motion video — Film light leaks, grain, 16:9 letterbox, and large serif type for
+  cinematic openings or chapter cards.
 license: Apache-2.0
 metadata:
   author: nexu-io
-  version: "0.1.0"
-od:
-  mode: video
-  scenario: video
-  surface: hyperframes
+  version: 0.1.0
+  legacy-frontmatter:
+    od:
+      mode: video
+      scenario: video
+      surface: hyperframes
 ---
 
 # Light-Leak Cinematic Frame

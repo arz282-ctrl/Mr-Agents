@@ -1,9 +1,12 @@
 ---
-slug: muapi-drone-style-video
 name: muapi-drone-style-video
-version: "1.0.0"
-description: Generate aerial drone-perspective footage — sweeping bird's-eye views, orbit shots, and flyover sequences for landscapes, architecture, and events.
-acceptLicenseTerms: true
+description: Generate aerial drone-perspective footage — sweeping bird's-eye views,
+  orbit shots, and flyover sequences for landscapes, architecture, and events.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-drone-style-video
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

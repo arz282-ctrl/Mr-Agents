@@ -1,7 +1,11 @@
 ---
 name: close-management
-description: Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning the close calendar, tracking close progress, identifying blockers, or sequencing close activities by day.
-user-invocable: false
+description: Manage the month-end close process with task sequencing, dependencies,
+  and status tracking. Use when planning the close calendar, tracking close progress,
+  identifying blockers, or sequencing close activities by day.
+metadata:
+  legacy-frontmatter:
+    user-invocable: false
 ---
 
 # Close Management

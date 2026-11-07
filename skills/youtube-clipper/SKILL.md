@@ -1,17 +1,19 @@
 ---
 name: youtube-clipper
-description: >
-  YouTube 视频智能剪辑工具。下载视频和字幕，AI 分析生成精细章节（几分钟级别），
-  用户选择片段后自动剪辑、翻译字幕为中英双语、烧录字幕到视频，并生成总结文案。
-  使用场景：当用户需要剪辑 YouTube 视频、生成短视频片段、制作双语字幕版本时。
-  关键词：视频剪辑、YouTube、字幕翻译、双语字幕、视频下载、clip video
+description: 'YouTube 视频智能剪辑工具。下载视频和字幕，AI 分析生成精细章节（几分钟级别）， 用户选择片段后自动剪辑、翻译字幕为中英双语、烧录字幕到视频，并生成总结文案。
+  使用场景：当用户需要剪辑 YouTube 视频、生成短视频片段、制作双语字幕版本时。 关键词：视频剪辑、YouTube、字幕翻译、双语字幕、视频下载、clip
+  video
+
+  '
 allowed-tools:
-  - Read
-  - Write
-  - Bash
-  - Glob
-  - AskUserQuestion
-model: claude-sonnet-4-5-20250514
+- Read
+- Write
+- Bash
+- Glob
+- AskUserQuestion
+metadata:
+  legacy-frontmatter:
+    model: claude-sonnet-4-5-20250514
 ---
 
 # YouTube 视频智能剪辑工具

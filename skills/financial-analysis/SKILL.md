@@ -1,7 +1,15 @@
 ---
 name: financial-analysis
-description: "Research company financials, market prices, SEC filings, earnings calls, investor presentations, options, forex, crypto, and macroeconomic data using structured financial APIs. Use for stock prices, OHLCV charts, financial statements, ratios and screening, fundamentals, earnings transcripts, management commentary, SEC filings (10-K/8-K/risk factors), technical indicators, dividends, IPOs, splits, options chains, exchange rates and currency conversion, crypto prices, treasury yields, inflation, labor data, non-US listings, and table or CSV financial-data requests."
-tier: premium
+description: Research company financials, market prices, SEC filings, earnings calls,
+  investor presentations, options, forex, crypto, and macroeconomic data using structured
+  financial APIs. Use for stock prices, OHLCV charts, financial statements, ratios
+  and screening, fundamentals, earnings transcripts, management commentary, SEC filings
+  (10-K/8-K/risk factors), technical indicators, dividends, IPOs, splits, options
+  chains, exchange rates and currency conversion, crypto prices, treasury yields,
+  inflation, labor data, non-US listings, and table or CSV financial-data requests.
+metadata:
+  legacy-frontmatter:
+    tier: premium
 ---
 
 # Financial Analysis

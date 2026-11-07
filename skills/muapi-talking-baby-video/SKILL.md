@@ -1,9 +1,12 @@
 ---
-slug: muapi-talking-baby-video
 name: muapi-talking-baby-video
-version: "1.0.0"
-description: Create a viral-style video of a talking baby with custom costumes and scripts.
-acceptLicenseTerms: true
+description: Create a viral-style video of a talking baby with custom costumes and
+  scripts.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-talking-baby-video
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

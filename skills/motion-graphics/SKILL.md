@@ -1,23 +1,37 @@
 ---
 name: motion-graphics
-version: "1.0.0"
-description: |
-  Kinetic typography, logo animations, and stylized motion design skill.
+description: 'Kinetic typography, logo animations, and stylized motion design skill.
+
 
   **Triggers when:**
+
   - User wants text animations or kinetic typography
+
   - Request involves logo reveals or title sequences
+
   - Content focuses on visual impact over education
+
   - User mentions "title", "intro", "logo", "text animation", "kinetic"
 
+
   **Capabilities:**
+
   - Kinetic typography with dynamic text effects
+
   - Logo reveals and brand animations
+
   - Particle effects and visual flourishes
+
   - Modern motion design patterns
+
   - Attention-grabbing title sequences
-author: manim-video-generator
+
+  '
 license: MIT
+metadata:
+  legacy-frontmatter:
+    version: 1.0.0
+    author: manim-video-generator
 ---
 
 # Motion Graphics Skill

@@ -1,9 +1,12 @@
 ---
-slug: muapi-one-shot-video
 name: muapi-one-shot-video
-version: "1.0.0"
-description: Generate a single continuous cinematic shot video — no cuts, one seamless flowing scene with dramatic lighting and motion.
-acceptLicenseTerms: true
+description: Generate a single continuous cinematic shot video — no cuts, one seamless
+  flowing scene with dramatic lighting and motion.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-one-shot-video
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

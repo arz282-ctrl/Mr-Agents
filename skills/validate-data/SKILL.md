@@ -1,7 +1,12 @@
 ---
 name: validate-data
-description: QA an analysis before sharing -- methodology, accuracy, and bias checks. Use when reviewing an analysis before a stakeholder presentation, spot-checking calculations and aggregation logic, verifying a SQL query's results look right, or assessing whether conclusions are actually supported by the data.
-argument-hint: "<analysis to review>"
+description: QA an analysis before sharing -- methodology, accuracy, and bias checks.
+  Use when reviewing an analysis before a stakeholder presentation, spot-checking
+  calculations and aggregation logic, verifying a SQL query's results look right,
+  or assessing whether conclusions are actually supported by the data.
+metadata:
+  legacy-frontmatter:
+    argument-hint: <analysis to review>
 ---
 
 # /validate-data - Validate Analysis Before Sharing

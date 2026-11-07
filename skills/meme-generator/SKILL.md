@@ -1,22 +1,25 @@
 ---
 name: meme-generator
-description: Generate memes from 170+ classic templates using the free Memegen.link API. Search templates, generate captioned images, and download them for posting. No API key required.
-compatibility: "Requires curl and python3. Works on macOS and Linux."
+description: Generate memes from 170+ classic templates using the free Memegen.link
+  API. Search templates, generate captioned images, and download them for posting.
+  No API key required.
 metadata:
-  emoji: "🐸"
+  emoji: 🐸
   author: vellum-ai
-  version: "0.1"
+  version: '0.1'
   vellum:
-    category: "content"
-    display-name: "Meme Generator"
+    category: content
+    display-name: Meme Generator
     activation-hints:
-      - "User asks to create or generate a meme"
-      - "User wants a meme image for a tweet or social media post"
-      - "User mentions a specific meme template (Drake, Distracted Boyfriend, etc.)"
-      - "User wants to add humor or images to content"
+    - User asks to create or generate a meme
+    - User wants a meme image for a tweet or social media post
+    - User mentions a specific meme template (Drake, Distracted Boyfriend, etc.)
+    - User wants to add humor or images to content
     avoid-when:
-      - "User wants original AI-generated artwork (use image-generation instead)"
-      - "User wants photo editing or non-meme image manipulation"
+    - User wants original AI-generated artwork (use image-generation instead)
+    - User wants photo editing or non-meme image manipulation
+  legacy-frontmatter:
+    compatibility: Requires curl and python3. Works on macOS and Linux.
 ---
 
 ## Overview

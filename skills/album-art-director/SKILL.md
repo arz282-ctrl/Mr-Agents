@@ -1,16 +1,20 @@
 ---
 name: album-art-director
-description: Creates visual concepts for album artwork and generates AI art prompts. Use during planning for concept discussion, or after all tracks are Final for actual artwork generation.
-argument-hint: <album-path or "create art concept for [album]">
-model: sonnet
-effort: medium
+description: Creates visual concepts for album artwork and generates AI art prompts.
+  Use during planning for concept discussion, or after all tracks are Final for actual
+  artwork generation.
 allowed-tools:
-  - Read
-  - Edit
-  - Write
-  - Grep
-  - Glob
-  - bitwize-music-mcp
+- Read
+- Edit
+- Write
+- Grep
+- Glob
+- bitwize-music-mcp
+metadata:
+  legacy-frontmatter:
+    argument-hint: <album-path or "create art concept for [album]">
+    model: sonnet
+    effort: medium
 ---
 
 ## Your Task

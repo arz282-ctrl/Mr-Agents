@@ -1,7 +1,12 @@
 ---
 name: accessibility-review
-description: Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with "audit accessibility", "check a11y", "is this accessible?", or when reviewing a design for color contrast, keyboard navigation, touch target size, or screen reader behavior before handoff.
-argument-hint: "<Figma URL, URL, or description>"
+description: Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with
+  "audit accessibility", "check a11y", "is this accessible?", or when reviewing a
+  design for color contrast, keyboard navigation, touch target size, or screen reader
+  behavior before handoff.
+metadata:
+  legacy-frontmatter:
+    argument-hint: <Figma URL, URL, or description>
 ---
 
 # /accessibility-review

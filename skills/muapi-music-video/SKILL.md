@@ -1,9 +1,12 @@
 ---
-slug: muapi-music-video
 name: muapi-music-video
-version: "1.0.0"
-description: Build a short music video from a song theme — N keyframes, animate each, generate matching music.
-acceptLicenseTerms: true
+description: Build a short music video from a song theme — N keyframes, animate each,
+  generate matching music.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-music-video
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

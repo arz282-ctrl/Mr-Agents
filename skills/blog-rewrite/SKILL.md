@@ -1,16 +1,19 @@
 ---
 name: blog-rewrite
-description: >
-  Rewrite and optimize existing blog posts for Google SEO (E-E-A-T, helpful
-  content) and AI citation visibility as one SEO discipline. For
-  AI-citation-only audit (no Google work), use blog-geo instead. Replaces
-  fabricated statistics with sourced data, applies answer-first formatting,
-  adds images, generates SVG charts, and updates modified dates only for substantive changes. Works
-  with any blog format (MDX, markdown, HTML). Use when user says "rewrite
-  blog", "optimize blog", "update blog", "improve blog", "fix blog".
-user-invocable: true
-argument-hint: "<file-path>"
+description: 'Rewrite and optimize existing blog posts for Google SEO (E-E-A-T, helpful
+  content) and AI citation visibility as one SEO discipline. For AI-citation-only
+  audit (no Google work), use blog-geo instead. Replaces fabricated statistics with
+  sourced data, applies answer-first formatting, adds images, generates SVG charts,
+  and updates modified dates only for substantive changes. Works with any blog format
+  (MDX, markdown, HTML). Use when user says "rewrite blog", "optimize blog", "update
+  blog", "improve blog", "fix blog".
+
+  '
 license: MIT
+metadata:
+  legacy-frontmatter:
+    user-invocable: true
+    argument-hint: <file-path>
 ---
 
 # Blog Rewriter: Optimize Existing Posts

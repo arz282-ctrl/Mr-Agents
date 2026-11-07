@@ -1,14 +1,17 @@
 ---
 name: video-template-frame-glitch-title
-description: Use this plugin when the user wants a "Glitch Title Frame" HyperFrames motion video — Digital glitch, chromatic offset, and data-corruption title frame for video transitions or cyberpunk heroes.
+description: Use this plugin when the user wants a "Glitch Title Frame" HyperFrames
+  motion video — Digital glitch, chromatic offset, and data-corruption title frame
+  for video transitions or cyberpunk heroes.
 license: Apache-2.0
 metadata:
   author: nexu-io
-  version: "0.1.0"
-od:
-  mode: video
-  scenario: video
-  surface: hyperframes
+  version: 0.1.0
+  legacy-frontmatter:
+    od:
+      mode: video
+      scenario: video
+      surface: hyperframes
 ---
 
 # Glitch Title Frame

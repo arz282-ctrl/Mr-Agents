@@ -1,9 +1,12 @@
 ---
-slug: muapi-cartoon-dance-animation
 name: muapi-cartoon-dance-animation
-version: "1.0.0"
-description: Convert a photo of a person into a Pixar-style 3D cartoon character, then animate it using a reference dance or motion video.
-acceptLicenseTerms: true
+description: Convert a photo of a person into a Pixar-style 3D cartoon character,
+  then animate it using a reference dance or motion video.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-cartoon-dance-animation
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

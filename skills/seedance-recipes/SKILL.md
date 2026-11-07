@@ -1,22 +1,25 @@
 ---
 name: seedance-recipes
-description: "This skill should be used when the user asks for a Seedance 2.0 template, genre recipe, product ad, lifestyle video, drama scene, music video, landscape shot, commercial, animation scene, or reusable production pattern."
+description: This skill should be used when the user asks for a Seedance 2.0 template,
+  genre recipe, product ad, lifestyle video, drama scene, music video, landscape shot,
+  commercial, animation scene, or reusable production pattern.
 license: MIT
-user-invocable: true
-tags:
-  - templates
-  - genres
-  - recipes
-  - seedance-20
 metadata:
-  version: "6.7.0"
-  updated: "2026-08-01"
-  parent: "seedance-20"
-  author: "Iamemily2050 (@iamemily2050)"
-  repository: "https://github.com/Emily2040/seedance-2.0"
+  version: 6.7.0
+  updated: '2026-08-01'
+  parent: seedance-20
+  author: Iamemily2050 (@iamemily2050)
+  repository: https://github.com/Emily2040/seedance-2.0
   openclaw:
-    emoji: "🎬"
-    homepage: "https://github.com/Emily2040/seedance-2.0"
+    emoji: 🎬
+    homepage: https://github.com/Emily2040/seedance-2.0
+  legacy-frontmatter:
+    user-invocable: true
+    tags:
+    - templates
+    - genres
+    - recipes
+    - seedance-20
 ---
 
 # seedance-recipes

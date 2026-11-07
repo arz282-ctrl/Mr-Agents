@@ -1,18 +1,27 @@
 ---
 name: markdown-mermaid-writing
-description: Writes scientific Markdown documentation and Mermaid diagrams for workflows, relationships, timelines, and schemas. Provides syntax references, document templates, accessibility guidance, and version-aware rendering checks. Use when a user requests Markdown, Mermaid, or a text-based structural diagram; quantitative scientific figures require suitable plotting tools.
-allowed-tools: Read Write Edit Bash
+description: Writes scientific Markdown documentation and Mermaid diagrams for workflows,
+  relationships, timelines, and schemas. Provides syntax references, document templates,
+  accessibility guidance, and version-aware rendering checks. Use when a user requests
+  Markdown, Mermaid, or a text-based structural diagram; quantitative scientific figures
+  require suitable plotting tools.
 license: Apache-2.0
-compatibility: Markdown authoring needs no runtime. Local rendering targets Mermaid and Mermaid CLI 12.0.0, Node.js 22.13+ and a supported Chromium browser. Package or CDN installation needs network access; no credentials required.
+allowed-tools: Read Write Edit Bash
 metadata:
-  version: "1.3"
-  last-reviewed: "2026-10-01"
-  mermaid-tested: "12.0.0"
-  mermaid-cli-tested: "12.0.0"
+  version: '1.3'
+  last-reviewed: '2026-10-01'
+  mermaid-tested: 12.0.0
+  mermaid-cli-tested: 12.0.0
   skill-author: Clayton Young / Superior Byte Works, LLC (@borealBytes)
   skill-source: https://github.com/SuperiorByteWorks-LLC/agent-project
   skill-version: 1.0.0
-  skill-contributors: Clayton Young (Superior Byte Works, LLC / @borealBytes; Author and originator); K-Dense Team (K-Dense Inc.; Integration target and community feedback)
+  skill-contributors: Clayton Young (Superior Byte Works, LLC / @borealBytes; Author
+    and originator); K-Dense Team (K-Dense Inc.; Integration target and community
+    feedback)
+  legacy-frontmatter:
+    compatibility: Markdown authoring needs no runtime. Local rendering targets Mermaid
+      and Mermaid CLI 12.0.0, Node.js 22.13+ and a supported Chromium browser. Package
+      or CDN installation needs network access; no credentials required.
 ---
 
 # Markdown and Mermaid Writing

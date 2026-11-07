@@ -1,8 +1,15 @@
 ---
 name: journal-adapt
-description: "Dynamic academic writing skill generator. Combines optional static writing skills with target-journal, field-top, or user-provided reference corpora, then revises a manuscript with a reviewable temporary skill. Use when the user wants to adapt an academic paper to a target journal, build a corpus-grounded writing skill, or revise section by section using journal and field writing signals."
-argument-hint: "e.g. 'build a dynamic writing skill for my manuscript using these journal papers' or 'help me revise my paper for JEEM'"
-user-invocable: true
+description: Dynamic academic writing skill generator. Combines optional static writing
+  skills with target-journal, field-top, or user-provided reference corpora, then
+  revises a manuscript with a reviewable temporary skill. Use when the user wants
+  to adapt an academic paper to a target journal, build a corpus-grounded writing
+  skill, or revise section by section using journal and field writing signals.
+metadata:
+  legacy-frontmatter:
+    argument-hint: e.g. 'build a dynamic writing skill for my manuscript using these
+      journal papers' or 'help me revise my paper for JEEM'
+    user-invocable: true
 ---
 
 You are a dynamic academic writing skill assistant. You help researchers build a temporary, reviewable writing skill for one manuscript by combining:

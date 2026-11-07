@@ -1,13 +1,20 @@
 ---
 name: vaex
-description: Processes large tabular scientific datasets with Vaex expressions, filtered views, streamed statistics, binned visualizations, and file conversion. Use for larger-than-RAM HDF5, Arrow, CSV, or Parquet analysis, virtual feature engineering, or Vaex ML preprocessing; distinguishes these operations from estimators and conversions that materialize data.
-allowed-tools: Read Write Edit Bash Grep Glob
+description: Processes large tabular scientific datasets with Vaex expressions, filtered
+  views, streamed statistics, binned visualizations, and file conversion. Use for
+  larger-than-RAM HDF5, Arrow, CSV, or Parquet analysis, virtual feature engineering,
+  or Vaex ML preprocessing; distinguishes these operations from estimators and conversions
+  that materialize data.
 license: MIT license
-compatibility: Requires Python 3.9-3.12 for vaex-core 4.19.0; tested on Python 3.12. Install vaex-core plus vaex-hdf5, vaex-viz, or vaex-ml as needed. Package installation and remote data need network access; local workflows need no credentials.
+allowed-tools: Read Write Edit Bash Grep Glob
 metadata:
-  version: "1.3"
+  version: '1.3'
   skill-author: K-Dense Inc.
-  last-reviewed: "2026-10-01"
+  last-reviewed: '2026-10-01'
+  legacy-frontmatter:
+    compatibility: Requires Python 3.9-3.12 for vaex-core 4.19.0; tested on Python
+      3.12. Install vaex-core plus vaex-hdf5, vaex-viz, or vaex-ml as needed. Package
+      installation and remote data need network access; local workflows need no credentials.
 ---
 
 # Vaex

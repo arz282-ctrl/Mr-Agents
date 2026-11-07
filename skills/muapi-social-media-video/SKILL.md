@@ -1,9 +1,14 @@
 ---
-slug: muapi-social-media-video
 name: muapi-social-media-video
-version: "1.0.0"
-description: Brand-aware social media video creator. Reads brand-identity.md, ICP.md, and messaging.md to write a post/storyboard, craft an optimized Seedance 2.0 Director prompt, generate reference frames with the best available image model, and produce platform-ready video.
-acceptLicenseTerms: true
+description: Brand-aware social media video creator. Reads brand-identity.md, ICP.md,
+  and messaging.md to write a post/storyboard, craft an optimized Seedance 2.0 Director
+  prompt, generate reference frames with the best available image model, and produce
+  platform-ready video.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-social-media-video
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 # Social Media Video Creator

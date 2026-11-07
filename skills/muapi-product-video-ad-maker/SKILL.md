@@ -1,9 +1,12 @@
 ---
-slug: muapi-product-video-ad-maker
 name: muapi-product-video-ad-maker
-version: "1.0.0"
-description: Create a high-end cinematic product video advertisement starting from a simple product photo.
-acceptLicenseTerms: true
+description: Create a high-end cinematic product video advertisement starting from
+  a simple product photo.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-product-video-ad-maker
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 

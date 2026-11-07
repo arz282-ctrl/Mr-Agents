@@ -1,9 +1,13 @@
 ---
-slug: muapi-ugc-video-factory
 name: muapi-ugc-video-factory
-version: "1.0.0"
-description: Turn a person photo + a product photo + an optional script into a vertical 9:16 UGC-style video ad. Generates a lifestyle hero image (Nano-Banana Pro Edit), then animates it with native audio using Seedance 2.0 VIP image-to-video.
-acceptLicenseTerms: true
+description: Turn a person photo + a product photo + an optional script into a vertical
+  9:16 UGC-style video ad. Generates a lifestyle hero image (Nano-Banana Pro Edit),
+  then animates it with native audio using Seedance 2.0 VIP image-to-video.
+metadata:
+  legacy-frontmatter:
+    slug: muapi-ugc-video-factory
+    version: 1.0.0
+    acceptLicenseTerms: true
 ---
 
 
