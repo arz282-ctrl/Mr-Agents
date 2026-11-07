@@ -1,0 +1,1938 @@
+{
+  "total": 276,
+  "verified": 276,
+  "skills": [
+    {
+      "skill_name": "accessibility-review",
+      "zip": "accessibility-review.zip",
+      "bytes": 1996,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "accessibility",
+      "zip": "accessibility.zip",
+      "bytes": 12200,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "account-research",
+      "zip": "account-research.zip",
+      "bytes": 4355,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "acestep",
+      "zip": "acestep.zip",
+      "bytes": 5756,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "after-effects-playbooks",
+      "zip": "after-effects-playbooks.zip",
+      "bytes": 9065,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "agentic-eval",
+      "zip": "agentic-eval.zip",
+      "bytes": 2337,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "album-art-director",
+      "zip": "album-art-director.zip",
+      "bytes": 15217,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "api-designer",
+      "zip": "api-designer.zip",
+      "bytes": 20238,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "appinsights-instrumentation",
+      "zip": "appinsights-instrumentation.zip",
+      "bytes": 6089,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "applying-brand-guidelines",
+      "zip": "applying-brand-guidelines.zip",
+      "bytes": 11087,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "audacity-playbooks",
+      "zip": "audacity-playbooks.zip",
+      "bytes": 11072,
+      "files": 9,
+      "ok": true
+    },
+    {
+      "skill_name": "automation-and-scheduling",
+      "zip": "automation-and-scheduling.zip",
+      "bytes": 7036,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "backlink-analysis",
+      "zip": "backlink-analysis.zip",
+      "bytes": 8923,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "beautiful-article",
+      "zip": "beautiful-article.zip",
+      "bytes": 143191,
+      "files": 57,
+      "ok": true
+    },
+    {
+      "skill_name": "blog-rewrite",
+      "zip": "blog-rewrite.zip",
+      "bytes": 10053,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "blog-translate",
+      "zip": "blog-translate.zip",
+      "bytes": 13130,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "blog-write",
+      "zip": "blog-write.zip",
+      "bytes": 16894,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "brand-docx",
+      "zip": "brand-docx.zip",
+      "bytes": 29706,
+      "files": 11,
+      "ok": true
+    },
+    {
+      "skill_name": "build-dashboard",
+      "zip": "build-dashboard.zip",
+      "bytes": 7900,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "builtin-llm-models",
+      "zip": "builtin-llm-models.zip",
+      "bytes": 18370,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "business-model",
+      "zip": "business-model.zip",
+      "bytes": 2575,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "call-prep",
+      "zip": "call-prep.zip",
+      "bytes": 4845,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "canva-mcp",
+      "zip": "canva-mcp.zip",
+      "bytes": 2879,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "capcut-playbooks",
+      "zip": "capcut-playbooks.zip",
+      "bytes": 11664,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "captions-overlay",
+      "zip": "captions-overlay.zip",
+      "bytes": 2494,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "careful",
+      "zip": "careful.zip",
+      "bytes": 13357,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "chart-visualization",
+      "zip": "chart-visualization.zip",
+      "bytes": 2367,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "chrome-devtools",
+      "zip": "chrome-devtools.zip",
+      "bytes": 1920,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "ci-cd-and-automation",
+      "zip": "ci-cd-and-automation.zip",
+      "bytes": 4488,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "claude-md-improver",
+      "zip": "claude-md-improver.zip",
+      "bytes": 7296,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "clickhouse-architecture-advisor",
+      "zip": "clickhouse-architecture-advisor.zip",
+      "bytes": 14660,
+      "files": 15,
+      "ok": true
+    },
+    {
+      "skill_name": "clipify",
+      "zip": "clipify.zip",
+      "bytes": 276351,
+      "files": 9,
+      "ok": true
+    },
+    {
+      "skill_name": "close-management",
+      "zip": "close-management.zip",
+      "bytes": 3875,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "cold-email",
+      "zip": "cold-email.zip",
+      "bytes": 17968,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "color-palette",
+      "zip": "color-palette.zip",
+      "bytes": 6694,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "commercial-agreement-tabular-review",
+      "zip": "commercial-agreement-tabular-review.zip",
+      "bytes": 2583,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "comparison-article-writer",
+      "zip": "comparison-article-writer.zip",
+      "bytes": 8580,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "content-experimentation-best-practices",
+      "zip": "content-experimentation-best-practices.zip",
+      "bytes": 10635,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "content-gap-analysis",
+      "zip": "content-gap-analysis.zip",
+      "bytes": 29222,
+      "files": 10,
+      "ok": true
+    },
+    {
+      "skill_name": "content-modeling-best-practices",
+      "zip": "content-modeling-best-practices.zip",
+      "bytes": 6118,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "copy-editing",
+      "zip": "copy-editing.zip",
+      "bytes": 20226,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "copywriting",
+      "zip": "copywriting.zip",
+      "bytes": 29901,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "cowork-plugin-customizer",
+      "zip": "cowork-plugin-customizer.zip",
+      "bytes": 11135,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "crafting-effective-readmes",
+      "zip": "crafting-effective-readmes.zip",
+      "bytes": 27803,
+      "files": 14,
+      "ok": true
+    },
+    {
+      "skill_name": "create-prd",
+      "zip": "create-prd.zip",
+      "bytes": 3275,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "customer-research",
+      "zip": "customer-research.zip",
+      "bytes": 4303,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "cut-the-curve",
+      "zip": "cut-the-curve.zip",
+      "bytes": 10257,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "data-analysis",
+      "zip": "data-analysis.zip",
+      "bytes": 1176,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "data-api",
+      "zip": "data-api.zip",
+      "bytes": 5996,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "data-backup-restoration",
+      "zip": "data-backup-restoration.zip",
+      "bytes": 11512,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "data-context-extractor",
+      "zip": "data-context-extractor.zip",
+      "bytes": 13063,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "data-visualization",
+      "zip": "data-visualization.zip",
+      "bytes": 4634,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "database-lookup",
+      "zip": "database-lookup.zip",
+      "bytes": 170335,
+      "files": 83,
+      "ok": true
+    },
+    {
+      "skill_name": "debugging-and-error-recovery",
+      "zip": "debugging-and-error-recovery.zip",
+      "bytes": 4770,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "deep-research",
+      "zip": "deep-research.zip",
+      "bytes": 3657,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "diagnosing-bugs",
+      "zip": "diagnosing-bugs.zip",
+      "bytes": 5131,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "discord-playbooks",
+      "zip": "discord-playbooks.zip",
+      "bytes": 13998,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "dispatching-parallel-agents",
+      "zip": "dispatching-parallel-agents.zip",
+      "bytes": 2563,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "draft-outreach",
+      "zip": "draft-outreach.zip",
+      "bytes": 4932,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "emil-design-eng",
+      "zip": "emil-design-eng.zip",
+      "bytes": 10629,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "example-skill",
+      "zip": "example-skill.zip",
+      "bytes": 1312,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "excalidraw-diagram-generator",
+      "zip": "excalidraw-diagram-generator.zip",
+      "bytes": 34469,
+      "files": 15,
+      "ok": true
+    },
+    {
+      "skill_name": "excalidraw-diagram",
+      "zip": "excalidraw-diagram.zip",
+      "bytes": 7893,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "excalidraw",
+      "zip": "excalidraw.zip",
+      "bytes": 6934,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "excel-generator",
+      "zip": "excel-generator.zip",
+      "bytes": 9326,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "favicon-gen",
+      "zip": "favicon-gen.zip",
+      "bytes": 25613,
+      "files": 9,
+      "ok": true
+    },
+    {
+      "skill_name": "final-cut-pro-playbooks",
+      "zip": "final-cut-pro-playbooks.zip",
+      "bytes": 10334,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "finance-pro-playbooks",
+      "zip": "finance-pro-playbooks.zip",
+      "bytes": 377834,
+      "files": 87,
+      "ok": true
+    },
+    {
+      "skill_name": "financial-analysis",
+      "zip": "financial-analysis.zip",
+      "bytes": 184479,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "game-asset-catalog",
+      "zip": "game-asset-catalog.zip",
+      "bytes": 66296,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "gemini-api",
+      "zip": "gemini-api.zip",
+      "bytes": 17262,
+      "files": 11,
+      "ok": true
+    },
+    {
+      "skill_name": "git-attribution",
+      "zip": "git-attribution.zip",
+      "bytes": 1060,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "git-commit",
+      "zip": "git-commit.zip",
+      "bytes": 2451,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "git-workflow-and-versioning",
+      "zip": "git-workflow-and-versioning.zip",
+      "bytes": 6148,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "github-gem-seeker",
+      "zip": "github-gem-seeker.zip",
+      "bytes": 2118,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "github-integration",
+      "zip": "github-integration.zip",
+      "bytes": 2337,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "google-cloud-waf-cost-optimization",
+      "zip": "google-cloud-waf-cost-optimization.zip",
+      "bytes": 5444,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "google-cloud-waf-performance-optimization",
+      "zip": "google-cloud-waf-performance-optimization.zip",
+      "bytes": 3972,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "google-cloud-waf-security",
+      "zip": "google-cloud-waf-security.zip",
+      "bytes": 6475,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "google-workspace-integration",
+      "zip": "google-workspace-integration.zip",
+      "bytes": 2469,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "grafana-dashboards",
+      "zip": "grafana-dashboards.zip",
+      "bytes": 2827,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "grammar-check",
+      "zip": "grammar-check.zip",
+      "bytes": 4144,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "gsap-core",
+      "zip": "gsap-core.zip",
+      "bytes": 5837,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "gsap-plugins",
+      "zip": "gsap-plugins.zip",
+      "bytes": 8359,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "gsap-scrolltrigger",
+      "zip": "gsap-scrolltrigger.zip",
+      "bytes": 6565,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "gsap-utils",
+      "zip": "gsap-utils.zip",
+      "bytes": 4472,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "gws-best-practices",
+      "zip": "gws-best-practices.zip",
+      "bytes": 3310,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "hackernews-frontpage",
+      "zip": "hackernews-frontpage.zip",
+      "bytes": 9290,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "handoff",
+      "zip": "handoff.zip",
+      "bytes": 876,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "html-video-production",
+      "zip": "html-video-production.zip",
+      "bytes": 3519861,
+      "files": 714,
+      "ok": true
+    },
+    {
+      "skill_name": "huggingface-datasets",
+      "zip": "huggingface-datasets.zip",
+      "bytes": 1959,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "huggingface-gradio",
+      "zip": "huggingface-gradio.zip",
+      "bytes": 10172,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "hybrid-search-implementation",
+      "zip": "hybrid-search-implementation.zip",
+      "bytes": 5194,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "hyperframes-keyframes",
+      "zip": "hyperframes-keyframes.zip",
+      "bytes": 8709,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "iflytek-text-proofread",
+      "zip": "iflytek-text-proofread.zip",
+      "bytes": 9898,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "illustrator-playbooks",
+      "zip": "illustrator-playbooks.zip",
+      "bytes": 14669,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "image-manipulation-image-magick",
+      "zip": "image-manipulation-image-magick.zip",
+      "bytes": 2379,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "image-processing",
+      "zip": "image-processing.zip",
+      "bytes": 1831,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "imagegen",
+      "zip": "imagegen.zip",
+      "bytes": 26189,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "internet-skill-finder",
+      "zip": "internet-skill-finder.zip",
+      "bytes": 14712,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "journal-adapt",
+      "zip": "journal-adapt.zip",
+      "bytes": 17268,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "journal-entry-prep",
+      "zip": "journal-entry-prep.zip",
+      "bytes": 3296,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "json-canvas",
+      "zip": "json-canvas.zip",
+      "bytes": 4296,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "keyword-research",
+      "zip": "keyword-research.zip",
+      "bytes": 7642,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "kling-prompter",
+      "zip": "kling-prompter.zip",
+      "bytes": 4505,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "knowledge-synthesis",
+      "zip": "knowledge-synthesis.zip",
+      "bytes": 3546,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "kpi-dashboard-design",
+      "zip": "kpi-dashboard-design.zip",
+      "bytes": 6811,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "langchain-architecture",
+      "zip": "langchain-architecture.zip",
+      "bytes": 6862,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "legacy-circuit-mockups",
+      "zip": "legacy-circuit-mockups.zip",
+      "bytes": 55484,
+      "files": 21,
+      "ok": true
+    },
+    {
+      "skill_name": "legal-risk-assessment",
+      "zip": "legal-risk-assessment.zip",
+      "bytes": 4840,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "lesson-learned",
+      "zip": "lesson-learned.zip",
+      "bytes": 7911,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "lightroom-playbooks",
+      "zip": "lightroom-playbooks.zip",
+      "bytes": 14903,
+      "files": 10,
+      "ok": true
+    },
+    {
+      "skill_name": "logic-pro-playbooks",
+      "zip": "logic-pro-playbooks.zip",
+      "bytes": 15487,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "make-repo-contribution",
+      "zip": "make-repo-contribution.zip",
+      "bytes": 3797,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "manim-animator",
+      "zip": "manim-animator.zip",
+      "bytes": 353626,
+      "files": 161,
+      "ok": true
+    },
+    {
+      "skill_name": "manus-api",
+      "zip": "manus-api.zip",
+      "bytes": 142686,
+      "files": 85,
+      "ok": true
+    },
+    {
+      "skill_name": "manus-config",
+      "zip": "manus-config.zip",
+      "bytes": 13518,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "manus-tasks",
+      "zip": "manus-tasks.zip",
+      "bytes": 5231,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "markdown-mermaid-writing",
+      "zip": "markdown-mermaid-writing.zip",
+      "bytes": 122263,
+      "files": 38,
+      "ok": true
+    },
+    {
+      "skill_name": "markdown-to-html",
+      "zip": "markdown-to-html.zip",
+      "bytes": 39493,
+      "files": 16,
+      "ok": true
+    },
+    {
+      "skill_name": "market-research-reports",
+      "zip": "market-research-reports.zip",
+      "bytes": 71764,
+      "files": 26,
+      "ok": true
+    },
+    {
+      "skill_name": "market-sizing-analysis",
+      "zip": "market-sizing-analysis.zip",
+      "bytes": 12936,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "marketing-ideas",
+      "zip": "marketing-ideas.zip",
+      "bytes": 14348,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "marp-slide",
+      "zip": "marp-slide.zip",
+      "bytes": 36950,
+      "files": 23,
+      "ok": true
+    },
+    {
+      "skill_name": "matplotlib",
+      "zip": "matplotlib.zip",
+      "bytes": 36358,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "mcp-cli",
+      "zip": "mcp-cli.zip",
+      "bytes": 1160,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "meeting-briefing",
+      "zip": "meeting-briefing.zip",
+      "bytes": 3597,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "meme-generator",
+      "zip": "meme-generator.zip",
+      "bytes": 6798,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "memory-recall",
+      "zip": "memory-recall.zip",
+      "bytes": 1895,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "mermaid-diagrams",
+      "zip": "mermaid-diagrams.zip",
+      "bytes": 28836,
+      "files": 9,
+      "ok": true
+    },
+    {
+      "skill_name": "mermaid-visualizer",
+      "zip": "mermaid-visualizer.zip",
+      "bytes": 7760,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "meta-ads-analyzer",
+      "zip": "meta-ads-analyzer.zip",
+      "bytes": 11043,
+      "files": 10,
+      "ok": true
+    },
+    {
+      "skill_name": "ml-pipeline",
+      "zip": "ml-pipeline.zip",
+      "bytes": 34302,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "model-selector",
+      "zip": "model-selector.zip",
+      "bytes": 3588,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "mongodb-schema-design",
+      "zip": "mongodb-schema-design.zip",
+      "bytes": 52311,
+      "files": 21,
+      "ok": true
+    },
+    {
+      "skill_name": "mongodb-search-and-ai",
+      "zip": "mongodb-search-and-ai.zip",
+      "bytes": 54856,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "motion-graphics",
+      "zip": "motion-graphics.zip",
+      "bytes": 30471,
+      "files": 12,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-3d-logo-animation",
+      "zip": "muapi-3d-logo-animation.zip",
+      "bytes": 1449,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-ai-fight-scene",
+      "zip": "muapi-ai-fight-scene.zip",
+      "bytes": 3769,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-animal-video-generator",
+      "zip": "muapi-animal-video-generator.zip",
+      "bytes": 1811,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-award-ceremony-video",
+      "zip": "muapi-award-ceremony-video.zip",
+      "bytes": 3619,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-cartoon-dance-animation",
+      "zip": "muapi-cartoon-dance-animation.zip",
+      "bytes": 2311,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-character-story-video",
+      "zip": "muapi-character-story-video.zip",
+      "bytes": 1889,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-cinema-director",
+      "zip": "muapi-cinema-director.zip",
+      "bytes": 3681,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-drone-style-video",
+      "zip": "muapi-drone-style-video.zip",
+      "bytes": 1749,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-freeze-effect-video",
+      "zip": "muapi-freeze-effect-video.zip",
+      "bytes": 2530,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-giant-product-showcase",
+      "zip": "muapi-giant-product-showcase.zip",
+      "bytes": 1557,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-jewelry-product-video",
+      "zip": "muapi-jewelry-product-video.zip",
+      "bytes": 1593,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-music-video",
+      "zip": "muapi-music-video.zip",
+      "bytes": 1465,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-one-shot-video",
+      "zip": "muapi-one-shot-video.zip",
+      "bytes": 1473,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-product-ad-cinematic",
+      "zip": "muapi-product-ad-cinematic.zip",
+      "bytes": 1837,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-product-campaign",
+      "zip": "muapi-product-campaign.zip",
+      "bytes": 2138,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-product-showcase-video",
+      "zip": "muapi-product-showcase-video.zip",
+      "bytes": 1510,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-product-video-ad-maker",
+      "zip": "muapi-product-video-ad-maker.zip",
+      "bytes": 1462,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-social-media-video",
+      "zip": "muapi-social-media-video.zip",
+      "bytes": 8763,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-storyboard-to-cooking-video",
+      "zip": "muapi-storyboard-to-cooking-video.zip",
+      "bytes": 3927,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-talking-baby-video",
+      "zip": "muapi-talking-baby-video.zip",
+      "bytes": 1438,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-ugc-ads-workflow",
+      "zip": "muapi-ugc-ads-workflow.zip",
+      "bytes": 1918,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-ugc-video-factory",
+      "zip": "muapi-ugc-video-factory.zip",
+      "bytes": 3154,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-ui-design",
+      "zip": "muapi-ui-design.zip",
+      "bytes": 3042,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "muapi-youtube-shorts",
+      "zip": "muapi-youtube-shorts.zip",
+      "bytes": 4803,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "music-prompter",
+      "zip": "music-prompter.zip",
+      "bytes": 5007,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "n8n-mcp-tools-expert",
+      "zip": "n8n-mcp-tools-expert.zip",
+      "bytes": 40201,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "n8n-node-configuration",
+      "zip": "n8n-node-configuration.zip",
+      "bytes": 38799,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "n8n-validation-expert",
+      "zip": "n8n-validation-expert.zip",
+      "bytes": 34506,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "n8n-workflow-patterns",
+      "zip": "n8n-workflow-patterns.zip",
+      "bytes": 40815,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "networkx",
+      "zip": "networkx.zip",
+      "bytes": 31625,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "no-ai-slop",
+      "zip": "no-ai-slop.zip",
+      "bytes": 6643,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "nothing-design",
+      "zip": "nothing-design.zip",
+      "bytes": 11263,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "obs-playbooks",
+      "zip": "obs-playbooks.zip",
+      "bytes": 19927,
+      "files": 10,
+      "ok": true
+    },
+    {
+      "skill_name": "observability-and-instrumentation",
+      "zip": "observability-and-instrumentation.zip",
+      "bytes": 6357,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "obsidian-canvas-creator",
+      "zip": "obsidian-canvas-creator.zip",
+      "bytes": 12286,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "obsidian-markdown",
+      "zip": "obsidian-markdown.zip",
+      "bytes": 4317,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "office-documents",
+      "zip": "office-documents.zip",
+      "bytes": 64864,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "office",
+      "zip": "office.zip",
+      "bytes": 949,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "oversized-cursor",
+      "zip": "oversized-cursor.zip",
+      "bytes": 3260,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "payment",
+      "zip": "payment.zip",
+      "bytes": 7512,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "penpot-uiux-design",
+      "zip": "penpot-uiux-design.zip",
+      "bytes": 19274,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "performance",
+      "zip": "performance.zip",
+      "bytes": 11065,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "persistent-computing",
+      "zip": "persistent-computing.zip",
+      "bytes": 14609,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "photo-restoration",
+      "zip": "photo-restoration.zip",
+      "bytes": 991,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "photoshop-playbooks",
+      "zip": "photoshop-playbooks.zip",
+      "bytes": 14000,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "plantuml-ascii",
+      "zip": "plantuml-ascii.zip",
+      "bytes": 2588,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "playground",
+      "zip": "playground.zip",
+      "bytes": 14347,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "power-bi-playbooks",
+      "zip": "power-bi-playbooks.zip",
+      "bytes": 18386,
+      "files": 11,
+      "ok": true
+    },
+    {
+      "skill_name": "powerpoint-playbooks",
+      "zip": "powerpoint-playbooks.zip",
+      "bytes": 16391,
+      "files": 9,
+      "ok": true
+    },
+    {
+      "skill_name": "prd",
+      "zip": "prd.zip",
+      "bytes": 2229,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "premiere-playbooks",
+      "zip": "premiere-playbooks.zip",
+      "bytes": 11788,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "pricing-strategy",
+      "zip": "pricing-strategy.zip",
+      "bytes": 57798,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "professional-communication",
+      "zip": "professional-communication.zip",
+      "bytes": 20907,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "programmatic-seo",
+      "zip": "programmatic-seo.zip",
+      "bytes": 12315,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "prompt-engineer",
+      "zip": "prompt-engineer.zip",
+      "bytes": 37342,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "prompt-translator",
+      "zip": "prompt-translator.zip",
+      "bytes": 5658,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "public-speaking",
+      "zip": "public-speaking.zip",
+      "bytes": 22569,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "puppeteer-skill",
+      "zip": "puppeteer-skill.zip",
+      "bytes": 9656,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "push-to-github",
+      "zip": "push-to-github.zip",
+      "bytes": 1220,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "react-email",
+      "zip": "react-email.zip",
+      "bytes": 28291,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "read-special-images",
+      "zip": "read-special-images.zip",
+      "bytes": 9650,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "reconciliation",
+      "zip": "reconciliation.zip",
+      "bytes": 3238,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "reddit-opportunity-research",
+      "zip": "reddit-opportunity-research.zip",
+      "bytes": 4121,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "remotion",
+      "zip": "remotion.zip",
+      "bytes": 11653,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "research-writing-skill",
+      "zip": "research-writing-skill.zip",
+      "bytes": 57598,
+      "files": 21,
+      "ok": true
+    },
+    {
+      "skill_name": "review-animations",
+      "zip": "review-animations.zip",
+      "bytes": 8491,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "revops",
+      "zip": "revops.zip",
+      "bytes": 27225,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "risk-metrics-calculation",
+      "zip": "risk-metrics-calculation.zip",
+      "bytes": 5585,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "sales-enablement",
+      "zip": "sales-enablement.zip",
+      "bytes": 33504,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "seaborn",
+      "zip": "seaborn.zip",
+      "bytes": 35161,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "seam-craft",
+      "zip": "seam-craft.zip",
+      "bytes": 2217,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "search-strategy",
+      "zip": "search-strategy.zip",
+      "bytes": 3107,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "seedance-prompter",
+      "zip": "seedance-prompter.zip",
+      "bytes": 3287,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "seedance-recipes",
+      "zip": "seedance-recipes.zip",
+      "bytes": 2985,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "seedance-storyboard",
+      "zip": "seedance-storyboard.zip",
+      "bytes": 3311,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "selenium-skill",
+      "zip": "selenium-skill.zip",
+      "bytes": 21097,
+      "files": 12,
+      "ok": true
+    },
+    {
+      "skill_name": "seo-aeo-best-practices",
+      "zip": "seo-aeo-best-practices.zip",
+      "bytes": 9044,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "seo-audit",
+      "zip": "seo-audit.zip",
+      "bytes": 19057,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "seo-competitor-analysis",
+      "zip": "seo-competitor-analysis.zip",
+      "bytes": 20575,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "seo-content-audit",
+      "zip": "seo-content-audit.zip",
+      "bytes": 14312,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "session-self-config",
+      "zip": "session-self-config.zip",
+      "bytes": 1881,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "shopify-mcp",
+      "zip": "shopify-mcp.zip",
+      "bytes": 961984,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "similarity-search-patterns",
+      "zip": "similarity-search-patterns.zip",
+      "bytes": 5136,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "similarweb-analytics",
+      "zip": "similarweb-analytics.zip",
+      "bytes": 1531,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "skill-creator",
+      "zip": "skill-creator.zip",
+      "bytes": 24929,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "slides",
+      "zip": "slides.zip",
+      "bytes": 33792,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "slo-implementation",
+      "zip": "slo-implementation.zip",
+      "bytes": 3005,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "sn-da-excel-workflow",
+      "zip": "sn-da-excel-workflow.zip",
+      "bytes": 98451,
+      "files": 45,
+      "ok": true
+    },
+    {
+      "skill_name": "sn-da-non-spreadsheet-analysis",
+      "zip": "sn-da-non-spreadsheet-analysis.zip",
+      "bytes": 14452,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "spark-optimization",
+      "zip": "spark-optimization.zip",
+      "bytes": 5238,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "spec-driven-development",
+      "zip": "spec-driven-development.zip",
+      "bytes": 5577,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "sql-optimization-patterns",
+      "zip": "sql-optimization-patterns.zip",
+      "bytes": 5067,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "sql-queries",
+      "zip": "sql-queries.zip",
+      "bytes": 4126,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "statistical-power",
+      "zip": "statistical-power.zip",
+      "bytes": 22010,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "stitch-extract-design-md",
+      "zip": "stitch-extract-design-md.zip",
+      "bytes": 18762,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "stock-analysis",
+      "zip": "stock-analysis.zip",
+      "bytes": 6506,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "stop-slop",
+      "zip": "stop-slop.zip",
+      "bytes": 8732,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "stripe-best-practices",
+      "zip": "stripe-best-practices.zip",
+      "bytes": 24402,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "supabase",
+      "zip": "supabase.zip",
+      "bytes": 8088,
+      "files": 4,
+      "ok": true
+    },
+    {
+      "skill_name": "support-policy",
+      "zip": "support-policy.zip",
+      "bytes": 1148,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "system-settings-playbooks",
+      "zip": "system-settings-playbooks.zip",
+      "bytes": 12475,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "systematic-debugging",
+      "zip": "systematic-debugging.zip",
+      "bytes": 12508,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "tailscale-network",
+      "zip": "tailscale-network.zip",
+      "bytes": 8056,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "tailwind-design-system",
+      "zip": "tailwind-design-system.zip",
+      "bytes": 8307,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "team-composition-analysis",
+      "zip": "team-composition-analysis.zip",
+      "bytes": 4201,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "telegram-playbooks",
+      "zip": "telegram-playbooks.zip",
+      "bytes": 16027,
+      "files": 9,
+      "ok": true
+    },
+    {
+      "skill_name": "test-driven-development",
+      "zip": "test-driven-development.zip",
+      "bytes": 7947,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "torch-geometric",
+      "zip": "torch-geometric.zip",
+      "bytes": 33111,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "touchpoint-contacts",
+      "zip": "touchpoint-contacts.zip",
+      "bytes": 1849,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "triggers",
+      "zip": "triggers.zip",
+      "bytes": 27267,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "trip",
+      "zip": "trip.zip",
+      "bytes": 40458,
+      "files": 6,
+      "ok": true
+    },
+    {
+      "skill_name": "tts-prompter",
+      "zip": "tts-prompter.zip",
+      "bytes": 58939,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "typst-pdf-maker",
+      "zip": "typst-pdf-maker.zip",
+      "bytes": 39177,
+      "files": 13,
+      "ok": true
+    },
+    {
+      "skill_name": "usfiscaldata",
+      "zip": "usfiscaldata.zip",
+      "bytes": 27250,
+      "files": 9,
+      "ok": true
+    },
+    {
+      "skill_name": "vaex",
+      "zip": "vaex.zip",
+      "bytes": 24907,
+      "files": 8,
+      "ok": true
+    },
+    {
+      "skill_name": "validate-data",
+      "zip": "validate-data.zip",
+      "bytes": 6409,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "vector-index-tuning",
+      "zip": "vector-index-tuning.zip",
+      "bytes": 4896,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "verification-before-completion",
+      "zip": "verification-before-completion.zip",
+      "bytes": 1823,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "video-generation",
+      "zip": "video-generation.zip",
+      "bytes": 76917,
+      "files": 20,
+      "ok": true
+    },
+    {
+      "skill_name": "video-template-frame-glitch-title",
+      "zip": "video-template-frame-glitch-title.zip",
+      "bytes": 754023,
+      "files": 12,
+      "ok": true
+    },
+    {
+      "skill_name": "video-template-frame-light-leak-cinema",
+      "zip": "video-template-frame-light-leak-cinema.zip",
+      "bytes": 720348,
+      "files": 20,
+      "ok": true
+    },
+    {
+      "skill_name": "video-to-subtitle-summary",
+      "zip": "video-to-subtitle-summary.zip",
+      "bytes": 368482,
+      "files": 20,
+      "ok": true
+    },
+    {
+      "skill_name": "web-design-engineer",
+      "zip": "web-design-engineer.zip",
+      "bytes": 109592,
+      "files": 42,
+      "ok": true
+    },
+    {
+      "skill_name": "web-design-reviewer",
+      "zip": "web-design-reviewer.zip",
+      "bytes": 10018,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "web-perf",
+      "zip": "web-perf.zip",
+      "bytes": 5316,
+      "files": 2,
+      "ok": true
+    },
+    {
+      "skill_name": "webdev-seo",
+      "zip": "webdev-seo.zip",
+      "bytes": 3216,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "webdev-worklocally",
+      "zip": "webdev-worklocally.zip",
+      "bytes": 12786,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "webdev",
+      "zip": "webdev.zip",
+      "bytes": 336310,
+      "files": 71,
+      "ok": true
+    },
+    {
+      "skill_name": "website-traffic-checker",
+      "zip": "website-traffic-checker.zip",
+      "bytes": 11131,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "whatsapp-playbooks",
+      "zip": "whatsapp-playbooks.zip",
+      "bytes": 14758,
+      "files": 7,
+      "ok": true
+    },
+    {
+      "skill_name": "word-playbooks",
+      "zip": "word-playbooks.zip",
+      "bytes": 18381,
+      "files": 9,
+      "ok": true
+    },
+    {
+      "skill_name": "workers-best-practices",
+      "zip": "workers-best-practices.zip",
+      "bytes": 14386,
+      "files": 5,
+      "ok": true
+    },
+    {
+      "skill_name": "workflow-composer",
+      "zip": "workflow-composer.zip",
+      "bytes": 6551,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "workflow",
+      "zip": "workflow.zip",
+      "bytes": 12115,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "writing-plans",
+      "zip": "writing-plans.zip",
+      "bytes": 4496,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "writing-prds",
+      "zip": "writing-prds.zip",
+      "bytes": 27966,
+      "files": 3,
+      "ok": true
+    },
+    {
+      "skill_name": "youtube-clipper",
+      "zip": "youtube-clipper.zip",
+      "bytes": 56086,
+      "files": 21,
+      "ok": true
+    },
+    {
+      "skill_name": "youtube-transcript",
+      "zip": "youtube-transcript.zip",
+      "bytes": 4513,
+      "files": 1,
+      "ok": true
+    },
+    {
+      "skill_name": "youtube-video-research",
+      "zip": "youtube-video-research.zip",
+      "bytes": 18140,
+      "files": 5,
+      "ok": true
+    }
+  ]
+}
