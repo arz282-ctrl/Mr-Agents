@@ -8,10 +8,19 @@ Shared Manus skill definitions for Rareware Studio agents.
 - `skills-manifest.json` — inventory with SHA-256 checksums
 - `docs/MANUS_SKILLS_GUIDE.md` — team import, configuration, usage, and rollout guide
 - `docs/COMPATIBILITY_AUDIT.md` — frontmatter audit and validation results
+- `scripts/install_all_skills.sh` — bulk-installs all portable top-level skills
 
 ## Installation
 
 This is a shared source collection, not one monolithic skill. Install each required skill folder separately in the target Manus workspace, or copy the folders into the workspace's user skills directory when local installation is supported.
+
+After cloning, run the bulk installer:
+
+```bash
+./scripts/install_all_skills.sh
+```
+
+Use `./scripts/install_all_skills.sh --dry-run` to preview the 276 portable skills, or pass `--dest /path/to/user-skills` to choose a different user skills directory.
 
 Start with only the skills required by each agent. Some skills depend on Manus connectors, MCP servers, external accounts, credentials, or runtime-specific features. This repository contains no credentials.
 

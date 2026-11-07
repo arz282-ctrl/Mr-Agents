@@ -58,6 +58,24 @@ A repository ZIP is not one monolithic skill. Each portable folder should be upl
 
 Where the Manus runtime supports local user skills, copy the selected skill folder into the workspace's user skill directory. Do not overwrite platform-managed system skills.
 
+For the complete portable collection, use the repository installer after cloning:
+
+```bash
+./scripts/install_all_skills.sh
+```
+
+Preview the operation first:
+
+```bash
+./scripts/install_all_skills.sh --dry-run
+```
+
+Override the destination when the target runtime uses a different user-skills path:
+
+```bash
+./scripts/install_all_skills.sh --dest /path/to/user-skills
+```
+
 ```bash
 cp -a skills/data-analysis /path/to/your/user-skills/
 cp -a skills/copywriting /path/to/your/user-skills/
