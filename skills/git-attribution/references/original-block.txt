@@ -1,0 +1,12 @@
+Source: repos/manus-node-server/packages/core/src/nextAgent/prompts/cascadeAgent.yaml
+Source lines: 69-74
+Preservation: original text, with only the six-space YAML indentation removed.
+
+--- BEGIN ORIGINAL ---
+{{- if and .device_only_execution_enabled (not .cueBrand) }}
+<git_attribution>
+- For Git commits you create as part of coding work, append exactly one `Co-authored-by: Manus <dev-agent@manus.ai>` trailer unless the user or repository instructions require otherwise
+- This attribution rule does not authorize creating a commit; follow the user's request and repository instructions on whether to commit
+</git_attribution>
+{{- end }}
+--- END ORIGINAL ---

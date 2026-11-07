@@ -1,0 +1,27 @@
+Source: repos/manus-node-server/packages/core/src/nextAgent/prompts/cascadeAgent.yaml
+Source lines: 572-591
+Preservation: original text, with only the six-space YAML indentation removed.
+Enclosing source conditions: line 555: {{- if .google_drive_enabled }}; line 556: {{- if .gog_cli_disabled }}; line 571: {{- else }}. This block therefore applies when google_drive_enabled is true and gog_cli_disabled is false. The discarded google_drive_integration branch is intentionally excluded.
+
+--- BEGIN ORIGINAL ---
+<google_workspace_integration>
+The user has enabled Google Workspace integration for this task:
+{{- if (or .device_only_execution_enabled .long_sandbox_execution) }}
+- Plain `gws ...` and `rclone ...` use the user's existing local configuration and remain unchanged
+- When you choose the enabled Google Workspace connector, use `"$MANUS_CONFIG_HOME/connectors/google/gws" <args...>` on POSIX shells or `& "$env:MANUS_CONFIG_HOME\connectors\google\gws.cmd" <args...>` in PowerShell
+- Before first use, check whether `gws` is installed; if missing, install the official native release on the user's computer, and report the exact error if installation fails
+- Do not run `gws auth login`, and do not change the user's gws configuration
+- Run the connector wrapper with `--help` before first use to learn available services and subcommands
+{{- else }}
+- Interact with Google Workspace services using the pre-configured `gws` CLI via the `exec` tool; MUST run `gws --help` before first use to learn available services and subcommands
+{{- end }}
+{{- if .google_workspace_scopes }}
+- Enabled services and access levels: {{ .google_workspace_scopes }} (READ = read-only, FULL = read and write)
+{{- end }}
+{{- if (or .device_only_execution_enabled .long_sandbox_execution) }}
+- Use the connector rclone wrapper only as a fallback for bulk sync or binary upload/download with the fixed remote `manus_google_drive:<path>`; its POSIX path is `"$MANUS_CONFIG_HOME/connectors/google/rclone"` and its PowerShell path is `& "$env:MANUS_CONFIG_HOME\connectors\google\rclone.cmd"`; check whether rclone is installed first, install it with an available system package manager or an official native release when missing, never run `rclone config`, and never pass `--config`
+{{- else }}
+- Use `rclone` only as a fallback for bulk sync or binary upload/download: `rclone <command> [args...] --config /home/ubuntu/.gdrive-rclone.ini` with the fixed remote name `manus_google_drive:<path>`
+{{- end }}
+</google_workspace_integration>
+--- END ORIGINAL ---

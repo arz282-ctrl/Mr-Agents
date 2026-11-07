@@ -1,0 +1,2069 @@
+{
+  "count": 344,
+  "skills": [
+    {
+      "path": "accessibility",
+      "skill_md": "accessibility/SKILL.md",
+      "sha256": "267fb2a0707d6142f2871f22688203a42ba21291a2aa200fb740936e41362b5d",
+      "bytes": 14358
+    },
+    {
+      "path": "accessibility-review",
+      "skill_md": "accessibility-review/SKILL.md",
+      "sha256": "ef42982af0d51238dda2ab16d08626712891bdd41864876c32d1e7b13fb3124f",
+      "bytes": 4278
+    },
+    {
+      "path": "account-research",
+      "skill_md": "account-research/SKILL.md",
+      "sha256": "1f5e40ac7cea793dff344f331be95bf2bd6fd8e03c6734aedae2d514707ec59b",
+      "bytes": 9587
+    },
+    {
+      "path": "acestep",
+      "skill_md": "acestep/SKILL.md",
+      "sha256": "c33f2c182005d17e5d372da3d5880bbf2d9dbde19001920f1f9855cb513e324c",
+      "bytes": 13804
+    },
+    {
+      "path": "after-effects-playbooks",
+      "skill_md": "after-effects-playbooks/SKILL.md",
+      "sha256": "16b0656011fdae90d1930a69037d13dc9e1f5c443bd6d072ef256d35b9dc4a75",
+      "bytes": 4209
+    },
+    {
+      "path": "agentic-eval",
+      "skill_md": "agentic-eval/SKILL.md",
+      "sha256": "fb198a5c9b12e746d01a43c9ff3368598fdc1134bb458766f580186f31001573",
+      "bytes": 5940
+    },
+    {
+      "path": "album-art-director",
+      "skill_md": "album-art-director/SKILL.md",
+      "sha256": "31d45d3e39ea2bfd3e2d32edb7a397af08dc7792d049b2ff3a8f145b2ca6f13b",
+      "bytes": 11779
+    },
+    {
+      "path": "api-designer",
+      "skill_md": "api-designer/SKILL.md",
+      "sha256": "02f7480c64238595ad94b340c6fcefa1d4050dc3c562ea96de3a7be29a7b0f7a",
+      "bytes": 8008
+    },
+    {
+      "path": "appinsights-instrumentation",
+      "skill_md": "appinsights-instrumentation/SKILL.md",
+      "sha256": "15d281900b1fa0d7d29b086257c54b5852e0ba652b62fe877c6342fa1a8554af",
+      "bytes": 2462
+    },
+    {
+      "path": "applying-brand-guidelines",
+      "skill_md": "applying-brand-guidelines/SKILL.md",
+      "sha256": "6db648c228eefa92d73a47676de68c6b1925e15ba6e6d8144aa079495771e59b",
+      "bytes": 4855
+    },
+    {
+      "path": "audacity-playbooks",
+      "skill_md": "audacity-playbooks/SKILL.md",
+      "sha256": "2fd003917841caf353ce8d3fb0230e0db5a97ff628c72ec186f42baba4796a2f",
+      "bytes": 5313
+    },
+    {
+      "path": "automation-and-scheduling",
+      "skill_md": "automation-and-scheduling/SKILL.md",
+      "sha256": "e7f178550696b4f19ada83603b4d73a5e2c5dd3ce4df26689d5d64071637aaff",
+      "bytes": 8009
+    },
+    {
+      "path": "backlink-analysis",
+      "skill_md": "backlink-analysis/SKILL.md",
+      "sha256": "4890bb21344ed94f6a02e78e53dcadfb64c90c1deffc327f482fab058cf10b9e",
+      "bytes": 16858
+    },
+    {
+      "path": "beautiful-article",
+      "skill_md": "beautiful-article/SKILL.md",
+      "sha256": "0ca56194c1c799ce1cee785f35d108b56564720f721803f4a7a57ffe6ecc0118",
+      "bytes": 31482
+    },
+    {
+      "path": "blog-rewrite",
+      "skill_md": "blog-rewrite/SKILL.md",
+      "sha256": "f0a7c01b60e1b7024897e6398196d9bb8a61e72572b1e5269f05923bb9e8d56c",
+      "bytes": 24174
+    },
+    {
+      "path": "blog-translate",
+      "skill_md": "blog-translate/SKILL.md",
+      "sha256": "46c8db868f89e15c28432c0fcd2d587cfa094d7223aace86405933cd9f72f067",
+      "bytes": 12965
+    },
+    {
+      "path": "blog-write",
+      "skill_md": "blog-write/SKILL.md",
+      "sha256": "c8b3f674f21d531a1c85e0025b0db2b55046cda0c912fc83077be9c8aaf14734",
+      "bytes": 26080
+    },
+    {
+      "path": "brand-docx",
+      "skill_md": "brand-docx/SKILL.md",
+      "sha256": "22c0be6ceabebb50b4bd3f92c4c6d583b3e11c6e0033a5bbdb2e825170f56c74",
+      "bytes": 15029
+    },
+    {
+      "path": "build-dashboard",
+      "skill_md": "build-dashboard/SKILL.md",
+      "sha256": "6f23faa0b266820a23096f76df9d83e6b67597af4fc8c3306b4eba7e9f409f99",
+      "bytes": 26002
+    },
+    {
+      "path": "builtin-llm-models",
+      "skill_md": "builtin-llm-models/SKILL.md",
+      "sha256": "2986d57a278e80665a53125329818e70b0f968354d54dac557edbcae96c9840d",
+      "bytes": 25123
+    },
+    {
+      "path": "business-model",
+      "skill_md": "business-model/SKILL.md",
+      "sha256": "515621fd8a41ecba5b7234d0d9e1e50185ba33805c4dd170b66364281f84acc8",
+      "bytes": 5784
+    },
+    {
+      "path": "call-prep",
+      "skill_md": "call-prep/SKILL.md",
+      "sha256": "4f772694f3f8fc1ef0d8bb8bb868f6c44661160f57c99dd8c9ebf97f7fe2a947",
+      "bytes": 11197
+    },
+    {
+      "path": "canva-mcp",
+      "skill_md": "canva-mcp/SKILL.md",
+      "sha256": "98f978929a4a89e69dcc5ff5e9665915da7909f62cb203a9883e7d11cdc21870",
+      "bytes": 6270
+    },
+    {
+      "path": "capcut-playbooks",
+      "skill_md": "capcut-playbooks/SKILL.md",
+      "sha256": "41ade3e497a3c97f1c02486dab0bc1b504ce97cdc008fdd35f903045757fe496",
+      "bytes": 5544
+    },
+    {
+      "path": "captions-overlay",
+      "skill_md": "captions-overlay/SKILL.md",
+      "sha256": "95edff863c75088bb9f603790fb9991e5ef1a2b1887ecff04e499031c7e46655",
+      "bytes": 5801
+    },
+    {
+      "path": "careful",
+      "skill_md": "careful/SKILL.md",
+      "sha256": "1b838c03d6e39a204b85e2613562a01669b69b5f5cd8cfc294d02239c7b37e50",
+      "bytes": 3733
+    },
+    {
+      "path": "chart-visualization",
+      "skill_md": "chart-visualization/SKILL.md",
+      "sha256": "9991e9b969c7a31b4bac34dca1106aaa294c7770bdfb348d16c80f9769eefdcd",
+      "bytes": 4972
+    },
+    {
+      "path": "chrome-devtools",
+      "skill_md": "chrome-devtools/SKILL.md",
+      "sha256": "e85ec55f68317923033375f00b431e9d5822283ea4bfad967f5fa7cbc61e6265",
+      "bytes": 4145
+    },
+    {
+      "path": "ci-cd-and-automation",
+      "skill_md": "ci-cd-and-automation/SKILL.md",
+      "sha256": "5e0e55c059670a7838dc9d58dc20a3a645c0d43c974416490112af7de522df95",
+      "bytes": 11512
+    },
+    {
+      "path": "claude-md-improver",
+      "skill_md": "claude-md-improver/SKILL.md",
+      "sha256": "b06c7420be08ca1c7f6d75f7f4709fdb787624a2d363e2f8052216d8c780f85b",
+      "bytes": 6028
+    },
+    {
+      "path": "clickhouse-architecture-advisor",
+      "skill_md": "clickhouse-architecture-advisor/SKILL.md",
+      "sha256": "edaba60acfe951828102707e6746e2e8abef583aeb4d1cca8ab307c9fb8d13ae",
+      "bytes": 3164
+    },
+    {
+      "path": "clipify",
+      "skill_md": "clipify/SKILL.md",
+      "sha256": "36a3919067535f566f624cce3ca99f0efb21299330c494cdce0c6ae10bf3eaa0",
+      "bytes": 14452
+    },
+    {
+      "path": "close-management",
+      "skill_md": "close-management/SKILL.md",
+      "sha256": "6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732",
+      "bytes": 10278
+    },
+    {
+      "path": "cold-email",
+      "skill_md": "cold-email/SKILL.md",
+      "sha256": "f66b0e66c059e9aa8480d82a09c9bb479d9a4838264a54babbc83622e43f290d",
+      "bytes": 8019
+    },
+    {
+      "path": "color-palette",
+      "skill_md": "color-palette/SKILL.md",
+      "sha256": "427042cfba6711e0afcfc1f0a8067e6a8c3cf6125df179f85caeb993fc77cf45",
+      "bytes": 15027
+    },
+    {
+      "path": "commercial-agreement-tabular-review",
+      "skill_md": "commercial-agreement-tabular-review/SKILL.md",
+      "sha256": "9ffd1938ca98b872b7c70a7e69148958dc9eb512b6184177272b04c28048d299",
+      "bytes": 1385
+    },
+    {
+      "path": "comparison-article-writer",
+      "skill_md": "comparison-article-writer/SKILL.md",
+      "sha256": "a3bd3892c55906ee8854b83b7784eb49ed7814a947c6b6974e2529ed3680c399",
+      "bytes": 12707
+    },
+    {
+      "path": "content-experimentation-best-practices",
+      "skill_md": "content-experimentation-best-practices/SKILL.md",
+      "sha256": "2c7a119eba4bf52533a7e98d7f0ee9668af244bc276962f9ffc2f16ce1000c9a",
+      "bytes": 1883
+    },
+    {
+      "path": "content-gap-analysis",
+      "skill_md": "content-gap-analysis/SKILL.md",
+      "sha256": "c3617335e7012b9331e5a6097fad63c17e3c4c2e082ec826e82bf8bf6d140f60",
+      "bytes": 31293
+    },
+    {
+      "path": "content-modeling-best-practices",
+      "skill_md": "content-modeling-best-practices/SKILL.md",
+      "sha256": "f1c4466372a564bf2c387143fb995d1b5f1524fd2374e28c45318d51aa0885a5",
+      "bytes": 1865
+    },
+    {
+      "path": "copy-editing",
+      "skill_md": "copy-editing/SKILL.md",
+      "sha256": "cec5a771ce37ade292f7f1f6b418e8a6ce6ec3f50163fa5e664afbcb03e085fc",
+      "bytes": 18458
+    },
+    {
+      "path": "copywriting",
+      "skill_md": "copywriting/SKILL.md",
+      "sha256": "02f0ab1ddd41d95b3c230d4bcff3de6578c8f2e45776c8ef2e4b931636af5bee",
+      "bytes": 15553
+    },
+    {
+      "path": "cowork-plugin-customizer",
+      "skill_md": "cowork-plugin-customizer/SKILL.md",
+      "sha256": "d7a9455692f26479806b837aef09d4711b74f82b6e32ef304a5c33ae8feb441f",
+      "bytes": 9702
+    },
+    {
+      "path": "crafting-effective-readmes",
+      "skill_md": "crafting-effective-readmes/SKILL.md",
+      "sha256": "638b271fdc148249ed8896dbdcf15f9067a8d64ba7d2d82ec3e86f8d82831b51",
+      "bytes": 2676
+    },
+    {
+      "path": "create-prd",
+      "skill_md": "create-prd/SKILL.md",
+      "sha256": "e3aa10a437ed7f748a957bd5d1eb06d8fa3f56dc728dcb93ce484387ecc3fa13",
+      "bytes": 7301
+    },
+    {
+      "path": "customer-research",
+      "skill_md": "customer-research/SKILL.md",
+      "sha256": "9c504672d26dbb01ad4bb527a5352399760503aea0edf83bd3695e6bc346a128",
+      "bytes": 10232
+    },
+    {
+      "path": "cut-the-curve",
+      "skill_md": "cut-the-curve/SKILL.md",
+      "sha256": "c97df202caea16949a54afdcbc7007c60063028f73bb56ffeaec630ccb0d5145",
+      "bytes": 18859
+    },
+    {
+      "path": "data-analysis",
+      "skill_md": "data-analysis/SKILL.md",
+      "sha256": "efedd3cc04edd0b6e6b9bae7192accb5e1f740540ecdc724a40f6d6eeebc69c1",
+      "bytes": 2367
+    },
+    {
+      "path": "data-api",
+      "skill_md": "data-api/SKILL.md",
+      "sha256": "f59c98c040f5a0db9377799bea6aba558ac2d12a4e9830b4b2c11ee2cb805d5a",
+      "bytes": 6160
+    },
+    {
+      "path": "data-backup-restoration",
+      "skill_md": "data-backup-restoration/SKILL.md",
+      "sha256": "90474ee9ed38b6a3035f9131488fc351ace91281b41273a13412aa7456330955",
+      "bytes": 6748
+    },
+    {
+      "path": "data-context-extractor",
+      "skill_md": "data-context-extractor/SKILL.md",
+      "sha256": "6d05dec52ac3667b551898b9eb943f5ee08141bc8d2fabb69a8e39bb9ce7c754",
+      "bytes": 7233
+    },
+    {
+      "path": "data-visualization",
+      "skill_md": "data-visualization/SKILL.md",
+      "sha256": "5811e8b3547cda6bc8af118aaf0d7589e8861cdc9facce6372dc78aea99ab87d",
+      "bytes": 11051
+    },
+    {
+      "path": "database-lookup",
+      "skill_md": "database-lookup/SKILL.md",
+      "sha256": "ead247f623212ca1560486d863a2d0a8c0555d8d20b975d55053eeb4ed043d37",
+      "bytes": 27582
+    },
+    {
+      "path": "debugging-and-error-recovery",
+      "skill_md": "debugging-and-error-recovery/SKILL.md",
+      "sha256": "01cff31fbd8796b444225f8a8386219792c25cebb5d4d76df664afd1d13ed610",
+      "bytes": 10893
+    },
+    {
+      "path": "deep-research",
+      "skill_md": "deep-research/SKILL.md",
+      "sha256": "b69aefe8fab8686128b995d0551cdc76e0abea7874fdcac70ff87b2ada28538f",
+      "bytes": 8416
+    },
+    {
+      "path": "diagnosing-bugs",
+      "skill_md": "diagnosing-bugs/SKILL.md",
+      "sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d",
+      "bytes": 8664
+    },
+    {
+      "path": "discord-playbooks",
+      "skill_md": "discord-playbooks/SKILL.md",
+      "sha256": "1c4f5380de5029c5c829aa44cf3a66b5625fd95d2f45d0c6eba8b32b10e9aceb",
+      "bytes": 9344
+    },
+    {
+      "path": "dispatching-parallel-agents",
+      "skill_md": "dispatching-parallel-agents/SKILL.md",
+      "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+      "bytes": 6078
+    },
+    {
+      "path": "draft-outreach",
+      "skill_md": "draft-outreach/SKILL.md",
+      "sha256": "1f28e9a07e9464e9eef71859d94d28cae955b1d2291a4d76665a71fa232f37f8",
+      "bytes": 11491
+    },
+    {
+      "path": "emil-design-eng",
+      "skill_md": "emil-design-eng/SKILL.md",
+      "sha256": "965cc3108047a1f68e504977ae7816c66115b202a32e7509c0b8305314839c54",
+      "bytes": 27509
+    },
+    {
+      "path": "example-skill",
+      "skill_md": "example-skill/SKILL.md",
+      "sha256": "87d90442621ace039aa3379805f99c3f95bf500e9f7b96f9e7876ac2dcf804f5",
+      "bytes": 2725
+    },
+    {
+      "path": "excalidraw",
+      "skill_md": "excalidraw/SKILL.md",
+      "sha256": "561c01a2b0c7587021e665645209bf316342ef370dee994a4be2a0b2c84e6d99",
+      "bytes": 8071
+    },
+    {
+      "path": "excalidraw-diagram",
+      "skill_md": "excalidraw-diagram/SKILL.md",
+      "sha256": "54bd1cd5cc9935f3729fa18dad25c71400e041f0a4c37bb808296eb766d4372d",
+      "bytes": 15132
+    },
+    {
+      "path": "excalidraw-diagram-generator",
+      "skill_md": "excalidraw-diagram-generator/SKILL.md",
+      "sha256": "3716375aca4ef46ac4b9e0c6cc349e472be9e1a75df47873d587b7eae56cebce",
+      "bytes": 24385
+    },
+    {
+      "path": "excel-generator",
+      "skill_md": "excel-generator/SKILL.md",
+      "sha256": "68cede7c84566524b05e2e7998885b4f34969003f0011a56cea9b540c5f6acad",
+      "bytes": 23847
+    },
+    {
+      "path": "favicon-gen",
+      "skill_md": "favicon-gen/SKILL.md",
+      "sha256": "acf51c71e50e92c6c557bb57e93784da11112d5c5d6dce789937ef5fc80a0baf",
+      "bytes": 4154
+    },
+    {
+      "path": "final-cut-pro-playbooks",
+      "skill_md": "final-cut-pro-playbooks/SKILL.md",
+      "sha256": "6ee7fb7821cdadb2db0d570b2baf25051ba05905fd89a41ba7946c57d2af6662",
+      "bytes": 3829
+    },
+    {
+      "path": "finance-pro-playbooks",
+      "skill_md": "finance-pro-playbooks/SKILL.md",
+      "sha256": "dcba4c099f6da75b52ac4d6192eaacef7482fbe6914078ea4c677180effff852",
+      "bytes": 11831
+    },
+    {
+      "path": "financial-analysis",
+      "skill_md": "financial-analysis/SKILL.md",
+      "sha256": "1cc6333fd670765fa2dd5bba246b67e06f3ec1116dc1db3a778e32039fb06c2e",
+      "bytes": 11894
+    },
+    {
+      "path": "game-asset-catalog",
+      "skill_md": "game-asset-catalog/SKILL.md",
+      "sha256": "1e2e3fce4b25f61752f5b996a75ac22e946b42f99ad91fa47f8254d9ed4a43e0",
+      "bytes": 9835
+    },
+    {
+      "path": "gemini-api",
+      "skill_md": "gemini-api/SKILL.md",
+      "sha256": "9c0af6ca3af4f868de769dd2aafa36eeebd27434e6b85e54091fe85a5bef22d2",
+      "bytes": 10726
+    },
+    {
+      "path": "git-attribution",
+      "skill_md": "git-attribution/SKILL.md",
+      "sha256": "14096a3a040bade1b9eefe411b31d070557beeaff24080fbf8ab6db4c4aaa936",
+      "bytes": 688
+    },
+    {
+      "path": "git-commit",
+      "skill_md": "git-commit/SKILL.md",
+      "sha256": "2ba71a0d5ba0add9f8414567d2f54906def78ea843e3c05f3791e485a1e82e3b",
+      "bytes": 5533
+    },
+    {
+      "path": "git-workflow-and-versioning",
+      "skill_md": "git-workflow-and-versioning/SKILL.md",
+      "sha256": "d77c955f57cfafde73efb7641ed9a478ffaa0f61c0f31bd9fe87317702f1b60d",
+      "bytes": 14403
+    },
+    {
+      "path": "github-gem-seeker",
+      "skill_md": "github-gem-seeker/SKILL.md",
+      "sha256": "05042dca5df6d1af0ced96a3212e8e5699b1218021073bf60c060e311e453964",
+      "bytes": 4160
+    },
+    {
+      "path": "github-integration",
+      "skill_md": "github-integration/SKILL.md",
+      "sha256": "1490a0b29fdeea4d754ad1fc12366f8d18301008e9cfe4a9cc061c731abf0cef",
+      "bytes": 2529
+    },
+    {
+      "path": "google-cloud-waf-cost-optimization",
+      "skill_md": "google-cloud-waf-cost-optimization/SKILL.md",
+      "sha256": "d8a60befc391e24616e7dac371e1ccfd2ecb38b1c207bef3428f155bdb84f1d7",
+      "bytes": 10767
+    },
+    {
+      "path": "google-cloud-waf-performance-optimization",
+      "skill_md": "google-cloud-waf-performance-optimization/SKILL.md",
+      "sha256": "beaa5fc4db5e07bb79c0dba6abb09b40b291cc6b32f8eb71161db9526c32a5b1",
+      "bytes": 7519
+    },
+    {
+      "path": "google-cloud-waf-security",
+      "skill_md": "google-cloud-waf-security/SKILL.md",
+      "sha256": "90cf88c53d4bcf9f5239db2529aa7bdeba928701e85d406b559d3f6a12e57434",
+      "bytes": 16941
+    },
+    {
+      "path": "google-workspace-integration",
+      "skill_md": "google-workspace-integration/SKILL.md",
+      "sha256": "eac6329fa929df7eb8491a9adc6f2fe1effd25872088f020e61b9d4730e0be03",
+      "bytes": 2620
+    },
+    {
+      "path": "grafana-dashboards",
+      "skill_md": "grafana-dashboards/SKILL.md",
+      "sha256": "9ee1be2a4913dfd0f0f804ebf1447b002f5193041c9da2c2a7f8a400ac2477c0",
+      "bytes": 7986
+    },
+    {
+      "path": "grammar-check",
+      "skill_md": "grammar-check/SKILL.md",
+      "sha256": "67e4721b25541cea2f2b72e27dca0099cad66ac9a1a6fdc49d63adbae6450e02",
+      "bytes": 9673
+    },
+    {
+      "path": "gsap-core",
+      "skill_md": "gsap-core/SKILL.md",
+      "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3",
+      "bytes": 14792
+    },
+    {
+      "path": "gsap-plugins",
+      "skill_md": "gsap-plugins/SKILL.md",
+      "sha256": "5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4",
+      "bytes": 21579
+    },
+    {
+      "path": "gsap-scrolltrigger",
+      "skill_md": "gsap-scrolltrigger/SKILL.md",
+      "sha256": "9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4",
+      "bytes": 18390
+    },
+    {
+      "path": "gsap-utils",
+      "skill_md": "gsap-utils/SKILL.md",
+      "sha256": "1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba",
+      "bytes": 12093
+    },
+    {
+      "path": "gws-best-practices",
+      "skill_md": "gws-best-practices/SKILL.md",
+      "sha256": "9014cd7ba5bce3cdd92f02e69a37e930a9cd273f55c9a154b04a1ef198b8b4fe",
+      "bytes": 7245
+    },
+    {
+      "path": "hackernews-frontpage",
+      "skill_md": "hackernews-frontpage/SKILL.md",
+      "sha256": "1a4e91d00ffdbdd38d2dc2986cf764b6d7d4d9348fdce19f2c60e92fa4a564da",
+      "bytes": 1418
+    },
+    {
+      "path": "handoff",
+      "skill_md": "handoff/SKILL.md",
+      "sha256": "705386611638c16ef9f1e94d1b114ea20492fdcbeb1d4afd48fd32a4c4852344",
+      "bytes": 1546
+    },
+    {
+      "path": "html-video-production",
+      "skill_md": "html-video-production/SKILL.md",
+      "sha256": "c143767c6c96949c1c2c6d94ee7ba845ba301c3ea67e2dd4cead44f90d09d380",
+      "bytes": 11937
+    },
+    {
+      "path": "html-video-production/references/embedded-captions",
+      "skill_md": "html-video-production/references/embedded-captions/SKILL.md",
+      "sha256": "cc5f1dcb9c0341a41df53fd0b91044229fc519c63653acc583fb0d744fd43376",
+      "bytes": 32983
+    },
+    {
+      "path": "html-video-production/references/faceless-explainer",
+      "skill_md": "html-video-production/references/faceless-explainer/SKILL.md",
+      "sha256": "85312e07bcce9e3b84539a737d2f7f549d108033a4b37ea0f15859a08e7ef6cd",
+      "bytes": 27560
+    },
+    {
+      "path": "html-video-production/references/figma",
+      "skill_md": "html-video-production/references/figma/SKILL.md",
+      "sha256": "e591caffd990618d6fa5488acf653a34b9d0a26538c411f3044058fa7d16e64a",
+      "bytes": 16283
+    },
+    {
+      "path": "html-video-production/references/general-video",
+      "skill_md": "html-video-production/references/general-video/SKILL.md",
+      "sha256": "c7f038a5351c203abcd872807ea08b7d47c377a34fe024daee815ac3c33b09ad",
+      "bytes": 16974
+    },
+    {
+      "path": "html-video-production/references/hyperframes",
+      "skill_md": "html-video-production/references/hyperframes/SKILL.md",
+      "sha256": "62cdbc8daf2e15c35e3915174f36854f5c648760f20367d3ddc60992c3ca2d45",
+      "bytes": 24552
+    },
+    {
+      "path": "html-video-production/references/hyperframes-animation",
+      "skill_md": "html-video-production/references/hyperframes-animation/SKILL.md",
+      "sha256": "6945f28eb9d4ca9f39dc3a4f7cf9ae548d6ca7ed6eed72f840103bc844e9ccb4",
+      "bytes": 8218
+    },
+    {
+      "path": "html-video-production/references/hyperframes-cli",
+      "skill_md": "html-video-production/references/hyperframes-cli/SKILL.md",
+      "sha256": "ad4771bec67e48a88c008b8126d58c660da848a1af6d38d67355d293177ef7c2",
+      "bytes": 11849
+    },
+    {
+      "path": "html-video-production/references/hyperframes-core",
+      "skill_md": "html-video-production/references/hyperframes-core/SKILL.md",
+      "sha256": "65a42cb606df2a973e1baf6af0dbe68fc64fc3dc35c190aa5dd921e654cc987e",
+      "bytes": 9926
+    },
+    {
+      "path": "html-video-production/references/hyperframes-creative",
+      "skill_md": "html-video-production/references/hyperframes-creative/SKILL.md",
+      "sha256": "654cd31193fedfada0c2d11d8c15a27d3cd96ab93bd5aef330955fde8da8b887",
+      "bytes": 6345
+    },
+    {
+      "path": "html-video-production/references/hyperframes-keyframes",
+      "skill_md": "html-video-production/references/hyperframes-keyframes/SKILL.md",
+      "sha256": "2a05e5fb6028a1b52782f311acf13f4ce84d8f191907df7491a6c8bae2c8104d",
+      "bytes": 11742
+    },
+    {
+      "path": "html-video-production/references/hyperframes-registry",
+      "skill_md": "html-video-production/references/hyperframes-registry/SKILL.md",
+      "sha256": "946f3a0c28ccaf8da3f1e412bc8404d90b8f2e87531cdb6a1a9f0e07184f0ecf",
+      "bytes": 5837
+    },
+    {
+      "path": "html-video-production/references/media-use",
+      "skill_md": "html-video-production/references/media-use/SKILL.md",
+      "sha256": "d7ae267b26551e3c3696e0b747333daa1fabb9f077f2556354c6b1af72da9fb7",
+      "bytes": 31232
+    },
+    {
+      "path": "html-video-production/references/motion-graphics",
+      "skill_md": "html-video-production/references/motion-graphics/SKILL.md",
+      "sha256": "be460be1a650bb9ef4ef4cd3ae21d9983f76a9feb788e6f7c4ecae99b0079335",
+      "bytes": 16268
+    },
+    {
+      "path": "html-video-production/references/music-to-video",
+      "skill_md": "html-video-production/references/music-to-video/SKILL.md",
+      "sha256": "9f786c11ce2d2ad42c3bb0e719134b669b7495a827a1997370902f59e0103b22",
+      "bytes": 17908
+    },
+    {
+      "path": "html-video-production/references/pr-to-video",
+      "skill_md": "html-video-production/references/pr-to-video/SKILL.md",
+      "sha256": "30537ba05016a2376c04c2b6805112dfc758d11db5f978f617334fb298144990",
+      "bytes": 30978
+    },
+    {
+      "path": "html-video-production/references/product-launch-video",
+      "skill_md": "html-video-production/references/product-launch-video/SKILL.md",
+      "sha256": "1954d9b2001a2ad1addf33c708b8a848f600cb043efd0c1daea2f930dfa7a2a6",
+      "bytes": 26897
+    },
+    {
+      "path": "html-video-production/references/remotion-to-hyperframes",
+      "skill_md": "html-video-production/references/remotion-to-hyperframes/SKILL.md",
+      "sha256": "3438fbc8afb4560ed1d3cb511adebbf646cc5c71e445d2521d78fe1402d10431",
+      "bytes": 10029
+    },
+    {
+      "path": "html-video-production/references/slideshow",
+      "skill_md": "html-video-production/references/slideshow/SKILL.md",
+      "sha256": "044e5c1e262dd8dee6f27c320227ab747335ae0a7e8f4103bb466f76a701bf18",
+      "bytes": 36245
+    },
+    {
+      "path": "html-video-production/references/talking-head-recut",
+      "skill_md": "html-video-production/references/talking-head-recut/SKILL.md",
+      "sha256": "1b0e9b5d9fc0cb044339b18ed8d3388260fa1c6724dbe4d9f5c4efdde6429229",
+      "bytes": 65946
+    },
+    {
+      "path": "huggingface-datasets",
+      "skill_md": "huggingface-datasets/SKILL.md",
+      "sha256": "eeca50adf211ea64a288b852938f85a5183b045c720dc696b62db9aa2ea8deb2",
+      "bytes": 4671
+    },
+    {
+      "path": "huggingface-gradio",
+      "skill_md": "huggingface-gradio/SKILL.md",
+      "sha256": "ce41c656e364a8027755a520372448036d90811f5a1d377f02bb9d549c0865a9",
+      "bytes": 24741
+    },
+    {
+      "path": "hybrid-search-implementation",
+      "skill_md": "hybrid-search-implementation/SKILL.md",
+      "sha256": "38d33722a545862205d1216be79a09d4101e7cef839d673bfaae2b34974fc640",
+      "bytes": 2032
+    },
+    {
+      "path": "hyperframes-keyframes",
+      "skill_md": "hyperframes-keyframes/SKILL.md",
+      "sha256": "d6484e8367ed522f2a89af9ec30ae3cd86ae243b5a23c5ab00a7a682e3d1a791",
+      "bytes": 16263
+    },
+    {
+      "path": "iflytek-text-proofread",
+      "skill_md": "iflytek-text-proofread/SKILL.md",
+      "sha256": "fe4d98023bbed91d0f2613ce9a53f9ed672ee0743a2e9f93710496c9f62da7f2",
+      "bytes": 8868
+    },
+    {
+      "path": "illustrator-playbooks",
+      "skill_md": "illustrator-playbooks/SKILL.md",
+      "sha256": "fe50e85bccd55b20db0700dda26ba068a1821ecc8641f12266f9f8f70227978f",
+      "bytes": 6104
+    },
+    {
+      "path": "image-manipulation-image-magick",
+      "skill_md": "image-manipulation-image-magick/SKILL.md",
+      "sha256": "fba25bd07b134f456f7f6d217fd4d385f67286957387f59115a8275c391769c4",
+      "bytes": 6963
+    },
+    {
+      "path": "image-processing",
+      "skill_md": "image-processing/SKILL.md",
+      "sha256": "1ed414ba7bead8a9f29d70e825a3ad1b689f7f429e75c8f3f42aceaf1d572ddb",
+      "bytes": 4292
+    },
+    {
+      "path": "imagegen",
+      "skill_md": "imagegen/SKILL.md",
+      "sha256": "bdbf86931215b8e4a51ba893edba6468d7327246c10b07e18337a31a58a183c6",
+      "bytes": 19920
+    },
+    {
+      "path": "internet-skill-finder",
+      "skill_md": "internet-skill-finder/SKILL.md",
+      "sha256": "aaf9a176a9ff39a191a8a2901497803a563747659083263591edf8854b5db1fe",
+      "bytes": 1746
+    },
+    {
+      "path": "journal-adapt",
+      "skill_md": "journal-adapt/SKILL.md",
+      "sha256": "97a7ace0299c3e9c713274b5df54f19ecb2a9dcc1df29efa2ce16313832cd457",
+      "bytes": 20961
+    },
+    {
+      "path": "journal-entry-prep",
+      "skill_md": "journal-entry-prep/SKILL.md",
+      "sha256": "122715fb18246c2f04d31a5f7c07584ecbfc5c0b46ee09b4c0f4557767d7351e",
+      "bytes": 7841
+    },
+    {
+      "path": "json-canvas",
+      "skill_md": "json-canvas/SKILL.md",
+      "sha256": "97d1ae0728955c4203922753d5656890e5e4dd371b8306ea11884f9b510f1b85",
+      "bytes": 7624
+    },
+    {
+      "path": "keyword-research",
+      "skill_md": "keyword-research/SKILL.md",
+      "sha256": "a90fe02197aaf63be5afe168fca3e18c6065cc425ca00674ce30d29094b9b10a",
+      "bytes": 7997
+    },
+    {
+      "path": "kling-prompter",
+      "skill_md": "kling-prompter/SKILL.md",
+      "sha256": "bc295824c51aa3ae9db7715131afec81b2c6ab4dabee2c2fc48c9dd8a3a7a961",
+      "bytes": 8557
+    },
+    {
+      "path": "knowledge-synthesis",
+      "skill_md": "knowledge-synthesis/SKILL.md",
+      "sha256": "8dc66c66ef0004010bbf2d569251163e90a6675b982e0cb99ef26b4dd1c5a0f6",
+      "bytes": 8526
+    },
+    {
+      "path": "kpi-dashboard-design",
+      "skill_md": "kpi-dashboard-design/SKILL.md",
+      "sha256": "cf913b10f55605477461e093daffbb6e6aab41b6d8061cef8baf01086d6d496a",
+      "bytes": 5511
+    },
+    {
+      "path": "langchain-architecture",
+      "skill_md": "langchain-architecture/SKILL.md",
+      "sha256": "0c8dcec1d171a00467eda176a0716866c5bf6c9e86fd0830a74dcabd626bc06a",
+      "bytes": 8022
+    },
+    {
+      "path": "legacy-circuit-mockups",
+      "skill_md": "legacy-circuit-mockups/SKILL.md",
+      "sha256": "2087521d62e0f99d15db3a73389d0d8bcdf45b4913f3fcfc7ef2657eae6df4de",
+      "bytes": 9249
+    },
+    {
+      "path": "legal-risk-assessment",
+      "skill_md": "legal-risk-assessment/SKILL.md",
+      "sha256": "9f7985e3a98ac8419b52067cdaa1b72f754fa38c20489e7f0bf9de36347d4d89",
+      "bytes": 12581
+    },
+    {
+      "path": "lesson-learned",
+      "skill_md": "lesson-learned/SKILL.md",
+      "sha256": "f2ee51f30ea8c2f15f961eac7d403945c0db5af042c1dc56c0d3b6a6561b9894",
+      "bytes": 4749
+    },
+    {
+      "path": "lightroom-playbooks",
+      "skill_md": "lightroom-playbooks/SKILL.md",
+      "sha256": "26f1437e8a9f1731c8dd6a06085a7cd2801cd983ccaea2da1345ff75d28bde32",
+      "bytes": 5055
+    },
+    {
+      "path": "logic-pro-playbooks",
+      "skill_md": "logic-pro-playbooks/SKILL.md",
+      "sha256": "0c1046b2d3df78e9e55d72841322b96083e6818122db79318bc30296c0b12861",
+      "bytes": 5836
+    },
+    {
+      "path": "make-repo-contribution",
+      "skill_md": "make-repo-contribution/SKILL.md",
+      "sha256": "8452ae255064604f38942a920ff92bd05a6a4d5bcd0b94ad58b13b07d1abd1b7",
+      "bytes": 6405
+    },
+    {
+      "path": "manim-animator",
+      "skill_md": "manim-animator/SKILL.md",
+      "sha256": "9911c3b280628a01c2c3158254115f0691bff73ad8c8660946d0ad98bd4aafe2",
+      "bytes": 12195
+    },
+    {
+      "path": "manus-api",
+      "skill_md": "manus-api/SKILL.md",
+      "sha256": "4f4f651b3df5c8f3b882212daba54c98d99a61437b98afe32de3a23a7fdd0f74",
+      "bytes": 17108
+    },
+    {
+      "path": "manus-config",
+      "skill_md": "manus-config/SKILL.md",
+      "sha256": "fbfa1270cf4b45245d7858b8578fc639fdb39acafd081e550d0708210bcf76e2",
+      "bytes": 37793
+    },
+    {
+      "path": "manus-tasks",
+      "skill_md": "manus-tasks/SKILL.md",
+      "sha256": "00410d12511c653eb4661094d8c15e8cdabb1f814276075f022bd30fd7dcf8a8",
+      "bytes": 13178
+    },
+    {
+      "path": "markdown-mermaid-writing",
+      "skill_md": "markdown-mermaid-writing/SKILL.md",
+      "sha256": "c28a9d602fc5b55e9fa80cff493b045bb70d3cec47e2288e38051744337214c4",
+      "bytes": 16691
+    },
+    {
+      "path": "markdown-to-html",
+      "skill_md": "markdown-to-html/SKILL.md",
+      "sha256": "a51376b7c8e88e009c60f20af5b9c1157d4e5c3b40dd62f43abc0e873381e0e4",
+      "bytes": 24632
+    },
+    {
+      "path": "market-research-reports",
+      "skill_md": "market-research-reports/SKILL.md",
+      "sha256": "8fba27d8509bb95caade7ef856d83ddbd7e51303590f5f2db149b0270cf6fd40",
+      "bytes": 15349
+    },
+    {
+      "path": "market-sizing-analysis",
+      "skill_md": "market-sizing-analysis/SKILL.md",
+      "sha256": "373c3f2089d5fa5228c3d24bf12ffacc6fefe04208d0df114ad75832c596e943",
+      "bytes": 2477
+    },
+    {
+      "path": "marketing-ideas",
+      "skill_md": "marketing-ideas/SKILL.md",
+      "sha256": "945c46ea4e3bf2a237bcae0942ea2db44b981b63ec34db1bc636caf6e665d294",
+      "bytes": 5892
+    },
+    {
+      "path": "marp-slide",
+      "skill_md": "marp-slide/SKILL.md",
+      "sha256": "4244be1fd746625cca59d9d04736357c587b270d8840f750b6ac9894886cf2aa",
+      "bytes": 8772
+    },
+    {
+      "path": "matplotlib",
+      "skill_md": "matplotlib/SKILL.md",
+      "sha256": "60b80aaa802e1a88db30729611789bf5ee92b3f2a7bb695502bac10dd255ee86",
+      "bytes": 16615
+    },
+    {
+      "path": "mcp-cli",
+      "skill_md": "mcp-cli/SKILL.md",
+      "sha256": "54081db970e9333dad51f8458bc623912fab2087ecacccb6298f2c53833d6070",
+      "bytes": 2539
+    },
+    {
+      "path": "meeting-briefing",
+      "skill_md": "meeting-briefing/SKILL.md",
+      "sha256": "4d19bc2ddb2138d1b306b150c5d0900ce0a398d5ab690b8eba8101ef33d98baa",
+      "bytes": 8990
+    },
+    {
+      "path": "meme-generator",
+      "skill_md": "meme-generator/SKILL.md",
+      "sha256": "912708f071d5223f163c3fb0fda9f0e94c0844a5aaef6ac6b12bfcc49c291bb0",
+      "bytes": 10370
+    },
+    {
+      "path": "memory-recall",
+      "skill_md": "memory-recall/SKILL.md",
+      "sha256": "b9385e5c3d8c35eae0cce2193dc8d3a7cf010670ced478e51eed2124409ff692",
+      "bytes": 3880
+    },
+    {
+      "path": "mermaid-diagrams",
+      "skill_md": "mermaid-diagrams/SKILL.md",
+      "sha256": "79bca3c767a821a28aa7d83a9673010b2066afa4889923ea5946153c8967e824",
+      "bytes": 7479
+    },
+    {
+      "path": "mermaid-visualizer",
+      "skill_md": "mermaid-visualizer/SKILL.md",
+      "sha256": "93fff4e93adc82878c60557935dc75052f23331db9d3f5d6d3c137f2743bb72c",
+      "bytes": 8957
+    },
+    {
+      "path": "meta-ads-analyzer",
+      "skill_md": "meta-ads-analyzer/SKILL.md",
+      "sha256": "eb5f34dbede3c240b1815f078ca9a307fe94ecf0a0dad166c0c0fb37b3e49233",
+      "bytes": 8890
+    },
+    {
+      "path": "ml-pipeline",
+      "skill_md": "ml-pipeline/SKILL.md",
+      "sha256": "f32d20c5fbaade8e7e43fcf756dec9543dd17f38b184f5d100b50bf34dae06a6",
+      "bytes": 7423
+    },
+    {
+      "path": "model-selector",
+      "skill_md": "model-selector/SKILL.md",
+      "sha256": "fc6cbc5fd0337ade6bfc37157684912eb5ab206b7ff11b6889efa1040c30a18b",
+      "bytes": 7815
+    },
+    {
+      "path": "mongodb-schema-design",
+      "skill_md": "mongodb-schema-design/SKILL.md",
+      "sha256": "2a19fcd1a85b957301898c7c26f691bdf5da65d94c6ab0c6fc3609dc8205eb08",
+      "bytes": 13647
+    },
+    {
+      "path": "mongodb-search-and-ai",
+      "skill_md": "mongodb-search-and-ai/SKILL.md",
+      "sha256": "a6e200edbe5e02ecec6b03dc74093260214a433e6c633438f27c4e2abdc4a2f6",
+      "bytes": 8900
+    },
+    {
+      "path": "motion-graphics",
+      "skill_md": "motion-graphics/SKILL.md",
+      "sha256": "abf4691e083ef0d0c17273d8ffdc419769dc5fb6dd42cc8b071cb63f8d4bda48",
+      "bytes": 8579
+    },
+    {
+      "path": "muapi-3d-logo-animation",
+      "skill_md": "muapi-3d-logo-animation/SKILL.md",
+      "sha256": "82c7adf55f4e9e767a274530ef3270141747cca0610fefeae64e639be74697f3",
+      "bytes": 2680
+    },
+    {
+      "path": "muapi-ai-fight-scene",
+      "skill_md": "muapi-ai-fight-scene/SKILL.md",
+      "sha256": "470758b2922dde31ab21138d1bf3c69dac6ecd483e949e660663dad6c94315be",
+      "bytes": 8277
+    },
+    {
+      "path": "muapi-animal-video-generator",
+      "skill_md": "muapi-animal-video-generator/SKILL.md",
+      "sha256": "b9a16065c6f2f5dfa347426c89397212fed1a5d2c13efac91902843c560d4a6c",
+      "bytes": 3418
+    },
+    {
+      "path": "muapi-award-ceremony-video",
+      "skill_md": "muapi-award-ceremony-video/SKILL.md",
+      "sha256": "b676fbc9cdc4e4f857a4597806e2f36180c17d49a81a1af064254b038999d054",
+      "bytes": 8221
+    },
+    {
+      "path": "muapi-cartoon-dance-animation",
+      "skill_md": "muapi-cartoon-dance-animation/SKILL.md",
+      "sha256": "961580bddcb9eff70f81ce5bf05d6bd703d79f72c2d17dae5db29e3971031797",
+      "bytes": 4666
+    },
+    {
+      "path": "muapi-character-story-video",
+      "skill_md": "muapi-character-story-video/SKILL.md",
+      "sha256": "9e24b4e2dac24c38dff77870b13772b99ac605f6762da96309d3e9111b1075f4",
+      "bytes": 4523
+    },
+    {
+      "path": "muapi-cinema-director",
+      "skill_md": "muapi-cinema-director/SKILL.md",
+      "sha256": "24a884942a0b8b02f835071f5e25b431030ad9135e6578ce21b062a7d3491042",
+      "bytes": 4426
+    },
+    {
+      "path": "muapi-drone-style-video",
+      "skill_md": "muapi-drone-style-video/SKILL.md",
+      "sha256": "25d2bc9996337d71d1e06f2655a239ac06cf31deaafe31e554d256e9bbed1e70",
+      "bytes": 3334
+    },
+    {
+      "path": "muapi-freeze-effect-video",
+      "skill_md": "muapi-freeze-effect-video/SKILL.md",
+      "sha256": "0097541b435be5d6c827779365c9b66b9af7da2c187a30d1d8546c1b3f082848",
+      "bytes": 5007
+    },
+    {
+      "path": "muapi-giant-product-showcase",
+      "skill_md": "muapi-giant-product-showcase/SKILL.md",
+      "sha256": "482a1c9df1933bf19377ddad4c92cffe2b61b00844113f486ddac5370f1b8e58",
+      "bytes": 3069
+    },
+    {
+      "path": "muapi-jewelry-product-video",
+      "skill_md": "muapi-jewelry-product-video/SKILL.md",
+      "sha256": "4d7ebd6ab3860949a2f7d54bac06acd27b751975f03103b37710537986042ebc",
+      "bytes": 3188
+    },
+    {
+      "path": "muapi-music-video",
+      "skill_md": "muapi-music-video/SKILL.md",
+      "sha256": "95aa5c9a734b99031dbd42fb2999ebc554dcac6af5524c6715dd027ca7fa8e16",
+      "bytes": 2608
+    },
+    {
+      "path": "muapi-one-shot-video",
+      "skill_md": "muapi-one-shot-video/SKILL.md",
+      "sha256": "63c2af5d2bd180160fef8d2ec584c36fe2bd028be6464c307dcbc124f8cedeae",
+      "bytes": 2658
+    },
+    {
+      "path": "muapi-product-ad-cinematic",
+      "skill_md": "muapi-product-ad-cinematic/SKILL.md",
+      "sha256": "9cb3fa55fa85455a5cf9fbd69aec964bc8cbcadc20c7118959a0cd93c42f8ef0",
+      "bytes": 3272
+    },
+    {
+      "path": "muapi-product-campaign",
+      "skill_md": "muapi-product-campaign/SKILL.md",
+      "sha256": "d1836e8f96875a9c521c4cd468609f52c362fc602190b75ada8ec3cc5780d0b9",
+      "bytes": 4557
+    },
+    {
+      "path": "muapi-product-showcase-video",
+      "skill_md": "muapi-product-showcase-video/SKILL.md",
+      "sha256": "5d92a8782c93251c5df882b703c305e4658397d87b839fd967a5bf7d1329fa4a",
+      "bytes": 3004
+    },
+    {
+      "path": "muapi-product-video-ad-maker",
+      "skill_md": "muapi-product-video-ad-maker/SKILL.md",
+      "sha256": "95ce74424f4201310b1e0dafe072f8e0753ef7e1c414a92a794da6e5251aa7cb",
+      "bytes": 2798
+    },
+    {
+      "path": "muapi-social-media-video",
+      "skill_md": "muapi-social-media-video/SKILL.md",
+      "sha256": "8990bd91d06efaa664fd0f8812cfc6b8764475d8fc61da5f818669dd1980d6a4",
+      "bytes": 11501
+    },
+    {
+      "path": "muapi-storyboard-to-cooking-video",
+      "skill_md": "muapi-storyboard-to-cooking-video/SKILL.md",
+      "sha256": "03f31cbdb1d74c32dc03c83b10cc9a2bb83084c908320324667890407409d2fc",
+      "bytes": 8794
+    },
+    {
+      "path": "muapi-talking-baby-video",
+      "skill_md": "muapi-talking-baby-video/SKILL.md",
+      "sha256": "219153b88e4903b24934f108fc2276f88e30e354caa982e1f04305029dad528b",
+      "bytes": 2580
+    },
+    {
+      "path": "muapi-ugc-ads-workflow",
+      "skill_md": "muapi-ugc-ads-workflow/SKILL.md",
+      "sha256": "ddabec2fcfda3eae8858fb44f1eb1cf6f2214446824a05270e8204a4ed16f133",
+      "bytes": 3820
+    },
+    {
+      "path": "muapi-ugc-video-factory",
+      "skill_md": "muapi-ugc-video-factory/SKILL.md",
+      "sha256": "4bc74d1e43371befc213297054854f714e5c55bc539256224ac0c7dee5696919",
+      "bytes": 6675
+    },
+    {
+      "path": "muapi-ui-design",
+      "skill_md": "muapi-ui-design/SKILL.md",
+      "sha256": "a20a92821587cd5ac3a133c9aea38b93747e48fb45f29e697256766c9199e4a3",
+      "bytes": 3555
+    },
+    {
+      "path": "muapi-youtube-shorts",
+      "skill_md": "muapi-youtube-shorts/SKILL.md",
+      "sha256": "4d8c374199c9cfa5a14bd8e23bcaf2dd1e83d91ce2189508db74698dc3903df3",
+      "bytes": 6024
+    },
+    {
+      "path": "music-prompter",
+      "skill_md": "music-prompter/SKILL.md",
+      "sha256": "247d7d71caa168ff76c9c03faeca0d20520004a68c41ef1add8dd700158b3567",
+      "bytes": 11894
+    },
+    {
+      "path": "n8n-mcp-tools-expert",
+      "skill_md": "n8n-mcp-tools-expert/SKILL.md",
+      "sha256": "4dded521ae083f03678c45d9ab479c64c959efdcb4b69b85ba7da43f973db0e1",
+      "bytes": 30758
+    },
+    {
+      "path": "n8n-node-configuration",
+      "skill_md": "n8n-node-configuration/SKILL.md",
+      "sha256": "cc1576fd0b1af0ff31539a10afff6b42a05e4b12d8f9e3382c11bf948b8c099b",
+      "bytes": 20196
+    },
+    {
+      "path": "n8n-validation-expert",
+      "skill_md": "n8n-validation-expert/SKILL.md",
+      "sha256": "cc0c674063878889004a849075553938052cd49d902e56ddb36b8036cd3adc72",
+      "bytes": 22980
+    },
+    {
+      "path": "n8n-workflow-patterns",
+      "skill_md": "n8n-workflow-patterns/SKILL.md",
+      "sha256": "0bf1f5992ef91c0cdfb92c912d4a5460affc259d572fac329929842f6be8161e",
+      "bytes": 22055
+    },
+    {
+      "path": "networkx",
+      "skill_md": "networkx/SKILL.md",
+      "sha256": "981a213f33ddca21ec327ecee13e8ef8b85b7986274b84a10268ee73310df5be",
+      "bytes": 16991
+    },
+    {
+      "path": "no-ai-slop",
+      "skill_md": "no-ai-slop/SKILL.md",
+      "sha256": "992b365f51a2f62cf4c1c5ed22049a9ee551dfea677550c1a72b371c0ceadd62",
+      "bytes": 10853
+    },
+    {
+      "path": "nothing-design",
+      "skill_md": "nothing-design/SKILL.md",
+      "sha256": "64275c2031790e64bdc95e77fd87f75afc6f5d73989a5d1b2a766ee161059ad1",
+      "bytes": 9257
+    },
+    {
+      "path": "obs-playbooks",
+      "skill_md": "obs-playbooks/SKILL.md",
+      "sha256": "c3bbfdd5f5747375a811ad8dff9f4359241968909f1107f93af9491962a82b4e",
+      "bytes": 6564
+    },
+    {
+      "path": "observability-and-instrumentation",
+      "skill_md": "observability-and-instrumentation/SKILL.md",
+      "sha256": "e7fcb0820306d46268de9594d676ad98e35040858926c412b7000faa52a61f87",
+      "bytes": 13948
+    },
+    {
+      "path": "obsidian-canvas-creator",
+      "skill_md": "obsidian-canvas-creator/SKILL.md",
+      "sha256": "77bdb4ad4bf7d0ba6bd6f4c51f332216ea90a971837951605cf1008aa9b54ef3",
+      "bytes": 6518
+    },
+    {
+      "path": "obsidian-markdown",
+      "skill_md": "obsidian-markdown/SKILL.md",
+      "sha256": "7ad72e1f0a9081ed325e76b6402ad5de50a00e63e2341fd403a92f147234a007",
+      "bytes": 5367
+    },
+    {
+      "path": "office",
+      "skill_md": "office/SKILL.md",
+      "sha256": "9d4562ad94b6f4f63e979bded7605ca6ae6d1b9d8856c077e5b332b5bb0677c2",
+      "bytes": 1772
+    },
+    {
+      "path": "office-documents",
+      "skill_md": "office-documents/SKILL.md",
+      "sha256": "7e17a2b692a21d7cab58cbcb9822a59e0883ba84686638bbfa5e4289eff19c31",
+      "bytes": 3751
+    },
+    {
+      "path": "oversized-cursor",
+      "skill_md": "oversized-cursor/SKILL.md",
+      "sha256": "a176b1f251c37908a3a4dc88c76fb389b100a33447b7d2743e4c9acc08a252fe",
+      "bytes": 6625
+    },
+    {
+      "path": "payment",
+      "skill_md": "payment/SKILL.md",
+      "sha256": "f7bad2306f20ea4a7664a6490ca49024a7ae89dd3a8058e616d78ccad67e9ed4",
+      "bytes": 2421
+    },
+    {
+      "path": "penpot-uiux-design",
+      "skill_md": "penpot-uiux-design/SKILL.md",
+      "sha256": "d15c5f2607fc96c272738343f58d054357bf54042be36f7d68a1f473fc78bdfe",
+      "bytes": 12950
+    },
+    {
+      "path": "performance",
+      "skill_md": "performance/SKILL.md",
+      "sha256": "b0c220185d88c61f7770eb127d8facf86c86d2dd1fd82b86e15a4965a0137265",
+      "bytes": 13811
+    },
+    {
+      "path": "persistent-computing",
+      "skill_md": "persistent-computing/SKILL.md",
+      "sha256": "32a9d7878a7d1fe18e823bbf144249af474e5fe1d66ce6985b507e73d7c1bdd0",
+      "bytes": 8868
+    },
+    {
+      "path": "photo-restoration",
+      "skill_md": "photo-restoration/SKILL.md",
+      "sha256": "5f305f1c38778eeabdf99eb48971044b12124bd3dd43fbeffdc0b1226ece87cf",
+      "bytes": 1998
+    },
+    {
+      "path": "photoshop-playbooks",
+      "skill_md": "photoshop-playbooks/SKILL.md",
+      "sha256": "e40559a3b8416cd6185484e7fea0ba15126a85e5d6b6365ae735ab1e63a74029",
+      "bytes": 5747
+    },
+    {
+      "path": "plantuml-ascii",
+      "skill_md": "plantuml-ascii/SKILL.md",
+      "sha256": "8bfd83efc42a70cdb9d1e3d64ec305bd4d6f09e1753a03bbb7d3805d9bd13e53",
+      "bytes": 6096
+    },
+    {
+      "path": "playground",
+      "skill_md": "playground/SKILL.md",
+      "sha256": "521a3d62211e5f47b65ed17b660e001b15cf8d88d058cbf31bc00e889bcb63cc",
+      "bytes": 3824
+    },
+    {
+      "path": "power-bi-playbooks",
+      "skill_md": "power-bi-playbooks/SKILL.md",
+      "sha256": "98c9422e1e33f445c277eb861855272da366baa16d6321f5d5ef0d75a0797ba1",
+      "bytes": 6767
+    },
+    {
+      "path": "powerpoint-playbooks",
+      "skill_md": "powerpoint-playbooks/SKILL.md",
+      "sha256": "663388bec1b396a16aef752fdd80199af5e52b937f9802cb6b01b8e13b3efc49",
+      "bytes": 12253
+    },
+    {
+      "path": "prd",
+      "skill_md": "prd/SKILL.md",
+      "sha256": "6772e6f0fcc7110d625c7f4595e4990e1910007676c36d217eda4e779041d5e5",
+      "bytes": 4307
+    },
+    {
+      "path": "premiere-playbooks",
+      "skill_md": "premiere-playbooks/SKILL.md",
+      "sha256": "dab0d3f2ce6de221e5732305b364d29258f6dd1672562ef28585d58193eda530",
+      "bytes": 4990
+    },
+    {
+      "path": "pricing-strategy",
+      "skill_md": "pricing-strategy/SKILL.md",
+      "sha256": "c3a9d3677046977c4b3999104154b030902089f55d35800d0ddc84da3e29ac0e",
+      "bytes": 8052
+    },
+    {
+      "path": "professional-communication",
+      "skill_md": "professional-communication/SKILL.md",
+      "sha256": "05ad4e12e2314cbc80b019eb21e0a8cf9250298839010c916827eae74af0d515",
+      "bytes": 9008
+    },
+    {
+      "path": "programmatic-seo",
+      "skill_md": "programmatic-seo/SKILL.md",
+      "sha256": "5fbbf874bcc65cbc8b527bd6074a21168c73e191e1bc2c124438dfae710ccf04",
+      "bytes": 7677
+    },
+    {
+      "path": "prompt-engineer",
+      "skill_md": "prompt-engineer/SKILL.md",
+      "sha256": "3b3f4fd1cc1498584194adb584920b3ec7637dd90285939e13695f3f84c6e785",
+      "bytes": 6046
+    },
+    {
+      "path": "prompt-translator",
+      "skill_md": "prompt-translator/SKILL.md",
+      "sha256": "93f461a728233c43ca0c54c56f7f904edaa1dee579ff5eaa3789c047eeab6633",
+      "bytes": 11786
+    },
+    {
+      "path": "public-speaking",
+      "skill_md": "public-speaking/SKILL.md",
+      "sha256": "ae8ba2dfd3246a650bde86b279da014eab94fdf53e9edb1b6b7751ef69601e26",
+      "bytes": 8383
+    },
+    {
+      "path": "puppeteer-skill",
+      "skill_md": "puppeteer-skill/SKILL.md",
+      "sha256": "a0d642f6384ff3bea4cc4026582ccf2b59e10b1f1d4ece4a1ca261c184fd0e80",
+      "bytes": 4140
+    },
+    {
+      "path": "push-to-github",
+      "skill_md": "push-to-github/SKILL.md",
+      "sha256": "abf5dc0e8b372acfe701fe046a7412f987616150b630d7a2d87f5f0d290f11bb",
+      "bytes": 490
+    },
+    {
+      "path": "react-email",
+      "skill_md": "react-email/SKILL.md",
+      "sha256": "6316bdbe822e49f93a709e81bc011569d1a1ea20f7de78cd33ea8a0501ad79b7",
+      "bytes": 14424
+    },
+    {
+      "path": "read-special-images",
+      "skill_md": "read-special-images/SKILL.md",
+      "sha256": "ee8e68e20ec3a6871d60eebe0ff8780ab9c0aa0098fbef6747317440d99a4ffc",
+      "bytes": 8194
+    },
+    {
+      "path": "reconciliation",
+      "skill_md": "reconciliation/SKILL.md",
+      "sha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6",
+      "bytes": 8144
+    },
+    {
+      "path": "reddit-opportunity-research",
+      "skill_md": "reddit-opportunity-research/SKILL.md",
+      "sha256": "7de26d5dc6ec689ecd25fc6c4adc962779a8a8efbb6424764da82be32d8c9665",
+      "bytes": 8518
+    },
+    {
+      "path": "remotion",
+      "skill_md": "remotion/SKILL.md",
+      "sha256": "14013c0c2ffab93d3404ac9dcfbf63ab8be775185ffe216fe6ae8470203b6916",
+      "bytes": 6587
+    },
+    {
+      "path": "research-writing-skill",
+      "skill_md": "research-writing-skill/SKILL.md",
+      "sha256": "ce5f25f99ebb01e6d12624dbee1967226ed5b59aa914496bf7b998e9a31a6630",
+      "bytes": 4317
+    },
+    {
+      "path": "review-animations",
+      "skill_md": "review-animations/SKILL.md",
+      "sha256": "5f9fb98b69cace7107af8b393a4196fd42fa42d98bce0e5afc1f866ff3b8a41c",
+      "bytes": 8491
+    },
+    {
+      "path": "revops",
+      "skill_md": "revops/SKILL.md",
+      "sha256": "ac0849626fcacc2da6c64e2ce0305dedf742032dfb7ab0f051c0cd8c8e2a985a",
+      "bytes": 16713
+    },
+    {
+      "path": "risk-metrics-calculation",
+      "skill_md": "risk-metrics-calculation/SKILL.md",
+      "sha256": "d42f5937e253a072ad6fee37762fa0455d28314b31bd4ff088bd92c5e219e6c8",
+      "bytes": 2008
+    },
+    {
+      "path": "sales-enablement",
+      "skill_md": "sales-enablement/SKILL.md",
+      "sha256": "d30008d34e6a314b422e0a35cacf38aea39d39d2c48683e1ef6edcbdfca30ebd",
+      "bytes": 21099
+    },
+    {
+      "path": "seaborn",
+      "skill_md": "seaborn/SKILL.md",
+      "sha256": "d1500d1e3d9db1db4c72cd272861378d1b98b0b5a5a98e8a3fca5a45bc0c6b2e",
+      "bytes": 13464
+    },
+    {
+      "path": "seam-craft",
+      "skill_md": "seam-craft/SKILL.md",
+      "sha256": "c5aa27c6d6c088fa0bec2941692927975dcd382bc568f6f0ba8518e049e092fe",
+      "bytes": 4865
+    },
+    {
+      "path": "search-strategy",
+      "skill_md": "search-strategy/SKILL.md",
+      "sha256": "71d5ba2d219a72d696e079885cba2fb5455ba5da6b1404491f8b945bdd8694c6",
+      "bytes": 7198
+    },
+    {
+      "path": "seedance-prompter",
+      "skill_md": "seedance-prompter/SKILL.md",
+      "sha256": "d52c2d3ebe180407e143ba74ff0869c54641abbb24bee11da6dff2982b97c3f3",
+      "bytes": 5725
+    },
+    {
+      "path": "seedance-recipes",
+      "skill_md": "seedance-recipes/SKILL.md",
+      "sha256": "636549cb16360b99191a3d327aefcb5fc0471c37b65b97719cb89fce14763ee9",
+      "bytes": 6142
+    },
+    {
+      "path": "seedance-storyboard",
+      "skill_md": "seedance-storyboard/SKILL.md",
+      "sha256": "1192dedb090e5ace273376343e5a236ec0d5e001097eb39a57ff7cdb1ae75601",
+      "bytes": 6207
+    },
+    {
+      "path": "selenium-skill",
+      "skill_md": "selenium-skill/SKILL.md",
+      "sha256": "fc6802ecd174946799c85625dad66a743d9431e0708dd732da92467e7a16a92a",
+      "bytes": 9230
+    },
+    {
+      "path": "seo-aeo-best-practices",
+      "skill_md": "seo-aeo-best-practices/SKILL.md",
+      "sha256": "21d5865242c9939ee524ec0cc396c3098ccd7eac846ca9e043789beef22c9c25",
+      "bytes": 1874
+    },
+    {
+      "path": "seo-audit",
+      "skill_md": "seo-audit/SKILL.md",
+      "sha256": "0ab45bd1b27538f59f4e14d749403b3cb6e8805bac0ccbaf5f98d155aa68c4a8",
+      "bytes": 22476
+    },
+    {
+      "path": "seo-competitor-analysis",
+      "skill_md": "seo-competitor-analysis/SKILL.md",
+      "sha256": "5a7532f11b8d2551b994787872f095a8ef290b5f46f1b6a687f7e238d3ddb668",
+      "bytes": 10820
+    },
+    {
+      "path": "seo-content-audit",
+      "skill_md": "seo-content-audit/SKILL.md",
+      "sha256": "c5ab619b6b050cf636a73d15b9d1f04de9f3170c6da19928d3696adb5fdcbc05",
+      "bytes": 11947
+    },
+    {
+      "path": "session-self-config",
+      "skill_md": "session-self-config/SKILL.md",
+      "sha256": "66cdc1b45e2c118c0e141e31a3cba00b94a11895624342b9fcc4d3775fbe49d7",
+      "bytes": 1881
+    },
+    {
+      "path": "shopify-mcp",
+      "skill_md": "shopify-mcp/SKILL.md",
+      "sha256": "db9d4e66866e546838de35c112e06fc527caecaa375c9ae9664a2f7c12f2b639",
+      "bytes": 10104
+    },
+    {
+      "path": "similarity-search-patterns",
+      "skill_md": "similarity-search-patterns/SKILL.md",
+      "sha256": "3d8f6aa45803c29b7edea5f30cca6fa763eb06b514b48e97f4c9bf8380c4cf51",
+      "bytes": 2775
+    },
+    {
+      "path": "similarweb-analytics",
+      "skill_md": "similarweb-analytics/SKILL.md",
+      "sha256": "81e1c6c8f61d17ada7c09f28e2ee462ad00a71e96ac8a0c9f0de97f69d9b16d2",
+      "bytes": 4675
+    },
+    {
+      "path": "skill-creator",
+      "skill_md": "skill-creator/SKILL.md",
+      "sha256": "9396beafe1f61b0ee806cb90bf74d33c72cc60c7533daa06383e855091619444",
+      "bytes": 13142
+    },
+    {
+      "path": "slides",
+      "skill_md": "slides/SKILL.md",
+      "sha256": "f688190d31ae93dc1b11b2ae3031f2c757d675d6b7f24954fccef55c344f0d68",
+      "bytes": 31177
+    },
+    {
+      "path": "slo-implementation",
+      "skill_md": "slo-implementation/SKILL.md",
+      "sha256": "538e560a1c10be5f643d0a048e4e828605420e9b1867a9d4449f8a3471c14049",
+      "bytes": 7163
+    },
+    {
+      "path": "sn-da-excel-workflow",
+      "skill_md": "sn-da-excel-workflow/SKILL.md",
+      "sha256": "47348dffc7c96c0f01d0d4113f3ab8d65bef58a2334555e98d5ea0139d1a6f9f",
+      "bytes": 13272
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-cell-coloring/category-coloring",
+      "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/category-coloring/SKILL.md",
+      "sha256": "d6e0201155cff41e3e2bccfcd032de111291cc6fa3130c02497f1964295e0a67",
+      "bytes": 3444
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-cell-coloring/duplicate-value-coloring",
+      "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/duplicate-value-coloring/SKILL.md",
+      "sha256": "7a506a699d3e738f53ce6280327babd46bca2ddccba29b086bba2b4e25d5fa49",
+      "bytes": 3103
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-cell-coloring/outlier-coloring",
+      "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/outlier-coloring/SKILL.md",
+      "sha256": "d9f4512bf7ac409a7455669e1847d482172e82be16ebcfbc2eebd9705a78ca6e",
+      "bytes": 4138
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-cell-coloring/threshold-cell-coloring",
+      "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/threshold-cell-coloring/SKILL.md",
+      "sha256": "539ded0021ba3acf2fdc758bd65ead3f303e3e023019c2a3ad021be56bd9168c",
+      "bytes": 4435
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-cell-coloring/top-value-coloring",
+      "skill_md": "sn-da-excel-workflow/capability/excel-cell-coloring/top-value-coloring/SKILL.md",
+      "sha256": "8dce83c3b9e8cd025aeb97b6f206beb139f4fa7504b453df0814a0484ff6e29a",
+      "bytes": 3802
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-conditional-formatting/data-bar-formatting",
+      "skill_md": "sn-da-excel-workflow/capability/excel-conditional-formatting/data-bar-formatting/SKILL.md",
+      "sha256": "f22a438b327233606622e70e3474c02f975248d14f4632a38ae51a1eefcd4b77",
+      "bytes": 4204
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-analysis/comparison-analysis",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/comparison-analysis/SKILL.md",
+      "sha256": "7ad779d213935f5087e0c998fa183be439d82fffdbac325b8bd88c99f9a945ce",
+      "bytes": 3666
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-analysis/group-by-analysis",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/group-by-analysis/SKILL.md",
+      "sha256": "aff257049757bf5ac6afa7147cca0f6fcd683ef7fa85d0ed25a8c56fb18f61eb",
+      "bytes": 3654
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-analysis/kpi-metric-analysis",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/kpi-metric-analysis/SKILL.md",
+      "sha256": "97866770d864f5f510e8f1ed73002842cb371752bcb58724555ba748d799be8a",
+      "bytes": 2594
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-analysis/pivot-table-analysis",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/pivot-table-analysis/SKILL.md",
+      "sha256": "8af963f7cf600f9249d98eb77ae246ae64079f3cfcc2b094d1b4ab193d46673d",
+      "bytes": 4540
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-analysis/time-series-analysis",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/time-series-analysis/SKILL.md",
+      "sha256": "976886734b2615beb385d96ef8d78eb50811d0aedc3632948a24cf6ef61dbd4b",
+      "bytes": 5744
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-analysis/trend-analysis",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-analysis/trend-analysis/SKILL.md",
+      "sha256": "12565195014959e913ee26ba369bb928aec2ce37549887573a2265165ab739c5",
+      "bytes": 4257
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-cleaning/duplicate-removal",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/duplicate-removal/SKILL.md",
+      "sha256": "4e635016ea259f3dea95621f51aa127c276fce12d63c0d788829e88aa733a99c",
+      "bytes": 2966
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-cleaning/invalid-data-cleaning",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/invalid-data-cleaning/SKILL.md",
+      "sha256": "25a890b17ac40316bc33d02bdc969a5da517f15af88ee1bd9ea09bd5dab5dd6c",
+      "bytes": 2252
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-cleaning/missing-value-handling",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/missing-value-handling/SKILL.md",
+      "sha256": "514ea9975a943466588bc7b74efde47486509c020b1f128c2ab07f2eda865c0a",
+      "bytes": 3542
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-cleaning/numeric-format-normalization",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/numeric-format-normalization/SKILL.md",
+      "sha256": "28576fb2cc40ba5c9a4ba7c6349af7ef9a8a35b53eb9f2e89d75362e3426c57a",
+      "bytes": 2603
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-cleaning/outlier-detection",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/outlier-detection/SKILL.md",
+      "sha256": "6d4ef501ac96e457d4ab3d775c83be08eb7ffd351772deb9d8b1855ce807a88c",
+      "bytes": 4750
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-cleaning/text-normalization",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-cleaning/text-normalization/SKILL.md",
+      "sha256": "4f737becae53a43a6caaee35f3023049dd60cd6c16e7b65ac2d7df8523f7d4b2",
+      "bytes": 2345
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-filtering/category-filtering",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-filtering/category-filtering/SKILL.md",
+      "sha256": "491f09cc2f98526fdb5e615b7b26ecd4da9f43da724c021090ebe3db789987b5",
+      "bytes": 7580
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-filtering/condition-filtering",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-filtering/condition-filtering/SKILL.md",
+      "sha256": "cf8c6d664e0245ba21f1976320997312e6647798920b237d1f0e08baf437b244",
+      "bytes": 2923
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-filtering/range-filtering",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-filtering/range-filtering/SKILL.md",
+      "sha256": "328a3c732d4317a083bd0220f5d4d74ada7a2b73e8206b2628198db858c510d6",
+      "bytes": 2704
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-filtering/threshold-filtering",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-filtering/threshold-filtering/SKILL.md",
+      "sha256": "91dfaf4f9852811e386131c462398112cf3c60b84180f93aab7eb776ec315615",
+      "bytes": 1941
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-statistics/basic-statistics",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-statistics/basic-statistics/SKILL.md",
+      "sha256": "a4c80985f4a733a5fd82c1e8edd502074905108d0471df88f8346e68d9a35d9c",
+      "bytes": 3884
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-statistics/category-statistics",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-statistics/category-statistics/SKILL.md",
+      "sha256": "3fae4ce41aa0af6ab0c71e4be6399fcbea14459c784138789eb60be4a38f5562",
+      "bytes": 5610
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-statistics/grouped-statistics",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-statistics/grouped-statistics/SKILL.md",
+      "sha256": "6f9c47608f23c2d05a127408be6930b42ec495c9a1d8b9bbb37d1b0c0113c2f1",
+      "bytes": 3803
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-statistics/percentage-calculation",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-statistics/percentage-calculation/SKILL.md",
+      "sha256": "8e38e3a4751ba792ab373e8f206d639f19eefa8ba8a6f59b6c5fe0c8574ac677",
+      "bytes": 3684
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-visualization/bar-chart-visualization",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/bar-chart-visualization/SKILL.md",
+      "sha256": "cd2a81a532a94135c7841d1f790c3dcf414fec2946c193ba2767901cdcfe8162",
+      "bytes": 4668
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-visualization/histogram-visualization",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/histogram-visualization/SKILL.md",
+      "sha256": "148e4ece36fe3717873183f1a67ff05f0abd1714924aea6f4ac4d09561eabc04",
+      "bytes": 5164
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-visualization/line-chart-visualization",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/line-chart-visualization/SKILL.md",
+      "sha256": "4d39e2ff4c04fdf87bdc1011d25a174d316e03d32d35adb08345d9b11e1b83c5",
+      "bytes": 6944
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-visualization/pie-chart-visualization",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/pie-chart-visualization/SKILL.md",
+      "sha256": "f4266ef75325ae9eead6bbb113e74b32d8ec1d7cd5d863f34c760071feb96e02",
+      "bytes": 4621
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-visualization/scatter-plot-visualization",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/scatter-plot-visualization/SKILL.md",
+      "sha256": "40cd1c2706f009b1d9013961ed491d4ce6dcf174ae9941ae17b4fc7da75178eb",
+      "bytes": 3865
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-data-visualization/stacked-chart-visualization",
+      "skill_md": "sn-da-excel-workflow/capability/excel-data-visualization/stacked-chart-visualization/SKILL.md",
+      "sha256": "767c48e99f3a8fc8f0ad1893105f62f928506738822ff74d3d8115ff6c2597fb",
+      "bytes": 3591
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-reading/large-excel-reading",
+      "skill_md": "sn-da-excel-workflow/capability/excel-reading/large-excel-reading/SKILL.md",
+      "sha256": "28d0d70c66556cf7f1cf152a8b6b0abb05468124e5b54f8f46b9ec3d5f98f3bf",
+      "bytes": 3990
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-reading/multi-file-reading",
+      "skill_md": "sn-da-excel-workflow/capability/excel-reading/multi-file-reading/SKILL.md",
+      "sha256": "bede26fe4dd8c7ef43b1913a727f64b05be844da615c2b8c9765e1b5d94f7f50",
+      "bytes": 3249
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-reading/multi-sheet-reading",
+      "skill_md": "sn-da-excel-workflow/capability/excel-reading/multi-sheet-reading/SKILL.md",
+      "sha256": "0f860c163543f23079b91ec210b1f3341a07822ecb51ecb885f59eb52bc3cb98",
+      "bytes": 5160
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-reading/range-reading",
+      "skill_md": "sn-da-excel-workflow/capability/excel-reading/range-reading/SKILL.md",
+      "sha256": "4b8c8fcdd87377493b714f8ff4dbe041c5100adb22400d0c4e32c46b7a93d99d",
+      "bytes": 4169
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-reading/single-sheet-reading",
+      "skill_md": "sn-da-excel-workflow/capability/excel-reading/single-sheet-reading/SKILL.md",
+      "sha256": "84d603e8e091fd11d59c0a04c9a8ffc6d1916770688aa7bdc997fd8a7500b6f2",
+      "bytes": 4518
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-reading/specific-sheet-reading",
+      "skill_md": "sn-da-excel-workflow/capability/excel-reading/specific-sheet-reading/SKILL.md",
+      "sha256": "391e5093095f862194c08fdd55f92a360a82392a4c6bbb07787df145db04a674",
+      "bytes": 6140
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-reading/structured-header-reading",
+      "skill_md": "sn-da-excel-workflow/capability/excel-reading/structured-header-reading/SKILL.md",
+      "sha256": "33070ece70327fd3216da6c493dea6fc760b9765161be9ce08baa2f206fb14f7",
+      "bytes": 2250
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-result-export/chart-embedded-export",
+      "skill_md": "sn-da-excel-workflow/capability/excel-result-export/chart-embedded-export/SKILL.md",
+      "sha256": "73bebfb64c8cd0dd7e18cbb4d9a2d4fa72244f8b14a70182ee41ac4be0be3d6f",
+      "bytes": 4725
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-result-export/formatted-export",
+      "skill_md": "sn-da-excel-workflow/capability/excel-result-export/formatted-export/SKILL.md",
+      "sha256": "57b0f63a866a4dd829be36695e7e072f89681cdc382aec433b6b952a8970a533",
+      "bytes": 2810
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-result-export/report-generation-export",
+      "skill_md": "sn-da-excel-workflow/capability/excel-result-export/report-generation-export/SKILL.md",
+      "sha256": "5f1a618db974e69ee7f38ceaf7b7d846e361a12d8c3078bf15e282f1f7376811",
+      "bytes": 5009
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-result-export/single-sheet-export",
+      "skill_md": "sn-da-excel-workflow/capability/excel-result-export/single-sheet-export/SKILL.md",
+      "sha256": "28c511c0cb0986f2f8712386e41fd417afb3b5e33009a1de733ad0e75ea5bc4b",
+      "bytes": 2680
+    },
+    {
+      "path": "sn-da-excel-workflow/capability/excel-table-styling/table-theme-styling",
+      "skill_md": "sn-da-excel-workflow/capability/excel-table-styling/table-theme-styling/SKILL.md",
+      "sha256": "2bdd1b059471820644ccc67b88126510db7796db7fdc936204fbf7f9a33bf913",
+      "bytes": 2298
+    },
+    {
+      "path": "sn-da-non-spreadsheet-analysis",
+      "skill_md": "sn-da-non-spreadsheet-analysis/SKILL.md",
+      "sha256": "d472d8bd386131f929afe9cd51aacb1ee0a778021505a9453743e02b34d44b6e",
+      "bytes": 5453
+    },
+    {
+      "path": "sn-da-non-spreadsheet-analysis/capability/pdf-analysis",
+      "skill_md": "sn-da-non-spreadsheet-analysis/capability/pdf-analysis/SKILL.md",
+      "sha256": "24a006cb7e92116adc4b309a404b7480730e1395d7cacdb7658d295ef50f9cbd",
+      "bytes": 10165
+    },
+    {
+      "path": "sn-da-non-spreadsheet-analysis/capability/ppt-analysis",
+      "skill_md": "sn-da-non-spreadsheet-analysis/capability/ppt-analysis/SKILL.md",
+      "sha256": "d93099069252469a239ed9a339e56f1dea68e79f415b92eb857fb4966982d61c",
+      "bytes": 11223
+    },
+    {
+      "path": "sn-da-non-spreadsheet-analysis/capability/word-analysis",
+      "skill_md": "sn-da-non-spreadsheet-analysis/capability/word-analysis/SKILL.md",
+      "sha256": "a7d512e2169960abba095d3d449f8806241827f63e3e89ffcaf5fd731c40a4fa",
+      "bytes": 8834
+    },
+    {
+      "path": "spark-optimization",
+      "skill_md": "spark-optimization/SKILL.md",
+      "sha256": "6af24df5e512113dac3238dcd9ed862c0a866ff91af92b95d024cf995959ac01",
+      "bytes": 3160
+    },
+    {
+      "path": "spec-driven-development",
+      "skill_md": "spec-driven-development/SKILL.md",
+      "sha256": "b9d05b4259c14550bbffbaafd8201492129926d37ede716db352c6e4f91b404d",
+      "bytes": 13099
+    },
+    {
+      "path": "sql-optimization-patterns",
+      "skill_md": "sql-optimization-patterns/SKILL.md",
+      "sha256": "cfe8234323daaeb47577261c96933f519004fad2f45f1460f340b883af5d7354",
+      "bytes": 5961
+    },
+    {
+      "path": "sql-queries",
+      "skill_md": "sql-queries/SKILL.md",
+      "sha256": "dbd5a5e2d563d83ca6d4d033206f285f503296eabff4a35545cdb4cb5302bd9a",
+      "bytes": 11126
+    },
+    {
+      "path": "statistical-power",
+      "skill_md": "statistical-power/SKILL.md",
+      "sha256": "b31240e2d1e67ce294216c609e088fb45bf6603d548fe9561e35ceddb1fbe8d8",
+      "bytes": 15925
+    },
+    {
+      "path": "stitch-extract-design-md",
+      "skill_md": "stitch-extract-design-md/SKILL.md",
+      "sha256": "f9c32b30acd9fea3dba7306bf38e3a859f49c1f27bcf44f9cf16d3a60a730276",
+      "bytes": 14078
+    },
+    {
+      "path": "stock-analysis",
+      "skill_md": "stock-analysis/SKILL.md",
+      "sha256": "18901593a0b014c1ee2cbf8cbb972ef197229008ca842ec4cc11dc965b8d6208",
+      "bytes": 6112
+    },
+    {
+      "path": "stop-slop",
+      "skill_md": "stop-slop/SKILL.md",
+      "sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310",
+      "bytes": 2629
+    },
+    {
+      "path": "stripe-best-practices",
+      "skill_md": "stripe-best-practices/SKILL.md",
+      "sha256": "55c73cae0acb93e77df4e6d4027a4955620c6f41a2f2434352af33be648fa49b",
+      "bytes": 6742
+    },
+    {
+      "path": "supabase",
+      "skill_md": "supabase/SKILL.md",
+      "sha256": "697e0e949f97621c6fc1784169eb3ccbf673747d6bb8299a52962d3d84d93dc6",
+      "bytes": 14307
+    },
+    {
+      "path": "support-policy",
+      "skill_md": "support-policy/SKILL.md",
+      "sha256": "2d8b449f2370488599d54981e052102921c44f156f24bcff009eb0ce3f1ca70e",
+      "bytes": 879
+    },
+    {
+      "path": "system-settings-playbooks",
+      "skill_md": "system-settings-playbooks/SKILL.md",
+      "sha256": "db9a5cbab53669631e7d3beb1f090ced763c99e5e0eb6b2a4e6342ab73c27056",
+      "bytes": 6408
+    },
+    {
+      "path": "systematic-debugging",
+      "skill_md": "systematic-debugging/SKILL.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "bytes": 9530
+    },
+    {
+      "path": "tailscale-network",
+      "skill_md": "tailscale-network/SKILL.md",
+      "sha256": "19de6b79badd6ee3b45a15f6a0d41da67f6b83e94ea48e52280b4988f5bbd04c",
+      "bytes": 13196
+    },
+    {
+      "path": "tailwind-design-system",
+      "skill_md": "tailwind-design-system/SKILL.md",
+      "sha256": "b6577edb7b7f71a6954f68b80c7eea1748ccdf31862759f864bce558fb2bcf83",
+      "bytes": 5290
+    },
+    {
+      "path": "team-composition-analysis",
+      "skill_md": "team-composition-analysis/SKILL.md",
+      "sha256": "d97efdb6f2673a30c64c9ca22ac31eed3aba8637ec7c8f3d45ef5a96f38e396b",
+      "bytes": 7582
+    },
+    {
+      "path": "telegram-playbooks",
+      "skill_md": "telegram-playbooks/SKILL.md",
+      "sha256": "73795ae96647193276f83d07eebe05daed37ae9f4010b597bd3c5d7358b94e29",
+      "bytes": 10326
+    },
+    {
+      "path": "test-driven-development",
+      "skill_md": "test-driven-development/SKILL.md",
+      "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+      "bytes": 9578
+    },
+    {
+      "path": "torch-geometric",
+      "skill_md": "torch-geometric/SKILL.md",
+      "sha256": "89805e17cdbc64ed01426548442b3aa1bda8bcfdd4f9528f5c8dd6e0ea813c96",
+      "bytes": 22474
+    },
+    {
+      "path": "touchpoint-contacts",
+      "skill_md": "touchpoint-contacts/SKILL.md",
+      "sha256": "594dcbab8cda52107b2fc50afed4950607302aa8dd08866931429f404614a033",
+      "bytes": 1847
+    },
+    {
+      "path": "triggers",
+      "skill_md": "triggers/SKILL.md",
+      "sha256": "03821e47d670a79a3190eef2cd09896905fe946fadd5c780d7679c917b40dd82",
+      "bytes": 16353
+    },
+    {
+      "path": "trip",
+      "skill_md": "trip/SKILL.md",
+      "sha256": "08c939bdecdb40b91b895b6a338169d80b204da0e4f5f7af5d31d460145f675c",
+      "bytes": 41964
+    },
+    {
+      "path": "tts-prompter",
+      "skill_md": "tts-prompter/SKILL.md",
+      "sha256": "e4c143aa8d52141e22e80689eeb599c5e8e8350b1e505debeabebac06e3c7fef",
+      "bytes": 22019
+    },
+    {
+      "path": "typst-pdf-maker",
+      "skill_md": "typst-pdf-maker/SKILL.md",
+      "sha256": "4cb53837ce7835bf295dc32caa53cf097796859c51674af655681dcfbffe64ff",
+      "bytes": 21386
+    },
+    {
+      "path": "usfiscaldata",
+      "skill_md": "usfiscaldata/SKILL.md",
+      "sha256": "7cdcb756489ae8e94a73df1eebfb9abef554e912af6559ebd28dffa021ab63d5",
+      "bytes": 9626
+    },
+    {
+      "path": "vaex",
+      "skill_md": "vaex/SKILL.md",
+      "sha256": "a8ab5bcb0ab9c8d372b987e584b5c589a15b1e2b2f73457546d2888988d40b4f",
+      "bytes": 7722
+    },
+    {
+      "path": "validate-data",
+      "skill_md": "validate-data/SKILL.md",
+      "sha256": "1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b",
+      "bytes": 14916
+    },
+    {
+      "path": "vector-index-tuning",
+      "skill_md": "vector-index-tuning/SKILL.md",
+      "sha256": "fc6a365161f5fd7ea08792759db7b358683aed8b410a4418c65bc1e61b971355",
+      "bytes": 2325
+    },
+    {
+      "path": "verification-before-completion",
+      "skill_md": "verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "bytes": 3646
+    },
+    {
+      "path": "video-generation",
+      "skill_md": "video-generation/SKILL.md",
+      "sha256": "7df25adf39ecd3954893be2c6c0a90caaaf84b31d9616af469f738d422860d12",
+      "bytes": 13635
+    },
+    {
+      "path": "video-template-frame-glitch-title",
+      "skill_md": "video-template-frame-glitch-title/SKILL.md",
+      "sha256": "33c2b23d55abd574e57743f9349942e531814069959d70bd1709a64d62efa4b1",
+      "bytes": 1303
+    },
+    {
+      "path": "video-template-frame-light-leak-cinema",
+      "skill_md": "video-template-frame-light-leak-cinema/SKILL.md",
+      "sha256": "653603a770ea5d56428aa683a11868302288ba61ccad8d916d6a37adc266642d",
+      "bytes": 1317
+    },
+    {
+      "path": "video-to-subtitle-summary",
+      "skill_md": "video-to-subtitle-summary/SKILL.md",
+      "sha256": "4ea48e55028f251e78cff2d4312d55137803651410d562aa304277b0ea8bd4de",
+      "bytes": 23159
+    },
+    {
+      "path": "web-design-engineer",
+      "skill_md": "web-design-engineer/SKILL.md",
+      "sha256": "00633aa430281e9921c35bb181ab233879d2a21e999d605fc330258a54e26df1",
+      "bytes": 35406
+    },
+    {
+      "path": "web-design-reviewer",
+      "skill_md": "web-design-reviewer/SKILL.md",
+      "sha256": "a08a147cfe555dabe30f2c8f2e267f287e992f74f2b802e68989884338e23b17",
+      "bytes": 10657
+    },
+    {
+      "path": "web-perf",
+      "skill_md": "web-perf/SKILL.md",
+      "sha256": "0160c9e7f1b73eb80347efd899a6082219d43bb9de30424667c8017628a48469",
+      "bytes": 8446
+    },
+    {
+      "path": "webdev",
+      "skill_md": "webdev/SKILL.md",
+      "sha256": "4c7e10d0c55e5db211ac2c0231660d74f9e2e3b4fdac468b397173887883883b",
+      "bytes": 36512
+    },
+    {
+      "path": "webdev/seo",
+      "skill_md": "webdev/seo/SKILL.md",
+      "sha256": "35312346500ee708add46a0c2a0e86060d3be6220d27830bac4c7c45d6987c90",
+      "bytes": 7122
+    },
+    {
+      "path": "webdev/worklocally",
+      "skill_md": "webdev/worklocally/SKILL.md",
+      "sha256": "0065256d3ce40f2ac9d769439e5a43733738c7e2ad1360851b3a4baa30f51ca6",
+      "bytes": 37419
+    },
+    {
+      "path": "webdev-seo",
+      "skill_md": "webdev-seo/SKILL.md",
+      "sha256": "35312346500ee708add46a0c2a0e86060d3be6220d27830bac4c7c45d6987c90",
+      "bytes": 7122
+    },
+    {
+      "path": "webdev-worklocally",
+      "skill_md": "webdev-worklocally/SKILL.md",
+      "sha256": "0065256d3ce40f2ac9d769439e5a43733738c7e2ad1360851b3a4baa30f51ca6",
+      "bytes": 37419
+    },
+    {
+      "path": "website-traffic-checker",
+      "skill_md": "website-traffic-checker/SKILL.md",
+      "sha256": "5f71dbe5d197ca9caaf4574f8add99ebe88b387c63fb810efaefdd8773654297",
+      "bytes": 12218
+    },
+    {
+      "path": "whatsapp-playbooks",
+      "skill_md": "whatsapp-playbooks/SKILL.md",
+      "sha256": "c5210601a99d15cdf30c47ccb390d1ec8a7a4f9dfa71c525117733d862d5ca0a",
+      "bytes": 11232
+    },
+    {
+      "path": "word-playbooks",
+      "skill_md": "word-playbooks/SKILL.md",
+      "sha256": "0bd2bc5d6498ccc530a91458afd6a4c68c67aaa48513203761a610bb32486d6d",
+      "bytes": 8159
+    },
+    {
+      "path": "workers-best-practices",
+      "skill_md": "workers-best-practices/SKILL.md",
+      "sha256": "01c452fd0b6b3caeb4c3b06f87893e52d8e95e32f691911c1644060e00dafa0e",
+      "bytes": 6237
+    },
+    {
+      "path": "workflow",
+      "skill_md": "workflow/SKILL.md",
+      "sha256": "2ca639bb69394693fbef0503706d879d168285c745919925d68d43db72c8c412",
+      "bytes": 34916
+    },
+    {
+      "path": "workflow-composer",
+      "skill_md": "workflow-composer/SKILL.md",
+      "sha256": "61b6b1dc44e4fe44d98f6c6eab760475a030fe1d907f64c819d286b28004ee52",
+      "bytes": 16186
+    },
+    {
+      "path": "writing-plans",
+      "skill_md": "writing-plans/SKILL.md",
+      "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+      "bytes": 10335
+    },
+    {
+      "path": "writing-prds",
+      "skill_md": "writing-prds/SKILL.md",
+      "sha256": "efd86c6e2f37785193ab838410b45cffb03e580b9248b1eaea9ee67947c4b833",
+      "bytes": 7019
+    },
+    {
+      "path": "youtube-clipper",
+      "skill_md": "youtube-clipper/SKILL.md",
+      "sha256": "1039e3c3ac3028ec6e0e4d47c25553886a9b7f2bccdd62a76c160e14813f9ce8",
+      "bytes": 10859
+    },
+    {
+      "path": "youtube-transcript",
+      "skill_md": "youtube-transcript/SKILL.md",
+      "sha256": "7c832ec57899a41d615bafbf3c71cbd0c80e7eb98cea07c5a8a4a6c2f44401c5",
+      "bytes": 13729
+    },
+    {
+      "path": "youtube-video-research",
+      "skill_md": "youtube-video-research/SKILL.md",
+      "sha256": "95dfb03b78cd5a1eb8960f0aab1c4addc8f697517480f1956f2c2f5f3cc1c5f0",
+      "bytes": 17696
+    }
+  ]
+}
