@@ -1,0 +1,25 @@
+{
+  "id": "cline",
+  "name": "Cline",
+  "status": "stable",
+  "description": "Autonomous AI coding agent in VS Code. Reads rules from .clinerules/ or .clinerules.",
+  "detection": {
+    "binaries": [],
+    "paths": [
+      ".clinerules",
+      ".cline",
+      "~/.cline"
+    ]
+  },
+  "install_mode": "rule-file",
+  "paths": {
+    "project": ".clinerules/{skill}.md",
+    "user": "~/.cline/rules/{skill}.md"
+  },
+  "transform": {
+    "type": "markdown-rule",
+    "extension": ".md"
+  },
+  "index_config": null,
+  "use_prebuilt_zips": false
+}

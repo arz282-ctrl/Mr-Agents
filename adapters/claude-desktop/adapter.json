@@ -1,0 +1,25 @@
+{
+  "id": "claude-desktop",
+  "name": "Claude Desktop / Claude.ai Projects",
+  "status": "stable",
+  "description": "Desktop application and web interface for Anthropic Claude. Supports Project Knowledge imports and desktop extensions.",
+  "detection": {
+    "binaries": [],
+    "paths": [
+      "~/Library/Application Support/Claude",
+      "%APPDATA%/Claude",
+      "~/.config/Claude"
+    ]
+  },
+  "install_mode": "command",
+  "paths": {
+    "project": ".claude-desktop/{skill}",
+    "user": "~/Documents/Claude/Skills/{skill}"
+  },
+  "transform": {
+    "type": "project-knowledge-export",
+    "format": "markdown"
+  },
+  "index_config": null,
+  "use_prebuilt_zips": false
+}

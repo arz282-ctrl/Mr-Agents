@@ -1,0 +1,25 @@
+{
+  "id": "generic",
+  "name": "Generic Agent (AGENTS.md)",
+  "status": "stable",
+  "description": "Universal fallback adapter for any AI agent respecting open AGENTS.md guidelines.",
+  "detection": {
+    "binaries": [],
+    "paths": [
+      "AGENTS.md",
+      ".agents"
+    ]
+  },
+  "install_mode": "instruction-index",
+  "paths": {
+    "project": "AGENTS.md",
+    "user": "~/.agents/AGENTS.md"
+  },
+  "transform": null,
+  "index_config": {
+    "target_file": "AGENTS.md",
+    "skills_dir": ".agents/skills",
+    "header": "## Available Specialized Skills"
+  },
+  "use_prebuilt_zips": false
+}

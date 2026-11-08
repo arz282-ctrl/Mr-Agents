@@ -1,0 +1,23 @@
+{
+  "id": "gemini",
+  "name": "Google Gemini CLI",
+  "status": "stable",
+  "description": "Google Gemini developer command line tool. Reads .gemini/skills/ and GEMINI.md.",
+  "detection": {
+    "binaries": [
+      "gemini"
+    ],
+    "paths": [
+      ".gemini",
+      "~/.gemini"
+    ]
+  },
+  "install_mode": "native-skill",
+  "paths": {
+    "project": ".gemini/skills/{skill}",
+    "user": "~/.gemini/skills/{skill}"
+  },
+  "transform": null,
+  "index_config": null,
+  "use_prebuilt_zips": false
+}

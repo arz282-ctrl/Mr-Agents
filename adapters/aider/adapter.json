@@ -1,0 +1,28 @@
+{
+  "id": "aider",
+  "name": "Aider",
+  "status": "stable",
+  "description": "Command-line AI pair programmer. Uses CONVENTIONS.md and .aider.conf.yml.",
+  "detection": {
+    "binaries": [
+      "aider"
+    ],
+    "paths": [
+      ".aider.conf.yml",
+      "CONVENTIONS.md"
+    ]
+  },
+  "install_mode": "instruction-index",
+  "paths": {
+    "project": "CONVENTIONS.md",
+    "user": "~/.aider.conf.yml"
+  },
+  "transform": null,
+  "index_config": {
+    "target_file": "CONVENTIONS.md",
+    "skills_dir": ".aider/skills",
+    "header": "## Mr-Agents Skills & Workflow Guidelines",
+    "config_file": ".aider.conf.yml"
+  },
+  "use_prebuilt_zips": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "codex",
+  "name": "OpenAI Codex CLI",
+  "status": "stable",
+  "description": "OpenAI's terminal-based coding assistant. Discovers .agents/skills/ and AGENTS.md.",
+  "detection": {
+    "binaries": [
+      "codex"
+    ],
+    "paths": [
+      ".codex",
+      "~/.codex",
+      ".agents",
+      "~/.agents"
+    ]
+  },
+  "install_mode": "native-skill",
+  "paths": {
+    "project": ".agents/skills/{skill}",
+    "user": "~/.agents/skills/{skill}"
+  },
+  "transform": null,
+  "index_config": null,
+  "use_prebuilt_zips": false
+}

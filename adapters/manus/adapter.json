@@ -1,0 +1,21 @@
+{
+  "id": "manus",
+  "name": "Manus",
+  "status": "stable",
+  "description": "Autonomous cloud AI agent. Wraps existing pre-packaged zip archives in manus-ready/zips/.",
+  "detection": {
+    "binaries": [],
+    "paths": [
+      "manus-ready",
+      "repackage_for_manus.py"
+    ]
+  },
+  "install_mode": "native-skill",
+  "paths": {
+    "project": "manus-ready/zips/{skill}.zip",
+    "user": "~/.manus/skills/{skill}.zip"
+  },
+  "transform": null,
+  "index_config": null,
+  "use_prebuilt_zips": true
+}

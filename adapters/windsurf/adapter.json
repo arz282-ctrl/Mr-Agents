@@ -1,0 +1,26 @@
+{
+  "id": "windsurf",
+  "name": "Windsurf",
+  "status": "stable",
+  "description": "Codeium Windsurf AI IDE. Reads modular rules from .windsurf/rules/*.md.",
+  "detection": {
+    "binaries": [
+      "windsurf"
+    ],
+    "paths": [
+      ".windsurf",
+      "~/.codeium/windsurf"
+    ]
+  },
+  "install_mode": "rule-file",
+  "paths": {
+    "project": ".windsurf/rules/{skill}.md",
+    "user": "~/.codeium/windsurf/rules/{skill}.md"
+  },
+  "transform": {
+    "type": "markdown-rule",
+    "extension": ".md"
+  },
+  "index_config": null,
+  "use_prebuilt_zips": false
+}
