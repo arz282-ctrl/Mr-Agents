@@ -1,0 +1,731 @@
+{
+  "catalog_version": "guidance-1.0",
+  "description": "Reference catalog for module responsibilities, routing hints, default priority/dependency order, review scope and reference paths. Read with the full user request; patterns are non-exhaustive hints, not hard semantic requirements.",
+  "dependency_order": [
+    "equity-research",
+    "fund-etf",
+    "crypto-analysis",
+    "options-strategy",
+    "corporate-finance",
+    "quant-backtesting",
+    "portfolio-management",
+    "trade-planning"
+  ],
+  "primary_priority": [
+    "trade-planning",
+    "portfolio-management",
+    "quant-backtesting",
+    "options-strategy",
+    "corporate-finance",
+    "crypto-analysis",
+    "fund-etf",
+    "equity-research"
+  ],
+  "modules": {
+    "equity-research": {
+      "reference": "references/equity-research.md",
+      "patterns": [
+        "Individual stock",
+        "Fundamentals",
+        "Financial reports",
+        "Valuation",
+        "Earnings forecast",
+        "Company research",
+        "(research|analysis).{0,8}(company|stock|individual stock)",
+        "analysis.{0,8}(financial report|performance)",
+        "earnings",
+        "fundamental",
+        "valuation",
+        "10-k",
+        "10-q",
+        "stock research",
+        "(research|analy[sz]e) .{0,24}(stock|company|equity)",
+        "(this|this|the) stock",
+        "stock.{0,6}(analysis|research|worth it|how is it)",
+        "(is it worth|should).{0,4}(follow|buy|invest)",
+        "\\bstock\\b.{0,32}\\battention\\b",
+        "(analy[sz]e|review).{0,40}(financial report|earnings|results)",
+        "财报",
+        "公司研究",
+        "股票分析",
+        "基本面",
+        "估值",
+        "研究.{0,10}(?:公司|股票)",
+        "分析.{0,15}(?:公司|股票|苹果|特斯拉|英伟达)",
+        "\\b(?:analyze|analyse|research)\\s+(?!(?:BTC|ETH|USDC|USDT|EUR|USD)\\b)(?-i:[A-Z][A-Z0-9.]{1,5})\\b",
+        "\\b(?:analy[sz]e|research|review)\\s+(?:Apple|Tesla|NVIDIA|Microsoft|Amazon|Alphabet)\\b",
+        "\\b(?:estimate|value|assess)\\b.{0,24}\\b(?-i:[A-Z][A-Z0-9.]{1,5})\\b.{0,20}\\b(?:fair value|stock value|share price)\\b"
+      ],
+      "required_references": [
+        "references/output-contracts.md"
+      ],
+      "conditional_references": {
+        "privacy": [
+          "references/privacy-security.md"
+        ],
+        "execution": [
+          "references/execution-safety.md"
+        ],
+        "metrics": [
+          "references/metric-dictionary.md"
+        ],
+        "scoring": [
+          "references/scoring-standard.md"
+        ]
+      }
+    },
+    "fund-etf": {
+      "reference": "references/fund-etf.md",
+      "patterns": [
+        "(?<![A-Za-z0-9_])etfs?(?![A-Za-z0-9_])",
+        "\\bfund\\b",
+        "Index fund",
+        "Public fund",
+        "Mutual fund",
+        "Share class",
+        "expense ratio",
+        "tracking error",
+        "fund comparison",
+        "(?<![a-z0-9])spy(?![a-z0-9])",
+        "(?<![a-z0-9])voo(?![a-z0-9])",
+        "(?<![a-z0-9])qqq(?![a-z0-9])",
+        "(?<![a-z0-9])ivv(?![a-z0-9])",
+        "(?<![a-z0-9])arkk(?![a-z0-9])",
+        "基金",
+        "费率",
+        "指数基金",
+        "跟踪误差"
+      ],
+      "required_references": [
+        "references/output-contracts.md"
+      ],
+      "conditional_references": {
+        "privacy": [
+          "references/privacy-security.md"
+        ],
+        "execution": [
+          "references/execution-safety.md"
+        ],
+        "metrics": [
+          "references/metric-dictionary.md"
+        ],
+        "scoring": [
+          "references/scoring-standard.md"
+        ]
+      }
+    },
+    "options-strategy": {
+      "reference": "references/options-strategy.md",
+      "patterns": [
+        "\\boptions?\\s+(?:strategy|trading|contracts?|chain|pricing|market|positions?|portfolio|payoff|greeks?)\\b",
+        "\\b(?:strategy|trading|contracts?|chain|pricing|market|positions?|portfolio|payoff|greeks?)\\b.{0,24}\\boptions?\\b",
+        "\\b(?:stock|equity|index|etf)\\s+options?\\b",
+        "\\b(?:fundamentals?|stock|equity|security|underlying|backtest|trading plan|trade plan)\\b(?=[^\\n.!?]{0,96}\\boptions?\\b)",
+        "\\boptions?\\b(?=[^\\n.!?]{0,96}\\b(?:fundamentals?|stock|equity|security|underlying|backtest|trading plan|trade plan)\\b)",
+        "\\boptions?\\b(?=[^\\n.!?]{0,64}\\b(?:strike|expiry|expiration|premium|underlying|greeks?|implied volatility|iv|call|put)\\b)",
+        "\\b(?:strike|expiry|expiration|premium|underlying|greeks?|implied volatility|iv|call|put)\\b(?=[^\\n.!?]{0,64}\\boptions?\\b)",
+        "Protective put",
+        "Cash-secured",
+        "Straddle",
+        "Strangle",
+        "\\bcall\\s+options?\\b",
+        "\\bcall\\b(?=[^\\n.!?]{0,64}\\b(?:strike|expiry|expiration|premium|underlying|greeks?|implied volatility|iv)\\b)",
+        "\\b(?:strike|expiry|expiration|premium|underlying|greeks?|implied volatility|iv)\\b(?=[^\\n.!?]{0,64}\\bcall\\b)",
+        "covered call",
+        "cash[- ]secured",
+        "greeks?",
+        "iv rank",
+        "期权",
+        "备兑看涨",
+        "保护性看跌",
+        "隐含波动率",
+        "希腊值",
+        "\\bcovered\\s+call\\b",
+        "\\b(?:call|put)\\s+options?\\b",
+        "\\b(?:bull|bear|credit|debit|calendar|option)\\s+spreads?\\b",
+        "\\b(?:roll|exercise|price|analy[sz]e)\\b.{0,30}\\boptions?\\b"
+      ],
+      "required_references": [
+        "references/output-contracts.md"
+      ],
+      "conditional_references": {
+        "scoring": [
+          "references/scoring-standard.md"
+        ],
+        "privacy": [
+          "references/privacy-security.md"
+        ],
+        "execution": [
+          "references/execution-safety.md"
+        ],
+        "metrics": [
+          "references/metric-dictionary.md"
+        ]
+      }
+    },
+    "crypto-analysis": {
+      "reference": "references/crypto-analysis.md",
+      "patterns": [
+        "Crypto",
+        "Digital currency",
+        "Bitcoin",
+        "Ethereum",
+        "\\bbtc\\b",
+        "\\beth\\b",
+        "\\bdefi\\b",
+        "Liquidity pool",
+        "Impermanent loss",
+        "On-chain",
+        "Perpetual swap",
+        "Funding rate",
+        "crypto",
+        "加密货币",
+        "比特币",
+        "以太坊",
+        "链上",
+        "永续合约",
+        "流动性池",
+        "\\b(?:crypto|defi|blockchain|governance|erc[- ]?20)\\s+tokens?\\b",
+        "\\b[A-Z0-9]{2,12}/(?:USDT|USDC|BTC|ETH)\\b",
+        "\\b(?:ARB|LINK|DOGE)\\b.{0,15}(?:token|perpetual|on Arbitrum)",
+        "0x[a-fA-F0-9]{40}"
+      ],
+      "required_references": [
+        "references/output-contracts.md"
+      ],
+      "conditional_references": {
+        "scoring": [
+          "references/scoring-standard.md"
+        ],
+        "privacy": [
+          "references/privacy-security.md"
+        ],
+        "execution": [
+          "references/execution-safety.md"
+        ],
+        "metrics": [
+          "references/metric-dictionary.md"
+        ]
+      }
+    },
+    "portfolio-management": {
+      "reference": "references/portfolio-management.md",
+      "patterns": [
+        "My holdings",
+        "\\b(?:my|investment|asset|securities|fund|stock|crypto|multi[- ]asset)\\s+portfolio\\b",
+        "\\bportfolio\\b(?=[^\\n.!?]{0,64}\\b(?:holdings?|allocation|rebalanc(?:e|ing)|risk|return|weight|exposure|concentration|position|benchmark|investment|asset|securities|fund|stock|crypto)\\b)",
+        "\\b(?:holdings?|allocation|rebalanc(?:e|ing)|risk|return|weight|exposure|concentration|position|benchmark|investment|asset|securities|fund|stock|crypto)\\b(?=[^\\n.!?]{0,64}\\bportfolio\\b)",
+        "Portfolio diagnostics",
+        "Asset allocation",
+        "Rebalancing",
+        "Target weight",
+        "Portfolio risk",
+        "Concentration",
+        "Risk budget",
+        "rebalanc",
+        "position sizing",
+        "(add|allocate to|include).{0,6}portfolio",
+        "My portfolio",
+        "How much to buy",
+        "add to .{0,12}portfolio",
+        "持仓",
+        "投资组合",
+        "资产配置",
+        "组合风险",
+        "仓位",
+        "再平衡",
+        "调仓"
+      ],
+      "required_references": [
+        "references/output-contracts.md"
+      ],
+      "conditional_references": {
+        "execution": [
+          "references/execution-safety.md"
+        ],
+        "metrics": [
+          "references/metric-dictionary.md"
+        ],
+        "scoring": [
+          "references/scoring-standard.md"
+        ]
+      }
+    },
+    "quant-backtesting": {
+      "reference": "references/quant-backtesting.md",
+      "patterns": [
+        "Backtest",
+        "Strategy validation",
+        "Out-of-sample",
+        "Rolling validation",
+        "walk[- ]forward",
+        "backtest",
+        "factor model",
+        "回测",
+        "策略验证",
+        "样本外",
+        "滚动验证",
+        "\\bfactor\\s+(?:model|investing|strategy)\\b",
+        "\\b(?:trading|strategy)\\s+parameter optimization\\b",
+        "\\bmonte carlo\\b.{0,40}\\b(?:portfolio|returns?|investment)\\b"
+      ],
+      "required_references": [
+        "references/output-contracts.md"
+      ],
+      "conditional_references": {
+        "privacy": [
+          "references/privacy-security.md"
+        ],
+        "execution": [
+          "references/execution-safety.md"
+        ],
+        "metrics": [
+          "references/metric-dictionary.md"
+        ],
+        "scoring": [
+          "references/scoring-standard.md"
+        ]
+      }
+    },
+    "trade-planning": {
+      "reference": "references/trade-planning.md",
+      "transaction_policy": "plan_only_user_executes_externally",
+      "patterns": [
+        "Place order",
+        "Modify order",
+        "Cancel order",
+        "Trading plan",
+        "Trade signal",
+        "Stop-loss",
+        "Take-profit",
+        "Order plan",
+        "Order draft",
+        "Manual order",
+        "Trade setup",
+        "place order",
+        "modify order",
+        "cancel order",
+        "order plan",
+        "order draft",
+        "place (?:an? )?order",
+        "place (?:real )?orders?",
+        "place (?:a )?(?:live|real) orders?",
+        "\\b(?:place|submit|route|modify|amend|replace|cancel|execute)\\b.{0,48}\\b(?:order|trade|transaction)\\b",
+        "\\b(?:sign|broadcast)\\b.{0,32}\\b(?:transaction|payload)\\b",
+        "\\bapprove\\b.{0,32}\\b(?:token|allowance|transaction)\\b",
+        "\\btransfer\\b.{0,32}\\b(?:funds|cash|assets|tokens|crypto)\\b",
+        "\\brebalance\\b.{0,32}\\bfor me\\b",
+        "交易计划",
+        "止损",
+        "止盈",
+        "订单草案",
+        "手工订单"
+      ],
+      "required_references": [
+        "references/output-contracts.md"
+      ],
+      "conditional_references": {
+        "metrics": [
+          "references/metric-dictionary.md"
+        ],
+        "scoring": [
+          "references/scoring-standard.md"
+        ]
+      }
+    },
+    "corporate-finance": {
+      "reference": "references/corporate-finance.md",
+      "patterns": [
+        "Corporate finance",
+        "Investment banking",
+        "Private equity",
+        "M&A fund",
+        "Transaction due diligence",
+        "Financial due diligence",
+        "investment banking",
+        "private equity",
+        "corporate finance",
+        "transaction diligence",
+        "Investment decision document review",
+        "Investment decision materials",
+        "Investment committee materials",
+        "pre[- ]?ic",
+        "Consistency review",
+        "Financing materials review",
+        "\\bipo\\b",
+        "equity capital markets",
+        "roadshow (materials|deck|presentation)",
+        "(roadshow|meeting|conference call).{0,6}(recording|transcript|minutes)",
+        "consistency review",
+        "\\bic materials\\b",
+        "investment committee materials",
+        "screening.{0,8}(investment)?opportunities",
+        "Opportunity screening",
+        "Initial project screening",
+        "deal screening",
+        "screen .{0,16}(deals|opportunities)",
+        "investment committee materials?",
+        "企业金融",
+        "投委会",
+        "并购",
+        "尽调",
+        "三表模型",
+        "现金流折现",
+        "杠杆收购",
+        "融资材料",
+        "\\bIC memo\\b",
+        "investment committee memo"
+      ],
+      "required_references": [
+        "references/output-contracts.md"
+      ],
+      "conditional_references": {
+        "scoring": [
+          "references/scoring-standard.md"
+        ],
+        "privacy": [
+          "references/privacy-security.md"
+        ],
+        "execution": [
+          "references/execution-safety.md"
+        ],
+        "metrics": [
+          "references/metric-dictionary.md"
+        ]
+      }
+    }
+  },
+  "merge_rules": {
+    "boundary_rule": "Existing material processing (investment decision review, meeting minutes, opportunity screening) and new material production (Teaser, ECM dossier, research materials) are both handled by the corporate-finance plugin; distinguish at the task level: existing material processing should use deal-screening-scorecard / pre-ic-consistency-review / meeting-minutes (existing-material review), new material production should use the remaining tasks in the deal-materials group.",
+    "notes": "Task-level patterns in references/corporate-finance/task-catalog.json select the specialist task, and requires_research_upstream adds equity-research when a research verb is present."
+  },
+  "limited_support": {
+    "asset_patterns": [
+      "Foreign exchange",
+      "Exchange rate",
+      "(?<![a-z0-9])fx(?![a-z0-9])",
+      "forex",
+      "(USD|EUR|JPY|GBP|AUD|CNY) to",
+      "Currency pair",
+      "currency pair",
+      "(?<![a-z0-9])(eur|usd|jpy|gbp|aud)/(eur|usd|jpy|gbp|aud)(?![a-z0-9])",
+      "Futures",
+      "futures contract",
+      "Commodity futures",
+      "Commodities",
+      "commodit(y|ies)",
+      "Crude oil futures",
+      "Gold futures",
+      "crude oil futures"
+    ],
+    "note": "There are no dedicated analysis modules for FX, futures, and commodities: backtesting -> quant-backtesting; every trade or order request -> trade-planning for a manual user-executed plan only; multi-asset allocation -> portfolio-management; pure analysis must disclose limited support to the user, with confidence not higher than medium. The SKILL never accesses or operates a broker or venue transaction interface.",
+    "reroute": [
+      {
+        "intent_patterns": [
+          "Backtest",
+          "backtest",
+          "Strategy validation",
+          "Parameter optimization"
+        ],
+        "module": "quant-backtesting"
+      },
+      {
+        "intent_patterns": [
+          "Place order",
+          "Modify order",
+          "Cancel order",
+          "Trading plan",
+          "Trade signal",
+          "place order",
+          "order plan",
+          "place (?:an? )?order",
+          "place (?:real )?orders?",
+          "place (?:a )?(?:live|real) orders?"
+        ],
+        "module": "trade-planning"
+      },
+      {
+        "intent_patterns": [
+          "Portfolio",
+          "Asset allocation",
+          "portfolio",
+          "allocation"
+        ],
+        "module": "portfolio-management"
+      }
+    ]
+  },
+  "out_of_scope_patterns": [
+    "Property underwriting",
+    "Real estate underwriting",
+    "Real estate investment return",
+    "Rent estimation",
+    "cap rate.*property",
+    "Personal tax",
+    "Tax filing",
+    "Accounting and bookkeeping",
+    "\\bbookkeeping\\b",
+    "\\breconcile\\b.{0,32}\\b(?:general ledger|accounts?|books?)\\b",
+    "Insurance allocation",
+    "\\b(?:personal|life|health|home|auto)\\s+insurance\\b",
+    "\\binsurance\\b.{0,32}\\b(?:policy|coverage|allocation|arrangement|recommendation|advice)\\b",
+    "\\b(?:recommend|select|choose|arrange|advise on)\\b.{0,48}\\binsurance(?: policy| coverage)?\\b",
+    "Legal opinion",
+    "\\blegal\\s+(?:advice|opinion|counsel)\\b",
+    "Gambling",
+    "Workflow optimizer",
+    "agent workflow optimization",
+    "(house|property|apartment|premises).{0,10}(rent|return rate|loan|mortgage)",
+    "Rental yield",
+    "个人税务",
+    "报税",
+    "记账",
+    "法律意见",
+    "保险推荐",
+    "房地产投资测算"
+  ],
+  "condition_patterns": {
+    "privacy": [
+      "My positions",
+      "My investment portfolio",
+      "My portfolio",
+      "Account",
+      "Account number",
+      "Wallet address",
+      "Transaction history",
+      "Cost price",
+      "Order",
+      "Recording",
+      "Contact",
+      "Email",
+      "Phone",
+      "Non-public",
+      "Internal documents",
+      "Client list",
+      "Data room",
+      "\\bvdr\\b",
+      "portfolio holdings",
+      "account",
+      "data room",
+      "\\bmy wallet\\b",
+      "持仓",
+      "账户",
+      "账号",
+      "客户名单",
+      "录音",
+      "联系方式",
+      "手机号码",
+      "非公开",
+      "内部资料",
+      "成本价",
+      "cost basis|average cost|owned shares|holding period|持仓成本|成本价|我的持仓"
+    ],
+    "transaction": [
+      "Live trading",
+      "Real order placement",
+      "Place orders? for me",
+      "Automated order placement",
+      "Order modification",
+      "Order cancellation",
+      "Automatic execution",
+      "Copy[- ]?trad(?:e|ing)",
+      "place (?:an? )?orders?",
+      "place (?:real )?orders?",
+      "place (?:a )?(?:live|real) orders?",
+      "submit (?:an? )?orders?",
+      "send (?:the )?orders?",
+      "route (?:the )?orders?",
+      "generate (?:real|live) orders?",
+      "modify (?:an? |the )?orders?",
+      "amend (?:an? |the )?orders?",
+      "replace (?:an? |the )?orders?",
+      "cancel (?:an? |the )?orders?",
+      "execute (?:the )?(?:trade|order|transaction)",
+      "live trad",
+      "sign (?:the )?(?:transaction|payload)",
+      "broadcast (?:the )?transaction",
+      "approve (?:the )?(?:token|allowance|transaction)",
+      "transfer (?:the )?(?:funds|cash|assets|tokens|crypto)",
+      "rebalance (?:it|this|my portfolio) for me",
+      "\\b(?:place|submit|route|modify|amend|replace|cancel|execute)\\b.{0,48}\\b(?:order|trade|transaction)\\b",
+      "\\b(?:sign|broadcast)\\b.{0,32}\\b(?:transaction|payload)\\b",
+      "\\bapprove\\b.{0,32}\\b(?:token|allowance|transaction)\\b",
+      "\\btransfer\\b.{0,32}\\b(?:funds|cash|assets|tokens|crypto)\\b",
+      "\\brebalance\\b.{0,32}\\bfor me\\b",
+      "\\b(?:trade|order|transaction|investment|portfolio|rebalance|plan)\\b.{0,48}\\b(?:confirmed|approved)\\b.{0,48}\\b(?:execute|execution|submit|submission|proceed)\\b",
+      "\\b(?:proceed|continue)\\b.{0,32}\\b(?:trade|order|transaction|execution|submission)\\b"
+    ],
+    "non_trading_external_action": [
+      "Publish",
+      "Send to",
+      "Send email",
+      "Upload materials",
+      "(Send|Send externally|Send to).{0,12}(Materials|teaser|cim|Report|Email|Buyer|Client)",
+      "Create and send",
+      "publish",
+      "send email",
+      "send to",
+      "upload materials",
+      "submit materials",
+      "\\b(?:send|email|upload|publish)\\b.{0,100}\\b(?:report|comparison|memo|materials|teaser|cim|presentation|colleague|client)\\b",
+      "发送|发给|发布|上传材料|外发"
+    ],
+    "automation": [
+      "Automation",
+      "Scheduling",
+      "Daily scan",
+      "Daily run",
+      "strategy hosting",
+      "automation",
+      "scheduled",
+      "daily scan",
+      "host (?:the )?strategy",
+      "定时",
+      "每天运行",
+      "自动扫描"
+    ],
+    "confidential": [
+      "Non-public",
+      "Internal documents",
+      "Data room",
+      "\\bvdr\\b",
+      "Client list",
+      "Transaction model",
+      "blind teaser",
+      "Anonymous project",
+      "Confidential",
+      "confidential",
+      "buyer list",
+      "\\bcim\\b",
+      "data room",
+      "客户名单",
+      "数据室",
+      "非公开",
+      "保密",
+      "内部资料",
+      "买家清单"
+    ],
+    "scoring": [
+      "Scoring",
+      "Rating",
+      "Ranking",
+      "Confidence",
+      "Weight",
+      "score",
+      "rank",
+      "rating",
+      "confidence",
+      "weight",
+      "scorecard",
+      "评分",
+      "排名",
+      "打分",
+      "评级"
+    ],
+    "metric_calculation": [
+      "Calculation",
+      "Estimate",
+      "Valuation",
+      "Financial metrics",
+      "Return",
+      "Return rate",
+      "Leverage",
+      "Multiples",
+      "Model",
+      "\\birr\\b",
+      "\\bnpv\\b",
+      "valuation",
+      "calculate",
+      "metric",
+      "return",
+      "leverage",
+      "multiple",
+      "model",
+      "waterfall",
+      "accretion",
+      "dilution",
+      "Debt schedule",
+      "计算",
+      "估值",
+      "收益率",
+      "杠杆",
+      "模型",
+      "倍数",
+      "敏感性",
+      "\\b(?:greeks|payoff|backtest(?:ing)?|sharpe|sortino)\\b",
+      "希腊值|盈亏|回测",
+      "funding|basis|\\bIL\\b|impermanent loss|LP (?:APR|fee|net return)|range coverage|OI change|liquidation intensity|资金费|无常损失"
+    ],
+    "safety_condition": [
+      "Order",
+      "order plan",
+      "manual order",
+      "On-chain signature",
+      "on-chain sign"
+    ]
+  },
+  "routing_intent": {
+    "financial_context": "\\b(?:stocks?|shares?|equity|investment|portfolio|etfs?|funds?|options?|earnings|financial|finance|valuation|dcf|lbo|ipo|irr|npv|crypto|bitcoin|ethereum|btc|eth|defi|broker|securities|bonds?|futures|forex|buy-side|sell-side|roadshow|private equity|investment banking|cim|teaser|deals?)\\b|财报|股票|基金|期权|投资|持仓|估值|尽调|并购|三表|链上|币|投委会|账户|transaction|acquisition|merger|M&A|buyer|seller|signing|closing|roadshow|并购|收购|交割|融资|(?<![A-Za-z0-9_])etfs?(?![A-Za-z0-9_])",
+    "mechanical": "\\b(?:translate|reformat|deduplicate|convert)\\b|\\bclean\\b.{0,45}\\b(?:csv|table|data)\\b|\\bfix\\b.{0,60}\\b(?:syntax|spelling)\\b|\\b(?:json schema|api token|software configuration|engineering sprint)\\b|翻译|排版|去重|语法修复|格式转换|\\bwarehouse\\b.{0,25}\\b(?:orders?|inventory)\\b",
+    "substantive": "\\b(?:analy[sz]e|calculate|value|valuation|research|audit|forecast|model|score|screen|extract|summari[sz]e)\\b|分析|计算|估值|提取|总结|审计",
+    "concept": "\\b(?:explain|define|what is|what are|meaning of)\\b|解释|定义|是什么",
+    "lookup": "expense ratios?|\\bfees?\\b|\\bnav\\b|\\bticker\\b|current price|费率|净值|最新价格",
+    "complex": "\\b(?:build|model|backtest|strategy|valuation|allocate|rebalance|recommend|score|rank|calculate|sensitivity|forecast)\\b|建模|模型|回测|推荐|评分|配置|调仓|敏感性|预测"
+  },
+  "asset_disambiguation": {
+    "symbol_pattern": "(?<![A-Za-z0-9])SOL(?![A-Za-z0-9])",
+    "crypto_context": "\\b(?:crypto|token|solana|on[- ]chain|blockchain)\\b|加密|代币|链上|索拉纳",
+    "stock_context": "\\b(?:stock|equity|NYSE|NASDAQ|company|shares?)\\b|股票|公司|证券交易所"
+  },
+  "review_scope": {
+    "default": "task_proportionate",
+    "heightened_conditions": [
+      {
+        "id": "transaction-request",
+        "flag": "transaction",
+        "condition": "Transaction intent or a manual trade plan",
+        "reason": "Transaction intent or a manual trade plan"
+      },
+      {
+        "id": "professional-artifact",
+        "flag": "professional_artifact",
+        "condition": "Editable XLSX/DOCX/PPTX output",
+        "reason": "Editable XLSX/DOCX/PPTX output"
+      },
+      {
+        "id": "institutional-audience",
+        "flag": "institutional_audience",
+        "condition": "Investment committee, buyer or seller audience",
+        "reason": "Investment committee, buyer or seller audience"
+      },
+      {
+        "id": "sensitive-materials",
+        "flag": "privacy",
+        "condition": "Sensitive inputs or confidential materials",
+        "reason": "Sensitive inputs or confidential materials"
+      },
+      {
+        "id": "specialist-task",
+        "flag": "specialist",
+        "condition": "Corporate-finance specialist task",
+        "reason": "Corporate-finance specialist task"
+      },
+      {
+        "id": "external-action",
+        "flag": "external",
+        "condition": "Sending or publishing materials",
+        "reason": "Sending or publishing materials"
+      },
+      {
+        "id": "automation",
+        "flag": "automation",
+        "condition": "Scheduled or hosted finance workflow",
+        "reason": "Scheduled or hosted finance workflow"
+      }
+    ],
+    "routine_references": [
+      "references/direct-answer.md for narrow lookups/concepts; otherwise selected domain and references/output-contracts.md; add data, metrics, scoring and safety references when relevant"
+    ],
+    "policy": "Use actual file tools for deliverables, protect sensitive inputs, and obtain required genuine review or missing external-action authorization. These conditions guide review depth and reference loading; no serialized tier or fixed validation runtime is required. No review level authorizes a financial transaction."
+  }
+}

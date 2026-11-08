@@ -1,0 +1,24 @@
+{
+  "id": "antigravity",
+  "name": "Google Antigravity (AGY)",
+  "status": "stable",
+  "description": "Google DeepMind advanced agentic coding environment. Discovers native skills under ~/.gemini/config/skills/ and .gemini/skills/.",
+  "detection": {
+    "binaries": [
+      "agy"
+    ],
+    "paths": [
+      "~/.gemini/antigravity",
+      "~/.gemini/config/skills",
+      ".gemini"
+    ]
+  },
+  "install_mode": "native-skill",
+  "paths": {
+    "project": ".gemini/skills/{skill}",
+    "user": "~/.gemini/config/skills/{skill}"
+  },
+  "transform": null,
+  "index_config": null,
+  "use_prebuilt_zips": false
+}

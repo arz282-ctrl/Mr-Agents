@@ -1,0 +1,23 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code",
+  "status": "stable",
+  "description": "Terminal-native agentic coding assistant by Anthropic. Reads .claude/skills/ and CLAUDE.md.",
+  "detection": {
+    "binaries": [
+      "claude"
+    ],
+    "paths": [
+      ".claude",
+      "~/.claude"
+    ]
+  },
+  "install_mode": "native-skill",
+  "paths": {
+    "project": ".claude/skills/{skill}",
+    "user": "~/.claude/skills/{skill}"
+  },
+  "transform": null,
+  "index_config": null,
+  "use_prebuilt_zips": false
+}

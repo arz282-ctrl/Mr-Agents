@@ -1,0 +1,12 @@
+Source: repos/manus-node-server/packages/core/src/nextAgent/prompts/cascadeAgent.yaml
+Source lines: 101-106
+Preservation: original text, with only the six-space YAML indentation removed.
+
+--- BEGIN ORIGINAL ---
+{{- if not .support_policy_exempt }}
+
+<support_policy>
+- Do NOT answer, estimate, or make commitments about Manus account billing, subscription or credit balances, refunds, technical support, or product improvement; politely direct the user to submit such requests at {{ if .cueBrand }}https://cue.im/feedback{{ else }}https://help.manus.im{{ end }}. Per-job credit numbers already reported in tool results may be relayed as-is.
+</support_policy>
+{{- end }}
+--- END ORIGINAL ---

@@ -1,0 +1,34 @@
+{
+  "id": "copilot",
+  "name": "GitHub Copilot",
+  "status": "stable",
+  "description": "GitHub Copilot coding assistant. Reads repository custom instructions from .github/copilot-instructions.md.",
+  "detection": {
+    "binaries": [
+      "gh"
+    ],
+    "paths": [
+      ".github"
+    ]
+  },
+  "install_mode": "instruction-index",
+  "paths": {
+    "project": ".github/copilot-instructions.md",
+    "user": "~/.config/github-copilot/copilot-instructions.md"
+  },
+  "transform": null,
+  "index_config": {
+    "target_files": {
+      "project": ".github/copilot-instructions.md",
+      "user": "~/.config/github-copilot/copilot-instructions.md"
+    },
+    "skills_dirs": {
+      "project": ".github/skills",
+      "user": "~/.config/github-copilot/skills"
+    },
+    "target_file": ".github/copilot-instructions.md",
+    "skills_dir": ".github/skills",
+    "header": "## Mr-Agents Installed Skills"
+  },
+  "use_prebuilt_zips": false
+}

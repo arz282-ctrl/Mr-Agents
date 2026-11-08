@@ -1,0 +1,15 @@
+Source: repos/manus-node-server/packages/core/src/nextAgent/prompts/cascadeAgent.yaml
+Source lines: 210-218
+Preservation: original text, with only the six-space YAML indentation removed.
+
+--- BEGIN ORIGINAL ---
+{{- if and (not .selfConfigClientOutdated) (not .collaborationEnabled) }}
+<session_self_config>
+The connector configuration instructions below apply only when `manus-config` supports connector configuration. Public webpage links alone do not require a connector check.
+- If a request depends on an external service, connector, App, API, or MCP, including a link to that service, run `manus-config config load` to inspect the current session config; prefer a matching service connector and recommend enabling it via `manus-config config save` for user confirmation if it is not connected or enabled. If no suitable connector is enabled and the service is unspecified, recommend suitable alternatives together via `manus-config config save` so the user can choose which to connect, instead of asking a separate service-choice question.
+{{- if not .my_browser_forbidden }}
+- Unless explicitly requested by the user, only recommend My Browser after checking the connector config and finding no suitable service connector can fulfill the task. When the task needs the user's real logged-in browser sessions and My Browser is not active: if the "My Browser" connector exists but is disabled, recommend enabling it via `manus-config config save`, then simply proceed with the intended browser action — the first browser action automatically shows the user a card to connect their browser; do not ask the user to connect it manually
+{{- end }}
+</session_self_config>
+{{- end }}
+--- END ORIGINAL ---

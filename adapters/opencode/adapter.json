@@ -1,0 +1,23 @@
+{
+  "id": "opencode",
+  "name": "OpenCode",
+  "status": "stable",
+  "description": "Open-source terminal AI coding assistant. Discovers .opencode/skills/ and AGENTS.md.",
+  "detection": {
+    "binaries": [
+      "opencode"
+    ],
+    "paths": [
+      ".opencode",
+      "~/.config/opencode"
+    ]
+  },
+  "install_mode": "native-skill",
+  "paths": {
+    "project": ".opencode/skills/{skill}",
+    "user": "~/.config/opencode/skills/{skill}"
+  },
+  "transform": null,
+  "index_config": null,
+  "use_prebuilt_zips": false
+}

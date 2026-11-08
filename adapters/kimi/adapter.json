@@ -1,0 +1,23 @@
+{
+  "id": "kimi",
+  "name": "Kimi Code CLI",
+  "status": "stable",
+  "description": "Moonshot AI Kimi coding assistant. Reads .kimi/skills/ and AGENTS.md.",
+  "detection": {
+    "binaries": [
+      "kimi"
+    ],
+    "paths": [
+      ".kimi",
+      "~/.kimi"
+    ]
+  },
+  "install_mode": "native-skill",
+  "paths": {
+    "project": ".kimi/skills/{skill}",
+    "user": "~/.kimi/skills/{skill}"
+  },
+  "transform": null,
+  "index_config": null,
+  "use_prebuilt_zips": false
+}

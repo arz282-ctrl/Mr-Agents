@@ -1,0 +1,28 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "status": "stable",
+  "description": "AI-first code editor. Uses modular rules under .cursor/rules/*.mdc.",
+  "detection": {
+    "binaries": [
+      "cursor"
+    ],
+    "paths": [
+      ".cursor",
+      "~/.cursor"
+    ]
+  },
+  "install_mode": "rule-file",
+  "paths": {
+    "project": ".cursor/rules/{skill}.mdc",
+    "user": "~/.cursor/rules/{skill}.mdc"
+  },
+  "transform": {
+    "type": "cursor-mdc",
+    "extension": ".mdc",
+    "globs": "",
+    "alwaysApply": false
+  },
+  "index_config": null,
+  "use_prebuilt_zips": false
+}
