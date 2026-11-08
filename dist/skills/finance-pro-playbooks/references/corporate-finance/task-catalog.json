@@ -1,0 +1,1428 @@
+{
+  "catalog_version": "guidance-1.0",
+  "primary_module": "corporate-finance",
+  "description": "Directory of 54 corporate-finance tasks, Playbook paths, default format resources, review checklists and dependencies. Shared references govern data, metrics, privacy, transaction boundaries and delivery. User requirements precede task defaults; patterns are selection hints.",
+  "format_registry": {
+    "excel": "references/corporate-finance/formats/excel_standards.md",
+    "document": "references/corporate-finance/formats/document_standards.md",
+    "metrics": "references/corporate-finance/formats/metric_disambiguation.md"
+  },
+  "tasks": [
+    {
+      "id": "industry-primer",
+      "label": "Industry Primer",
+      "group": "market-research",
+      "playbook": "references/corporate-finance/playbooks/market-research/industry-primer.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "report",
+        "presentation"
+      ],
+      "patterns": [
+        "industry primer",
+        "industry overview",
+        "sector overview",
+        "Industry research",
+        "Industry overview",
+        "Sector research",
+        "行业概览|行业研究报告"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/market-research/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#industry-primer"
+    },
+    {
+      "id": "tam-top-down",
+      "label": "Top-Down TAM Sizing",
+      "group": "market-research",
+      "playbook": "references/corporate-finance/playbooks/market-research/tam-top-down.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "report",
+        "spreadsheet"
+      ],
+      "patterns": [
+        "top-down tam",
+        "market size",
+        "Market size",
+        "Top-down.*tam",
+        "tam.*estimation",
+        "自上而下.{0,8}(?:市场|TAM)"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/market-research/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#tam-top-down"
+    },
+    {
+      "id": "tam-bottom-up",
+      "label": "Bottom-Up TAM Sizing",
+      "group": "market-research",
+      "playbook": "references/corporate-finance/playbooks/market-research/tam-bottom-up.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "report",
+        "spreadsheet"
+      ],
+      "patterns": [
+        "bottom-up tam",
+        "bottom up market size",
+        "Bottom-up.*tam",
+        "Customer count.*unit price.*market",
+        "自下而上.{0,8}(?:市场|TAM)"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/market-research/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#tam-bottom-up"
+    },
+    {
+      "id": "market-map",
+      "label": "Market Map",
+      "group": "market-research",
+      "playbook": "references/corporate-finance/playbooks/market-research/market-map.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "market map",
+        "competitive landscape",
+        "competitor map",
+        "Market map",
+        "Competitive landscape",
+        "Competitor map",
+        "市场图谱"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/market-research/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#market-map"
+    },
+    {
+      "id": "earnings-update",
+      "label": "Earnings Update",
+      "group": "company-analysis",
+      "playbook": "references/corporate-finance/playbooks/company-analysis/earnings-update.md",
+      "formats": [],
+      "artifacts": [
+        "email",
+        "memo",
+        "presentation"
+      ],
+      "patterns": [
+        "earnings update",
+        "results update",
+        "Earnings quick comment",
+        "Performance quick comment",
+        "Earnings meeting update",
+        "(latest|this quarter)(financial report|results)",
+        "latest earnings",
+        "latest results",
+        "earnings.{0,20}(commentary|comment|update)",
+        "财报点评|业绩快评|财报更新",
+        "\\b(?:latest|quarterly)\\b.{0,30}\\b(?:earnings|results|financial report)\\b",
+        "\\bsummari[sz]e\\b.{0,50}\\bearnings\\b"
+      ],
+      "require_deliverable_signal": true,
+      "deliverable_patterns": [
+        "Quick comment",
+        "Memorandum",
+        "Email",
+        "Briefing",
+        "Update report",
+        "memo",
+        "update note",
+        "update email",
+        "flash note",
+        "one[- ]pager",
+        "presentation",
+        "ppt",
+        "准备|制作|撰写|报告|备忘录|提纲|问题|点评|快评",
+        "\\b(?:prepare|create|write|draft)\\b"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/company-analysis/_overview.md",
+      "required_references": [
+        "references/metric-dictionary.md"
+      ],
+      "quality_checklist": "references/corporate-finance/task-checks.md#earnings-update"
+    },
+    {
+      "id": "public-information-book",
+      "label": "Public Information Book (PIB)",
+      "group": "company-analysis",
+      "playbook": "references/corporate-finance/playbooks/company-analysis/public-information-book.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "document"
+      ],
+      "patterns": [
+        "public information book",
+        "pib",
+        "public docs pack",
+        "Public information booklet",
+        "Public information pack",
+        "Company background pack",
+        "公开信息资料册"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/company-analysis/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#public-information-book"
+    },
+    {
+      "id": "adverse-media-screen",
+      "label": "Adverse Media Screen",
+      "group": "company-analysis",
+      "playbook": "references/corporate-finance/playbooks/company-analysis/adverse-media-screen.md",
+      "formats": [],
+      "artifacts": [
+        "report"
+      ],
+      "patterns": [
+        "adverse media",
+        "negative news screen",
+        "red flag screen",
+        "Negative news",
+        "Media screening",
+        "Negative media",
+        "Red-flag screening",
+        "负面新闻筛查"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/company-analysis/_overview.md",
+      "required_references": [
+        "references/scoring-standard.md"
+      ],
+      "quality_checklist": "references/corporate-finance/task-checks.md#adverse-media-screen"
+    },
+    {
+      "id": "private-company-screening",
+      "label": "Private Company Screening",
+      "group": "company-analysis",
+      "playbook": "references/corporate-finance/playbooks/company-analysis/private-company-screening.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "report"
+      ],
+      "patterns": [
+        "private company screening",
+        "screen private companies",
+        "target screening",
+        "Private company screening",
+        "Unlisted company screening",
+        "Target screening",
+        "非上市公司筛选"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/company-analysis/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#private-company-screening"
+    },
+    {
+      "id": "ai-disruption-assessment",
+      "label": "AI Disruption Assessment",
+      "group": "company-analysis",
+      "playbook": "references/corporate-finance/playbooks/company-analysis/ai-disruption-assessment.md",
+      "formats": [],
+      "artifacts": [
+        "report",
+        "presentation"
+      ],
+      "patterns": [
+        "ai disruption",
+        "ai exposure",
+        "ai impact assessment",
+        "AI disruption",
+        "AI impact",
+        "Artificial intelligence impact",
+        "AI颠覆评估"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/company-analysis/_overview.md",
+      "required_references": [
+        "references/scoring-standard.md"
+      ],
+      "quality_checklist": "references/corporate-finance/task-checks.md#ai-disruption-assessment"
+    },
+    {
+      "id": "deal-teaser",
+      "label": "Deal Teaser",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/deal-teaser.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "document",
+        "presentation",
+        "pdf"
+      ],
+      "patterns": [
+        "deal teaser",
+        "blind teaser",
+        "investment teaser",
+        "(?<![a-z])teaser(?![a-z])",
+        "Transaction preview",
+        "Blind teaser",
+        "Anonymous pitch materials",
+        "Pitch materials",
+        "Project one-pager",
+        "交易推介材料|匿名推介材料"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#deal-teaser"
+    },
+    {
+      "id": "cim-executive-summary",
+      "label": "CIM Executive Summary",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/cim-executive-summary.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "document",
+        "presentation"
+      ],
+      "patterns": [
+        "cim",
+        "confidential information memorandum",
+        "cim executive summary",
+        "Confidential information memorandum",
+        "Deal memorandum",
+        "Sale materials",
+        "CIM执行摘要|信息备忘录执行摘要"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#cim-executive-summary"
+    },
+    {
+      "id": "buyer-list-development",
+      "label": "Buyer List Development",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/buyer-list-development.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "buyer list",
+        "potential buyers",
+        "acquirer list",
+        "Buyer list",
+        "Potential buyers",
+        "Acquirer list",
+        "买家清单"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#buyer-list-development"
+    },
+    {
+      "id": "cross-holder-analysis",
+      "label": "Cross-Holder Analysis",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/cross-holder-analysis.md",
+      "formats": [],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "cross-holder",
+        "cross holder analysis",
+        "institution targeting",
+        "Cross-shareholding",
+        "Institutional cross-holdings",
+        "ecm institution screening",
+        "交叉持股分析"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#cross-holder-analysis"
+    },
+    {
+      "id": "initiating-coverage-report",
+      "label": "Initiating Coverage Report",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/initiating-coverage-report.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "document",
+        "presentation"
+      ],
+      "patterns": [
+        "initiating coverage",
+        "stock pitch report",
+        "initiation report",
+        "Initial coverage",
+        "In-depth coverage report",
+        "Stock pitch report",
+        "首次覆盖报告"
+      ],
+      "requires_research_upstream": true,
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#initiating-coverage-report"
+    },
+    {
+      "id": "business-quality-scorecard",
+      "label": "Business Quality Scorecard",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/business-quality-scorecard.md",
+      "formats": [],
+      "artifacts": [
+        "report",
+        "spreadsheet"
+      ],
+      "patterns": [
+        "business quality scorecard",
+        "quality scorecard",
+        "ic scorecard",
+        "Business quality score",
+        "Operational quality score",
+        "Investment committee scorecard",
+        "商业质量评分卡"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#business-quality-scorecard"
+    },
+    {
+      "id": "project-overview",
+      "label": "Project Overview",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/project-overview.md",
+      "formats": [],
+      "artifacts": [
+        "html dashboard"
+      ],
+      "patterns": [
+        "project overview",
+        "meeting prep pack",
+        "project status pack",
+        "Project overview",
+        "Meeting preparation pack",
+        "Project status pack",
+        "项目概览"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#project-overview"
+    },
+    {
+      "id": "ecm-company-profile",
+      "label": "ECM Company Profile",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/ecm-company-profile.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "document",
+        "presentation"
+      ],
+      "patterns": [
+        "ecm.{0,8}(file|pre-meeting|profile)",
+        "pre-meeting(company)?file",
+        "Pre-meeting preparation materials",
+        "ecm (pre-?meeting )?profile",
+        "pre-?meeting company profile",
+        "Speaking outline",
+        "ECM公司资料"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#ecm-company-profile"
+    },
+    {
+      "id": "research-materials-pack",
+      "label": "Research Materials Pack",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/research-materials-pack.md",
+      "formats": [],
+      "artifacts": [
+        "report",
+        "presentation"
+      ],
+      "patterns": [
+        "Research materials",
+        "Chart cards",
+        "Roadshow materials",
+        "Roadshow materials",
+        "(produce|generate).{0,8}(materials|chart cards|communication materials)",
+        "research materials",
+        "roadshow (materials|deck)",
+        "social (cards?|graphics)",
+        "研究材料包|投委会备忘录",
+        "\\bIC memo\\b",
+        "investment committee memo"
+      ],
+      "requires_research_upstream": true,
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#research-materials-pack"
+    },
+    {
+      "id": "deal-screening-scorecard",
+      "label": "Deal Screening Scorecard",
+      "group": "deal-materials",
+      "playbook": "references/corporate-finance/playbooks/deal-materials/deal-screening-scorecard.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "report",
+        "spreadsheet"
+      ],
+      "patterns": [
+        "Screening.{0,8}(investment)?opportunities",
+        "Opportunity screening",
+        "Preliminary project screening",
+        "Opportunity documents.{0,6}(scoring|pre-screening|screening)",
+        "deal screening",
+        "screen .{0,16}(deals|opportunities)",
+        "opportunity screening",
+        "screen.{0,40}(investment )?opportunities",
+        "交易筛选评分卡"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/deal-materials/_overview.md",
+      "audience_adaptive": true,
+      "quality_checklist": "references/corporate-finance/task-checks.md#deal-screening-scorecard"
+    },
+    {
+      "id": "dd-request-list",
+      "label": "DD Request List (DRL)",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/dd-request-list.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "document"
+      ],
+      "patterns": [
+        "dd request list",
+        "drl",
+        "diligence request list",
+        "Due diligence checklist",
+        "Due diligence document checklist",
+        "Due diligence request list",
+        "尽调需求清单|尽调资料清单"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#dd-request-list"
+    },
+    {
+      "id": "dd-tracker",
+      "label": "DD Tracker",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/dd-tracker.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "dd tracker",
+        "diligence tracker",
+        "request tracker",
+        "Due diligence tracking sheet",
+        "Due diligence tracker",
+        "Document tracking sheet",
+        "尽调跟踪表"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#dd-tracker"
+    },
+    {
+      "id": "vdr-gap-analysis",
+      "label": "VDR Gap Analysis",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/vdr-gap-analysis.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "report",
+        "spreadsheet"
+      ],
+      "patterns": [
+        "vdr gap",
+        "data room gap",
+        "vdr completeness",
+        "Data room gaps",
+        "vdr completeness",
+        "Data room omissions",
+        "数据室缺口分析"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#vdr-gap-analysis"
+    },
+    {
+      "id": "buy-side-qoe-review",
+      "label": "Buy-Side QoE Review",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/buy-side-qoe-review.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "report"
+      ],
+      "patterns": [
+        "qoe",
+        "quality of earnings",
+        "ebitda add-back",
+        "Earnings quality",
+        "Revenue quality",
+        "ebitda add-backs",
+        "Buy-side financial due diligence",
+        "买方盈利质量审查"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#buy-side-qoe-review"
+    },
+    {
+      "id": "revenue-data-cleanup-audit",
+      "label": "Revenue Data Cleanup & Audit",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/revenue-data-cleanup-audit.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "report"
+      ],
+      "patterns": [
+        "revenue data cleanup",
+        "revenue audit",
+        "sales data cleanup",
+        "Revenue data cleansing",
+        "Revenue audit",
+        "Sales data cleansing",
+        "收入数据清理审计"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#revenue-data-cleanup-audit"
+    },
+    {
+      "id": "customer-level-revenue-analytics",
+      "label": "Customer-Level Revenue Analytics",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/customer-level-revenue-analytics.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "report"
+      ],
+      "patterns": [
+        "customer revenue analytics",
+        "customer concentration",
+        "revenue by customer",
+        "Customer revenue analysis",
+        "Customer concentration",
+        "Customer-level revenue",
+        "客户收入分析"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#customer-level-revenue-analytics"
+    },
+    {
+      "id": "retention-cohort-analysis",
+      "label": "Retention & Cohort Analysis",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/retention-cohort-analysis.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "report"
+      ],
+      "patterns": [
+        "retention cohort",
+        "cohort analysis",
+        "nrr",
+        "gross retention",
+        "Retention analysis",
+        "cohort analysis",
+        "Cohort analysis",
+        "Customer retention",
+        "留存队列分析"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#retention-cohort-analysis"
+    },
+    {
+      "id": "management-meeting-questions",
+      "label": "Management Meeting Questions",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/management-meeting-questions.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "document"
+      ],
+      "patterns": [
+        "management meeting questions",
+        "management diligence questions",
+        "management interview",
+        "Management interview questions",
+        "Management meeting questions",
+        "Management due diligence",
+        "管理层访谈问题"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#management-meeting-questions"
+    },
+    {
+      "id": "expert-call-guide",
+      "label": "Expert Call Guide",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/expert-call-guide.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "document"
+      ],
+      "patterns": [
+        "expert call guide",
+        "expert interview questions",
+        "Expert interview outline",
+        "Expert call",
+        "Expert interview questions",
+        "专家访谈提纲|专家访谈问题"
+      ],
+      "deliverable_patterns": [
+        "(?:expert[- ]call|expert interview)\\s+(?:guide|questions?|agenda|outline)",
+        "(?:create|prepare|draft|build|write|develop|generate|produce).{0,80}(?:expert[- ]call|expert interview)",
+        "准备|制作|撰写|报告|备忘录|提纲|问题|点评|快评"
+      ],
+      "require_deliverable_signal": true,
+      "final_owner": "corporate-finance",
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#expert-call-guide"
+    },
+    {
+      "id": "credit-agreement-summary",
+      "label": "Credit Agreement Summary",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/credit-agreement-summary.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "document",
+        "report"
+      ],
+      "patterns": [
+        "credit agreement summary",
+        "debt covenant summary",
+        "loan agreement summary",
+        "Credit agreement summary",
+        "Loan agreement summary",
+        "Debt covenant summary",
+        "信贷协议摘要"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#credit-agreement-summary"
+    },
+    {
+      "id": "pre-ic-consistency-review",
+      "label": "Pre-IC Consistency Review",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/pre-ic-consistency-review.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "report"
+      ],
+      "patterns": [
+        "Investment decision document review",
+        "Investment decision materials.{0,6}(review|examine|check)",
+        "Investment committee (files|materials).{0,6}(review|examine|consistency)",
+        "pre[- ]?ic",
+        "Consistency review",
+        "Financing materials review",
+        "consistency review",
+        "\\bic materials review\\b",
+        "investment committee (file|document|materials) review",
+        "(review|examine|check|inspect).{0,8}(investment decision|investment committee|IC).{0,4}(materials|files)",
+        "(investment decision|investment committee).{0,4}(materials|files).{0,10}(consistency|inspect|review|check)",
+        "(review|check).{0,50}investment committee materials?",
+        "investment committee materials?.{0,30}(consistency|review|check)",
+        "投委会材料一致性审查"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "audience_adaptive": true,
+      "quality_checklist": "references/corporate-finance/task-checks.md#pre-ic-consistency-review"
+    },
+    {
+      "id": "meeting-minutes",
+      "label": "Meeting & Roadshow Minutes",
+      "group": "due-diligence",
+      "playbook": "references/corporate-finance/playbooks/due-diligence/meeting-minutes.md",
+      "formats": [
+        "document"
+      ],
+      "artifacts": [
+        "report"
+      ],
+      "patterns": [
+        "Meeting minutes",
+        "(roadshow|meeting|call).{0,6}(recording|transcript|minutes)",
+        "(recording|transcript).{0,6}(compile|minutes)",
+        "meeting minutes",
+        "(roadshow|call|meeting) (recording|transcript)",
+        "会议纪要"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/due-diligence/_overview.md",
+      "audience_adaptive": true,
+      "quality_checklist": "references/corporate-finance/task-checks.md#meeting-minutes"
+    },
+    {
+      "id": "three-statement-model",
+      "label": "3-Statement Model",
+      "group": "financial-models",
+      "playbook": "references/corporate-finance/playbooks/financial-models/three-statement-model.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "3-statement model",
+        "three statement model",
+        "integrated financial model",
+        "Three-statement model",
+        "Financial three-statement forecast",
+        "Three financial statements model",
+        "三表模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/financial-models/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#three-statement-model"
+    },
+    {
+      "id": "merger-model",
+      "label": "Merger Model (Accretion/Dilution)",
+      "group": "financial-models",
+      "playbook": "references/corporate-finance/playbooks/financial-models/merger-model.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "accretion dilution",
+        "merger model",
+        "m&a model",
+        "Acquisition accretion",
+        "Acquisition dilution",
+        "M&A model",
+        "Accretion/dilution",
+        "并购模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/financial-models/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#merger-model"
+    },
+    {
+      "id": "synergy-analysis",
+      "label": "Synergy Analysis",
+      "group": "financial-models",
+      "playbook": "references/corporate-finance/playbooks/financial-models/synergy-analysis.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "synergy analysis",
+        "cost synergy",
+        "revenue synergy",
+        "Synergies",
+        "Cost synergies",
+        "Revenue synergies",
+        "协同效应分析"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/financial-models/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#synergy-analysis"
+    },
+    {
+      "id": "ipo-model",
+      "label": "IPO Model",
+      "group": "financial-models",
+      "playbook": "references/corporate-finance/playbooks/financial-models/ipo-model.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "ipo model",
+        "offering model",
+        "ipo proceeds",
+        "ipo model",
+        "Public offering model",
+        "Funds to be raised through issuance",
+        "IPO模型|首次公开发行模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/financial-models/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#ipo-model"
+    },
+    {
+      "id": "model-audit",
+      "label": "Model Audit",
+      "group": "financial-models",
+      "playbook": "references/corporate-finance/playbooks/financial-models/model-audit.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "report"
+      ],
+      "patterns": [
+        "model audit",
+        "audit financial model",
+        "model debug",
+        "Model audit",
+        "Model check",
+        "Model debug",
+        "Model troubleshooting",
+        "模型审计|审查模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/financial-models/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#model-audit"
+    },
+    {
+      "id": "live-model-editing",
+      "label": "Live Model Editing",
+      "group": "financial-models",
+      "playbook": "references/corporate-finance/playbooks/financial-models/live-model-editing.md",
+      "formats": [
+        "excel"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "live model editing",
+        "edit existing model",
+        "update model",
+        "Modify existing model",
+        "Update financial model",
+        "Model editing",
+        "修改现有模型|更新财务模型|修改模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/financial-models/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#live-model-editing"
+    },
+    {
+      "id": "lbo-model",
+      "label": "LBO Model",
+      "group": "lbo-structuring",
+      "playbook": "references/corporate-finance/playbooks/lbo-structuring/lbo-model.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "lbo model",
+        "lbo\\s*model",
+        "leveraged buyout",
+        "buyout returns",
+        "lbo model",
+        "Leveraged buyout",
+        "M&A fund returns",
+        "(do|build|set up)\\s*(a|one)?\\s*lbo",
+        "run\\s*(an?|one)?\\s*lbo",
+        "杠杆收购模型|LBO模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/lbo-structuring/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#lbo-model"
+    },
+    {
+      "id": "lbo-debt-schedule",
+      "label": "Debt Schedule (LBO)",
+      "group": "lbo-structuring",
+      "playbook": "references/corporate-finance/playbooks/lbo-structuring/lbo-debt-schedule.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "lbo debt schedule",
+        "debt schedule",
+        "debt tranches",
+        "revolver schedule",
+        "lbo debt schedule",
+        "Debt schedule",
+        "Debt layering",
+        "Revolving facility plan",
+        "债务计划表"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/lbo-structuring/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#lbo-debt-schedule"
+    },
+    {
+      "id": "sources-and-uses",
+      "label": "Sources & Uses (S&U)",
+      "group": "lbo-structuring",
+      "playbook": "references/corporate-finance/playbooks/lbo-structuring/sources-and-uses.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "sources and uses",
+        "s&u",
+        "funding table",
+        "Sources and uses of funds",
+        "Sources and uses",
+        "Financing structure table",
+        "资金来源与用途"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/lbo-structuring/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#sources-and-uses"
+    },
+    {
+      "id": "structured-equity-modeling",
+      "label": "Structured Equity Modeling",
+      "group": "lbo-structuring",
+      "playbook": "references/corporate-finance/playbooks/lbo-structuring/structured-equity-modeling.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "structured equity",
+        "preferred equity",
+        "pik",
+        "convertible sleeve",
+        "Structured equity",
+        "Preferred stock model",
+        "PIK instrument",
+        "Convertible equity",
+        "结构化股权模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/lbo-structuring/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#structured-equity-modeling"
+    },
+    {
+      "id": "earnout-modeling",
+      "label": "Earnout Modeling",
+      "group": "lbo-structuring",
+      "playbook": "references/corporate-finance/playbooks/lbo-structuring/earnout-modeling.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "earnout",
+        "contingent consideration",
+        "earn-out model",
+        "Performance-based earn-out",
+        "Contingent consideration",
+        "earnout model",
+        "对赌模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/lbo-structuring/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#earnout-modeling"
+    },
+    {
+      "id": "bolt-on-acquisition-modeling",
+      "label": "Bolt-On Acquisition Modeling",
+      "group": "lbo-structuring",
+      "playbook": "references/corporate-finance/playbooks/lbo-structuring/bolt-on-acquisition-modeling.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "bolt-on acquisition",
+        "tuck-in acquisition",
+        "roll-up model",
+        "Add-on acquisition",
+        "Roll-up acquisitions",
+        "bolt-on model",
+        "tuck-in",
+        "附加收购模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/lbo-structuring/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#bolt-on-acquisition-modeling"
+    },
+    {
+      "id": "dividend-recap-modeling",
+      "label": "Dividend Recap Modeling",
+      "group": "lbo-structuring",
+      "playbook": "references/corporate-finance/playbooks/lbo-structuring/dividend-recap-modeling.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "dividend recap",
+        "dividend recapitalization",
+        "Dividend recapitalization",
+        "Dividend recapitalization",
+        "dividend recap model",
+        "股息再融资模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/lbo-structuring/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#dividend-recap-modeling"
+    },
+    {
+      "id": "sale-leaseback-modeling",
+      "label": "Sale-Leaseback Modeling",
+      "group": "lbo-structuring",
+      "playbook": "references/corporate-finance/playbooks/lbo-structuring/sale-leaseback-modeling.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "sale leaseback",
+        "sale-leaseback",
+        "Sale-and-leaseback",
+        "Sale-and-leaseback",
+        "sale leaseback model",
+        "售后回租模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/lbo-structuring/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#sale-leaseback-modeling"
+    },
+    {
+      "id": "irr-attribution",
+      "label": "IRR Attribution",
+      "group": "returns-analysis",
+      "playbook": "references/corporate-finance/playbooks/returns-analysis/irr-attribution.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "irr attribution",
+        "irr bridge",
+        "return attribution",
+        "irr attribution",
+        "Return attribution",
+        "irr bridge",
+        "IRR归因|收益率归因"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/returns-analysis/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#irr-attribution"
+    },
+    {
+      "id": "value-creation-bridge",
+      "label": "Value Creation Bridge",
+      "group": "returns-analysis",
+      "playbook": "references/corporate-finance/playbooks/returns-analysis/value-creation-bridge.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "value creation bridge",
+        "equity value bridge",
+        "Value creation bridge",
+        "Equity value bridge",
+        "Return bridge",
+        "价值创造桥"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/returns-analysis/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#value-creation-bridge"
+    },
+    {
+      "id": "liquidation-waterfall",
+      "label": "Liquidation Waterfall",
+      "group": "returns-analysis",
+      "playbook": "references/corporate-finance/playbooks/returns-analysis/liquidation-waterfall.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "liquidation waterfall",
+        "exit waterfall",
+        "distribution waterfall",
+        "Liquidation waterfall",
+        "Exit distribution waterfall",
+        "Equity distribution waterfall",
+        "清算瀑布"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/returns-analysis/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#liquidation-waterfall"
+    },
+    {
+      "id": "mip-modeling",
+      "label": "MIP Modeling",
+      "group": "returns-analysis",
+      "playbook": "references/corporate-finance/playbooks/returns-analysis/mip-modeling.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "mip model",
+        "management incentive plan",
+        "management option pool",
+        "Management incentive plan",
+        "Management option pool",
+        "mip model",
+        "管理层激励模型"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/returns-analysis/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#mip-modeling"
+    },
+    {
+      "id": "dcf-model",
+      "label": "DCF Model",
+      "group": "valuation",
+      "playbook": "references/corporate-finance/playbooks/valuation/dcf-model.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "report",
+        "presentation"
+      ],
+      "patterns": [
+        "dcf",
+        "dcf model",
+        "discounted cash flow",
+        "intrinsic valuation",
+        "dcf model",
+        "Discounted cash flow",
+        "Intrinsic value valuation",
+        "现金流折现|DCF模型"
+      ],
+      "requires_research_upstream": true,
+      "playbook_overview": "references/corporate-finance/playbooks/valuation/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#dcf-model"
+    },
+    {
+      "id": "public-comps",
+      "label": "Public Comps",
+      "group": "valuation",
+      "playbook": "references/corporate-finance/playbooks/valuation/public-comps.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "public comps",
+        "trading comps",
+        "comparable company analysis",
+        "Comparable companies",
+        "Transaction multiples",
+        "Public comparable companies",
+        "可比公司估值|上市公司可比"
+      ],
+      "requires_research_upstream": true,
+      "playbook_overview": "references/corporate-finance/playbooks/valuation/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#public-comps"
+    },
+    {
+      "id": "precedent-transactions",
+      "label": "Precedent Transactions",
+      "group": "valuation",
+      "playbook": "references/corporate-finance/playbooks/valuation/precedent-transactions.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "presentation"
+      ],
+      "patterns": [
+        "precedent transactions",
+        "transaction comps",
+        "m&a multiples",
+        "Comparable transactions",
+        "Precedent transactions",
+        "M&A transaction multiples",
+        "可比交易|先例交易"
+      ],
+      "requires_research_upstream": true,
+      "playbook_overview": "references/corporate-finance/playbooks/valuation/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#precedent-transactions"
+    },
+    {
+      "id": "sotp-valuation",
+      "label": "SOTP Valuation",
+      "group": "valuation",
+      "playbook": "references/corporate-finance/playbooks/valuation/sotp-valuation.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet",
+        "report",
+        "presentation"
+      ],
+      "patterns": [
+        "sotp",
+        "sum of the parts",
+        "segment valuation",
+        "Segment valuation",
+        "Spinoff valuation",
+        "Valuation by business segment",
+        "分部估值"
+      ],
+      "requires_research_upstream": true,
+      "playbook_overview": "references/corporate-finance/playbooks/valuation/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#sotp-valuation"
+    },
+    {
+      "id": "fully-diluted-share-count",
+      "label": "Fully Diluted Share Count",
+      "group": "valuation",
+      "playbook": "references/corporate-finance/playbooks/valuation/fully-diluted-share-count.md",
+      "formats": [
+        "excel",
+        "metrics"
+      ],
+      "artifacts": [
+        "spreadsheet"
+      ],
+      "patterns": [
+        "fully diluted share count",
+        "fdso",
+        "treasury stock method",
+        "Fully diluted equity",
+        "Diluted shares",
+        "Treasury stock method",
+        "完全稀释股数"
+      ],
+      "playbook_overview": "references/corporate-finance/playbooks/valuation/_overview.md",
+      "quality_checklist": "references/corporate-finance/task-checks.md#fully-diluted-share-count"
+    }
+  ],
+  "execution_group_order": [
+    "market-research",
+    "company-analysis",
+    "financial-models",
+    "valuation",
+    "lbo-structuring",
+    "returns-analysis",
+    "due-diligence",
+    "deal-materials"
+  ],
+  "selected_task_dependencies": {
+    "dcf-model": [
+      "three-statement-model",
+      "fully-diluted-share-count"
+    ],
+    "public-comps": [
+      "fully-diluted-share-count"
+    ],
+    "sources-and-uses": [
+      "dcf-model",
+      "public-comps"
+    ],
+    "lbo-debt-schedule": [
+      "sources-and-uses"
+    ],
+    "lbo-model": [
+      "sources-and-uses",
+      "lbo-debt-schedule"
+    ],
+    "merger-model": [
+      "three-statement-model",
+      "synergy-analysis"
+    ],
+    "ipo-model": [
+      "three-statement-model"
+    ],
+    "irr-attribution": [
+      "lbo-model"
+    ],
+    "value-creation-bridge": [
+      "lbo-model"
+    ],
+    "research-materials-pack": [
+      "dcf-model",
+      "public-comps",
+      "pre-ic-consistency-review"
+    ],
+    "mip-modeling": [
+      "lbo-model",
+      "liquidation-waterfall"
+    ]
+  },
+  "required_model_checks": [
+    "accounting_identities",
+    "period_consistency",
+    "source_traceability",
+    "unit_consistency"
+  ]
+}
