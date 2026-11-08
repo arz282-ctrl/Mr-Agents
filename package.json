@@ -1,0 +1,26 @@
+{
+  "name": "mr-agents",
+  "version": "1.0.0",
+  "description": "Universal AI Agent Skills Hub and Installer CLI",
+  "type": "module",
+  "bin": {
+    "mr-agents": "./bin/mr-agents.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "adapters/",
+    "dist/",
+    "packs.json",
+    "README.md",
+    "LICENSE_REPORT.md"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "normalize": "python3 tools/normalize.py"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
