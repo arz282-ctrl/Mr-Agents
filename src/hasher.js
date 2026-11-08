@@ -2,6 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 
+const IGNORED_FILES = new Set(['.DS_Store', 'Thumbs.db']);
+
 export function hashFile(filePath) {
   const content = fs.readFileSync(filePath);
   return crypto.createHash('sha256').update(content).digest('hex');
@@ -15,6 +17,9 @@ export function computeFolderSha256(folderPath) {
     const entries = fs.readdirSync(dir, { withFileTypes: true });
     entries.sort((a, b) => a.name.localeCompare(b.name));
     for (const entry of entries) {
+      if (entry.name === '.git' || IGNORED_FILES.has(entry.name)) {
+        continue;
+      }
       const fullPath = path.join(dir, entry.name);
       if (entry.isDirectory()) {
         walk(fullPath);

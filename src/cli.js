@@ -6,6 +6,7 @@ import { loadAllAdapters, detectInstalledAgents, getAdapter } from './adapters.j
 import { installSkills, uninstallSkills } from './installer.js';
 import { loadLockfile } from './lockfile.js';
 import { computeFolderSha256 } from './hasher.js';
+import { createZipArchive } from './zip.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -374,30 +375,89 @@ function handleDoctor(args) {
 
 function handleExport(args) {
   const flags = parseFlags(args);
-  const skillNames = flags._;
   const agentId = flags.agent || flags.a || 'generic';
   const outPath = flags.out || flags.o;
 
-  if (skillNames.length === 0 || !outPath) {
-    console.error("Usage: mr-agents export <skill...> --agent <id> --out <dir|zip>");
+  let targets = [];
+  const cat = loadCatalog();
+  const packs = loadPacks();
+
+  if (flags.all) {
+    targets = cat.skills.map(s => s.name);
+  } else if (flags.pack) {
+    const p = packs.packs?.[flags.pack.toLowerCase()];
+    if (!p) {
+      console.error(`Unknown pack '${flags.pack}'. Available packs: ${Object.keys(packs.packs || {}).join(', ')}`);
+      return 1;
+    }
+    targets = p.skills || [];
+  } else {
+    targets = flags._;
+  }
+
+  if (targets.length === 0 || !outPath) {
+    console.error("Usage: mr-agents export <skill...|--pack X|--all> --agent <id> --out <dir|zip>");
     return 2;
   }
 
   const resolvedOut = path.resolve(process.cwd(), outPath);
-  fs.mkdirSync(resolvedOut, { recursive: true });
+  const isZip = resolvedOut.toLowerCase().endsWith('.zip');
 
-  for (const sName of skillNames) {
-    const skill = getSkill(sName);
-    if (!skill) {
-      console.error(`Skill '${sName}' not found in catalog.`);
-      return 1;
+  if (isZip) {
+    const zipEntries = [];
+    for (const sName of targets) {
+      const skill = getSkill(sName);
+      if (!skill) {
+        console.error(`Skill '${sName}' not found in catalog.`);
+        return 1;
+      }
+      const srcDir = path.join(REPO_ROOT, 'dist', 'skills', sName);
+      if (!fs.existsSync(srcDir)) {
+        console.error(`Source directory for skill '${sName}' not found at ${srcDir}`);
+        return 1;
+      }
+
+      function addDirectoryToZip(dir, baseRel = '') {
+        const entries = fs.readdirSync(dir, { withFileTypes: true });
+        for (const entry of entries) {
+          if (entry.name === '.git' || entry.name === '.DS_Store' || entry.name === 'Thumbs.db') {
+            continue;
+          }
+          const full = path.join(dir, entry.name);
+          const rel = baseRel ? `${baseRel}/${entry.name}` : entry.name;
+          if (entry.isDirectory()) {
+            addDirectoryToZip(full, rel);
+          } else if (entry.isFile()) {
+            zipEntries.push({
+              name: rel,
+              content: fs.readFileSync(full)
+            });
+          }
+        }
+      }
+
+      addDirectoryToZip(srcDir, sName);
     }
-    const srcDir = path.join(REPO_ROOT, 'dist', 'skills', sName);
-    const destDir = path.join(resolvedOut, sName);
-    fs.cpSync(srcDir, destDir, { recursive: true });
-    console.log(`Exported '${sName}' -> ${destDir}`);
-  }
 
-  console.log(`\n✅ Exported ${skillNames.length} skill(s) successfully to ${resolvedOut}`);
-  return 0;
+    createZipArchive(zipEntries, resolvedOut);
+    console.log(`\n✅ Exported ${targets.length} skill(s) successfully to archive ${resolvedOut}`);
+    return 0;
+  } else {
+    fs.mkdirSync(resolvedOut, { recursive: true });
+
+    for (const sName of targets) {
+      const skill = getSkill(sName);
+      if (!skill) {
+        console.error(`Skill '${sName}' not found in catalog.`);
+        return 1;
+      }
+      const srcDir = path.join(REPO_ROOT, 'dist', 'skills', sName);
+      const destDir = path.join(resolvedOut, sName);
+      fs.cpSync(srcDir, destDir, { recursive: true });
+      console.log(`Exported '${sName}' -> ${destDir}`);
+    }
+
+    console.log(`\n✅ Exported ${targets.length} skill(s) successfully to directory ${resolvedOut}`);
+    return 0;
+  }
 }

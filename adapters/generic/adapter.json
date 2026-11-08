@@ -17,6 +17,14 @@
   },
   "transform": null,
   "index_config": {
+    "target_files": {
+      "project": "AGENTS.md",
+      "user": "~/.agents/AGENTS.md"
+    },
+    "skills_dirs": {
+      "project": ".agents/skills",
+      "user": "~/.agents/skills"
+    },
     "target_file": "AGENTS.md",
     "skills_dir": ".agents/skills",
     "header": "## Available Specialized Skills"

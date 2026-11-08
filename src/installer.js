@@ -167,12 +167,21 @@ export function installSkills({
         // Update lockfile tracking if not dry run
         if (!dryRun) {
           const lockKey = `${agent.id}:${scope}:${sName}`;
+          let recordedPath = destPath;
+          if (agent.install_mode === 'instruction-index') {
+            const indexCfg = agent.index_config || {};
+            const skillsDirRel = (indexCfg.skills_dirs && indexCfg.skills_dirs[scope])
+              || (typeof indexCfg.skills_dir === 'string' ? (scope === 'user' ? `~/${indexCfg.skills_dir}` : indexCfg.skills_dir) : null)
+              || (scope === 'user' ? '~/.agents/skills' : '.agents/skills');
+            const skillsDirPath = resolvePathPattern(skillsDirRel, {}, projectRoot);
+            recordedPath = path.join(skillsDirPath, sName);
+          }
           lock.installations[lockKey] = {
             skill: sName,
             agent: agent.id,
             scope,
             install_mode: agent.install_mode,
-            target_path: path.relative(projectRoot, destPath) || destPath,
+            target_path: path.relative(projectRoot, recordedPath) || recordedPath,
             sha256: actualSha,
             installed_at: new Date().toISOString()
           };
@@ -279,8 +288,26 @@ function installRuleFile({ skillName, skillMeta, sourceDistDir, destPath, agent,
 
 function installInstructionIndex({ skillName, skillMeta, sourceDistDir, agent, scope, dryRun, force, projectRoot, agentResults }) {
   const indexCfg = agent.index_config || {};
-  const targetFileRel = indexCfg.target_file || (scope === 'user' ? '~/.agents/AGENTS.md' : 'AGENTS.md');
-  const skillsDirRel = indexCfg.skills_dir || (scope === 'user' ? '~/.agents/skills' : '.agents/skills');
+  
+  let targetFileRel = null;
+  if (indexCfg.target_files && indexCfg.target_files[scope]) {
+    targetFileRel = indexCfg.target_files[scope];
+  } else if (agent.paths?.[scope]) {
+    targetFileRel = agent.paths[scope];
+  } else if (typeof indexCfg.target_file === 'string') {
+    targetFileRel = scope === 'user' ? `~/${indexCfg.target_file}` : indexCfg.target_file;
+  } else {
+    targetFileRel = scope === 'user' ? '~/.agents/AGENTS.md' : 'AGENTS.md';
+  }
+
+  let skillsDirRel = null;
+  if (indexCfg.skills_dirs && indexCfg.skills_dirs[scope]) {
+    skillsDirRel = indexCfg.skills_dirs[scope];
+  } else if (typeof indexCfg.skills_dir === 'string') {
+    skillsDirRel = scope === 'user' ? `~/${indexCfg.skills_dir}` : indexCfg.skills_dir;
+  } else {
+    skillsDirRel = scope === 'user' ? '~/.agents/skills' : '.agents/skills';
+  }
 
   const targetFilePath = resolvePathPattern(targetFileRel, {}, projectRoot);
   const skillsDirPath = resolvePathPattern(skillsDirRel, {}, projectRoot);
@@ -323,7 +350,7 @@ function installInstructionIndex({ skillName, skillMeta, sourceDistDir, agent, s
   const lines = currentBlock.split('\n').filter(l => l.trim().startsWith('-'));
   const header = indexCfg.header || '## Mr-Agents Installed Skills';
 
-  // Build entry
+  // Build entry - relative link from index file to skill instructions
   const fullSkillPath = path.relative(path.dirname(targetFilePath), path.join(skillDestDir, 'SKILL.md')).split(path.sep).join('/');
   const entryLine = `- **${skillName}**: ${skillMeta.description} ([Instructions](${fullSkillPath}))`;
 
@@ -342,11 +369,16 @@ function installInstructionIndex({ skillName, skillMeta, sourceDistDir, agent, s
   fs.mkdirSync(path.dirname(targetFilePath), { recursive: true });
   fs.writeFileSync(targetFilePath, updatedFileContent, 'utf-8');
 
-  // If Aider, ensure .aider.conf.yml mentions CONVENTIONS.md
-  if (agent.id === 'aider' && indexCfg.config_file) {
-    const aiderConfPath = resolvePathPattern(indexCfg.config_file, {}, projectRoot);
-    if (!fs.existsSync(aiderConfPath)) {
-      fs.writeFileSync(aiderConfPath, "read:\n  - CONVENTIONS.md\n", 'utf-8');
+  // If Aider, ensure configuration mentions the conventions target
+  if (agent.id === 'aider') {
+    const confRel = indexCfg.config_files?.[scope] || indexCfg.config_file;
+    if (confRel) {
+      const aiderConfPath = resolvePathPattern(confRel, {}, projectRoot);
+      if (!fs.existsSync(aiderConfPath)) {
+        fs.mkdirSync(path.dirname(aiderConfPath), { recursive: true });
+        const targetRelFromConf = path.relative(path.dirname(aiderConfPath), targetFilePath).split(path.sep).join('/');
+        fs.writeFileSync(aiderConfPath, `read:\n  - ${targetRelFromConf || 'CONVENTIONS.md'}\n`, 'utf-8');
+      }
     }
   }
 
@@ -393,35 +425,54 @@ export function uninstallSkills({
       : resolvePathPattern(targetPattern, { skill: sName }, projectRoot);
 
     try {
-      if (fs.existsSync(destPath)) {
-        if (fs.statSync(destPath).isDirectory()) {
-          fs.rmSync(destPath, { recursive: true, force: true });
-        } else {
-          fs.unlinkSync(destPath);
-        }
-
-        // Clean up empty parent directories up to projectRoot
-        let parentDir = path.dirname(destPath);
-        while (parentDir && parentDir !== projectRoot && parentDir.startsWith(projectRoot)) {
-          try {
-            if (fs.existsSync(parentDir) && fs.readdirSync(parentDir).length === 0) {
-              fs.rmdirSync(parentDir);
-              parentDir = path.dirname(parentDir);
-            } else {
-              break;
-            }
-          } catch {
-            break;
-          }
-        }
-      }
-
-      // If instruction-index, remove from managed block
       if (agent.install_mode === 'instruction-index') {
         const indexCfg = agent.index_config || {};
-        const targetFileRel = indexCfg.target_file || (scope === 'user' ? '~/.agents/AGENTS.md' : 'AGENTS.md');
-        const targetFilePath = resolvePathPattern(targetFileRel, {}, projectRoot);
+        
+        let targetFileRel = null;
+        if (indexCfg.target_files && indexCfg.target_files[scope]) {
+          targetFileRel = indexCfg.target_files[scope];
+        } else if (agent.paths?.[scope]) {
+          targetFileRel = agent.paths[scope];
+        } else if (typeof indexCfg.target_file === 'string') {
+          targetFileRel = scope === 'user' ? `~/${indexCfg.target_file}` : indexCfg.target_file;
+        } else {
+          targetFileRel = scope === 'user' ? '~/.agents/AGENTS.md' : 'AGENTS.md';
+        }
 
+        let skillsDirRel = null;
+        if (indexCfg.skills_dirs && indexCfg.skills_dirs[scope]) {
+          skillsDirRel = indexCfg.skills_dirs[scope];
+        } else if (typeof indexCfg.skills_dir === 'string') {
+          skillsDirRel = scope === 'user' ? `~/${indexCfg.skills_dir}` : indexCfg.skills_dir;
+        } else {
+          skillsDirRel = scope === 'user' ? '~/.agents/skills' : '.agents/skills';
+        }
+
+        const targetFilePath = resolvePathPattern(targetFileRel, {}, projectRoot);
+        const skillsDirPath = resolvePathPattern(skillsDirRel, {}, projectRoot);
+        const skillPayloadDir = path.join(skillsDirPath, sName);
+
+        // 1. Remove skill payload directory, preserving the instruction document
+        if (fs.existsSync(skillPayloadDir)) {
+          fs.rmSync(skillPayloadDir, { recursive: true, force: true });
+
+          // Clean up empty parent directories up to projectRoot
+          let parentDir = path.dirname(skillPayloadDir);
+          while (parentDir && parentDir !== projectRoot && parentDir.startsWith(projectRoot)) {
+            try {
+              if (fs.existsSync(parentDir) && fs.readdirSync(parentDir).length === 0) {
+                fs.rmdirSync(parentDir);
+                parentDir = path.dirname(parentDir);
+              } else {
+                break;
+              }
+            } catch {
+              break;
+            }
+          }
+        }
+
+        // 2. Remove managed entry from index document, preserving outside content
         if (fs.existsSync(targetFilePath)) {
           const original = fs.readFileSync(targetFilePath, 'utf-8');
           const currentBlock = extractManagedBlock(original);
@@ -435,6 +486,30 @@ export function uninstallSkills({
               const updatedBlock = `${header}\n\n${lines.join('\n')}`;
               const updated = updateManagedBlock(original, updatedBlock);
               fs.writeFileSync(targetFilePath, updated, 'utf-8');
+            }
+          }
+        }
+      } else {
+        // Native-skill, rule-file, command: delete the destPath
+        if (fs.existsSync(destPath)) {
+          if (fs.statSync(destPath).isDirectory()) {
+            fs.rmSync(destPath, { recursive: true, force: true });
+          } else {
+            fs.unlinkSync(destPath);
+          }
+
+          // Clean up empty parent directories up to projectRoot
+          let parentDir = path.dirname(destPath);
+          while (parentDir && parentDir !== projectRoot && parentDir.startsWith(projectRoot)) {
+            try {
+              if (fs.existsSync(parentDir) && fs.readdirSync(parentDir).length === 0) {
+                fs.rmdirSync(parentDir);
+                parentDir = path.dirname(parentDir);
+              } else {
+                break;
+              }
+            } catch {
+              break;
             }
           }
         }

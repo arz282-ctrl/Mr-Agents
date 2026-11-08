@@ -18,6 +18,14 @@
   },
   "transform": null,
   "index_config": {
+    "target_files": {
+      "project": ".github/copilot-instructions.md",
+      "user": "~/.config/github-copilot/copilot-instructions.md"
+    },
+    "skills_dirs": {
+      "project": ".github/skills",
+      "user": "~/.config/github-copilot/skills"
+    },
     "target_file": ".github/copilot-instructions.md",
     "skills_dir": ".github/skills",
     "header": "## Mr-Agents Installed Skills"

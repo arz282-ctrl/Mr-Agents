@@ -3407,14 +3407,14 @@
       "name": "similarweb-analytics",
       "description": "Analyze websites and domains using SimilarWeb traffic data. Get traffic metrics, engagement stats, global rankings, traffic sources, and geographic distribution for comprehensive website research.",
       "category": "data",
-      "size": 11435,
-      "file_count": 2,
+      "size": 5287,
+      "file_count": 1,
       "required_capabilities": [
         "filesystem",
         "network",
         "python"
       ],
-      "sha256": "4b1f3b3f6cfcc4d9f8fff56c5ce42089f42d65930f534c45e51abc0a9a42c286",
+      "sha256": "767b91582f2a6ac6d7e6da9df7014b95354e91e8de5c931ff8f00bb777375761",
       "source_path": "skills/similarweb-analytics",
       "license": "Apache-2.0 / MIT"
     },

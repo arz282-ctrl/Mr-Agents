@@ -289,8 +289,11 @@ def categorize_skill(name, desc):
 def compute_folder_sha256(folder_path):
     """Compute deterministic SHA-256 hash across all files in a folder."""
     file_hashes = []
+    ignored = {".DS_Store", "Thumbs.db"}
     for root, _, files in os.walk(folder_path):
         for f in sorted(files):
+            if f in ignored or f == ".git":
+                continue
             fp = Path(root) / f
             rel = fp.relative_to(folder_path).as_posix()
             h = hashlib.sha256()
@@ -465,7 +468,7 @@ def normalize_all(dry_run=False):
             continue
 
         target_dir = DIST_SKILLS_DIR / s_name
-        shutil.copytree(s_dir, target_dir)
+        shutil.copytree(s_dir, target_dir, ignore=shutil.ignore_patterns('.DS_Store', 'Thumbs.db', '.git'))
         
         dist_skill_md = target_dir / "SKILL.md"
         norm_body = normalize_markdown_links(target_dir, body)
