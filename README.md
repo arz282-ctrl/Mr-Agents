@@ -27,6 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/feat/universa
 | **Claude Code** | `mr-agents install --pack starter --agent claude-code` | `.claude/skills/` |
 | **OpenAI Codex CLI** | `mr-agents install --pack starter --agent codex` | `.agents/skills/` |
 | **Google Gemini CLI** | `mr-agents install --pack starter --agent gemini` | `.gemini/skills/` |
+| **Google Antigravity (AGY)** | `mr-agents install --pack starter --agent antigravity` | `.gemini/skills/` or `~/.gemini/config/skills/` |
 | **Kimi Code CLI** | `mr-agents install --pack starter --agent kimi` | `.kimi/skills/` |
 | **Cursor** | `mr-agents install --pack starter --agent cursor` | `.cursor/rules/*.mdc` |
 | **Windsurf** | `mr-agents install --pack starter --agent windsurf` | `.windsurf/rules/*.md` |

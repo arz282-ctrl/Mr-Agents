@@ -16,12 +16,33 @@ Mr-Agents distributes 276 specialized skills comprising thousands of instruction
 
 ### Threat 1: Malicious Executables or Scripts in Skills
 - **Attack Vector:** An attacker submits a skill containing a malicious `.py`, `.sh`, or binary designed to execute when installed.
-- **Mitigation:**
+- **Install-Time Mitigation:**
   - Hard Rule 3 forbids running skill scripts.
   - The CLI does not make files executable (`chmod +x` is not invoked on installed skill scripts).
   - Skills operate purely as contextual guidance and templates read by AI models when relevant.
+- **Runtime Execution Risk & Agent Guardrails:**
+  - **Important Distinction:** The installer guarantees 0 code execution at install time, but once installed, an autonomous agent (such as Claude Code, Antigravity, or Gemini CLI) may invoke scripts under `scripts/` via its native Bash/Terminal tool if a user's prompt matches that skill's workflow.
+  - **Mitigation:** Developers should skim the `scripts/` directory of any skill prior to triggering workflows that execute external automation scripts.
 
-### Threat 2: Path Traversal (`../` Attacks)
+### Threat 2: Remote Supply Chain & Floating Branch Risks
+- **Attack Vector:** Executing `npx github:...` tracks the repository's default branch, which could undergo unexpected changes or point to an unmerged branch.
+- **Mitigation:**
+  - Always pin the specific commit hash, release tag, or branch in remote invocations:
+    ```bash
+    npx github:arz282-ctrl/Mr-Agents#v1.0.0 install --pack starter --agent claude-code --dry-run
+    ```
+  - When working from a feature branch:
+    ```bash
+    npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --pack starter --agent claude-code --dry-run
+    ```
+
+### Threat 3: Multi-Tool Spray with `--agent auto`
+- **Attack Vector:** Using `--agent auto` on a system with multiple AI IDEs or tools installed might select an unexpected agent or install into multiple environments.
+- **Mitigation:**
+  - Prefer explicit agent naming (e.g. `--agent claude-code`, `--agent cursor`, `--agent antigravity`) instead of `auto`.
+  - Always preview planned actions with `--dry-run` before actual installation.
+
+### Threat 4: Path Traversal (`../` Attacks)
 - **Attack Vector:** A crafted skill attempts to write outside the intended agent directory (e.g. `../../etc/cron`).
 - **Mitigation:**
   - `src/paths.js` uses `path.resolve()` and `path.normalize()` with strict prefix validation against the project root or user configuration directories.

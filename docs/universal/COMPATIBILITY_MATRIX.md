@@ -11,6 +11,7 @@ This matrix lists every supported AI assistant and runtime adapter in Mr-Agents,
 | **Claude Code** | `claude-code` | `native-skill` | `.claude/skills/{skill}/` | `~/.claude/skills/{skill}/` | 2026-11-08 | `STABLE` | [Anthropic Docs](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code) |
 | **OpenAI Codex CLI** | `codex` | `native-skill` | `.agents/skills/{skill}/` | `~/.agents/skills/{skill}/` | 2026-11-08 | `STABLE` | [OpenAI Codex Repo](https://github.com/openai/codex-cli) |
 | **Google Gemini CLI** | `gemini` | `native-skill` | `.gemini/skills/{skill}/` | `~/.gemini/skills/{skill}/` | 2026-11-08 | `STABLE` | [Gemini CLI Repo](https://github.com/google-gemini/gemini-cli) |
+| **Google Antigravity (AGY)** | `antigravity` | `native-skill` | `.gemini/skills/{skill}/` | `~/.gemini/config/skills/{skill}/` | 2026-11-08 | `STABLE` | [Antigravity Customization Architecture](builtin:skills/agy-customizations) |
 | **Kimi Code CLI** | `kimi` | `native-skill` | `.kimi/skills/{skill}/` | `~/.kimi/skills/{skill}/` | 2026-11-08 | `STABLE` | [Moonshot Kimi CLI](https://github.com/moonshot-ai/kimi-cli) |
 | **Cursor** | `cursor` | `rule-file` | `.cursor/rules/{skill}.mdc` | `~/.cursor/rules/{skill}.mdc` | 2026-11-08 | `STABLE` | [Cursor Rules](https://docs.cursor.com/context/rules-for-ai) |
 | **Windsurf** | `windsurf` | `rule-file` | `.windsurf/rules/{skill}.md` | `~/.codeium/windsurf/rules/{skill}.md` | 2026-11-08 | `STABLE` | [Windsurf Cascade Docs](https://docs.codeium.com/windsurf/cascade/rules) |

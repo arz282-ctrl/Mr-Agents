@@ -304,6 +304,32 @@ ADAPTER_CONFIGS = [
         }
     },
     {
+        "id": "antigravity",
+        "name": "Google Antigravity (AGY)",
+        "status": "stable",
+        "description": "Google DeepMind advanced agentic coding environment. Discovers native skills under ~/.gemini/config/skills/ and .gemini/skills/.",
+        "detection": {
+            "binaries": ["agy"],
+            "paths": [
+                "~/.gemini/antigravity",
+                "~/.gemini/config/skills",
+                ".gemini"
+            ]
+        },
+        "install_mode": "native-skill",
+        "paths": {
+            "project": ".gemini/skills/{skill}",
+            "user": "~/.gemini/config/skills/{skill}"
+        },
+        "transform": None,
+        "sources": {
+            "title": "Google Antigravity Customization Architecture",
+            "url": "builtin:skills/agy-customizations",
+            "verified_date": "2026-11-08",
+            "notes": "Antigravity discovers native Agent Skills with SKILL.md under .gemini/skills/<skill>/ or ~/.gemini/config/skills/<skill>/."
+        }
+    },
+    {
         "id": "manus",
         "name": "Manus",
         "status": "stable",
