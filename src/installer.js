@@ -399,6 +399,21 @@ export function uninstallSkills({
         } else {
           fs.unlinkSync(destPath);
         }
+
+        // Clean up empty parent directories up to projectRoot
+        let parentDir = path.dirname(destPath);
+        while (parentDir && parentDir !== projectRoot && parentDir.startsWith(projectRoot)) {
+          try {
+            if (fs.existsSync(parentDir) && fs.readdirSync(parentDir).length === 0) {
+              fs.rmdirSync(parentDir);
+              parentDir = path.dirname(parentDir);
+            } else {
+              break;
+            }
+          } catch {
+            break;
+          }
+        }
       }
 
       // If instruction-index, remove from managed block
