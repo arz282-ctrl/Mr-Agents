@@ -12,7 +12,14 @@ yarn-error.log*
 # OS artifacts
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
 
-# Test temp dirs and local mr-agents state
+# IDE & Editor caches
+.idea/
+.vscode/
+
+# Local mr-agents runtime & backups
 .mr-agents/
 tmp_test_*
+tmp_*
