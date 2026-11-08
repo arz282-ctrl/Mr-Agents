@@ -10,6 +10,9 @@ jobs:
   validate-and-test:
     name: Test on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: bash
     strategy:
       fail-fast: false
       matrix:
@@ -30,13 +33,12 @@ jobs:
           node-version: 20
 
       - name: Validate and normalize canonical skills
-        run: python3 tools/normalize.py
+        run: python tools/normalize.py
 
       - name: Verify dist/ and catalog.json are up-to-date
-        shell: bash
         run: |
           if [ -n "$(git status --porcelain dist/ packs.json)" ]; then
-            echo "❌ Error: dist/ or packs.json is out of date. Run 'python3 tools/normalize.py' and commit changes."
+            echo "❌ Error: dist/ or packs.json is out of date. Run 'python tools/normalize.py' and commit changes."
             git status --porcelain dist/ packs.json
             exit 1
           fi
@@ -46,4 +48,4 @@ jobs:
         run: npm test
 
       - name: Verify Manus packaging pipeline
-        run: python3 tools/run_manus_repackage.py
+        run: python tools/run_manus_repackage.py
