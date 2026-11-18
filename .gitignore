@@ -1,0 +1,5 @@
+node_modules/
+.next/
+.env.local
+data/mr_agents.db
+.DS_Store
