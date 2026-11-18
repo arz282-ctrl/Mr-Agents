@@ -1,0 +1,31 @@
+{
+  "name": "notion_workspace_sync",
+  "personaId": "orchestrator",
+  "category": "External MCP Plugins",
+  "description": "Auto-discovered Notion tool: Syncs active project roadmap, tasks, and sprint statuses to Notion database.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "databaseId": {
+        "type": "string",
+        "description": "The target Notion database identifier"
+      },
+      "pageTitle": {
+        "type": "string",
+        "description": "Title of the synchronized roadmap page"
+      },
+      "status": {
+        "type": "string",
+        "enum": ["In Progress", "Completed", "Review"],
+        "description": "Task status"
+      }
+    },
+    "required": ["databaseId", "pageTitle"]
+  },
+  "mockResult": {
+    "notionPageUrl": "https://notion.so/mr-agents/sprint-roadmap-2026",
+    "syncStatus": "synced",
+    "blocksCreated": 14,
+    "lastEditedTime": "2026-11-12T03:25:00Z"
+  }
+}
