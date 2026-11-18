@@ -20,6 +20,18 @@
 
 ---
 
+---
+
+## ⚡ 1-Prompt Install for Any AI Agent
+
+Paste this into **Claude Code, Codex, Cursor, Windsurf, Gemini CLI, or Manus**:
+
+> Install the Mr-Agents skill catalog from `https://github.com/arz282-ctrl/Mr-Agents` (default branch `feat/add-manus-skills`):
+> 1. Inspect the root `SKILL.md` and `skills-manifest.json` to discover all 276 portable skills across the 6 domain packs (`web-ui-design-pack`, `marketing-seo-copy-pack`, `ai-video-media-pack`, `research-data-analytics-pack`, `cloud-devops-integrations-pack`, `qa-git-agent-ops-pack`).
+> 2. If your runtime supports local skill folders (`.agents/skills/`, `.claude/skills/`, or `AGENTS.md`), clone the repo and copy or link the `skills/` directory into your active skills path.
+> 3. If your platform enforces a per-skill file limit (such as Manus's 100-file cap), import only the specific single-skill branches (`skill-webdev`, `skill-copywriting`, `skill-video-generation`, `skill-imagegen`, `skill-seo-audit`, `skill-deep-research`) or the individual archives under `manus-ready/zips/`.
+> 4. Verify the installed `SKILL.md` files are readable and confirm which skills are active.
+
 ## 👥 The 8 Personas & Their Skill Packs
 
 | Persona | Baseline Model | Provider | Skill Pack |
