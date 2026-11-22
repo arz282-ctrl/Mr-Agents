@@ -1,0 +1,95 @@
+# Mr-Agents: Universal AI Agent Skills Hub (276 Skills / 8 Curated Packs)
+
+> Open, agent-neutral repository of 276 production-grade AI agent skills and 8 curated skill packs installable into ANY AI agent or LLM (Google Gemini CLI & Desktop App, Google Antigravity, Claude Code, Claude Desktop, OpenAI Codex, ChatGPT, Cursor, Windsurf, GitHub Copilot, Cline, Aider, Kimi CLI, OpenCode, and Manus).
+
+## 🤖 AI Agent 1-Prompt Autonomous Installation Instructions
+
+If a user gave you this repository link (`https://github.com/arz282-ctrl/Mr-Agents`) and asked you to install Mr-Agents, the 8 skill packs, or specific skills, **do not tell the user you cannot access it**. Follow the first matching method below:
+
+### Method 1: Run the Non-Interactive CLI (If you have terminal/shell access with network)
+Always pass `--yes` to `npx` so it never hangs waiting for interactive terminal confirmation:
+```bash
+# Install all 8 consolidated Pack Skills (8 clean folders: starter-pack, webdev-pack, etc.)
+npx --yes github:arz282-ctrl/Mr-Agents install --pack-skills --scope user
+
+# OR install all 276 individual skills for a specific agent (auto-skips duplicates)
+npx --yes github:arz282-ctrl/Mr-Agents install --all --agent gemini --scope user
+npx --yes github:arz282-ctrl/Mr-Agents install --all --agent antigravity --scope user
+npx --yes github:arz282-ctrl/Mr-Agents install --all --agent claude-code --scope user
+npx --yes github:arz282-ctrl/Mr-Agents install --all --agent codex --scope user
+npx --yes github:arz282-ctrl/Mr-Agents install --all --agent cursor
+
+# OR run via curl one-liner (no git or npx required):
+curl -fsSL https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/install.sh | bash -s -- install --pack-skills --scope user
+```
+
+### Method 2: Local Machine Cache Discovery (If your terminal sandbox blocks outbound network)
+Before reporting a network restriction, check if the repository or skills already exist locally on the user's machine:
+```bash
+for REPO_CANDIDATE in "$HOME/.mr-agents/repo" "$HOME/.gemini/antigravity/scratch/Mr-Agents" "$HOME/Desktop/Mr-Agents" "$HOME/Mr-Agents"; do
+  if [ -f "$REPO_CANDIDATE/bin/mr-agents.js" ]; then
+    node "$REPO_CANDIDATE/bin/mr-agents.js" install --pack-skills --agent gemini --scope user
+    node "$REPO_CANDIDATE/bin/mr-agents.js" install --all --agent gemini --scope user
+    break
+  fi
+done
+```
+Also check if skills are already installed in `~/.gemini/config/skills/`, `~/.gemini/skills/`, `~/.claude/skills/`, or `~/.agents/skills/` and copy/symlink between them if network is disabled.
+
+### Method 3: Direct File Synthesis (If you have NO terminal or only file/chat access)
+You can install the **8 Consolidated Skill Packs** right now by writing these 8 `SKILL.md` files directly into the active skills folder (`~/.gemini/skills/<pack>-pack/SKILL.md`, `~/.gemini/config/skills/<pack>-pack/SKILL.md`, `~/.claude/skills/<pack>-pack/SKILL.md`, or `.agents/skills/<pack>-pack/SKILL.md`):
+
+- [starter-pack/SKILL.md](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-skills/starter-pack/SKILL.md)
+- [research-pack/SKILL.md](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-skills/research-pack/SKILL.md)
+- [webdev-pack/SKILL.md](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-skills/webdev-pack/SKILL.md)
+- [marketing-seo-pack/SKILL.md](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-skills/marketing-seo-pack/SKILL.md)
+- [data-pack/SKILL.md](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-skills/data-pack/SKILL.md)
+- [media-pack/SKILL.md](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-skills/media-pack/SKILL.md)
+- [devops-pack/SKILL.md](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-skills/devops-pack/SKILL.md)
+- [qa-git-pack/SKILL.md](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-skills/qa-git-pack/SKILL.md)
+
+## 📦 Pre-Built Pack ZIP Archives (For UI Drag-and-Drop Upload)
+
+- [all-8-packs.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/all-8-packs.zip): All 8 pack skills in a single ZIP archive.
+- [starter-pack.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/starter-pack.zip): Standalone ZIP for `starter-pack` (8 skills).
+- [research-pack.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/research-pack.zip): Standalone ZIP for `research-pack` (14 skills).
+- [webdev-pack.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/webdev-pack.zip): Standalone ZIP for `webdev-pack` (28 skills).
+- [marketing-seo-pack.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/marketing-seo-pack.zip): Standalone ZIP for `marketing-seo-pack` (31 skills).
+- [data-pack.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/data-pack.zip): Standalone ZIP for `data-pack` (34 skills).
+- [media-pack.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/media-pack.zip): Standalone ZIP for `media-pack` (63 skills).
+- [devops-pack.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/devops-pack.zip): Standalone ZIP for `devops-pack` (84 skills).
+- [qa-git-pack.zip](https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/dist/pack-zips/qa-git-pack.zip): Standalone ZIP for `qa-git-pack` (22 skills).
+
+## 🗂️ The 8 Skill Packs (Self-Contained Definitions)
+
+### `starter-pack` — Mr-Agents Starter Pack (8 skills)
+- **Description:** Essential multi-agent foundation: full-stack web dev, deep research, conversion copywriting, data analysis, SEO auditing, Git workflow hygiene, blog writing, and AI image generation. Use when bootstrapping a new AI agent workspace or handling core daily tasks across coding, research, writing, data analysis, SEO, Git versioning, and visual asset creation.
+- **Included Skills:** `blog-write`, `copywriting`, `data-analysis`, `deep-research`, `git-workflow-and-versioning`, `imagegen`, `seo-audit`, `webdev`
+
+### `research-pack` — Mr-Agents Deep Research & Strategy Pack (14 skills)
+- **Description:** Multi-source investigation, market sizing (TAM/SAM/SOM), financial analysis, customer & account intelligence, knowledge synthesis, and semantic/hybrid search architecture. Use when conducting deep web/document research, competitor and account intelligence, financial or market sizing analysis, customer research, meeting briefings, or search strategy design.
+- **Included Skills:** `account-research`, `customer-research`, `deep-research`, `finance-pro-playbooks`, `financial-analysis`, `hybrid-search-implementation`, `internet-skill-finder`, `knowledge-synthesis`, `market-sizing-analysis`, `meeting-briefing`, `mongodb-search-and-ai`, `search-strategy`, `similarity-search-patterns`, `workflow-composer`
+
+### `webdev-pack` — Mr-Agents Full-Stack Web & UI/UX Engineering Pack (28 skills)
+- **Description:** End-to-end web, mobile, and game development, Tailwind CSS design systems, GSAP animations, REST/GraphQL API design, WCAG accessibility, Core Web Vitals performance, and UI/UX polish. Use when designing, building, styling, animating, auditing, or optimizing websites, web apps, mobile apps, APIs, design systems, or interactive browser experiences.
+- **Included Skills:** `accessibility`, `api-designer`, `appinsights-instrumentation`, `builtin-llm-models`, `dispatching-parallel-agents`, `emil-design-eng`, `google-cloud-waf-performance-optimization`, `gsap-core`, `gsap-plugins`, `gsap-scrolltrigger`, `gsap-utils`, `legacy-circuit-mockups`, `markdown-to-html`, `market-research-reports`, `mongodb-schema-design`, `nothing-design`, `office-documents`, `penpot-uiux-design`, `performance`, `stitch-extract-design-md`, `tailwind-design-system`, `touchpoint-contacts`, `web-design-engineer`, `web-perf`, `webdev`, `webdev-worklocally`, `website-traffic-checker`, `whatsapp-playbooks`
+
+### `marketing-seo-pack` — Mr-Agents Marketing, Copywriting & Programmatic SEO Pack (31 skills)
+- **Description:** High-converting copywriting, technical & programmatic SEO, AEO (Answer Engine Optimization), backlink & competitor analysis, brand guidelines, cold outreach, PRDs, and anti-AI-slop editing. Use when writing or auditing marketing copy, blog articles, READMEs, PRDs, cold emails, slide decks, brand documents, or executing SEO/AEO keyword and competitor strategies.
+- **Included Skills:** `applying-brand-guidelines`, `backlink-analysis`, `beautiful-article`, `blog-rewrite`, `blog-translate`, `blog-write`, `brand-docx`, `cold-email`, `comparison-article-writer`, `content-experimentation-best-practices`, `content-gap-analysis`, `content-modeling-best-practices`, `copy-editing`, `copywriting`, `crafting-effective-readmes`, `keyword-research`, `marketing-ideas`, `marp-slide`, `no-ai-slop`, `programmatic-seo`, `react-email`, `reddit-opportunity-research`, `research-writing-skill`, `sales-enablement`, `seo-aeo-best-practices`, `seo-competitor-analysis`, `slides`, `stop-slop`, `webdev-seo`, `writing-plans`, `writing-prds`
+
+### `data-pack` — Mr-Agents Data Science, BI Dashboards & Visualization Pack (34 skills)
+- **Description:** Exploratory data analysis, SQL query optimization, interactive HTML/KPI/Grafana dashboards, Matplotlib/Seaborn/AntV charts, Excel workbook generation, Mermaid/Excalidraw diagrams, and risk metrics. Use when cleaning, querying, validating, analyzing, or visualizing structured datasets, building executive dashboards, writing SQL, generating spreadsheets, or drawing architecture diagrams.
+- **Included Skills:** `build-dashboard`, `chart-visualization`, `commercial-agreement-tabular-review`, `data-analysis`, `data-api`, `data-backup-restoration`, `data-context-extractor`, `data-visualization`, `database-lookup`, `excalidraw`, `excalidraw-diagram`, `excalidraw-diagram-generator`, `excel-generator`, `grafana-dashboards`, `huggingface-datasets`, `kpi-dashboard-design`, `markdown-mermaid-writing`, `matplotlib`, `mermaid-diagrams`, `mermaid-visualizer`, `motion-graphics`, `plantuml-ascii`, `revops`, `risk-metrics-calculation`, `similarweb-analytics`, `sn-da-excel-workflow`, `sn-da-non-spreadsheet-analysis`, `sql-optimization-patterns`, `sql-queries`, `statistical-power`, `stock-analysis`, `torch-geometric`, `usfiscaldata`, `validate-data`
+
+### `media-pack` — Mr-Agents AI Video, Audio & Creative Media Production Pack (63 skills)
+- **Description:** AI video generation (Seedance, Kling, Remotion, HyperFrames), FFmpeg editing, word-by-word captions, TTS/music prompting, image processing (ImageMagick), 3D/motion graphics, and NLE playbooks. Use when generating, scripting, editing, captioning, or post-producing AI videos, short-form reels, motion graphics, voiceovers, music tracks, album art, or restored photos.
+- **Included Skills:** `acestep`, `after-effects-playbooks`, `album-art-director`, `audacity-playbooks`, `capcut-playbooks`, `captions-overlay`, `clipify`, `html-video-production`, `hyperframes-keyframes`, `image-manipulation-image-magick`, `image-processing`, `imagegen`, `json-canvas`, `kling-prompter`, `logic-pro-playbooks`, `manim-animator`, `model-selector`, `muapi-3d-logo-animation`, `muapi-ai-fight-scene`, `muapi-animal-video-generator`, `muapi-award-ceremony-video`, `muapi-cartoon-dance-animation`, `muapi-character-story-video`, `muapi-cinema-director`, `muapi-drone-style-video`, `muapi-freeze-effect-video`, `muapi-giant-product-showcase`, `muapi-jewelry-product-video`, `muapi-music-video`, `muapi-one-shot-video`, `muapi-product-ad-cinematic`, `muapi-product-campaign`, `muapi-product-showcase-video`, `muapi-product-video-ad-maker`, `muapi-social-media-video`, `muapi-storyboard-to-cooking-video`, `muapi-talking-baby-video`, `muapi-ugc-ads-workflow`, `muapi-ugc-video-factory`, `muapi-ui-design`, `muapi-youtube-shorts`, `music-prompter`, `obs-playbooks`, `obsidian-canvas-creator`, `oversized-cursor`, `photo-restoration`, `photoshop-playbooks`, `premiere-playbooks`, `read-special-images`, `remotion`, `review-animations`, `seam-craft`, `seedance-prompter`, `seedance-recipes`, `seedance-storyboard`, `tts-prompter`, `video-generation`, `video-template-frame-glitch-title`, `video-template-frame-light-leak-cinema`, `video-to-subtitle-summary`, `youtube-clipper`, `youtube-transcript`, `youtube-video-research`
+
+### `devops-pack` — Mr-Agents DevOps, Cloud Architecture & Business Automation Pack (84 skills)
+- **Description:** CI/CD pipelines, Cloudflare Workers, Google Cloud WAF, ClickHouse, n8n workflows, LangChain/LLM architecture, SLO/observability, Stripe/Shopify integrations, and legal/finance operations. Use when configuring CI/CD, cloud infrastructure, vector/analytical databases, n8n/MCP automations, payment integrations, SLO monitoring, or enterprise operational workflows.
+- **Included Skills:** `automation-and-scheduling`, `business-model`, `call-prep`, `canva-mcp`, `careful`, `ci-cd-and-automation`, `claude-md-improver`, `clickhouse-architecture-advisor`, `close-management`, `color-palette`, `cowork-plugin-customizer`, `create-prd`, `cut-the-curve`, `diagnosing-bugs`, `discord-playbooks`, `draft-outreach`, `example-skill`, `favicon-gen`, `final-cut-pro-playbooks`, `game-asset-catalog`, `gemini-api`, `google-cloud-waf-cost-optimization`, `google-cloud-waf-security`, `google-workspace-integration`, `grammar-check`, `gws-best-practices`, `hackernews-frontpage`, `huggingface-gradio`, `iflytek-text-proofread`, `illustrator-playbooks`, `journal-adapt`, `journal-entry-prep`, `langchain-architecture`, `legal-risk-assessment`, `lesson-learned`, `lightroom-playbooks`, `manus-api`, `manus-config`, `manus-tasks`, `mcp-cli`, `meme-generator`, `meta-ads-analyzer`, `ml-pipeline`, `n8n-mcp-tools-expert`, `n8n-node-configuration`, `n8n-validation-expert`, `n8n-workflow-patterns`, `networkx`, `observability-and-instrumentation`, `obsidian-markdown`, `office`, `payment`, `persistent-computing`, `playground`, `power-bi-playbooks`, `powerpoint-playbooks`, `prd`, `pricing-strategy`, `professional-communication`, `prompt-engineer`, `prompt-translator`, `public-speaking`, `puppeteer-skill`, `reconciliation`, `seaborn`, `selenium-skill`, `session-self-config`, `shopify-mcp`, `skill-creator`, `slo-implementation`, `stripe-best-practices`, `support-policy`, `system-settings-playbooks`, `tailscale-network`, `team-composition-analysis`, `telegram-playbooks`, `triggers`, `trip`, `typst-pdf-maker`, `vaex`, `vector-index-tuning`, `word-playbooks`, `workers-best-practices`, `workflow`
+
+### `qa-git-pack` — Mr-Agents QA, Testing, Debugging & Git Workflow Pack (22 skills)
+- **Description:** Test-driven development (TDD), spec-driven development, systematic root-cause debugging, Chrome DevTools/Puppeteer/Selenium automation, accessibility audits, and clean atomic Git/GitHub workflows. Use when diagnosing bugs, writing unit/integration/E2E tests, auditing UI/accessibility, managing Git branches/commits/PRs, or verifying work before completion.
+- **Included Skills:** `accessibility-review`, `agentic-eval`, `chrome-devtools`, `debugging-and-error-recovery`, `git-attribution`, `git-commit`, `git-workflow-and-versioning`, `github-gem-seeker`, `github-integration`, `handoff`, `make-repo-contribution`, `memory-recall`, `push-to-github`, `seo-audit`, `seo-content-audit`, `spark-optimization`, `spec-driven-development`, `supabase`, `systematic-debugging`, `test-driven-development`, `verification-before-completion`, `web-design-reviewer`

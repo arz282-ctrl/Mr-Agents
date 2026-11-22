@@ -78,9 +78,12 @@ EXAMPLES:
   mr-agents search "react tailwind"
   mr-agents install webdev --agent claude-code
   mr-agents install --pack starter --agent auto
+  mr-agents install --pack-skills --agent gemini --scope user
   mr-agents uninstall webdev --agent claude-code
 `);
 }
+
+const BOOLEAN_FLAGS = new Set(['all', 'dry-run', 'n', 'force', 'f', 'pack-skills', 'check', 'help', 'h', 'version', 'v']);
 
 function parseFlags(args) {
   const flags = { _: [] };
@@ -88,7 +91,7 @@ function parseFlags(args) {
     const arg = args[i];
     if (arg.startsWith('--')) {
       const key = arg.slice(2);
-      if (i + 1 < args.length && !args[i + 1].startsWith('-')) {
+      if (!BOOLEAN_FLAGS.has(key) && i + 1 < args.length && !args[i + 1].startsWith('-')) {
         flags[key] = args[i + 1];
         i++;
       } else {
@@ -96,7 +99,7 @@ function parseFlags(args) {
       }
     } else if (arg.startsWith('-')) {
       const key = arg.slice(1);
-      if (i + 1 < args.length && !args[i + 1].startsWith('-')) {
+      if (!BOOLEAN_FLAGS.has(key) && i + 1 < args.length && !args[i + 1].startsWith('-')) {
         flags[key] = args[i + 1];
         i++;
       } else {
@@ -186,20 +189,22 @@ function handleInstall(args) {
   const flags = parseFlags(args);
   const skillNames = flags._;
   const packName = flags.pack || flags.p;
+  const packSkills = Boolean(flags['pack-skills']);
   const all = Boolean(flags.all);
   const agentId = flags.agent || flags.a || 'auto';
   const scope = flags.scope || 'project';
   const dryRun = Boolean(flags['dry-run'] || flags.n);
   const force = Boolean(flags.force || flags.f);
 
-  if (skillNames.length === 0 && !packName && !all) {
-    console.error("Usage: mr-agents install <skill...|--pack X|--all> --agent <id|auto|all> [--scope user|project]");
+  if (skillNames.length === 0 && !packName && !packSkills && !all) {
+    console.error("Usage: mr-agents install <skill...|--pack X|--pack-skills|--all> --agent <id|auto|all> [--scope user|project]");
     return 2;
   }
 
   const results = installSkills({
     skillNames,
     packName,
+    packSkills,
     all,
     agentId,
     scope,

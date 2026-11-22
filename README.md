@@ -38,30 +38,56 @@ Originally packaged exclusively for Manus, **Mr-Agents is now universally instal
 
 ---
 
+## 🤖 1-Prompt Universal LLM Install (Paste into Any AI Agent)
+
+Paste the prompt below directly into **any AI agent or chat** (**Gemini App / Gemini CLI, Claude Code / Claude Desktop, Google Antigravity, OpenAI Codex, ChatGPT, Cursor, Windsurf, GitHub Copilot, Cline, Aider, Kimi, or OpenCode**). It includes automatic CLI execution, local machine cache discovery (for network-sandboxed desktop apps), and direct `SKILL.md` synthesis:
+
+```text
+Install the 8 skill packs (or all 276 skills) from https://github.com/arz282-ctrl/Mr-Agents into my active AI agent skills directory.
+Follow the first working method below without asking for confirmation:
+1. If you have terminal access with network:
+   run `curl -fsSL https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/install.sh | bash -s -- install --pack-skills --scope user`
+   (or `npx --yes github:arz282-ctrl/Mr-Agents install --all --scope user`).
+2. If your terminal sandbox blocks outbound network, check existing local caches on this machine first (`$HOME/.mr-agents/repo`, `$HOME/.gemini/antigravity/scratch/Mr-Agents`, `$HOME/Desktop/Mr-Agents`, `$HOME/Mr-Agents`, `$HOME/.gemini/config/skills`, `$HOME/.gemini/skills`, `$HOME/.claude/skills`, `$HOME/.agents/skills`) and run `node <repo>/bin/mr-agents.js install --pack-skills --scope user` or copy the 8 pack skills from `<repo>/dist/pack-skills/`.
+3. If you only have web/file fetch access, read `https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/llms.txt` (or `llms-full.txt`) and write the 8 Pack `SKILL.md` files (`starter-pack`, `research-pack`, `webdev-pack`, `marketing-seo-pack`, `data-pack`, `media-pack`, `devops-pack`, `qa-git-pack`) into my skills directory.
+```
+
+> 📄 **Full 1-Prompt & Offline/UI Upload Guide:** See [`docs/universal/ONE_PROMPT_INSTALL.md`](docs/universal/ONE_PROMPT_INSTALL.md), [`llms.txt`](llms.txt), and [`dist/pack-zips/all-8-packs.zip`](dist/pack-zips/all-8-packs.zip).
+
+---
+
 ## ⚡ Single-Command Universal Install
 
 Install all 276 skills into your current project in one shot. The CLI auto-detects your active AI tool and **automatically skips any skill that is already installed or up-to-date**:
 
 ```bash
-npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all
+# Via npx (non-interactive --yes prevents TTY prompt hangs)
+npx --yes github:arz282-ctrl/Mr-Agents install --all
+
+# OR via zero-dependency curl one-liner (no git or npx required)
+curl -fsSL https://raw.githubusercontent.com/arz282-ctrl/Mr-Agents/HEAD/install.sh | bash -s -- install --all
 ```
 
 > [!TIP]
-> **No Scope Flag Needed:** The command automatically defaults to your current active project (`--scope project`).  
+> **Install All 8 Consolidated Pack Skills (8 Clean Folders):**
+> If your agent or Skills UI prefers 8 consolidated master pack skills (`starter-pack` through `qa-git-pack`) instead of 276 separate folders:
+> ```bash
+> npx --yes github:arz282-ctrl/Mr-Agents install --pack-skills --scope user
+> ```
 > **Duplicate Protection:** Existing valid skills are automatically detected and skipped (`Skipped: Identical installation already present`). Nothing is overwritten unless you pass `--force`.
 
 ### Preview First with `--dry-run`
 To inspect every file path that will be created without writing any bytes to disk:
 
 ```bash
-npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --dry-run
+npx --yes github:arz282-ctrl/Mr-Agents install --all --dry-run
 ```
 
 ### Install the 8-Skill Starter Pack (Recommended)
 If you prefer to start with a focused set of essential skills (Web Development, Deep Research, Copywriting, Data Analysis, SEO Audit, Git Workflow, Image Generation, QA):
 
 ```bash
-npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --pack starter
+npx --yes github:arz282-ctrl/Mr-Agents install --pack starter
 ```
 
 ---
@@ -72,30 +98,33 @@ If you prefer to explicitly target a specific agent, use the copy-paste commands
 
 | AI Agent / IDE | Command (Single Line) | Native Format & Install Path |
 |---|---|---|
-| **Claude Code** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent claude-code` | Native skill (`.claude/skills/`) |
-| **Google Antigravity (AGY)** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent antigravity` | Native skill (`.gemini/skills/`) |
-| **Cursor IDE** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent cursor` | Scoped Rules (`.cursor/rules/*.mdc`) |
-| **OpenAI Codex CLI** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent codex` | Native skill (`.agents/skills/`) |
-| **Google Gemini CLI** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent gemini` | Native skill (`.gemini/skills/`) |
-| **Kimi Code CLI** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent kimi` | Native skill (`.kimi/skills/`) |
-| **Codeium Windsurf** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent windsurf` | Cascade Rules (`.windsurf/rules/*.md`) |
-| **Cline (VS Code)** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent cline` | Cline Rules (`.clinerules/*.md`) |
-| **GitHub Copilot** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent copilot` | Managed Index (`.github/copilot-instructions.md`) |
-| **Aider Pair Programmer** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent aider` | Managed Index (`CONVENTIONS.md`) |
-| **OpenCode** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent opencode` | Native skill (`.opencode/skills/`) |
-| **Generic Agent (AGENTS.md)** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent generic` | Open Standard (`AGENTS.md` + `.agents/skills/`) |
-| **Claude Desktop / Projects** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills export --all --agent claude-desktop --out ./claude-export` | Knowledge Base export folder |
-| **Manus** | `npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --all --agent manus` | Pre-packaged ZIPs (`manus-ready/zips/`) |
+| **Claude Code** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent claude-code` | Native skill (`.claude/skills/`) |
+| **Google Antigravity (AGY)** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent antigravity` | Native skill (`.gemini/skills/` & `~/.gemini/config/skills/`) |
+| **Cursor IDE** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent cursor` | Scoped Rules (`.cursor/rules/*.mdc`) |
+| **OpenAI Codex CLI** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent codex` | Native skill (`.agents/skills/`) |
+| **Google Gemini CLI & App** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent gemini` | Native skill (`.gemini/skills/` & `~/.gemini/skills/`) |
+| **Kimi Code CLI** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent kimi` | Native skill (`.kimi/skills/`) |
+| **Codeium Windsurf** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent windsurf` | Cascade Rules (`.windsurf/rules/*.md`) |
+| **Cline (VS Code)** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent cline` | Cline Rules (`.clinerules/*.md`) |
+| **GitHub Copilot** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent copilot` | Managed Index (`.github/copilot-instructions.md`) |
+| **Aider Pair Programmer** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent aider` | Managed Index (`CONVENTIONS.md`) |
+| **OpenCode** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent opencode` | Native skill (`.opencode/skills/`) |
+| **Generic Agent (AGENTS.md)** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent generic` | Open Standard (`AGENTS.md` + `.agents/skills/`) |
+| **Claude Desktop / Projects** | `npx --yes github:arz282-ctrl/Mr-Agents export --all --agent claude-desktop --out ./claude-export.zip` | Knowledge Base export archive |
+| **Manus** | `npx --yes github:arz282-ctrl/Mr-Agents install --all --agent manus` | Pre-packaged ZIPs (`manus-ready/zips/` & `dist/pack-zips/`) |
 
 ---
 
 ## 🎒 Curated Skill Packs
 
-Rather than installing all 276 skills at once, install a curated bundle tailored to your domain:
+Rather than installing all 276 skills at once, install a curated bundle tailored to your domain (or upload its pre-built Pack ZIP from [`dist/pack-zips/`](dist/pack-zips/)):
 
 ```bash
-# Example: Install the Web Development pack
-npx github:arz282-ctrl/Mr-Agents#feat/universal-skills install --pack webdev
+# Example: Install the Web Development pack (28 individual skills)
+npx --yes github:arz282-ctrl/Mr-Agents install --pack webdev
+
+# Example: Install all 8 consolidated Pack SKILL.md routers (8 folders total)
+npx --yes github:arz282-ctrl/Mr-Agents install --pack-skills --scope user
 ```
 
 | Pack Name | Skill Count | Focus Area | Sample Included Skills |

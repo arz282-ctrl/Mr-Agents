@@ -11,11 +11,34 @@ import { loadLockfile, saveLockfile, backupPath } from './lockfile.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
 const DIST_SKILLS_DIR = path.join(REPO_ROOT, 'dist', 'skills');
+const DIST_PACK_SKILLS_DIR = path.join(REPO_ROOT, 'dist', 'pack-skills');
+const DIST_PACK_ZIPS_DIR = path.join(REPO_ROOT, 'dist', 'pack-zips');
 const MANUS_ZIPS_DIR = path.join(REPO_ROOT, 'manus-ready', 'zips');
+
+function getPackSkillMeta(packSkillName) {
+  const manifestPath = path.join(DIST_PACK_SKILLS_DIR, 'manifest.json');
+  if (!fs.existsSync(manifestPath)) return null;
+  const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
+  const entry = (manifest.packs || []).find(
+    p => p.pack_skill_name === packSkillName || p.id === packSkillName
+  );
+  if (!entry) return null;
+  const folderName = entry.pack_skill_name;
+  const sourceDir = path.join(DIST_PACK_SKILLS_DIR, folderName);
+  return {
+    name: folderName,
+    description: `${entry.title} (${entry.skill_count} skills consolidated)`,
+    category: entry.id,
+    isPackSkill: true,
+    sourceDir,
+    sha256: computeFolderSha256(sourceDir)
+  };
+}
 
 export function installSkills({
   skillNames = [],
   packName = null,
+  packSkills = false,
   all = false,
   agentId = 'auto',
   scope = 'project',
@@ -28,7 +51,19 @@ export function installSkills({
 
   // 1. Resolve skills to install
   let targets = [];
-  if (all) {
+  if (packSkills) {
+    if (packName) {
+      const pKey = packName.toLowerCase().replace(/-pack$/, '');
+      if (!packs.packs?.[pKey]) {
+        throw new Error(`Unknown pack '${packName}'. Available packs: ${Object.keys(packs.packs || {}).join(', ')}`);
+      }
+      targets = [`${pKey}-pack`];
+    } else if (skillNames.length > 0) {
+      targets = skillNames.map(s => (s.endsWith('-pack') ? s : `${s}-pack`));
+    } else {
+      targets = Object.keys(packs.packs || {}).map(p => `${p}-pack`);
+    }
+  } else if (all) {
     targets = cat.skills.map(s => s.name);
   } else if (packName) {
     const p = packs.packs?.[packName.toLowerCase()];
@@ -87,13 +122,13 @@ export function installSkills({
 
     // Process each skill
     for (const sName of targets) {
-      const skillMeta = getSkill(sName);
+      const skillMeta = getSkill(sName) || getPackSkillMeta(sName);
       if (!skillMeta) {
-        agentResults.failed.push({ skill: sName, reason: `Skill '${sName}' not found in catalog.` });
+        agentResults.failed.push({ skill: sName, reason: `Skill '${sName}' not found in catalog or pack-skills.` });
         continue;
       }
 
-      const sourceDistDir = path.join(DIST_SKILLS_DIR, sName);
+      const sourceDistDir = skillMeta.sourceDir || path.join(DIST_SKILLS_DIR, sName);
       if (!fs.existsSync(sourceDistDir)) {
         agentResults.failed.push({ skill: sName, reason: `Source directory for '${sName}' missing from dist/.` });
         continue;
@@ -202,9 +237,14 @@ export function installSkills({
 
 function installNativeSkill({ skillName, sourceDistDir, destPath, agent, dryRun, force, projectRoot, agentResults }) {
   if (agent.use_prebuilt_zips) {
-    const zipSource = path.join(MANUS_ZIPS_DIR, `${skillName}.zip`);
+    let zipSource = path.join(MANUS_ZIPS_DIR, `${skillName}.zip`);
     if (!fs.existsSync(zipSource)) {
-      throw new Error(`Prebuilt Manus zip not found at ${zipSource}`);
+      const packZipCandidate = path.join(DIST_PACK_ZIPS_DIR, `${skillName}.zip`);
+      if (fs.existsSync(packZipCandidate)) {
+        zipSource = packZipCandidate;
+      } else {
+        throw new Error(`Prebuilt Manus zip not found at ${zipSource}`);
+      }
     }
     if (dryRun) {
       agentResults.plannedActions.push(`Copy ${zipSource} -> ${destPath}`);
