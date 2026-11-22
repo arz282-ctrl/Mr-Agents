@@ -128,14 +128,14 @@
       "name": "appinsights-instrumentation",
       "description": "Instrument a webapp to send useful telemetry data to Azure App Insights",
       "category": "webdev",
-      "size": 12185,
+      "size": 12205,
       "file_count": 8,
       "required_capabilities": [
         "filesystem",
         "node",
         "python"
       ],
-      "sha256": "1eab5633e6962b8396e4935ef20badcc17c9540a362dbf2cdca4c5fef6263bce",
+      "sha256": "599b84abce81f3343d51a48b0c3489f45d76597713cd9c533f08cf37b6ea35e7",
       "source_path": "skills/appinsights-instrumentation",
       "license": "Apache-2.0 / MIT"
     },
