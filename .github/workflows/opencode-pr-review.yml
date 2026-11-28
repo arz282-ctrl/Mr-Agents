@@ -1,0 +1,21 @@
+# Copy to <target-repo>/.github/workflows/opencode-pr-review.yml
+# Requires MODEL_API_KEY and BOT_TOKEN secrets on the target repo (Settings →
+# Secrets → Actions). BOT_TOKEN is a PAT (classic `repo` scope) that lets the
+# runner fetch this fleet's private config repo. Pin @main to a SHA if you prefer.
+name: opencode-pr-review
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+jobs:
+  review:
+    uses: arz282-ctrl/Git-Bot/.github/workflows/reusable-pr-review.yml@main
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: read
+    with:
+      ref: ${{ github.event.pull_request.head.sha }}
+      base_ref: ${{ github.event.pull_request.base.ref }}
+    secrets:
+      model_api_key: ${{ secrets.MODEL_API_KEY }}
+      bot_token: ${{ secrets.BOT_TOKEN }}

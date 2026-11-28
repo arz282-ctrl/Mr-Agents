@@ -1,0 +1,16 @@
+# Copy to <target-repo>/.github/workflows/opencode-triage.yml
+# Requires MODEL_API_KEY and BOT_TOKEN secrets on the target repo.
+# BOT_TOKEN is a PAT (classic `repo` scope) for the private fleet config repo.
+name: opencode-triage
+on:
+  issues:
+    types: [opened]
+jobs:
+  triage:
+    uses: arz282-ctrl/Git-Bot/.github/workflows/reusable-triage.yml@main
+    permissions:
+      contents: read
+      issues: write
+    secrets:
+      model_api_key: ${{ secrets.MODEL_API_KEY }}
+      bot_token: ${{ secrets.BOT_TOKEN }}
